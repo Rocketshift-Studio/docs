@@ -6,8 +6,8 @@
         {
           "src": "J:/Unity Projects/Trophy",
           "files": [
-            "**/RocketshiftStudio.Shared.csproj",
-            "**/RocketshiftStudio.Trophy.csproj"
+            "J:/Unity Projects/Trophy/RocketshiftStudio.Shared.csproj",
+            "J:/Unity Projects/Trophy/RocketshiftStudio.Trophy.csproj"
           ]
         }
       ],
