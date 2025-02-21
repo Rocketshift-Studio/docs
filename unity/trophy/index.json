@@ -1011,8 +1011,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | Trophy - Ultimate Score System Documentation",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "Welcome to Trophy - Ultimate Score System Documentation | Trophy - Ultimate Score System Documentation",
+    "summary": "Welcome to Trophy - Ultimate Score System Documentation Trophy is the perfect solution for implementing a score system in Unity, enabling quick integration with minimal effort. Its lightweight yet powerful design allows you to save valuable time that would otherwise be spent reinventing the wheel. With Trophy, you get both simplicity and scalability, making it the ultimate choice for your next project."
   },
   "manual/getting-started.html": {
     "href": "manual/getting-started.html",

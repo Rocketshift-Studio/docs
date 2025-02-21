@@ -4,7 +4,8 @@
  */
 html,
 body {
-  font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
   height: 100%;
 }
 button,
