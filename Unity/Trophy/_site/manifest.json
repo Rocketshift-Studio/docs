@@ -1,0 +1,2916 @@
+{
+  "source_base_path": "J:/Global Git Repos/Rocketshift Studio/Scripting-Documentions/Unity/Trophy",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AssetStoreTools.Previews.Services.IPreviewService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AssetStoreTools.Previews.Services.IPreviewService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AssetStoreTools.Previews.Services.IPreviewService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AssetStoreTools.Previews.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AssetStoreTools.Previews.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AssetStoreTools.Previews.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Editor.Shared.DynamicReferenceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Editor.Shared.DynamicReferenceDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Editor.Shared.DynamicReferenceDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Editor.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Editor.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Editor.Shared",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Editor.Trophy.BuildProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Editor.Trophy.BuildProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Editor.Trophy.BuildProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Editor.Trophy.TrophyExplorerWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Editor.Trophy.TrophyExplorerWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Editor.Trophy.TrophyExplorerWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Editor.Trophy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Editor.Trophy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Editor.Trophy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.DynamicReferenceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.DynamicReferenceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.DynamicReferenceAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.DynamicReferenceFolderAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.ExcludeFromDocsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.ExcludeFromDocsAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.ExcludeFromDocsAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.ReflectionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.ReflectionUtility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.ReflectionUtility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.SingletonMonoBehaviour<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.BestCalculationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.BestCalculationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.BestCalculationType",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.BestCalculationType.yml\" sourcestartlinenumber=\"1\">Defines how best value will be calculated</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Constants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow cloud storage based save/load operations on score values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseScoreIconDisplayExtension-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseScoreIconDisplayExtension-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.BaseScoreIconDisplayExtension<TComponent>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.BaseScoreIconDisplayExtension-1.yml\" sourcestartlinenumber=\"1\">Icon display extension base for component type target</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.yml\" sourcestartlinenumber=\"1\">Text display extension base for component type target</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.Binary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.Binary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.Binary",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension<TComponent>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.yml\" sourcestartlinenumber=\"1\">Text display extension base for component type target</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension<TComponent>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.yml\" sourcestartlinenumber=\"1\">Icon display extension base for component type target</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow cloud storage based save/load operations on score values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow local storage based save/load operations on score values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.yml\" sourcestartlinenumber=\"1\">To extensions to perform actions based on authorization</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IStorageExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow storage based save/load operations on score values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.Image.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.Image",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.Modular3DText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.Modular3DText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.Modular3DText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.NewtonsoftJSONDotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.NewtonsoftJSONDotNet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.NewtonsoftJSONDotNet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.PlainText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.PlainText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.PlainText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.RawImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.RawImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.RawImage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.SpriteRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.SpriteRenderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.SpriteRenderer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.Text.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.Text",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMesh.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.TextMesh",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMeshPro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMeshPro.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.TextMeshPro",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMeshProUGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.TextMeshProUGUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.TextMeshProUGUI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.UnityJsonUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.UnityJsonUtility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.UnityJsonUtility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.FlowRestriction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.FlowRestriction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.FlowRestriction",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.FlowRestriction.yml\" sourcestartlinenumber=\"1\">Defines the restriction of value direction</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.FormatUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.FormatUtility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.FormatUtility",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.FormatUtility.yml\" sourcestartlinenumber=\"1\">Used for text formation purposes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.IDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.IDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.IDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.LeaderboardData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.LeaderboardData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.LeaderboardData",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.LeaderboardData.yml\" sourcestartlinenumber=\"1\">Define the data of leaderboard for leaderboard extensions to handle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.LeaderboardDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.LeaderboardDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.LeaderboardDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.LeaderboardRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.LeaderboardRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.LeaderboardRequest",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.LeaderboardRequest.yml\" sourcestartlinenumber=\"1\">Define the request data of leaderboard</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.LeaderboardValueSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.LeaderboardValueSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.LeaderboardValueSource",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.LeaderboardValueSource.yml\" sourcestartlinenumber=\"1\">Defines the source of value for leaderboard post request</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.LimitFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.LimitFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.LimitFlags",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.LimitFlags.yml\" sourcestartlinenumber=\"1\">Define the limit of a score</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.MemoryValidationTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.MemoryValidationTarget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.MemoryValidationTarget",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Score.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Score.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Score",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.ScoreData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.ScoreData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.ScoreData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.ScoreDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.ScoreDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.ScoreDefinition",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.ScoreDefinition.yml\" sourcestartlinenumber=\"1\"><xref href=\"RocketshiftStudio.Trophy.ScoreDefinition\" data-throw-if-not-resolved=\"false\"></xref> is a collection of arguments which determines how a score will act</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.ScoreMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.ScoreMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.ScoreMetadata",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.ScoreMetadata.yml\" sourcestartlinenumber=\"1\">Additional information about scores</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.ScoreStatusFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.ScoreStatusFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.ScoreStatusFlags",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.ScoreStatusFlags.yml\" sourcestartlinenumber=\"1\">For status of the score</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.ScoreType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.ScoreType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.ScoreType",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.ScoreType.yml\" sourcestartlinenumber=\"1\">Types of score</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.StorageFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.StorageFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.StorageFlags",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.StorageFlags.yml\" sourcestartlinenumber=\"1\">Defines how the score values will be saved or loaded</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Trophy.CountingChangedCallback",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.yml\" sourcestartlinenumber=\"1\">Invoked per count toggle change.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Trophy.StatusChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Trophy.StatusChangedCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Trophy.StatusChangedCallback",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.StatusChangedCallback.yml\" sourcestartlinenumber=\"1\">Invoked per status change.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Trophy.ValueChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Trophy.ValueChangedCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Trophy.ValueChangedCallback",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.ValueChangedCallback.yml\" sourcestartlinenumber=\"1\">Invoked per value change.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Trophy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Trophy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Trophy",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.yml\" sourcestartlinenumber=\"1\">Handle all score based operations from this class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.TrophyIconDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.TrophyIconDisplay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.TrophyIconDisplay",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.TrophyIconDisplay.yml\" sourcestartlinenumber=\"1\">In order to show score icon in game world or UGUI</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.TrophyScoreDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.TrophyScoreDisplay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.TrophyScoreDisplay",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.TrophyScoreDisplay.yml\" sourcestartlinenumber=\"1\">In order to show score in game world or UGUI</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.TrophySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.TrophySettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.TrophySettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.UIElements.ScoreIcon",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.yml\" sourcestartlinenumber=\"1\">In order to show score icon UIElements system</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.UIElements.ScoreLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.UIElements.ScoreLabel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.UIElements.ScoreLabel",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.UIElements.ScoreLabel.yml\" sourcestartlinenumber=\"1\">In order to show score in UIElements system</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.UIElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.UIElements.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.UIElements",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.EditorHelpers.FieldSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.EditorHelpers.FieldSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.EditorHelpers.FieldSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.EditorHelpers.MText_Editor_Methods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.EditorHelpers.MText_Editor_Methods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.EditorHelpers.MText_Editor_Methods",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.EditorHelpers.MText_Editor_Methods.yml\" sourcestartlinenumber=\"1\">This helps draw common stuff shared by editor scripts in a uniform manner for IMGUI</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.EditorHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.EditorHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.EditorHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.Alignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.Alignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.Alignment",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Layout.Alignment.yml\" sourcestartlinenumber=\"1\">Where the anchor of the text is placed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.AnimatedElementUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.AnimatedElementUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.AnimatedElementUpdater",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.BaseLayoutElementUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.BaseLayoutElementUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.BaseLayoutElementUpdater",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.CircularLayoutGroup.Direction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.Style.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.CircularLayoutGroup.Style",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.CircularLayoutGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.CircularLayoutGroupEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.CircularLayoutGroupEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.DepthAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.DepthAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.DepthAlignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.GridLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.GridLayoutGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.GridLayoutGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.GridLayoutGroupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.GridLayoutGroupEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.GridLayoutGroupEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElement",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Layout.LayoutElement.yml\" sourcestartlinenumber=\"1\">Instead of directly assigning positions/rotations, using Layout Elements open up the possibility to use tweening library of your choice or your own methods to animate movements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementAnimator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementAnimator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementModuleContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementModuleContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementModuleContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementNavmeshController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementNavmeshController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementNavmeshController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutElementPhysicsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutElementPhysicsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutElementPhysicsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutGroup",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LayoutsMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LayoutsMenuItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LayoutsMenuItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.Line.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.Line",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LineSpacingStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LineSpacingStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LineSpacingStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroup.Alignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroup.Alignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LinearLayoutGroup.Alignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LinearLayoutGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.LinearLayoutGroupEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.LinearLayoutGroupEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.MeshBaseSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.MeshBaseSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.MeshBaseSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.MeshLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.MeshLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.MeshLayout",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Layout.MeshLayout.yml\" sourcestartlinenumber=\"1\">This is used by Modular3DText to create combined meshes without instantiating objects.\nThis holds the desired position of the element like layout element</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.NavMeshElementUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.NavMeshElementUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.NavMeshElementUpdater",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.Overflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.Overflow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.Overflow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.PhysicsElementUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.PhysicsElementUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.PhysicsElementUpdater",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.VolumeLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.VolumeLayoutGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.VolumeLayoutGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.VolumeLayoutGroupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.VolumeLayoutGroupEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout.VolumeLayoutGroupEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Layout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.AddPhysics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.AddPhysics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.AddPhysics",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Modules.AddPhysics.yml\" sourcestartlinenumber=\"1\">Variable Holders:\n0 - Delay - Float\n1 - Enable gravity - bool\n2 - Don't add force - bool\n3 - Horizontal Foce - Float\n4 - Vertical Foce - Float\n5 - Force Direction Min - Vector3\n6 - Force Direction Max - Vector3\n7 - Physic Material - Physic Material</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.Module.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.Module",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleApplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleApplier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleApplier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleApplierEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleApplierEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleApplierEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleCore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ModuleVariableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ModuleVariableType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ModuleVariableType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.PlayParticles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.PlayParticles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.PlayParticles",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Modules.PlayParticles.yml\" sourcestartlinenumber=\"1\">Variable holders:\nIndex 0: Delay - Float\nIndex 1: Particle Prefab - GameObject\nIndex 2: Dont Auto Destroy Particle - Bool\nIndex 3: Destroy Particle After - Float</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.RemovePhysics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.RemovePhysics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.RemovePhysics",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Modules.RemovePhysics.yml\" sourcestartlinenumber=\"1\">Variable Holders:\n0 - Delay - Float</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.ScaleChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.ScaleChange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.ScaleChange",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Modules.ScaleChange.yml\" sourcestartlinenumber=\"1\">Variable holders:\nIndex 0: Delay | float\nIndex 1: Duration | float\nIndex 2: Grow from default scale | bool\nIndex 3: Grow from | vector3\nIndex 4: Grow to original | bool\nIndex 5: Grow to | vector3\nIndex 6: Scale curve | Animation curve</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.VariableHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.VariableHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules.VariableHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Modules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Modules.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Modules",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.unity3d.com/ScriptReference/AssetDatabase-importPackageCompleted.html\" sourcefile=\"api/TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.yml\" sourcestartlinenumber=\"1\">https://docs.unity3d.com/ScriptReference/AssetDatabase-importPackageCompleted.html</a></p>\n<p sourcefile=\"api/TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.yml\" sourcestartlinenumber=\"3\">Used to process all callbacks related to importing packages</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.PackageImporter.TGS_AssetEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.PackageImporter.TGS_AssetEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.PackageImporter.TGS_AssetEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.PackageImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.PackageImporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.PackageImporter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.AssetSettings.CharInputStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.AssetSettings.CharInputStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.AssetSettings.CharInputStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.AssetSettings.MeshExportStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.AssetSettings.MeshExportStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.AssetSettings.MeshExportStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.AssetSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.AssetSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.AssetSettings",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.AssetSettings.yml\" sourcestartlinenumber=\"1\">This is used by the asset to store default settings shared by different scripts\nDefault File location: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Utility/M3D Editor Settings.asset</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Button.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Button",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.Button.yml\" sourcestartlinenumber=\"1\">The component for 3D buttons.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputProcessor.StandardInput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputProcessorEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputProcessorEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputSystemGlobal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobalEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemGlobalEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputSystemGlobalEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemLocal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ButtonInputSystemLocal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ButtonInputSystemLocal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Character.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Character",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.CharacterCleanUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.CharacterCleanUp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.CharacterCleanUp",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.CharacterCleanUp.yml\" sourcestartlinenumber=\"1\">Under construction. This will handle all the destroy object calls for modular 3d text in the future\nTo-do: destroy calls on OnDestroy should be re factored to use this class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.CharacterDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.CharacterDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.CharacterDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.DebugLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.DebugLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.DebugLogger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.DelayCallCharacterCleanUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.DelayCallCharacterCleanUp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.DelayCallCharacterCleanUp",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.DelayCallCharacterCleanUp.yml\" sourcestartlinenumber=\"1\">Apologies for my poor explanation:</p>\n<p sourcefile=\"api/TinyGiantStudio.Text.DelayCallCharacterCleanUp.yml\" sourcestartlinenumber=\"3\">Inside the editor, Unity doesn't let certain tasks to be done on the same frame the script calls them.\nSo, they have to created with EditorApplication.delayCall.\nA lot of things can cause issues with this.\nFor example: if the script reloads while a task is on delay call, the reloaded script isn't the one that called the delay call.\nThis can result in leftover letter getting created but no text that they belong to. (Usually as a copy).\nThis is super rare but can be annoying if it happens</p>\n<p sourcefile=\"api/TinyGiantStudio.Text.DelayCallCharacterCleanUp.yml\" sourcestartlinenumber=\"10\">This script handles this issue.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.EditorThemeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles.EditorThemeManager",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.EditorFiles.EditorThemeManager.yml\" sourcestartlinenumber=\"1\">This provides a uniform way for all UI in Modular 3D Text to switch themes in UIToolkit</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.yml\" sourcestartlinenumber=\"1\">This handles using the Material Preview Field Template.\nCall the Hook method</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.Theme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.Theme.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles.Theme",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.EditorFiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.EditorFiles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.EditorFiles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.Countdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.Countdown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.Countdown",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.DamageText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.DamageText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.DamageText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.LoopAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.LoopAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.LoopAnimation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.LoopAnimationEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.LoopAnimationEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.LoopAnimationEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.StatusToolTip.Styles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.StatusToolTip.Styles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.StatusToolTip.Styles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.StatusToolTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.StatusToolTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.StatusToolTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.Typewriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.Typewriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example.Typewriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Example.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Example.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Example",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Font.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Font",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_FontExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_FontExporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontCreation.MText_FontExporter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_MeshAssetExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_MeshAssetExporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontCreation.MText_MeshAssetExporter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_ObjExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontCreation.MText_ObjExporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontCreation.MText_ObjExporter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontCreation.NewFontCharacterRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontCreation.NewFontCharacterRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontCreation.NewFontCharacterRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontCreation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontCreation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontCreation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontEditor",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.FontEditor.yml\" sourcestartlinenumber=\"1\">TODO: Loop through all characters and check if any is empty</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.FontInstanceUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.FontInstanceUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.FontInstanceUpdater",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.FontInstanceUpdater.yml\" sourcestartlinenumber=\"1\">The purpose of this script is to update all instance of a font.\nUsed by editor script to update scene objects</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.GetCharacterObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.GetCharacterObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.GetCharacterObject",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.GetCharacterObject.yml\" sourcestartlinenumber=\"1\">To-do: Check if it is possible to pass null as previous char, this will allow me to use one method, instead of two to get mesh layout and object\nTo-do: Test out alternatives to using statics</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.HorizontalSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.HorizontalSelector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.HorizontalSelector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.HorizontalSelectorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.HorizontalSelectorEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.HorizontalSelectorEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.InputField.ContentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.InputField.ContentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.InputField.ContentType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.InputField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.InputField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.InputField",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.InputFieldEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.InputFieldEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.InputFieldEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Interactable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Interactable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Interactable",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.Interactable.yml\" sourcestartlinenumber=\"1\">Any component that can be hovered, clicked etc.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.KerningPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.KerningPair.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.KerningPair",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Letter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Letter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Letter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.List.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.List",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ListEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ListEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ListEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.MenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.MenuItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.MenuItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.MeshCombiner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.MeshCombiner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.MeshCombiner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.MeshPostProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.MeshPostProcess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.MeshPostProcess",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.MeshPostProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.MeshPostProcessing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.MeshPostProcessing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Modular3DText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Modular3DText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Modular3DText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Modular3DTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Modular3DTextEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Modular3DTextEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.RaycastInputProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.RaycastInputProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.RaycastInputProcessor",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.RaycastInputProcessor.yml\" sourcestartlinenumber=\"1\">Handles input for raycast selector</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.RaycastSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.RaycastSelector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.RaycastSelector",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.RaycastSelector.yml\" sourcestartlinenumber=\"1\">This component is used to cast a ray from camera to interact with 3D UI Elements. Handles the logic part only. Not the input part.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.RaycastSelectorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.RaycastSelectorEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.RaycastSelectorEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.RuntimeFontImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.RuntimeFontImporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.RuntimeFontImporter",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.RuntimeFontImporter.yml\" sourcestartlinenumber=\"1\">This handles importing font files during runtime.\nCall CreateFontFromTTFFile(byte[] rfontBytes), pass the TTF file as a byte array and it will return a new Font.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.AutoUpdateInputSystemToSampleScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.AutoUpdateInputSystemToSampleScene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.AutoUpdateInputSystemToSampleScene",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_Announcement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_Announcement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_Announcement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_Cursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_Cursor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_Cursor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_FontTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_FontTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_FontTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_ListTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_ListTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_ListTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SampleScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SampleScene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SampleScene",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Slider.ValueRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Slider.ValueRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Slider.ValueRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Slider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Slider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SliderEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SliderEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SliderEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.SliderHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.SliderHandle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.SliderHandle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.StaticMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.StaticMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.StaticMethods",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.StaticMethods.yml\" sourcestartlinenumber=\"1\">This class contains different reusable methods for the asset</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.TextUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.TextUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.TextUpdater",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.TextUpdater.yml\" sourcestartlinenumber=\"1\">List of problems this is trying to solve\n1. Sometimes, unity destroys the mesh of the text when destroying the other game object with the same mesh. (Shared mesh)\nThis checks if a mesh is empty, then updates it to fix empty texts\n2. On prefab updates, the instance of the mesh in scene doesn't get updated automatically.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.Toggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.Toggle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.Toggle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.ToggleEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.ToggleEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.ToggleEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.UIState.StateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.UIState.StateEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.UIState.StateEnum",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.UIState.StateEnum.yml\" sourcestartlinenumber=\"1\">Not yet implemented everywhere\n<a href=\"https://ferdowsur.gitbook.io/modular-3d-text/utility/ui-states\" sourcefile=\"api/TinyGiantStudio.Text.UIState.StateEnum.yml\" sourcestartlinenumber=\"2\">https://ferdowsur.gitbook.io/modular-3d-text/utility/ui-states</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.UIState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.UIState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text.UIState",
+      "Summary": "<p sourcefile=\"api/TinyGiantStudio.Text.UIState.yml\" sourcestartlinenumber=\"1\">If current state is focused, it won't set state to hovered and unhovered</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyGiantStudio.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyGiantStudio.Text.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyGiantStudio.Text",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
