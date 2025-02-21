@@ -22,7 +22,7 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "J:/Global Git Repos/Rocketshift Studio/Scripting-Documentions/docs/unity/trophy/**"
+          "J:/Global Git Repos/Rocketshift Studio/docs/unity/trophy/**"
         ]
       }
     ],
@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "output": "J:/Global Git Repos/Rocketshift Studio/Scripting-Documentions/docs/unity/trophy",
+    "output": "J:/Global Git Repos/Rocketshift Studio/docs/unity/trophy",
     "template": [
       "_exported_templates/default"
     ],
