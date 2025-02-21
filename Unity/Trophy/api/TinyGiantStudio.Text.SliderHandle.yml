@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.SliderHandle
+  commentId: T:TinyGiantStudio.Text.SliderHandle
+  id: SliderHandle
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.SliderHandle.slider
+  langs:
+  - csharp
+  - vb
+  name: SliderHandle
+  nameWithType: SliderHandle
+  fullName: TinyGiantStudio.Text.SliderHandle
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/SliderHandle.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SliderHandle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/SliderHandle.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/slider/sliderhandle")]
+
+      public class SliderHandle : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/slider/sliderhandle")>
+
+      Public Class SliderHandle Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/ui/slider/sliderhandle
+- uid: TinyGiantStudio.Text.SliderHandle.slider
+  commentId: F:TinyGiantStudio.Text.SliderHandle.slider
+  id: slider
+  parent: TinyGiantStudio.Text.SliderHandle
+  langs:
+  - csharp
+  - vb
+  name: slider
+  nameWithType: SliderHandle.slider
+  fullName: TinyGiantStudio.Text.SliderHandle.slider
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/SliderHandle.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: slider
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/SliderHandle.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Slider slider
+    return:
+      type: TinyGiantStudio.Text.Slider
+    content.vb: Public slider As Slider
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Text.Slider
+  commentId: T:TinyGiantStudio.Text.Slider
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Slider.html
+  name: Slider
+  nameWithType: Slider
+  fullName: TinyGiantStudio.Text.Slider

@@ -1,0 +1,641 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.TrophySettings
+  commentId: T:RocketshiftStudio.Trophy.TrophySettings
+  id: TrophySettings
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+  - RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+  - RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)
+  - RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+  - RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)
+  - RocketshiftStudio.Trophy.TrophySettings.Instance
+  - RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+  - RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+  - RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+  - RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+  - RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(System.String,RocketshiftStudio.Trophy.ScoreMetadata@)
+  langs:
+  - csharp
+  - vb
+  name: TrophySettings
+  nameWithType: TrophySettings
+  fullName: RocketshiftStudio.Trophy.TrophySettings
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TrophySettings
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: >-
+      [ExcludeFromPreset]
+
+      public sealed class TrophySettings : ScriptableObject
+    content.vb: >-
+      <ExcludeFromPreset>
+
+      Public NotInheritable Class TrophySettings Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  attributes:
+  - type: UnityEngine.ExcludeFromPresetAttribute
+    ctor: UnityEngine.ExcludeFromPresetAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.TrophySettings.Instance
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.Instance
+  id: Instance
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: TrophySettings.Instance
+  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Instance
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public static TrophySettings Instance { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.TrophySettings
+    content.vb: Public Shared ReadOnly Property Instance As TrophySettings
+  overload: RocketshiftStudio.Trophy.TrophySettings.Instance*
+- uid: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+  id: ScoreDefinitions
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: ScoreDefinitions
+  nameWithType: TrophySettings.ScoreDefinitions
+  fullName: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreDefinitions
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 55
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ScoreDefinition[] ScoreDefinitions { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.ScoreDefinition[]
+    content.vb: Public ReadOnly Property ScoreDefinitions As ScoreDefinition()
+  overload: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions*
+- uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+  id: LeaderboardDefinitions
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: LeaderboardDefinitions
+  nameWithType: TrophySettings.LeaderboardDefinitions
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeaderboardDefinitions
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 59
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public LeaderboardDefinition[] LeaderboardDefinitions { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.LeaderboardDefinition[]
+    content.vb: Public ReadOnly Property LeaderboardDefinitions As LeaderboardDefinition()
+  overload: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions*
+- uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+  id: LeaderboardExtension
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: LeaderboardExtension
+  nameWithType: TrophySettings.LeaderboardExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeaderboardExtension
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 63
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ILeaderboardExtension LeaderboardExtension { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+    content.vb: Public ReadOnly Property LeaderboardExtension As ILeaderboardExtension
+  overload: RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension*
+- uid: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+  id: AutoLoadSavedAtInit
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: AutoLoadSavedAtInit
+  nameWithType: TrophySettings.AutoLoadSavedAtInit
+  fullName: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: AutoLoadSavedAtInit
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 67
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public bool AutoLoadSavedAtInit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AutoLoadSavedAtInit As Boolean
+  overload: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit*
+- uid: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+  id: CloudSaveExtension
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: CloudSaveExtension
+  nameWithType: TrophySettings.CloudSaveExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CloudSaveExtension
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 71
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ICloudStorageExtension CloudSaveExtension { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+    content.vb: Public ReadOnly Property CloudSaveExtension As ICloudStorageExtension
+  overload: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension*
+- uid: RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+  id: LocalStorageExtension
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: LocalStorageExtension
+  nameWithType: TrophySettings.LocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LocalStorageExtension
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 75
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ILocalStorageExtension LocalStorageExtension { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+    content.vb: Public ReadOnly Property LocalStorageExtension As ILocalStorageExtension
+  overload: RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension*
+- uid: RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+  id: EnableRuntimeTrophyExplorer
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: EnableRuntimeTrophyExplorer
+  nameWithType: TrophySettings.EnableRuntimeTrophyExplorer
+  fullName: RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: EnableRuntimeTrophyExplorer
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 80
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public bool EnableRuntimeTrophyExplorer { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property EnableRuntimeTrophyExplorer As Boolean
+  overload: RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer*
+- uid: RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)
+  commentId: M:RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)
+  id: Contains(System.String)
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: Contains(string)
+  nameWithType: TrophySettings.Contains(string)
+  fullName: RocketshiftStudio.Trophy.TrophySettings.Contains(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Contains
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 83
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public bool Contains(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(key As String) As Boolean
+  overload: RocketshiftStudio.Trophy.TrophySettings.Contains*
+  nameWithType.vb: TrophySettings.Contains(String)
+  fullName.vb: RocketshiftStudio.Trophy.TrophySettings.Contains(String)
+  name.vb: Contains(String)
+- uid: RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)
+  commentId: M:RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)
+  id: GetMetadata(System.String)
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: GetMetadata(string)
+  nameWithType: TrophySettings.GetMetadata(string)
+  fullName: RocketshiftStudio.Trophy.TrophySettings.GetMetadata(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetMetadata
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 93
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ScoreMetadata GetMetadata(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: RocketshiftStudio.Trophy.ScoreMetadata
+    content.vb: Public Function GetMetadata(key As String) As ScoreMetadata
+  overload: RocketshiftStudio.Trophy.TrophySettings.GetMetadata*
+  nameWithType.vb: TrophySettings.GetMetadata(String)
+  fullName.vb: RocketshiftStudio.Trophy.TrophySettings.GetMetadata(String)
+  name.vb: GetMetadata(String)
+- uid: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(System.String,RocketshiftStudio.Trophy.ScoreMetadata@)
+  commentId: M:RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(System.String,RocketshiftStudio.Trophy.ScoreMetadata@)
+  id: TryGetMetadata(System.String,RocketshiftStudio.Trophy.ScoreMetadata@)
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: TryGetMetadata(string, out ScoreMetadata)
+  nameWithType: TrophySettings.TryGetMetadata(string, out ScoreMetadata)
+  fullName: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(string, out RocketshiftStudio.Trophy.ScoreMetadata)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TryGetMetadata
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 104
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public bool TryGetMetadata(string key, out ScoreMetadata metadata)
+    parameters:
+    - id: key
+      type: System.String
+    - id: metadata
+      type: RocketshiftStudio.Trophy.ScoreMetadata
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetMetadata(key As String, metadata As ScoreMetadata) As Boolean
+  overload: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata*
+  nameWithType.vb: TrophySettings.TryGetMetadata(String, ScoreMetadata)
+  fullName.vb: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(String, RocketshiftStudio.Trophy.ScoreMetadata)
+  name.vb: TryGetMetadata(String, ScoreMetadata)
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.TrophySettings.Instance*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.Instance
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_Instance
+  name: Instance
+  nameWithType: TrophySettings.Instance
+  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
+- uid: RocketshiftStudio.Trophy.TrophySettings
+  commentId: T:RocketshiftStudio.Trophy.TrophySettings
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.TrophySettings.html
+  name: TrophySettings
+  nameWithType: TrophySettings
+  fullName: RocketshiftStudio.Trophy.TrophySettings
+- uid: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_ScoreDefinitions
+  name: ScoreDefinitions
+  nameWithType: TrophySettings.ScoreDefinitions
+  fullName: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
+- uid: RocketshiftStudio.Trophy.ScoreDefinition[]
+  isExternal: true
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  name: ScoreDefinition[]
+  nameWithType: ScoreDefinition[]
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition[]
+  nameWithType.vb: ScoreDefinition()
+  fullName.vb: RocketshiftStudio.Trophy.ScoreDefinition()
+  name.vb: ScoreDefinition()
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.ScoreDefinition
+    name: ScoreDefinition
+    href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.ScoreDefinition
+    name: ScoreDefinition
+    href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  - name: (
+  - name: )
+- uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions
+  name: LeaderboardDefinitions
+  nameWithType: TrophySettings.LeaderboardDefinitions
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition[]
+  isExternal: true
+  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
+  name: LeaderboardDefinition[]
+  nameWithType: LeaderboardDefinition[]
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition[]
+  nameWithType.vb: LeaderboardDefinition()
+  fullName.vb: RocketshiftStudio.Trophy.LeaderboardDefinition()
+  name.vb: LeaderboardDefinition()
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.LeaderboardDefinition
+    name: LeaderboardDefinition
+    href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.LeaderboardDefinition
+    name: LeaderboardDefinition
+    href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
+  - name: (
+  - name: )
+- uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LeaderboardExtension
+  name: LeaderboardExtension
+  nameWithType: TrophySettings.LeaderboardExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.html
+  name: ILeaderboardExtension
+  nameWithType: ILeaderboardExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_AutoLoadSavedAtInit
+  name: AutoLoadSavedAtInit
+  nameWithType: TrophySettings.AutoLoadSavedAtInit
+  fullName: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_CloudSaveExtension
+  name: CloudSaveExtension
+  nameWithType: TrophySettings.CloudSaveExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html
+  name: ICloudStorageExtension
+  nameWithType: ICloudStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+- uid: RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LocalStorageExtension
+  name: LocalStorageExtension
+  nameWithType: TrophySettings.LocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html
+  name: ILocalStorageExtension
+  nameWithType: ILocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+- uid: RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_EnableRuntimeTrophyExplorer
+  name: EnableRuntimeTrophyExplorer
+  nameWithType: TrophySettings.EnableRuntimeTrophyExplorer
+  fullName: RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
+- uid: RocketshiftStudio.Trophy.TrophySettings.Contains*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.Contains
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_Contains_System_String_
+  name: Contains
+  nameWithType: TrophySettings.Contains
+  fullName: RocketshiftStudio.Trophy.TrophySettings.Contains
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.TrophySettings.GetMetadata*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.GetMetadata
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_GetMetadata_System_String_
+  name: GetMetadata
+  nameWithType: TrophySettings.GetMetadata
+  fullName: RocketshiftStudio.Trophy.TrophySettings.GetMetadata
+- uid: RocketshiftStudio.Trophy.ScoreMetadata
+  commentId: T:RocketshiftStudio.Trophy.ScoreMetadata
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreMetadata.html
+  name: ScoreMetadata
+  nameWithType: ScoreMetadata
+  fullName: RocketshiftStudio.Trophy.ScoreMetadata
+- uid: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_TryGetMetadata_System_String_RocketshiftStudio_Trophy_ScoreMetadata__
+  name: TryGetMetadata
+  nameWithType: TrophySettings.TryGetMetadata
+  fullName: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata

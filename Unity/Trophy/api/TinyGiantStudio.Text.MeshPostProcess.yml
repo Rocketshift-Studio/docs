@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.MeshPostProcess
+  commentId: T:TinyGiantStudio.Text.MeshPostProcess
+  id: MeshPostProcess
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.MeshPostProcess.projectUV
+  - TinyGiantStudio.Text.MeshPostProcess.wrapUV
+  langs:
+  - csharp
+  - vb
+  name: MeshPostProcess
+  nameWithType: MeshPostProcess
+  fullName: TinyGiantStudio.Text.MeshPostProcess
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MeshPostProcess
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+    startLine: 94
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public enum MeshPostProcess
+    content.vb: Public Enum MeshPostProcess
+- uid: TinyGiantStudio.Text.MeshPostProcess.projectUV
+  commentId: F:TinyGiantStudio.Text.MeshPostProcess.projectUV
+  id: projectUV
+  parent: TinyGiantStudio.Text.MeshPostProcess
+  langs:
+  - csharp
+  - vb
+  name: projectUV
+  nameWithType: MeshPostProcess.projectUV
+  fullName: TinyGiantStudio.Text.MeshPostProcess.projectUV
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: projectUV
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: projectUV = 0
+    return:
+      type: TinyGiantStudio.Text.MeshPostProcess
+- uid: TinyGiantStudio.Text.MeshPostProcess.wrapUV
+  commentId: F:TinyGiantStudio.Text.MeshPostProcess.wrapUV
+  id: wrapUV
+  parent: TinyGiantStudio.Text.MeshPostProcess
+  langs:
+  - csharp
+  - vb
+  name: wrapUV
+  nameWithType: MeshPostProcess.wrapUV
+  fullName: TinyGiantStudio.Text.MeshPostProcess.wrapUV
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: wrapUV
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/MeshPostProcessing.cs
+    startLine: 97
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: wrapUV = 1
+    return:
+      type: TinyGiantStudio.Text.MeshPostProcess
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: TinyGiantStudio.Text.MeshPostProcess
+  commentId: T:TinyGiantStudio.Text.MeshPostProcess
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.MeshPostProcess.html
+  name: MeshPostProcess
+  nameWithType: MeshPostProcess
+  fullName: TinyGiantStudio.Text.MeshPostProcess

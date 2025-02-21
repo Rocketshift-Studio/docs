@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.LayoutElement
+  commentId: T:TinyGiantStudio.Layout.LayoutElement
+  id: LayoutElement
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.LayoutElement.autoCalculateSize
+  - TinyGiantStudio.Layout.LayoutElement.depth
+  - TinyGiantStudio.Layout.LayoutElement.height
+  - TinyGiantStudio.Layout.LayoutElement.ignoreElement
+  - TinyGiantStudio.Layout.LayoutElement.lineBreak
+  - TinyGiantStudio.Layout.LayoutElement.space
+  - TinyGiantStudio.Layout.LayoutElement.width
+  - TinyGiantStudio.Layout.LayoutElement.xOffset
+  - TinyGiantStudio.Layout.LayoutElement.yOffset
+  - TinyGiantStudio.Layout.LayoutElement.zOffset
+  langs:
+  - csharp
+  - vb
+  name: LayoutElement
+  nameWithType: LayoutElement
+  fullName: TinyGiantStudio.Layout.LayoutElement
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LayoutElement
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: Instead of directly assigning positions/rotations, using Layout Elements open up the possibility to use tweening library of your choice or your own methods to animate movements.
+  example: []
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [HelpURL("https://ferdowsur.gitbook.io/layout-system/layout-element")]
+
+      public class LayoutElement : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <HelpURL("https://ferdowsur.gitbook.io/layout-system/layout-element")>
+
+      Public Class LayoutElement Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/layout-system/layout-element
+- uid: TinyGiantStudio.Layout.LayoutElement.ignoreElement
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.ignoreElement
+  id: ignoreElement
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: ignoreElement
+  nameWithType: LayoutElement.ignoreElement
+  fullName: TinyGiantStudio.Layout.LayoutElement.ignoreElement
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreElement
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("Ignores this element in layout group")]
+
+      public bool ignoreElement
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("Ignores this element in layout group")>
+
+      Public ignoreElement As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Ignores this element in layout group
+- uid: TinyGiantStudio.Layout.LayoutElement.autoCalculateSize
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.autoCalculateSize
+  id: autoCalculateSize
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: autoCalculateSize
+  nameWithType: LayoutElement.autoCalculateSize
+  fullName: TinyGiantStudio.Layout.LayoutElement.autoCalculateSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: autoCalculateSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("This is overwritten on texts")]
+
+      public bool autoCalculateSize
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("This is overwritten on texts")>
+
+      Public autoCalculateSize As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is overwritten on texts
+- uid: TinyGiantStudio.Layout.LayoutElement.width
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.width
+  id: width
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: LayoutElement.width
+  fullName: TinyGiantStudio.Layout.LayoutElement.width
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: width
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float width
+    return:
+      type: System.Single
+    content.vb: Public width As Single
+- uid: TinyGiantStudio.Layout.LayoutElement.height
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.height
+  id: height
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: LayoutElement.height
+  fullName: TinyGiantStudio.Layout.LayoutElement.height
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: height
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float height
+    return:
+      type: System.Single
+    content.vb: Public height As Single
+- uid: TinyGiantStudio.Layout.LayoutElement.depth
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.depth
+  id: depth
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: depth
+  nameWithType: LayoutElement.depth
+  fullName: TinyGiantStudio.Layout.LayoutElement.depth
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: depth
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public float depth
+    return:
+      type: System.Single
+    content.vb: >-
+      <HideInInspector>
+
+      Public depth As Single
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Layout.LayoutElement.xOffset
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.xOffset
+  id: xOffset
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: xOffset
+  nameWithType: LayoutElement.xOffset
+  fullName: TinyGiantStudio.Layout.LayoutElement.xOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: xOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float xOffset
+    return:
+      type: System.Single
+    content.vb: Public xOffset As Single
+- uid: TinyGiantStudio.Layout.LayoutElement.yOffset
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.yOffset
+  id: yOffset
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: yOffset
+  nameWithType: LayoutElement.yOffset
+  fullName: TinyGiantStudio.Layout.LayoutElement.yOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: yOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float yOffset
+    return:
+      type: System.Single
+    content.vb: Public yOffset As Single
+- uid: TinyGiantStudio.Layout.LayoutElement.zOffset
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.zOffset
+  id: zOffset
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: zOffset
+  nameWithType: LayoutElement.zOffset
+  fullName: TinyGiantStudio.Layout.LayoutElement.zOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: zOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float zOffset
+    return:
+      type: System.Single
+    content.vb: Public zOffset As Single
+- uid: TinyGiantStudio.Layout.LayoutElement.lineBreak
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.lineBreak
+  id: lineBreak
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: lineBreak
+  nameWithType: LayoutElement.lineBreak
+  fullName: TinyGiantStudio.Layout.LayoutElement.lineBreak
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: lineBreak
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 30
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("Used in Grid layout.\nEnds current line and moves everything after it to next one.")]
+
+      public bool lineBreak
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("Used in Grid layout." & vbLf & "Ends current line and moves everything after it to next one.")>
+
+      Public lineBreak As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: >-
+        Used in Grid layout.
+
+        Ends current line and moves everything after it to next one.
+- uid: TinyGiantStudio.Layout.LayoutElement.space
+  commentId: F:TinyGiantStudio.Layout.LayoutElement.space
+  id: space
+  parent: TinyGiantStudio.Layout.LayoutElement
+  langs:
+  - csharp
+  - vb
+  name: space
+  nameWithType: LayoutElement.space
+  fullName: TinyGiantStudio.Layout.LayoutElement.space
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: space
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutElement.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public bool space
+    return:
+      type: System.Boolean
+    content.vb: Public space As Boolean
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

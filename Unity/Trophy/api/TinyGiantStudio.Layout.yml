@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  id: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.Alignment
+  - TinyGiantStudio.Layout.AnimatedElementUpdater
+  - TinyGiantStudio.Layout.BaseLayoutElementUpdater
+  - TinyGiantStudio.Layout.CircularLayoutGroup
+  - TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  - TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  - TinyGiantStudio.Layout.CircularLayoutGroupEditor
+  - TinyGiantStudio.Layout.DepthAlignment
+  - TinyGiantStudio.Layout.GridLayoutGroup
+  - TinyGiantStudio.Layout.GridLayoutGroupEditor
+  - TinyGiantStudio.Layout.LayoutElement
+  - TinyGiantStudio.Layout.LayoutElementAnimator
+  - TinyGiantStudio.Layout.LayoutElementEditor
+  - TinyGiantStudio.Layout.LayoutElementModule
+  - TinyGiantStudio.Layout.LayoutElementModuleContainer
+  - TinyGiantStudio.Layout.LayoutElementNavmeshController
+  - TinyGiantStudio.Layout.LayoutElementPhysicsController
+  - TinyGiantStudio.Layout.LayoutGroup
+  - TinyGiantStudio.Layout.LayoutsMenuItem
+  - TinyGiantStudio.Layout.Line
+  - TinyGiantStudio.Layout.LineSpacingStyle
+  - TinyGiantStudio.Layout.LinearLayoutGroup
+  - TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+  - TinyGiantStudio.Layout.LinearLayoutGroupEditor
+  - TinyGiantStudio.Layout.MeshBaseSize
+  - TinyGiantStudio.Layout.MeshLayout
+  - TinyGiantStudio.Layout.NavMeshElementUpdater
+  - TinyGiantStudio.Layout.Overflow
+  - TinyGiantStudio.Layout.PhysicsElementUpdater
+  - TinyGiantStudio.Layout.VolumeLayoutGroup
+  - TinyGiantStudio.Layout.VolumeLayoutGroupEditor
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+references:
+- uid: TinyGiantStudio.Layout.GridLayoutGroupEditor
+  commentId: T:TinyGiantStudio.Layout.GridLayoutGroupEditor
+  href: TinyGiantStudio.Layout.GridLayoutGroupEditor.html
+  name: GridLayoutGroupEditor
+  nameWithType: GridLayoutGroupEditor
+  fullName: TinyGiantStudio.Layout.GridLayoutGroupEditor
+- uid: TinyGiantStudio.Layout.LayoutElementEditor
+  commentId: T:TinyGiantStudio.Layout.LayoutElementEditor
+  href: TinyGiantStudio.Layout.LayoutElementEditor.html
+  name: LayoutElementEditor
+  nameWithType: LayoutElementEditor
+  fullName: TinyGiantStudio.Layout.LayoutElementEditor
+- uid: TinyGiantStudio.Layout.LinearLayoutGroupEditor
+  commentId: T:TinyGiantStudio.Layout.LinearLayoutGroupEditor
+  href: TinyGiantStudio.Layout.LinearLayoutGroupEditor.html
+  name: LinearLayoutGroupEditor
+  nameWithType: LinearLayoutGroupEditor
+  fullName: TinyGiantStudio.Layout.LinearLayoutGroupEditor
+- uid: TinyGiantStudio.Layout.CircularLayoutGroupEditor
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroupEditor
+  href: TinyGiantStudio.Layout.CircularLayoutGroupEditor.html
+  name: CircularLayoutGroupEditor
+  nameWithType: CircularLayoutGroupEditor
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroupEditor
+- uid: TinyGiantStudio.Layout.LayoutsMenuItem
+  commentId: T:TinyGiantStudio.Layout.LayoutsMenuItem
+  href: TinyGiantStudio.Layout.LayoutsMenuItem.html
+  name: LayoutsMenuItem
+  nameWithType: LayoutsMenuItem
+  fullName: TinyGiantStudio.Layout.LayoutsMenuItem
+- uid: TinyGiantStudio.Layout.VolumeLayoutGroupEditor
+  commentId: T:TinyGiantStudio.Layout.VolumeLayoutGroupEditor
+  href: TinyGiantStudio.Layout.VolumeLayoutGroupEditor.html
+  name: VolumeLayoutGroupEditor
+  nameWithType: VolumeLayoutGroupEditor
+  fullName: TinyGiantStudio.Layout.VolumeLayoutGroupEditor
+- uid: TinyGiantStudio.Layout.LayoutElementPhysicsController
+  commentId: T:TinyGiantStudio.Layout.LayoutElementPhysicsController
+  href: TinyGiantStudio.Layout.LayoutElementPhysicsController.html
+  name: LayoutElementPhysicsController
+  nameWithType: LayoutElementPhysicsController
+  fullName: TinyGiantStudio.Layout.LayoutElementPhysicsController
+- uid: TinyGiantStudio.Layout.LayoutElement
+  commentId: T:TinyGiantStudio.Layout.LayoutElement
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutElement.html
+  name: LayoutElement
+  nameWithType: LayoutElement
+  fullName: TinyGiantStudio.Layout.LayoutElement
+- uid: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModuleContainer
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutElementModuleContainer.html
+  name: LayoutElementModuleContainer
+  nameWithType: LayoutElementModuleContainer
+  fullName: TinyGiantStudio.Layout.LayoutElementModuleContainer
+- uid: TinyGiantStudio.Layout.GridLayoutGroup
+  commentId: T:TinyGiantStudio.Layout.GridLayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.GridLayoutGroup.html
+  name: GridLayoutGroup
+  nameWithType: GridLayoutGroup
+  fullName: TinyGiantStudio.Layout.GridLayoutGroup
+- uid: TinyGiantStudio.Layout.Alignment
+  commentId: T:TinyGiantStudio.Layout.Alignment
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.Alignment.html
+  name: Alignment
+  nameWithType: Alignment
+  fullName: TinyGiantStudio.Layout.Alignment
+- uid: TinyGiantStudio.Layout.Line
+  commentId: T:TinyGiantStudio.Layout.Line
+  href: TinyGiantStudio.Layout.Line.html
+  name: Line
+  nameWithType: Line
+  fullName: TinyGiantStudio.Layout.Line
+- uid: TinyGiantStudio.Layout.LineSpacingStyle
+  commentId: T:TinyGiantStudio.Layout.LineSpacingStyle
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LineSpacingStyle.html
+  name: LineSpacingStyle
+  nameWithType: LineSpacingStyle
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle
+- uid: TinyGiantStudio.Layout.LayoutElementAnimator
+  commentId: T:TinyGiantStudio.Layout.LayoutElementAnimator
+  href: TinyGiantStudio.Layout.LayoutElementAnimator.html
+  name: LayoutElementAnimator
+  nameWithType: LayoutElementAnimator
+  fullName: TinyGiantStudio.Layout.LayoutElementAnimator
+- uid: TinyGiantStudio.Layout.BaseLayoutElementUpdater
+  commentId: T:TinyGiantStudio.Layout.BaseLayoutElementUpdater
+  href: TinyGiantStudio.Layout.BaseLayoutElementUpdater.html
+  name: BaseLayoutElementUpdater
+  nameWithType: BaseLayoutElementUpdater
+  fullName: TinyGiantStudio.Layout.BaseLayoutElementUpdater
+- uid: TinyGiantStudio.Layout.LayoutElementNavmeshController
+  commentId: T:TinyGiantStudio.Layout.LayoutElementNavmeshController
+  href: TinyGiantStudio.Layout.LayoutElementNavmeshController.html
+  name: LayoutElementNavmeshController
+  nameWithType: LayoutElementNavmeshController
+  fullName: TinyGiantStudio.Layout.LayoutElementNavmeshController
+- uid: TinyGiantStudio.Layout.LayoutElementModule
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModule
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutElementModule.html
+  name: LayoutElementModule
+  nameWithType: LayoutElementModule
+  fullName: TinyGiantStudio.Layout.LayoutElementModule
+- uid: TinyGiantStudio.Layout.NavMeshElementUpdater
+  commentId: T:TinyGiantStudio.Layout.NavMeshElementUpdater
+  href: TinyGiantStudio.Layout.NavMeshElementUpdater.html
+  name: NavMeshElementUpdater
+  nameWithType: NavMeshElementUpdater
+  fullName: TinyGiantStudio.Layout.NavMeshElementUpdater
+- uid: TinyGiantStudio.Layout.PhysicsElementUpdater
+  commentId: T:TinyGiantStudio.Layout.PhysicsElementUpdater
+  href: TinyGiantStudio.Layout.PhysicsElementUpdater.html
+  name: PhysicsElementUpdater
+  nameWithType: PhysicsElementUpdater
+  fullName: TinyGiantStudio.Layout.PhysicsElementUpdater
+- uid: TinyGiantStudio.Layout.LayoutGroup
+  commentId: T:TinyGiantStudio.Layout.LayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutGroup.html
+  name: LayoutGroup
+  nameWithType: LayoutGroup
+  fullName: TinyGiantStudio.Layout.LayoutGroup
+- uid: TinyGiantStudio.Layout.LinearLayoutGroup
+  commentId: T:TinyGiantStudio.Layout.LinearLayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LinearLayoutGroup.html
+  name: LinearLayoutGroup
+  nameWithType: LinearLayoutGroup
+  fullName: TinyGiantStudio.Layout.LinearLayoutGroup
+- uid: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+  commentId: T:TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LinearLayoutGroup.html
+  name: LinearLayoutGroup.Alignment
+  nameWithType: LinearLayoutGroup.Alignment
+  fullName: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LinearLayoutGroup
+    name: LinearLayoutGroup
+    href: TinyGiantStudio.Layout.LinearLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+    name: Alignment
+    href: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LinearLayoutGroup
+    name: LinearLayoutGroup
+    href: TinyGiantStudio.Layout.LinearLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment
+    name: Alignment
+    href: TinyGiantStudio.Layout.LinearLayoutGroup.Alignment.html
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup
+  nameWithType: CircularLayoutGroup
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup.Direction
+  nameWithType: CircularLayoutGroup.Direction
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup.Style
+  nameWithType: CircularLayoutGroup.Style
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+    name: Style
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Style.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+    name: Style
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Style.html
+- uid: TinyGiantStudio.Layout.VolumeLayoutGroup
+  commentId: T:TinyGiantStudio.Layout.VolumeLayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.VolumeLayoutGroup.html
+  name: VolumeLayoutGroup
+  nameWithType: VolumeLayoutGroup
+  fullName: TinyGiantStudio.Layout.VolumeLayoutGroup
+- uid: TinyGiantStudio.Layout.DepthAlignment
+  commentId: T:TinyGiantStudio.Layout.DepthAlignment
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.DepthAlignment.html
+  name: DepthAlignment
+  nameWithType: DepthAlignment
+  fullName: TinyGiantStudio.Layout.DepthAlignment
+- uid: TinyGiantStudio.Layout.Overflow
+  commentId: T:TinyGiantStudio.Layout.Overflow
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.Overflow.html
+  name: Overflow
+  nameWithType: Overflow
+  fullName: TinyGiantStudio.Layout.Overflow
+- uid: TinyGiantStudio.Layout.MeshBaseSize
+  commentId: T:TinyGiantStudio.Layout.MeshBaseSize
+  href: TinyGiantStudio.Layout.MeshBaseSize.html
+  name: MeshBaseSize
+  nameWithType: MeshBaseSize
+  fullName: TinyGiantStudio.Layout.MeshBaseSize
+- uid: TinyGiantStudio.Layout.AnimatedElementUpdater
+  commentId: T:TinyGiantStudio.Layout.AnimatedElementUpdater
+  href: TinyGiantStudio.Layout.AnimatedElementUpdater.html
+  name: AnimatedElementUpdater
+  nameWithType: AnimatedElementUpdater
+  fullName: TinyGiantStudio.Layout.AnimatedElementUpdater
+- uid: TinyGiantStudio.Layout.MeshLayout
+  commentId: T:TinyGiantStudio.Layout.MeshLayout
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.MeshLayout.html
+  name: MeshLayout
+  nameWithType: MeshLayout
+  fullName: TinyGiantStudio.Layout.MeshLayout
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html

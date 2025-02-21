@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.EditorFiles
+  commentId: N:TinyGiantStudio.Text.EditorFiles
+  id: TinyGiantStudio.Text.EditorFiles
+  children:
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  - TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  - TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+  - TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+  - TinyGiantStudio.Text.EditorFiles.Theme
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.Text.EditorFiles
+  nameWithType: TinyGiantStudio.Text.EditorFiles
+  fullName: TinyGiantStudio.Text.EditorFiles
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+references:
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  commentId: T:TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html
+  name: EditorThemeManager
+  nameWithType: EditorThemeManager
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+- uid: TinyGiantStudio.Text.EditorFiles.Theme
+  commentId: T:TinyGiantStudio.Text.EditorFiles.Theme
+  parent: TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.Text.EditorFiles.Theme.html
+  name: Theme
+  nameWithType: Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme
+- uid: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  commentId: T:TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  href: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.html
+  name: MaterialPreviewManager
+  nameWithType: MaterialPreviewManager
+  fullName: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+- uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+  commentId: T:TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+  href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.html
+  name: ModularTextEditorWindow
+  nameWithType: ModularTextEditorWindow
+  fullName: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+- uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+  commentId: T:TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+  href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.html
+  name: ModularTextEditorWindow.Preview
+  nameWithType: ModularTextEditorWindow.Preview
+  fullName: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+    name: ModularTextEditorWindow
+    href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+    name: Preview
+    href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow
+    name: ModularTextEditorWindow
+    href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview
+    name: Preview
+    href: TinyGiantStudio.Text.EditorFiles.ModularTextEditorWindow.Preview.html
+- uid: TinyGiantStudio.Text.EditorFiles
+  commentId: N:TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.EditorFiles
+  nameWithType: TinyGiantStudio.Text.EditorFiles
+  fullName: TinyGiantStudio.Text.EditorFiles
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html

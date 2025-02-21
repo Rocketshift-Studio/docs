@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.Character
+  commentId: T:TinyGiantStudio.Text.Character
+  id: Character
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.Character.character
+  - TinyGiantStudio.Text.Character.glyphIndex
+  - TinyGiantStudio.Text.Character.leftSideBearing
+  - TinyGiantStudio.Text.Character.meshPrefab
+  - TinyGiantStudio.Text.Character.offset
+  - TinyGiantStudio.Text.Character.prefab
+  - TinyGiantStudio.Text.Character.spacing
+  - TinyGiantStudio.Text.Character.xOffset
+  - TinyGiantStudio.Text.Character.yOffset
+  - TinyGiantStudio.Text.Character.zOffset
+  langs:
+  - csharp
+  - vb
+  name: Character
+  nameWithType: Character
+  fullName: TinyGiantStudio.Text.Character
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Character
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Character
+    content.vb: >-
+      <Serializable>
+
+      Public Class Character
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.Character.character
+  commentId: F:TinyGiantStudio.Text.Character.character
+  id: character
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: character
+  nameWithType: Character.character
+  fullName: TinyGiantStudio.Text.Character.character
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: character
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public char character
+    return:
+      type: System.Char
+    content.vb: Public character As Char
+- uid: TinyGiantStudio.Text.Character.prefab
+  commentId: F:TinyGiantStudio.Text.Character.prefab
+  id: prefab
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: Character.prefab
+  fullName: TinyGiantStudio.Text.Character.prefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: prefab
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public GameObject prefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public prefab As GameObject
+- uid: TinyGiantStudio.Text.Character.meshPrefab
+  commentId: F:TinyGiantStudio.Text.Character.meshPrefab
+  id: meshPrefab
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: meshPrefab
+  nameWithType: Character.meshPrefab
+  fullName: TinyGiantStudio.Text.Character.meshPrefab
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: meshPrefab
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Mesh meshPrefab
+    return:
+      type: UnityEngine.Mesh
+    content.vb: Public meshPrefab As Mesh
+- uid: TinyGiantStudio.Text.Character.glyphIndex
+  commentId: F:TinyGiantStudio.Text.Character.glyphIndex
+  id: glyphIndex
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: glyphIndex
+  nameWithType: Character.glyphIndex
+  fullName: TinyGiantStudio.Text.Character.glyphIndex
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: glyphIndex
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public int glyphIndex
+    return:
+      type: System.Int32
+    content.vb: Public glyphIndex As Integer
+- uid: TinyGiantStudio.Text.Character.spacing
+  commentId: F:TinyGiantStudio.Text.Character.spacing
+  id: spacing
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: spacing
+  nameWithType: Character.spacing
+  fullName: TinyGiantStudio.Text.Character.spacing
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: spacing
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Named advance in typeface. Can't rename here because it would break a lot of existing fonts
+
+    https://learn.microsoft.com/en-us/typography/opentype/spec/hmtx
+
+    Name: advanceWidth
+  example: []
+  syntax:
+    content: public float spacing
+    return:
+      type: System.Single
+    content.vb: Public spacing As Single
+- uid: TinyGiantStudio.Text.Character.leftSideBearing
+  commentId: F:TinyGiantStudio.Text.Character.leftSideBearing
+  id: leftSideBearing
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: leftSideBearing
+  nameWithType: Character.leftSideBearing
+  fullName: TinyGiantStudio.Text.Character.leftSideBearing
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: leftSideBearing
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    https://learn.microsoft.com/en-us/typography/opentype/spec/hmtx
+
+    Name: lsb
+  example: []
+  syntax:
+    content: public int leftSideBearing
+    return:
+      type: System.Int32
+    content.vb: Public leftSideBearing As Integer
+- uid: TinyGiantStudio.Text.Character.offset
+  commentId: F:TinyGiantStudio.Text.Character.offset
+  id: offset
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: offset
+  nameWithType: Character.offset
+  fullName: TinyGiantStudio.Text.Character.offset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: offset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 offset
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public offset As Vector3
+- uid: TinyGiantStudio.Text.Character.xOffset
+  commentId: F:TinyGiantStudio.Text.Character.xOffset
+  id: xOffset
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: xOffset
+  nameWithType: Character.xOffset
+  fullName: TinyGiantStudio.Text.Character.xOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: xOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float xOffset
+    return:
+      type: System.Single
+    content.vb: Public xOffset As Single
+- uid: TinyGiantStudio.Text.Character.yOffset
+  commentId: F:TinyGiantStudio.Text.Character.yOffset
+  id: yOffset
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: yOffset
+  nameWithType: Character.yOffset
+  fullName: TinyGiantStudio.Text.Character.yOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: yOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float yOffset
+    return:
+      type: System.Single
+    content.vb: Public yOffset As Single
+- uid: TinyGiantStudio.Text.Character.zOffset
+  commentId: F:TinyGiantStudio.Text.Character.zOffset
+  id: zOffset
+  parent: TinyGiantStudio.Text.Character
+  langs:
+  - csharp
+  - vb
+  name: zOffset
+  nameWithType: Character.zOffset
+  fullName: TinyGiantStudio.Text.Character.zOffset
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: zOffset
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Character.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float zOffset
+    return:
+      type: System.Single
+    content.vb: Public zOffset As Single
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Mesh
+  commentId: T:UnityEngine.Mesh
+  parent: UnityEngine
+  isExternal: true
+  name: Mesh
+  nameWithType: Mesh
+  fullName: UnityEngine.Mesh
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3

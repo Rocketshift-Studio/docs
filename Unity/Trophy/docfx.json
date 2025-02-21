@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../Unity Projects/Trophy",
+          "files": [
+            "**/RocketshiftStudio.Shared.csproj",
+            "**/RocketshiftStudio.Trophy.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "_exported_templates/default"
+    ],
+    "globalMetadata": {
+      "_appName": "Trophy - Ultimate Score System Documentation",
+      "_appTitle": "Trophy - Ultimate Score System Documentation",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_gitContribute": false,
+      "pdf": false
+    }
+  }
+}

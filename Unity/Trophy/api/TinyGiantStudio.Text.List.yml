@@ -1,0 +1,2248 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.List
+  commentId: T:TinyGiantStudio.Text.List
+  id: List
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.List.AlertSelectedItem(System.Int32)
+  - TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+  - TinyGiantStudio.Text.List.DisabledTextMaterial
+  - TinyGiantStudio.Text.List.DisabledTextSize
+  - TinyGiantStudio.Text.List.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer})
+  - TinyGiantStudio.Text.List.Focus
+  - TinyGiantStudio.Text.List.Focus(System.Boolean)
+  - TinyGiantStudio.Text.List.Focus(System.Boolean,System.Boolean)
+  - TinyGiantStudio.Text.List.FocusToggle
+  - TinyGiantStudio.Text.List.NormalBackgroundMaterial
+  - TinyGiantStudio.Text.List.NormalTextMaterial
+  - TinyGiantStudio.Text.List.NormalTextSize
+  - TinyGiantStudio.Text.List.PressSelectedItem
+  - TinyGiantStudio.Text.List.PressedBackgroundMaterial
+  - TinyGiantStudio.Text.List.PressedTextMaterial
+  - TinyGiantStudio.Text.List.PressedTextSize
+  - TinyGiantStudio.Text.List.PresstItem(System.Int32)
+  - TinyGiantStudio.Text.List.ScrollDown
+  - TinyGiantStudio.Text.List.ScrollLeft
+  - TinyGiantStudio.Text.List.ScrollRight
+  - TinyGiantStudio.Text.List.ScrollUp
+  - TinyGiantStudio.Text.List.SelectItem(System.Int32)
+  - TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+  - TinyGiantStudio.Text.List.SelectedTextMaterial
+  - TinyGiantStudio.Text.List.SelectedTextSize
+  - TinyGiantStudio.Text.List.UnselectEverything
+  - TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue
+  - TinyGiantStudio.Text.List.UnselectEverythingExceptSelected
+  - TinyGiantStudio.Text.List.UnselectItem(System.Int32)
+  - TinyGiantStudio.Text.List.UpdateList
+  - TinyGiantStudio.Text.List.UpdateStyle
+  - TinyGiantStudio.Text.List.UseDisabledItemVisual
+  - TinyGiantStudio.Text.List.UseNormalItemVisual
+  - TinyGiantStudio.Text.List.UsePressedItemVisual
+  - TinyGiantStudio.Text.List.UseSelectedItemVisual
+  - TinyGiantStudio.Text.List.UseStyle
+  - TinyGiantStudio.Text.List.applyBeingPressedModuleContainers
+  - TinyGiantStudio.Text.List.applyPressCompleteModuleContainers
+  - TinyGiantStudio.Text.List.applySelectedModuleContainers
+  - TinyGiantStudio.Text.List.applyUnSelectedModuleContainers
+  - TinyGiantStudio.Text.List.beingPressedModuleContainers
+  - TinyGiantStudio.Text.List.holdPressedVisualFor
+  - TinyGiantStudio.Text.List.ignoreChildBeingPressedModuleContainers
+  - TinyGiantStudio.Text.List.ignoreChildModules
+  - TinyGiantStudio.Text.List.ignoreChildPressCompleteModuleContainers
+  - TinyGiantStudio.Text.List.ignoreChildSelectedModuleContainers
+  - TinyGiantStudio.Text.List.ignoreChildUnSelectedModuleContainers
+  - TinyGiantStudio.Text.List.pressCompleteModuleContainers
+  - TinyGiantStudio.Text.List.selected
+  - TinyGiantStudio.Text.List.selectedItem
+  - TinyGiantStudio.Text.List.selectedModuleContainers
+  - TinyGiantStudio.Text.List.unSelectedModuleContainers
+  - TinyGiantStudio.Text.List.useModules
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: List
+  fullName: TinyGiantStudio.Text.List
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: List
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [AddComponentMenu("Tiny Giant Studio/Modular 3D Text/List", 20007)]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/list")]
+
+      public class List : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <AddComponentMenu("Tiny Giant Studio/Modular 3D Text/List", 20007)>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/list")>
+
+      Public Class List Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/List
+    - type: System.Int32
+      value: 20007
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/ui/list
+- uid: TinyGiantStudio.Text.List.selectedItem
+  commentId: F:TinyGiantStudio.Text.List.selectedItem
+  id: selectedItem
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: selectedItem
+  nameWithType: List.selectedItem
+  fullName: TinyGiantStudio.Text.List.selectedItem
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public int selectedItem
+    return:
+      type: System.Int32
+    content.vb: Public selectedItem As Integer
+- uid: TinyGiantStudio.Text.List.UseStyle
+  commentId: P:TinyGiantStudio.Text.List.UseStyle
+  id: UseStyle
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UseStyle
+  nameWithType: List.UseStyle
+  fullName: TinyGiantStudio.Text.List.UseStyle
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UseStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If set to false, disables all style controls from this list.
+  example: []
+  syntax:
+    content: public bool UseStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseStyle As Boolean
+  overload: TinyGiantStudio.Text.List.UseStyle*
+- uid: TinyGiantStudio.Text.List.UseNormalItemVisual
+  commentId: P:TinyGiantStudio.Text.List.UseNormalItemVisual
+  id: UseNormalItemVisual
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UseNormalItemVisual
+  nameWithType: List.UseNormalItemVisual
+  fullName: TinyGiantStudio.Text.List.UseNormalItemVisual
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UseNormalItemVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If set to false, disables normal style from being applied from this list. Individual element style is used in that case.
+  example: []
+  syntax:
+    content: public bool UseNormalItemVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseNormalItemVisual As Boolean
+  overload: TinyGiantStudio.Text.List.UseNormalItemVisual*
+- uid: TinyGiantStudio.Text.List.NormalTextSize
+  commentId: P:TinyGiantStudio.Text.List.NormalTextSize
+  id: NormalTextSize
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: NormalTextSize
+  nameWithType: List.NormalTextSize
+  fullName: TinyGiantStudio.Text.List.NormalTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 63
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 NormalTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property NormalTextSize As Vector3
+  overload: TinyGiantStudio.Text.List.NormalTextSize*
+- uid: TinyGiantStudio.Text.List.NormalTextMaterial
+  commentId: P:TinyGiantStudio.Text.List.NormalTextMaterial
+  id: NormalTextMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: NormalTextMaterial
+  nameWithType: List.NormalTextMaterial
+  fullName: TinyGiantStudio.Text.List.NormalTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 75
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material NormalTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property NormalTextMaterial As Material
+  overload: TinyGiantStudio.Text.List.NormalTextMaterial*
+- uid: TinyGiantStudio.Text.List.NormalBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.List.NormalBackgroundMaterial
+  id: NormalBackgroundMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: NormalBackgroundMaterial
+  nameWithType: List.NormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.NormalBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 87
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material NormalBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property NormalBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.List.NormalBackgroundMaterial*
+- uid: TinyGiantStudio.Text.List.UseSelectedItemVisual
+  commentId: P:TinyGiantStudio.Text.List.UseSelectedItemVisual
+  id: UseSelectedItemVisual
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UseSelectedItemVisual
+  nameWithType: List.UseSelectedItemVisual
+  fullName: TinyGiantStudio.Text.List.UseSelectedItemVisual
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UseSelectedItemVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 101
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool UseSelectedItemVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseSelectedItemVisual As Boolean
+  overload: TinyGiantStudio.Text.List.UseSelectedItemVisual*
+- uid: TinyGiantStudio.Text.List.SelectedTextSize
+  commentId: P:TinyGiantStudio.Text.List.SelectedTextSize
+  id: SelectedTextSize
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: SelectedTextSize
+  nameWithType: List.SelectedTextSize
+  fullName: TinyGiantStudio.Text.List.SelectedTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 113
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 SelectedTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property SelectedTextSize As Vector3
+  overload: TinyGiantStudio.Text.List.SelectedTextSize*
+- uid: TinyGiantStudio.Text.List.SelectedTextMaterial
+  commentId: P:TinyGiantStudio.Text.List.SelectedTextMaterial
+  id: SelectedTextMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: SelectedTextMaterial
+  nameWithType: List.SelectedTextMaterial
+  fullName: TinyGiantStudio.Text.List.SelectedTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 125
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material SelectedTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property SelectedTextMaterial As Material
+  overload: TinyGiantStudio.Text.List.SelectedTextMaterial*
+- uid: TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+  id: SelectedBackgroundMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: SelectedBackgroundMaterial
+  nameWithType: List.SelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 137
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material SelectedBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property SelectedBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.List.SelectedBackgroundMaterial*
+- uid: TinyGiantStudio.Text.List.UsePressedItemVisual
+  commentId: P:TinyGiantStudio.Text.List.UsePressedItemVisual
+  id: UsePressedItemVisual
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UsePressedItemVisual
+  nameWithType: List.UsePressedItemVisual
+  fullName: TinyGiantStudio.Text.List.UsePressedItemVisual
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UsePressedItemVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 151
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool UsePressedItemVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UsePressedItemVisual As Boolean
+  overload: TinyGiantStudio.Text.List.UsePressedItemVisual*
+- uid: TinyGiantStudio.Text.List.PressedTextSize
+  commentId: P:TinyGiantStudio.Text.List.PressedTextSize
+  id: PressedTextSize
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: PressedTextSize
+  nameWithType: List.PressedTextSize
+  fullName: TinyGiantStudio.Text.List.PressedTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 163
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 PressedTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property PressedTextSize As Vector3
+  overload: TinyGiantStudio.Text.List.PressedTextSize*
+- uid: TinyGiantStudio.Text.List.PressedTextMaterial
+  commentId: P:TinyGiantStudio.Text.List.PressedTextMaterial
+  id: PressedTextMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: PressedTextMaterial
+  nameWithType: List.PressedTextMaterial
+  fullName: TinyGiantStudio.Text.List.PressedTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 174
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material PressedTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property PressedTextMaterial As Material
+  overload: TinyGiantStudio.Text.List.PressedTextMaterial*
+- uid: TinyGiantStudio.Text.List.PressedBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.List.PressedBackgroundMaterial
+  id: PressedBackgroundMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: PressedBackgroundMaterial
+  nameWithType: List.PressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.PressedBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 186
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material PressedBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property PressedBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.List.PressedBackgroundMaterial*
+- uid: TinyGiantStudio.Text.List.holdPressedVisualFor
+  commentId: F:TinyGiantStudio.Text.List.holdPressedVisualFor
+  id: holdPressedVisualFor
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: holdPressedVisualFor
+  nameWithType: List.holdPressedVisualFor
+  fullName: TinyGiantStudio.Text.List.holdPressedVisualFor
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: holdPressedVisualFor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 196
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float holdPressedVisualFor
+    return:
+      type: System.Single
+    content.vb: Public holdPressedVisualFor As Single
+- uid: TinyGiantStudio.Text.List.UseDisabledItemVisual
+  commentId: P:TinyGiantStudio.Text.List.UseDisabledItemVisual
+  id: UseDisabledItemVisual
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UseDisabledItemVisual
+  nameWithType: List.UseDisabledItemVisual
+  fullName: TinyGiantStudio.Text.List.UseDisabledItemVisual
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UseDisabledItemVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 202
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool UseDisabledItemVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseDisabledItemVisual As Boolean
+  overload: TinyGiantStudio.Text.List.UseDisabledItemVisual*
+- uid: TinyGiantStudio.Text.List.DisabledTextSize
+  commentId: P:TinyGiantStudio.Text.List.DisabledTextSize
+  id: DisabledTextSize
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: DisabledTextSize
+  nameWithType: List.DisabledTextSize
+  fullName: TinyGiantStudio.Text.List.DisabledTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 214
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 DisabledTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property DisabledTextSize As Vector3
+  overload: TinyGiantStudio.Text.List.DisabledTextSize*
+- uid: TinyGiantStudio.Text.List.DisabledTextMaterial
+  commentId: P:TinyGiantStudio.Text.List.DisabledTextMaterial
+  id: DisabledTextMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: DisabledTextMaterial
+  nameWithType: List.DisabledTextMaterial
+  fullName: TinyGiantStudio.Text.List.DisabledTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 225
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material DisabledTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property DisabledTextMaterial As Material
+  overload: TinyGiantStudio.Text.List.DisabledTextMaterial*
+- uid: TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+  id: DisabledBackgroundMaterial
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: DisabledBackgroundMaterial
+  nameWithType: List.DisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 236
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material DisabledBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property DisabledBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.List.DisabledBackgroundMaterial*
+- uid: TinyGiantStudio.Text.List.useModules
+  commentId: F:TinyGiantStudio.Text.List.useModules
+  id: useModules
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: useModules
+  nameWithType: List.useModules
+  fullName: TinyGiantStudio.Text.List.useModules
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: useModules
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 253
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If set to false, disables all modules on this list.
+  example: []
+  syntax:
+    content: public bool useModules
+    return:
+      type: System.Boolean
+    content.vb: Public useModules As Boolean
+- uid: TinyGiantStudio.Text.List.ignoreChildModules
+  commentId: F:TinyGiantStudio.Text.List.ignoreChildModules
+  id: ignoreChildModules
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ignoreChildModules
+  nameWithType: List.ignoreChildModules
+  fullName: TinyGiantStudio.Text.List.ignoreChildModules
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreChildModules
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 257
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If set to false, disables all modules on the list items like buttons.
+  example: []
+  syntax:
+    content: public bool ignoreChildModules
+    return:
+      type: System.Boolean
+    content.vb: Public ignoreChildModules As Boolean
+- uid: TinyGiantStudio.Text.List.unSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.unSelectedModuleContainers
+  id: unSelectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: unSelectedModuleContainers
+  nameWithType: List.unSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.unSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: unSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 263
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Unselect is the state that appears when a UI element enters the normal state from selected.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("unSelectModuleContainers")]
+
+      public List<ModuleContainer> unSelectedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("unSelectModuleContainers")>
+
+      Public unSelectedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: unSelectModuleContainers
+- uid: TinyGiantStudio.Text.List.applyUnSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.applyUnSelectedModuleContainers
+  id: applyUnSelectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: applyUnSelectedModuleContainers
+  nameWithType: List.applyUnSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.applyUnSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyUnSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 268
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Unselect is the state that appears when a UI element enters the normal state from selected.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyUnSelectModuleContainers")]
+
+      public bool applyUnSelectedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyUnSelectModuleContainers")>
+
+      Public applyUnSelectedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyUnSelectModuleContainers
+- uid: TinyGiantStudio.Text.List.ignoreChildUnSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.ignoreChildUnSelectedModuleContainers
+  id: ignoreChildUnSelectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ignoreChildUnSelectedModuleContainers
+  nameWithType: List.ignoreChildUnSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.ignoreChildUnSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreChildUnSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 273
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Unselect is the state that appears when a UI element enters the normal state from selected.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("ignoreChildUnSelectModuleContainers")]
+
+      public bool ignoreChildUnSelectedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("ignoreChildUnSelectModuleContainers")>
+
+      Public ignoreChildUnSelectedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ignoreChildUnSelectModuleContainers
+- uid: TinyGiantStudio.Text.List.selectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.selectedModuleContainers
+  id: selectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: selectedModuleContainers
+  nameWithType: List.selectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.selectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 280
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Selected is the state when Mouse hovers on a UI item or it is selected via keyboard/controller by scrolling in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onSelectModuleContainers ")]
+
+      public List<ModuleContainer> selectedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onSelectModuleContainers ")>
+
+      Public selectedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'onSelectModuleContainers '
+- uid: TinyGiantStudio.Text.List.applySelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.applySelectedModuleContainers
+  id: applySelectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: applySelectedModuleContainers
+  nameWithType: List.applySelectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.applySelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applySelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 285
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Selected is the state when Mouse hovers on a UI item or it is selected via keyboard/controller by scrolling in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnSelectModuleContainers")]
+
+      public bool applySelectedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnSelectModuleContainers")>
+
+      Public applySelectedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnSelectModuleContainers
+- uid: TinyGiantStudio.Text.List.ignoreChildSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.ignoreChildSelectedModuleContainers
+  id: ignoreChildSelectedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ignoreChildSelectedModuleContainers
+  nameWithType: List.ignoreChildSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.List.ignoreChildSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreChildSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 290
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Selected is the state when Mouse hovers on a UI item or it is selected via keyboard/controller by scrolling in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("ignoreChildOnSelectModuleContainers")]
+
+      public bool ignoreChildSelectedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("ignoreChildOnSelectModuleContainers")>
+
+      Public ignoreChildSelectedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ignoreChildOnSelectModuleContainers
+- uid: TinyGiantStudio.Text.List.beingPressedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.beingPressedModuleContainers
+  id: beingPressedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: beingPressedModuleContainers
+  nameWithType: List.beingPressedModuleContainers
+  fullName: TinyGiantStudio.Text.List.beingPressedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: beingPressedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 297
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: While the mouse click or touch is held down, the module or event is constantly called.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onPressModuleContainers")]
+
+      public List<ModuleContainer> beingPressedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onPressModuleContainers")>
+
+      Public beingPressedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onPressModuleContainers
+- uid: TinyGiantStudio.Text.List.applyBeingPressedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.applyBeingPressedModuleContainers
+  id: applyBeingPressedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: applyBeingPressedModuleContainers
+  nameWithType: List.applyBeingPressedModuleContainers
+  fullName: TinyGiantStudio.Text.List.applyBeingPressedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyBeingPressedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 302
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: While the mouse click or touch is held down, the module or event is constantly called.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnPressModuleContainers")]
+
+      public bool applyBeingPressedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnPressModuleContainers")>
+
+      Public applyBeingPressedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnPressModuleContainers
+- uid: TinyGiantStudio.Text.List.ignoreChildBeingPressedModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.ignoreChildBeingPressedModuleContainers
+  id: ignoreChildBeingPressedModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ignoreChildBeingPressedModuleContainers
+  nameWithType: List.ignoreChildBeingPressedModuleContainers
+  fullName: TinyGiantStudio.Text.List.ignoreChildBeingPressedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreChildBeingPressedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 307
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: While the mouse click or touch is held down, the module or event is constantly called.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("ignoreChildOnPressModuleContainers")]
+
+      public bool ignoreChildBeingPressedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("ignoreChildOnPressModuleContainers")>
+
+      Public ignoreChildBeingPressedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ignoreChildOnPressModuleContainers
+- uid: TinyGiantStudio.Text.List.pressCompleteModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.pressCompleteModuleContainers
+  id: pressCompleteModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: pressCompleteModuleContainers
+  nameWithType: List.pressCompleteModuleContainers
+  fullName: TinyGiantStudio.Text.List.pressCompleteModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: pressCompleteModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 313
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onClickModuleContainers")]
+
+      public List<ModuleContainer> pressCompleteModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onClickModuleContainers")>
+
+      Public pressCompleteModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onClickModuleContainers
+- uid: TinyGiantStudio.Text.List.applyPressCompleteModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.applyPressCompleteModuleContainers
+  id: applyPressCompleteModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: applyPressCompleteModuleContainers
+  nameWithType: List.applyPressCompleteModuleContainers
+  fullName: TinyGiantStudio.Text.List.applyPressCompleteModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyPressCompleteModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 318
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnClickModuleContainers")]
+
+      public bool applyPressCompleteModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnClickModuleContainers")>
+
+      Public applyPressCompleteModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnClickModuleContainers
+- uid: TinyGiantStudio.Text.List.ignoreChildPressCompleteModuleContainers
+  commentId: F:TinyGiantStudio.Text.List.ignoreChildPressCompleteModuleContainers
+  id: ignoreChildPressCompleteModuleContainers
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ignoreChildPressCompleteModuleContainers
+  nameWithType: List.ignoreChildPressCompleteModuleContainers
+  fullName: TinyGiantStudio.Text.List.ignoreChildPressCompleteModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ignoreChildPressCompleteModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 323
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("ignoreChildOnClickModuleContainers")]
+
+      public bool ignoreChildPressCompleteModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("ignoreChildOnClickModuleContainers")>
+
+      Public ignoreChildPressCompleteModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ignoreChildOnClickModuleContainers
+- uid: TinyGiantStudio.Text.List.selected
+  commentId: F:TinyGiantStudio.Text.List.selected
+  id: selected
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: selected
+  nameWithType: List.selected
+  fullName: TinyGiantStudio.Text.List.selected
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selected
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 331
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool selected
+    return:
+      type: System.Boolean
+    content.vb: Public selected As Boolean
+- uid: TinyGiantStudio.Text.List.UpdateList
+  commentId: M:TinyGiantStudio.Text.List.UpdateList
+  id: UpdateList
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UpdateList()
+  nameWithType: List.UpdateList()
+  fullName: TinyGiantStudio.Text.List.UpdateList()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateList
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 423
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Updates the list positioning
+  example: []
+  syntax:
+    content: >-
+      [ContextMenu("Update List")]
+
+      public void UpdateList()
+    content.vb: >-
+      <ContextMenu("Update List")>
+
+      Public Sub UpdateList()
+  overload: TinyGiantStudio.Text.List.UpdateList*
+  attributes:
+  - type: UnityEngine.ContextMenu
+    ctor: UnityEngine.ContextMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Update List
+- uid: TinyGiantStudio.Text.List.Focus
+  commentId: M:TinyGiantStudio.Text.List.Focus
+  id: Focus
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: Focus()
+  nameWithType: List.Focus()
+  fullName: TinyGiantStudio.Text.List.Focus()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focus
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 435
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Toggles focus
+  example: []
+  syntax:
+    content: public void Focus()
+    content.vb: Public Sub Focus()
+  overload: TinyGiantStudio.Text.List.Focus*
+- uid: TinyGiantStudio.Text.List.Focus(System.Boolean)
+  commentId: M:TinyGiantStudio.Text.List.Focus(System.Boolean)
+  id: Focus(System.Boolean)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: Focus(bool)
+  nameWithType: List.Focus(bool)
+  fullName: TinyGiantStudio.Text.List.Focus(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focus
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 444
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Focuses/defocuses the list
+  example: []
+  syntax:
+    content: public void Focus(bool enable)
+    parameters:
+    - id: enable
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub Focus(enable As Boolean)
+  overload: TinyGiantStudio.Text.List.Focus*
+  nameWithType.vb: List.Focus(Boolean)
+  fullName.vb: TinyGiantStudio.Text.List.Focus(Boolean)
+  name.vb: Focus(Boolean)
+- uid: TinyGiantStudio.Text.List.Focus(System.Boolean,System.Boolean)
+  commentId: M:TinyGiantStudio.Text.List.Focus(System.Boolean,System.Boolean)
+  id: Focus(System.Boolean,System.Boolean)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: Focus(bool, bool)
+  nameWithType: List.Focus(bool, bool)
+  fullName: TinyGiantStudio.Text.List.Focus(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focus
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 490
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Focuses/defocus the list with a single frame delay if true is passed as second parameter
+  example: []
+  syntax:
+    content: public void Focus(bool enable, bool delay)
+    parameters:
+    - id: enable
+      type: System.Boolean
+      description: ''
+    - id: delay
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub Focus(enable As Boolean, delay As Boolean)
+  overload: TinyGiantStudio.Text.List.Focus*
+  nameWithType.vb: List.Focus(Boolean, Boolean)
+  fullName.vb: TinyGiantStudio.Text.List.Focus(Boolean, Boolean)
+  name.vb: Focus(Boolean, Boolean)
+- uid: TinyGiantStudio.Text.List.FocusToggle
+  commentId: M:TinyGiantStudio.Text.List.FocusToggle
+  id: FocusToggle
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: FocusToggle()
+  nameWithType: List.FocusToggle()
+  fullName: TinyGiantStudio.Text.List.FocusToggle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FocusToggle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 517
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Switches the focus mode
+  example: []
+  syntax:
+    content: >-
+      [ContextMenu("Toggle Focus")]
+
+      public void FocusToggle()
+    content.vb: >-
+      <ContextMenu("Toggle Focus")>
+
+      Public Sub FocusToggle()
+  overload: TinyGiantStudio.Text.List.FocusToggle*
+  attributes:
+  - type: UnityEngine.ContextMenu
+    ctor: UnityEngine.ContextMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Toggle Focus
+- uid: TinyGiantStudio.Text.List.SelectItem(System.Int32)
+  commentId: M:TinyGiantStudio.Text.List.SelectItem(System.Int32)
+  id: SelectItem(System.Int32)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: SelectItem(int)
+  nameWithType: List.SelectItem(int)
+  fullName: TinyGiantStudio.Text.List.SelectItem(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 554
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Processes the selected item for the list. Doesn't let the selected item know it was selected.
+
+    Call the AlertSelectedItem(int number) to update the ui item
+  example: []
+  syntax:
+    content: public void SelectItem(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub SelectItem(number As Integer)
+  overload: TinyGiantStudio.Text.List.SelectItem*
+  nameWithType.vb: List.SelectItem(Integer)
+  fullName.vb: TinyGiantStudio.Text.List.SelectItem(Integer)
+  name.vb: SelectItem(Integer)
+- uid: TinyGiantStudio.Text.List.AlertSelectedItem(System.Int32)
+  commentId: M:TinyGiantStudio.Text.List.AlertSelectedItem(System.Int32)
+  id: AlertSelectedItem(System.Int32)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: AlertSelectedItem(int)
+  nameWithType: List.AlertSelectedItem(int)
+  fullName: TinyGiantStudio.Text.List.AlertSelectedItem(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: AlertSelectedItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 570
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Alerts the list item that it was selected. Doesn't alert the list.
+
+    Call the SelectItem(int) to update the list
+  example: []
+  syntax:
+    content: public void AlertSelectedItem(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub AlertSelectedItem(number As Integer)
+  overload: TinyGiantStudio.Text.List.AlertSelectedItem*
+  nameWithType.vb: List.AlertSelectedItem(Integer)
+  fullName.vb: TinyGiantStudio.Text.List.AlertSelectedItem(Integer)
+  name.vb: AlertSelectedItem(Integer)
+- uid: TinyGiantStudio.Text.List.UnselectItem(System.Int32)
+  commentId: M:TinyGiantStudio.Text.List.UnselectItem(System.Int32)
+  id: UnselectItem(System.Int32)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UnselectItem(int)
+  nameWithType: List.UnselectItem(int)
+  fullName: TinyGiantStudio.Text.List.UnselectItem(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 593
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UnselectItem(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    content.vb: Public Sub UnselectItem(i As Integer)
+  overload: TinyGiantStudio.Text.List.UnselectItem*
+  nameWithType.vb: List.UnselectItem(Integer)
+  fullName.vb: TinyGiantStudio.Text.List.UnselectItem(Integer)
+  name.vb: UnselectItem(Integer)
+- uid: TinyGiantStudio.Text.List.UnselectEverything
+  commentId: M:TinyGiantStudio.Text.List.UnselectEverything
+  id: UnselectEverything
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UnselectEverything()
+  nameWithType: List.UnselectEverything()
+  fullName: TinyGiantStudio.Text.List.UnselectEverything()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectEverything
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 627
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UnselectEverything()
+    content.vb: Public Sub UnselectEverything()
+  overload: TinyGiantStudio.Text.List.UnselectEverything*
+- uid: TinyGiantStudio.Text.List.UnselectEverythingExceptSelected
+  commentId: M:TinyGiantStudio.Text.List.UnselectEverythingExceptSelected
+  id: UnselectEverythingExceptSelected
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UnselectEverythingExceptSelected()
+  nameWithType: List.UnselectEverythingExceptSelected()
+  fullName: TinyGiantStudio.Text.List.UnselectEverythingExceptSelected()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectEverythingExceptSelected
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 637
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UnselectEverythingExceptSelected()
+    content.vb: Public Sub UnselectEverythingExceptSelected()
+  overload: TinyGiantStudio.Text.List.UnselectEverythingExceptSelected*
+- uid: TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue
+  commentId: M:TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue
+  id: UnselectEverythingDontChangeSelectedItemValue
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UnselectEverythingDontChangeSelectedItemValue()
+  nameWithType: List.UnselectEverythingDontChangeSelectedItemValue()
+  fullName: TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectEverythingDontChangeSelectedItemValue
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 650
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Unselects everything but does not reset the "selectedItem" number.
+
+    Keeping the selected item value means the previously selected item can still be pressed after selected and scrolling via keyboard continues from the previously selected one instead of starting from 0
+  example: []
+  syntax:
+    content: public void UnselectEverythingDontChangeSelectedItemValue()
+    content.vb: Public Sub UnselectEverythingDontChangeSelectedItemValue()
+  overload: TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue*
+- uid: TinyGiantStudio.Text.List.PressSelectedItem
+  commentId: M:TinyGiantStudio.Text.List.PressSelectedItem
+  id: PressSelectedItem
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: PressSelectedItem()
+  nameWithType: List.PressSelectedItem()
+  fullName: TinyGiantStudio.Text.List.PressSelectedItem()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressSelectedItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 659
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressSelectedItem()
+    content.vb: Public Sub PressSelectedItem()
+  overload: TinyGiantStudio.Text.List.PressSelectedItem*
+- uid: TinyGiantStudio.Text.List.PresstItem(System.Int32)
+  commentId: M:TinyGiantStudio.Text.List.PresstItem(System.Int32)
+  id: PresstItem(System.Int32)
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: PresstItem(int)
+  nameWithType: List.PresstItem(int)
+  fullName: TinyGiantStudio.Text.List.PresstItem(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PresstItem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 665
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PresstItem(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+    content.vb: Public Sub PresstItem(number As Integer)
+  overload: TinyGiantStudio.Text.List.PresstItem*
+  nameWithType.vb: List.PresstItem(Integer)
+  fullName.vb: TinyGiantStudio.Text.List.PresstItem(Integer)
+  name.vb: PresstItem(Integer)
+- uid: TinyGiantStudio.Text.List.UpdateStyle
+  commentId: M:TinyGiantStudio.Text.List.UpdateStyle
+  id: UpdateStyle
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: UpdateStyle()
+  nameWithType: List.UpdateStyle()
+  fullName: TinyGiantStudio.Text.List.UpdateStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 681
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Reapplies all variables/style choices, updating them.
+  example: []
+  syntax:
+    content: public void UpdateStyle()
+    content.vb: Public Sub UpdateStyle()
+  overload: TinyGiantStudio.Text.List.UpdateStyle*
+- uid: TinyGiantStudio.Text.List.ScrollUp
+  commentId: M:TinyGiantStudio.Text.List.ScrollUp
+  id: ScrollUp
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ScrollUp()
+  nameWithType: List.ScrollUp()
+  fullName: TinyGiantStudio.Text.List.ScrollUp()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScrollUp
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 707
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ScrollUp()
+    content.vb: Public Sub ScrollUp()
+  overload: TinyGiantStudio.Text.List.ScrollUp*
+- uid: TinyGiantStudio.Text.List.ScrollDown
+  commentId: M:TinyGiantStudio.Text.List.ScrollDown
+  id: ScrollDown
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ScrollDown()
+  nameWithType: List.ScrollDown()
+  fullName: TinyGiantStudio.Text.List.ScrollDown()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScrollDown
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 729
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ScrollDown()
+    content.vb: Public Sub ScrollDown()
+  overload: TinyGiantStudio.Text.List.ScrollDown*
+- uid: TinyGiantStudio.Text.List.ScrollLeft
+  commentId: M:TinyGiantStudio.Text.List.ScrollLeft
+  id: ScrollLeft
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ScrollLeft()
+  nameWithType: List.ScrollLeft()
+  fullName: TinyGiantStudio.Text.List.ScrollLeft()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScrollLeft
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 752
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ScrollLeft()
+    content.vb: Public Sub ScrollLeft()
+  overload: TinyGiantStudio.Text.List.ScrollLeft*
+- uid: TinyGiantStudio.Text.List.ScrollRight
+  commentId: M:TinyGiantStudio.Text.List.ScrollRight
+  id: ScrollRight
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: ScrollRight()
+  nameWithType: List.ScrollRight()
+  fullName: TinyGiantStudio.Text.List.ScrollRight()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScrollRight
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 762
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ScrollRight()
+    content.vb: Public Sub ScrollRight()
+  overload: TinyGiantStudio.Text.List.ScrollRight*
+- uid: TinyGiantStudio.Text.List.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer})
+  commentId: M:TinyGiantStudio.Text.List.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer})
+  id: EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer})
+  parent: TinyGiantStudio.Text.List
+  langs:
+  - csharp
+  - vb
+  name: EmptyEffect(List<ModuleContainer>)
+  nameWithType: List.EmptyEffect(List<ModuleContainer>)
+  fullName: TinyGiantStudio.Text.List.EmptyEffect(System.Collections.Generic.List<TinyGiantStudio.Modules.ModuleContainer>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: EmptyEffect
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/List.cs
+    startLine: 850
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Create an empty effect and adds it to MText_ModuleContainer List
+  example: []
+  syntax:
+    content: public void EmptyEffect(List<ModuleContainer> moduleList)
+    parameters:
+    - id: moduleList
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: Public Sub EmptyEffect(moduleList As List(Of ModuleContainer))
+  overload: TinyGiantStudio.Text.List.EmptyEffect*
+  nameWithType.vb: List.EmptyEffect(List(Of ModuleContainer))
+  fullName.vb: TinyGiantStudio.Text.List.EmptyEffect(System.Collections.Generic.List(Of TinyGiantStudio.Modules.ModuleContainer))
+  name.vb: EmptyEffect(List(Of ModuleContainer))
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TinyGiantStudio.Text.List.UseStyle*
+  commentId: Overload:TinyGiantStudio.Text.List.UseStyle
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UseStyle
+  name: UseStyle
+  nameWithType: List.UseStyle
+  fullName: TinyGiantStudio.Text.List.UseStyle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Text.List.UseNormalItemVisual*
+  commentId: Overload:TinyGiantStudio.Text.List.UseNormalItemVisual
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UseNormalItemVisual
+  name: UseNormalItemVisual
+  nameWithType: List.UseNormalItemVisual
+  fullName: TinyGiantStudio.Text.List.UseNormalItemVisual
+- uid: TinyGiantStudio.Text.List.NormalTextSize*
+  commentId: Overload:TinyGiantStudio.Text.List.NormalTextSize
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_NormalTextSize
+  name: NormalTextSize
+  nameWithType: List.NormalTextSize
+  fullName: TinyGiantStudio.Text.List.NormalTextSize
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: TinyGiantStudio.Text.List.NormalTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.NormalTextMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_NormalTextMaterial
+  name: NormalTextMaterial
+  nameWithType: List.NormalTextMaterial
+  fullName: TinyGiantStudio.Text.List.NormalTextMaterial
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: TinyGiantStudio.Text.List.NormalBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.NormalBackgroundMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_NormalBackgroundMaterial
+  name: NormalBackgroundMaterial
+  nameWithType: List.NormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.NormalBackgroundMaterial
+- uid: TinyGiantStudio.Text.List.UseSelectedItemVisual*
+  commentId: Overload:TinyGiantStudio.Text.List.UseSelectedItemVisual
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UseSelectedItemVisual
+  name: UseSelectedItemVisual
+  nameWithType: List.UseSelectedItemVisual
+  fullName: TinyGiantStudio.Text.List.UseSelectedItemVisual
+- uid: TinyGiantStudio.Text.List.SelectedTextSize*
+  commentId: Overload:TinyGiantStudio.Text.List.SelectedTextSize
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_SelectedTextSize
+  name: SelectedTextSize
+  nameWithType: List.SelectedTextSize
+  fullName: TinyGiantStudio.Text.List.SelectedTextSize
+- uid: TinyGiantStudio.Text.List.SelectedTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.SelectedTextMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_SelectedTextMaterial
+  name: SelectedTextMaterial
+  nameWithType: List.SelectedTextMaterial
+  fullName: TinyGiantStudio.Text.List.SelectedTextMaterial
+- uid: TinyGiantStudio.Text.List.SelectedBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_SelectedBackgroundMaterial
+  name: SelectedBackgroundMaterial
+  nameWithType: List.SelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.SelectedBackgroundMaterial
+- uid: TinyGiantStudio.Text.List.UsePressedItemVisual*
+  commentId: Overload:TinyGiantStudio.Text.List.UsePressedItemVisual
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UsePressedItemVisual
+  name: UsePressedItemVisual
+  nameWithType: List.UsePressedItemVisual
+  fullName: TinyGiantStudio.Text.List.UsePressedItemVisual
+- uid: TinyGiantStudio.Text.List.PressedTextSize*
+  commentId: Overload:TinyGiantStudio.Text.List.PressedTextSize
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_PressedTextSize
+  name: PressedTextSize
+  nameWithType: List.PressedTextSize
+  fullName: TinyGiantStudio.Text.List.PressedTextSize
+- uid: TinyGiantStudio.Text.List.PressedTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.PressedTextMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_PressedTextMaterial
+  name: PressedTextMaterial
+  nameWithType: List.PressedTextMaterial
+  fullName: TinyGiantStudio.Text.List.PressedTextMaterial
+- uid: TinyGiantStudio.Text.List.PressedBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.PressedBackgroundMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_PressedBackgroundMaterial
+  name: PressedBackgroundMaterial
+  nameWithType: List.PressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.PressedBackgroundMaterial
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: TinyGiantStudio.Text.List.UseDisabledItemVisual*
+  commentId: Overload:TinyGiantStudio.Text.List.UseDisabledItemVisual
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UseDisabledItemVisual
+  name: UseDisabledItemVisual
+  nameWithType: List.UseDisabledItemVisual
+  fullName: TinyGiantStudio.Text.List.UseDisabledItemVisual
+- uid: TinyGiantStudio.Text.List.DisabledTextSize*
+  commentId: Overload:TinyGiantStudio.Text.List.DisabledTextSize
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_DisabledTextSize
+  name: DisabledTextSize
+  nameWithType: List.DisabledTextSize
+  fullName: TinyGiantStudio.Text.List.DisabledTextSize
+- uid: TinyGiantStudio.Text.List.DisabledTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.DisabledTextMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_DisabledTextMaterial
+  name: DisabledTextMaterial
+  nameWithType: List.DisabledTextMaterial
+  fullName: TinyGiantStudio.Text.List.DisabledTextMaterial
+- uid: TinyGiantStudio.Text.List.DisabledBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_DisabledBackgroundMaterial
+  name: DisabledBackgroundMaterial
+  nameWithType: List.DisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.List.DisabledBackgroundMaterial
+- uid: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+  commentId: T:System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: TinyGiantStudio.Modules.ModuleContainer.html
+  name: List<ModuleContainer>
+  nameWithType: List<ModuleContainer>
+  fullName: System.Collections.Generic.List<TinyGiantStudio.Modules.ModuleContainer>
+  nameWithType.vb: List(Of ModuleContainer)
+  fullName.vb: System.Collections.Generic.List(Of TinyGiantStudio.Modules.ModuleContainer)
+  name.vb: List(Of ModuleContainer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Modules.ModuleContainer
+    name: ModuleContainer
+    href: TinyGiantStudio.Modules.ModuleContainer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Modules.ModuleContainer
+    name: ModuleContainer
+    href: TinyGiantStudio.Modules.ModuleContainer.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: TinyGiantStudio.Text.List.UpdateList*
+  commentId: Overload:TinyGiantStudio.Text.List.UpdateList
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UpdateList
+  name: UpdateList
+  nameWithType: List.UpdateList
+  fullName: TinyGiantStudio.Text.List.UpdateList
+- uid: TinyGiantStudio.Text.List.Focus*
+  commentId: Overload:TinyGiantStudio.Text.List.Focus
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_Focus
+  name: Focus
+  nameWithType: List.Focus
+  fullName: TinyGiantStudio.Text.List.Focus
+- uid: TinyGiantStudio.Text.List.FocusToggle*
+  commentId: Overload:TinyGiantStudio.Text.List.FocusToggle
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_FocusToggle
+  name: FocusToggle
+  nameWithType: List.FocusToggle
+  fullName: TinyGiantStudio.Text.List.FocusToggle
+- uid: TinyGiantStudio.Text.List.SelectItem*
+  commentId: Overload:TinyGiantStudio.Text.List.SelectItem
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_SelectItem_System_Int32_
+  name: SelectItem
+  nameWithType: List.SelectItem
+  fullName: TinyGiantStudio.Text.List.SelectItem
+- uid: TinyGiantStudio.Text.List.AlertSelectedItem*
+  commentId: Overload:TinyGiantStudio.Text.List.AlertSelectedItem
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_AlertSelectedItem_System_Int32_
+  name: AlertSelectedItem
+  nameWithType: List.AlertSelectedItem
+  fullName: TinyGiantStudio.Text.List.AlertSelectedItem
+- uid: TinyGiantStudio.Text.List.UnselectItem*
+  commentId: Overload:TinyGiantStudio.Text.List.UnselectItem
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UnselectItem_System_Int32_
+  name: UnselectItem
+  nameWithType: List.UnselectItem
+  fullName: TinyGiantStudio.Text.List.UnselectItem
+- uid: TinyGiantStudio.Text.List.UnselectEverything*
+  commentId: Overload:TinyGiantStudio.Text.List.UnselectEverything
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UnselectEverything
+  name: UnselectEverything
+  nameWithType: List.UnselectEverything
+  fullName: TinyGiantStudio.Text.List.UnselectEverything
+- uid: TinyGiantStudio.Text.List.UnselectEverythingExceptSelected*
+  commentId: Overload:TinyGiantStudio.Text.List.UnselectEverythingExceptSelected
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UnselectEverythingExceptSelected
+  name: UnselectEverythingExceptSelected
+  nameWithType: List.UnselectEverythingExceptSelected
+  fullName: TinyGiantStudio.Text.List.UnselectEverythingExceptSelected
+- uid: TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue*
+  commentId: Overload:TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UnselectEverythingDontChangeSelectedItemValue
+  name: UnselectEverythingDontChangeSelectedItemValue
+  nameWithType: List.UnselectEverythingDontChangeSelectedItemValue
+  fullName: TinyGiantStudio.Text.List.UnselectEverythingDontChangeSelectedItemValue
+- uid: TinyGiantStudio.Text.List.PressSelectedItem*
+  commentId: Overload:TinyGiantStudio.Text.List.PressSelectedItem
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_PressSelectedItem
+  name: PressSelectedItem
+  nameWithType: List.PressSelectedItem
+  fullName: TinyGiantStudio.Text.List.PressSelectedItem
+- uid: TinyGiantStudio.Text.List.PresstItem*
+  commentId: Overload:TinyGiantStudio.Text.List.PresstItem
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_PresstItem_System_Int32_
+  name: PresstItem
+  nameWithType: List.PresstItem
+  fullName: TinyGiantStudio.Text.List.PresstItem
+- uid: TinyGiantStudio.Text.List.UpdateStyle*
+  commentId: Overload:TinyGiantStudio.Text.List.UpdateStyle
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_UpdateStyle
+  name: UpdateStyle
+  nameWithType: List.UpdateStyle
+  fullName: TinyGiantStudio.Text.List.UpdateStyle
+- uid: TinyGiantStudio.Text.List.ScrollUp*
+  commentId: Overload:TinyGiantStudio.Text.List.ScrollUp
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_ScrollUp
+  name: ScrollUp
+  nameWithType: List.ScrollUp
+  fullName: TinyGiantStudio.Text.List.ScrollUp
+- uid: TinyGiantStudio.Text.List.ScrollDown*
+  commentId: Overload:TinyGiantStudio.Text.List.ScrollDown
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_ScrollDown
+  name: ScrollDown
+  nameWithType: List.ScrollDown
+  fullName: TinyGiantStudio.Text.List.ScrollDown
+- uid: TinyGiantStudio.Text.List.ScrollLeft*
+  commentId: Overload:TinyGiantStudio.Text.List.ScrollLeft
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_ScrollLeft
+  name: ScrollLeft
+  nameWithType: List.ScrollLeft
+  fullName: TinyGiantStudio.Text.List.ScrollLeft
+- uid: TinyGiantStudio.Text.List.ScrollRight*
+  commentId: Overload:TinyGiantStudio.Text.List.ScrollRight
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_ScrollRight
+  name: ScrollRight
+  nameWithType: List.ScrollRight
+  fullName: TinyGiantStudio.Text.List.ScrollRight
+- uid: TinyGiantStudio.Text.List.EmptyEffect*
+  commentId: Overload:TinyGiantStudio.Text.List.EmptyEffect
+  href: TinyGiantStudio.Text.List.html#TinyGiantStudio_Text_List_EmptyEffect_System_Collections_Generic_List_TinyGiantStudio_Modules_ModuleContainer__
+  name: EmptyEffect
+  nameWithType: List.EmptyEffect
+  fullName: TinyGiantStudio.Text.List.EmptyEffect

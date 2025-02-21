@@ -1,0 +1,1065 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup
+  id: CircularLayoutGroup
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  - TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft
+  - TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight
+  - TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout(System.Int32)
+  - TinyGiantStudio.Layout.CircularLayoutGroup.angle
+  - TinyGiantStudio.Layout.CircularLayoutGroup.direction
+  - TinyGiantStudio.Layout.CircularLayoutGroup.radius
+  - TinyGiantStudio.Layout.CircularLayoutGroup.radiusDecreaseRate
+  - TinyGiantStudio.Layout.CircularLayoutGroup.spread
+  - TinyGiantStudio.Layout.CircularLayoutGroup.style
+  - TinyGiantStudio.Layout.CircularLayoutGroup.useAngle
+  langs:
+  - csharp
+  - vb
+  name: CircularLayoutGroup
+  nameWithType: CircularLayoutGroup
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CircularLayoutGroup
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [HelpURL("https://ferdowsur.gitbook.io/layout-system/layout-group/circular-layout-group")]
+
+      [AddComponentMenu("Tiny Giant Studio/Layout/Circular Layout Group (M3D)", 30003)]
+
+      public class CircularLayoutGroup : LayoutGroup
+    content.vb: >-
+      <HelpURL("https://ferdowsur.gitbook.io/layout-system/layout-group/circular-layout-group")>
+
+      <AddComponentMenu("Tiny Giant Studio/Layout/Circular Layout Group (M3D)", 30003)>
+
+      Public Class CircularLayoutGroup Inherits LayoutGroup
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - TinyGiantStudio.Layout.LayoutGroup
+  inheritedMembers:
+  - TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  - TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  - TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  - TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  - TinyGiantStudio.Layout.LayoutGroup.bounds
+  - TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  - TinyGiantStudio.Layout.LayoutGroup.Update
+  - TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  - TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  - TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  - TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  - TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  - TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  - TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  - TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  - TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  attributes:
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/layout-system/layout-group/circular-layout-group
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Layout/Circular Layout Group (M3D)
+    - type: System.Int32
+      value: 30003
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.direction
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.direction
+  id: direction
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: direction
+  nameWithType: CircularLayoutGroup.direction
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.direction
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: direction
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public CircularLayoutGroup.Direction direction
+    return:
+      type: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    content.vb: Public direction As CircularLayoutGroup.Direction
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.useAngle
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.useAngle
+  id: useAngle
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: useAngle
+  nameWithType: CircularLayoutGroup.useAngle
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.useAngle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: useAngle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: Uses style if set to false
+  example: []
+  syntax:
+    content: public bool useAngle
+    return:
+      type: System.Boolean
+    content.vb: Public useAngle As Boolean
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.angle
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.angle
+  id: angle
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: angle
+  nameWithType: CircularLayoutGroup.angle
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.angle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: angle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Vector3 angle
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public angle As Vector3
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.style
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.style
+  id: style
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: style
+  nameWithType: CircularLayoutGroup.style
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.style
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: style
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public CircularLayoutGroup.Style style
+    return:
+      type: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+    content.vb: Public style As CircularLayoutGroup.Style
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.spread
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.spread
+  id: spread
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: spread
+  nameWithType: CircularLayoutGroup.spread
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.spread
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: spread
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float spread
+    return:
+      type: System.Single
+    content.vb: Public spread As Single
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.radius
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.radius
+  id: radius
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: radius
+  nameWithType: CircularLayoutGroup.radius
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.radius
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: radius
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float radius
+    return:
+      type: System.Single
+    content.vb: Public radius As Single
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.radiusDecreaseRate
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.radiusDecreaseRate
+  id: radiusDecreaseRate
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: radiusDecreaseRate
+  nameWithType: CircularLayoutGroup.radiusDecreaseRate
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.radiusDecreaseRate
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: radiusDecreaseRate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public float radiusDecreaseRate
+    return:
+      type: System.Single
+    content.vb: Public radiusDecreaseRate As Single
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout(System.Int32)
+  commentId: M:TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout(System.Int32)
+  id: UpdateLayout(System.Int32)
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayout(int)
+  nameWithType: CircularLayoutGroup.UpdateLayout(int)
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateLayout
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  example: []
+  syntax:
+    content: public override void UpdateLayout(int startRepositioningFrom = 0)
+    parameters:
+    - id: startRepositioningFrom
+      type: System.Int32
+    content.vb: Public Overrides Sub UpdateLayout(startRepositioningFrom As Integer = 0)
+  overridden: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  overload: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout*
+  nameWithType.vb: CircularLayoutGroup.UpdateLayout(Integer)
+  fullName.vb: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout(Integer)
+  name.vb: UpdateLayout(Integer)
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  commentId: M:TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  id: GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetPositions(List<MeshLayout>)
+  nameWithType: CircularLayoutGroup.GetPositions(List<MeshLayout>)
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions(System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetPositions
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 118
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: Used to retrieve appropriate positions of meshes without needing to place them on scene for single mesh
+  example: []
+  syntax:
+    content: public override List<MeshLayout> GetPositions(List<MeshLayout> meshLayouts)
+    parameters:
+    - id: meshLayouts
+      type: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+    content.vb: Public Overrides Function GetPositions(meshLayouts As List(Of MeshLayout)) As List(Of MeshLayout)
+  overridden: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  overload: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions*
+  nameWithType.vb: CircularLayoutGroup.GetPositions(List(Of MeshLayout))
+  fullName.vb: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions(System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout))
+  name.vb: GetPositions(List(Of MeshLayout))
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft
+  commentId: M:TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft
+  id: SetDirectionLeft
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: SetDirectionLeft()
+  nameWithType: CircularLayoutGroup.SetDirectionLeft()
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SetDirectionLeft
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 212
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public void SetDirectionLeft()
+    content.vb: Public Sub SetDirectionLeft()
+  overload: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft*
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight
+  commentId: M:TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight
+  id: SetDirectionRight
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: SetDirectionRight()
+  nameWithType: CircularLayoutGroup.SetDirectionRight()
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SetDirectionRight
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 218
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public void SetDirectionRight()
+    content.vb: Public Sub SetDirectionRight()
+  overload: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight*
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: TinyGiantStudio.Layout.LayoutGroup
+  commentId: T:TinyGiantStudio.Layout.LayoutGroup
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutGroup.html
+  name: LayoutGroup
+  nameWithType: LayoutGroup
+  fullName: TinyGiantStudio.Layout.LayoutGroup
+- uid: TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_autoItemSize
+  name: autoItemSize
+  nameWithType: LayoutGroup.autoItemSize
+  fullName: TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+- uid: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_alwaysUpdateInPlayMode
+  name: alwaysUpdateInPlayMode
+  nameWithType: LayoutGroup.alwaysUpdateInPlayMode
+  fullName: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+- uid: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_alwaysUpdateBounds
+  name: alwaysUpdateBounds
+  nameWithType: LayoutGroup.alwaysUpdateBounds
+  fullName: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+- uid: TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_elementUpdater
+  name: elementUpdater
+  nameWithType: LayoutGroup.elementUpdater
+  fullName: TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+- uid: TinyGiantStudio.Layout.LayoutGroup.bounds
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.bounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_bounds
+  name: bounds
+  nameWithType: LayoutGroup.bounds
+  fullName: TinyGiantStudio.Layout.LayoutGroup.bounds
+- uid: TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_showSceneViewGizmo
+  name: showSceneViewGizmo
+  nameWithType: LayoutGroup.showSceneViewGizmo
+  fullName: TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+- uid: TinyGiantStudio.Layout.LayoutGroup.Update
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.Update
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_Update
+  name: Update()
+  nameWithType: LayoutGroup.Update()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.Update()
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.Update
+    name: Update
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.Update
+    name: Update
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_Update
+  - name: (
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_TotalActiveChildCount
+  name: TotalActiveChildCount()
+  nameWithType: LayoutGroup.TotalActiveChildCount()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount()
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+    name: TotalActiveChildCount
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_TotalActiveChildCount
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+    name: TotalActiveChildCount
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_TotalActiveChildCount
+  - name: (
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_UnityEngine_Transform_
+  name: GetBound(Transform)
+  nameWithType: LayoutGroup.GetBound(Transform)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+    name: GetBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_UnityEngine_Transform_
+  - name: (
+  - uid: UnityEngine.Transform
+    name: Transform
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+    name: GetBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_UnityEngine_Transform_
+  - name: (
+  - uid: UnityEngine.Transform
+    name: Transform
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_TinyGiantStudio_Layout_MeshLayout_
+  name: GetBound(MeshLayout)
+  nameWithType: LayoutGroup.GetBound(MeshLayout)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+    name: GetBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_TinyGiantStudio_Layout_MeshLayout_
+  - name: (
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+    name: GetBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_TinyGiantStudio_Layout_MeshLayout_
+  - name: (
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds
+  name: GetAllChildBounds()
+  nameWithType: LayoutGroup.GetAllChildBounds()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds()
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+    name: GetAllChildBounds
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+    name: GetAllChildBounds
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds
+  - name: (
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  name: GetAllChildBounds(List<MeshLayout>)
+  nameWithType: LayoutGroup.GetAllChildBounds(List<MeshLayout>)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>)
+  nameWithType.vb: LayoutGroup.GetAllChildBounds(List(Of MeshLayout))
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout))
+  name.vb: GetAllChildBounds(List(Of MeshLayout))
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+    name: GetAllChildBounds
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+    name: GetAllChildBounds
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBound_UnityEngine_Bounds___System_Int32_
+  name: IgnoreChildBound(Bounds[], int)
+  nameWithType: LayoutGroup.IgnoreChildBound(Bounds[], int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[], int)
+  nameWithType.vb: LayoutGroup.IgnoreChildBound(Bounds(), Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds(), Integer)
+  name.vb: IgnoreChildBound(Bounds(), Integer)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+    name: IgnoreChildBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBound_UnityEngine_Bounds___System_Int32_
+  - name: (
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+    name: IgnoreChildBound
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBound_UnityEngine_Bounds___System_Int32_
+  - name: (
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBoundAndLineBreak_UnityEngine_Bounds___System_Int32_
+  name: IgnoreChildBoundAndLineBreak(Bounds[], int)
+  nameWithType: LayoutGroup.IgnoreChildBoundAndLineBreak(Bounds[], int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[], int)
+  nameWithType.vb: LayoutGroup.IgnoreChildBoundAndLineBreak(Bounds(), Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds(), Integer)
+  name.vb: IgnoreChildBoundAndLineBreak(Bounds(), Integer)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+    name: IgnoreChildBoundAndLineBreak
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBoundAndLineBreak_UnityEngine_Bounds___System_Int32_
+  - name: (
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+    name: IgnoreChildBoundAndLineBreak
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBoundAndLineBreak_UnityEngine_Bounds___System_Int32_
+  - name: (
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_RemoveNaNErrorIfAny_UnityEngine_Vector3_
+  name: RemoveNaNErrorIfAny(Vector3)
+  nameWithType: LayoutGroup.RemoveNaNErrorIfAny(Vector3)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+    name: RemoveNaNErrorIfAny
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_RemoveNaNErrorIfAny_UnityEngine_Vector3_
+  - name: (
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+    name: RemoveNaNErrorIfAny
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_RemoveNaNErrorIfAny_UnityEngine_Vector3_
+  - name: (
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_OnDrawGizmosSelected
+  name: OnDrawGizmosSelected()
+  nameWithType: LayoutGroup.OnDrawGizmosSelected()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected()
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+    name: OnDrawGizmosSelected
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_OnDrawGizmosSelected
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+    name: OnDrawGizmosSelected
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_OnDrawGizmosSelected
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup.Direction
+  nameWithType: CircularLayoutGroup.Direction
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup.Style
+  nameWithType: CircularLayoutGroup.Style
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+    name: Style
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Style.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Style
+    name: Style
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Style.html
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_UpdateLayout_System_Int32_
+  name: UpdateLayout(int)
+  nameWithType: LayoutGroup.UpdateLayout(int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(int)
+  nameWithType.vb: LayoutGroup.UpdateLayout(Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(Integer)
+  name.vb: UpdateLayout(Integer)
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+    name: UpdateLayout
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_UpdateLayout_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+    name: UpdateLayout
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_UpdateLayout_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout*
+  commentId: Overload:TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html#TinyGiantStudio_Layout_CircularLayoutGroup_UpdateLayout_System_Int32_
+  name: UpdateLayout
+  nameWithType: CircularLayoutGroup.UpdateLayout
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.UpdateLayout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  isExternal: true
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetPositions_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  name: GetPositions(List<MeshLayout>)
+  nameWithType: LayoutGroup.GetPositions(List<MeshLayout>)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>)
+  nameWithType.vb: LayoutGroup.GetPositions(List(Of MeshLayout))
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout))
+  name.vb: GetPositions(List(Of MeshLayout))
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+    name: GetPositions
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetPositions_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+    name: GetPositions
+    href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetPositions_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+  - name: )
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions*
+  commentId: Overload:TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html#TinyGiantStudio_Layout_CircularLayoutGroup_GetPositions_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  name: GetPositions
+  nameWithType: CircularLayoutGroup.GetPositions
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.GetPositions
+- uid: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+  commentId: T:System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: TinyGiantStudio.Layout.MeshLayout.html
+  name: List<MeshLayout>
+  nameWithType: List<MeshLayout>
+  fullName: System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>
+  nameWithType.vb: List(Of MeshLayout)
+  fullName.vb: System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout)
+  name.vb: List(Of MeshLayout)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft*
+  commentId: Overload:TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html#TinyGiantStudio_Layout_CircularLayoutGroup_SetDirectionLeft
+  name: SetDirectionLeft
+  nameWithType: CircularLayoutGroup.SetDirectionLeft
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionLeft
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight*
+  commentId: Overload:TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html#TinyGiantStudio_Layout_CircularLayoutGroup_SetDirectionRight
+  name: SetDirectionRight
+  nameWithType: CircularLayoutGroup.SetDirectionRight
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.SetDirectionRight

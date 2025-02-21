@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.CharacterDrawer
+  commentId: T:TinyGiantStudio.Text.CharacterDrawer
+  id: CharacterDrawer
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.CharacterDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: CharacterDrawer
+  nameWithType: CharacterDrawer
+  fullName: TinyGiantStudio.Text.CharacterDrawer
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/CharacterDrawer.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CharacterDrawer
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/CharacterDrawer.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [CustomPropertyDrawer(typeof(Character))]
+
+      public class CharacterDrawer : PropertyDrawer
+    content.vb: >-
+      <CustomPropertyDrawer(GetType(Character))>
+
+      Public Class CharacterDrawer Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+  - UnityEditor.GUIDrawer
+  - UnityEditor.PropertyDrawer
+  inheritedMembers:
+  - UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  - UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  - UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+  - UnityEditor.PropertyDrawer.attribute
+  - UnityEditor.PropertyDrawer.fieldInfo
+  - UnityEditor.PropertyDrawer.preferredLabel
+  attributes:
+  - type: UnityEditor.CustomPropertyDrawer
+    ctor: UnityEditor.CustomPropertyDrawer.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: TinyGiantStudio.Text.Character
+- uid: TinyGiantStudio.Text.CharacterDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  commentId: M:TinyGiantStudio.Text.CharacterDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  id: OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  parent: TinyGiantStudio.Text.CharacterDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: CharacterDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: TinyGiantStudio.Text.CharacterDrawer.OnGUI(UnityEngine.Rect, UnityEditor.SerializedProperty, UnityEngine.GUIContent)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/CharacterDrawer.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: OnGUI
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/CharacterDrawer.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: <p>Override this method to make your own IMGUI based GUI for the property.</p>
+  example: []
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: UnityEngine.Rect
+      description: Rectangle on the screen to use for the property GUI.
+    - id: property
+      type: UnityEditor.SerializedProperty
+      description: The SerializedProperty to make the custom GUI for.
+    - id: label
+      type: UnityEngine.GUIContent
+      description: The label of this property.
+    content.vb: Public Overrides Sub OnGUI(position As Rect, [property] As SerializedProperty, label As GUIContent)
+  overridden: UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  overload: TinyGiantStudio.Text.CharacterDrawer.OnGUI*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEditor.GUIDrawer
+  commentId: T:UnityEditor.GUIDrawer
+  parent: UnityEditor
+  isExternal: true
+  name: GUIDrawer
+  nameWithType: GUIDrawer
+  fullName: UnityEditor.GUIDrawer
+- uid: UnityEditor.PropertyDrawer
+  commentId: T:UnityEditor.PropertyDrawer
+  parent: UnityEditor
+  isExternal: true
+  name: PropertyDrawer
+  nameWithType: PropertyDrawer
+  fullName: UnityEditor.PropertyDrawer
+- uid: UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  commentId: M:UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: CreatePropertyGUI(SerializedProperty)
+  nameWithType: PropertyDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  spec.csharp:
+  - uid: UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+    name: CreatePropertyGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PropertyDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+    name: CreatePropertyGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: )
+- uid: UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  commentId: M:UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: PropertyDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  fullName: UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty, UnityEngine.GUIContent)
+  spec.csharp:
+  - uid: UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+    name: GetPropertyHeight
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+    name: GetPropertyHeight
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+- uid: UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+  commentId: M:UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: CanCacheInspectorGUI(SerializedProperty)
+  nameWithType: PropertyDrawer.CanCacheInspectorGUI(SerializedProperty)
+  fullName: UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+  spec.csharp:
+  - uid: UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+    name: CanCacheInspectorGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PropertyDrawer.CanCacheInspectorGUI(UnityEditor.SerializedProperty)
+    name: CanCacheInspectorGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: )
+- uid: UnityEditor.PropertyDrawer.attribute
+  commentId: P:UnityEditor.PropertyDrawer.attribute
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: attribute
+  nameWithType: PropertyDrawer.attribute
+  fullName: UnityEditor.PropertyDrawer.attribute
+- uid: UnityEditor.PropertyDrawer.fieldInfo
+  commentId: P:UnityEditor.PropertyDrawer.fieldInfo
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: fieldInfo
+  nameWithType: PropertyDrawer.fieldInfo
+  fullName: UnityEditor.PropertyDrawer.fieldInfo
+- uid: UnityEditor.PropertyDrawer.preferredLabel
+  commentId: P:UnityEditor.PropertyDrawer.preferredLabel
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: preferredLabel
+  nameWithType: PropertyDrawer.preferredLabel
+  fullName: UnityEditor.PropertyDrawer.preferredLabel
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  commentId: M:UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+  parent: UnityEditor.PropertyDrawer
+  isExternal: true
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: PropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect, UnityEditor.SerializedProperty, UnityEngine.GUIContent)
+  spec.csharp:
+  - uid: UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.SerializedProperty
+    name: SerializedProperty
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+- uid: TinyGiantStudio.Text.CharacterDrawer.OnGUI*
+  commentId: Overload:TinyGiantStudio.Text.CharacterDrawer.OnGUI
+  href: TinyGiantStudio.Text.CharacterDrawer.html#TinyGiantStudio_Text_CharacterDrawer_OnGUI_UnityEngine_Rect_UnityEditor_SerializedProperty_UnityEngine_GUIContent_
+  name: OnGUI
+  nameWithType: CharacterDrawer.OnGUI
+  fullName: TinyGiantStudio.Text.CharacterDrawer.OnGUI
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEditor.SerializedProperty
+  commentId: T:UnityEditor.SerializedProperty
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: UnityEditor.SerializedProperty
+- uid: UnityEngine.GUIContent
+  commentId: T:UnityEngine.GUIContent
+  parent: UnityEngine
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: UnityEngine.GUIContent
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.PackageImporter
+  commentId: N:TinyGiantStudio.PackageImporter
+  id: TinyGiantStudio.PackageImporter
+  children:
+  - TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler
+  - TinyGiantStudio.PackageImporter.TGS_AssetEditor
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.PackageImporter
+  nameWithType: TinyGiantStudio.PackageImporter
+  fullName: TinyGiantStudio.PackageImporter
+  type: Namespace
+  assemblies:
+  - TGS_PackageImporter
+references:
+- uid: TinyGiantStudio.PackageImporter.TGS_AssetEditor
+  commentId: T:TinyGiantStudio.PackageImporter.TGS_AssetEditor
+  href: TinyGiantStudio.PackageImporter.TGS_AssetEditor.html
+  name: TGS_AssetEditor
+  nameWithType: TGS_AssetEditor
+  fullName: TinyGiantStudio.PackageImporter.TGS_AssetEditor
+- uid: TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler
+  commentId: T:TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler
+  href: TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler.html
+  name: TGS_AssetDatabaseHandler
+  nameWithType: TGS_AssetDatabaseHandler
+  fullName: TinyGiantStudio.PackageImporter.TGS_AssetDatabaseHandler

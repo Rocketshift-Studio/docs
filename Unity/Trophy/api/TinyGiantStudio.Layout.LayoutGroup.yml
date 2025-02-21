@@ -1,0 +1,985 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.LayoutGroup
+  commentId: T:TinyGiantStudio.Layout.LayoutGroup
+  id: LayoutGroup
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  - TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  - TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  - TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  - TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  - TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  - TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  - TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  - TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  - TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  - TinyGiantStudio.Layout.LayoutGroup.Update
+  - TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  - TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  - TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  - TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  - TinyGiantStudio.Layout.LayoutGroup.bounds
+  - TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  - TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  langs:
+  - csharp
+  - vb
+  name: LayoutGroup
+  nameWithType: LayoutGroup
+  fullName: TinyGiantStudio.Layout.LayoutGroup
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LayoutGroup
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [ExecuteAlways]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/layout-group")]
+
+      public abstract class LayoutGroup : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <ExecuteAlways>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/layout-group")>
+
+      Public MustInherit Class LayoutGroup Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - TinyGiantStudio.Layout.CircularLayoutGroup
+  - TinyGiantStudio.Layout.GridLayoutGroup
+  - TinyGiantStudio.Layout.LinearLayoutGroup
+  - TinyGiantStudio.Layout.VolumeLayoutGroup
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.ExecuteAlways
+    ctor: UnityEngine.ExecuteAlways.#ctor
+    arguments: []
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/layout-group
+- uid: TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  id: autoItemSize
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: autoItemSize
+  nameWithType: LayoutGroup.autoItemSize
+  fullName: TinyGiantStudio.Layout.LayoutGroup.autoItemSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: autoItemSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("This is an experimental feature. In text, this bool is ignored, turn it on from the text itself. \nIf the child element has a Layout Element component attached, this value is derived by that layout element component.")]
+
+      public bool autoItemSize
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("This is an experimental feature. In text, this bool is ignored, turn it on from the text itself. " & vbLf & "If the child element has a Layout Element component attached, this value is derived by that layout element component.")>
+
+      Public autoItemSize As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: >-
+        This is an experimental feature. In text, this bool is ignored, turn it on from the text itself. 
+
+        If the child element has a Layout Element component attached, this value is derived by that layout element component.
+- uid: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  id: alwaysUpdateInPlayMode
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: alwaysUpdateInPlayMode
+  nameWithType: LayoutGroup.alwaysUpdateInPlayMode
+  fullName: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateInPlayMode
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: alwaysUpdateInPlayMode
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("For performance, it's better to leave it to false and call UpdateLayout() after making changes.\nTurn this on if you are in a hurry or testing stuff.")]
+
+      public bool alwaysUpdateInPlayMode
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("For performance, it's better to leave it to false and call UpdateLayout() after making changes." & vbLf & "Turn this on if you are in a hurry or testing stuff.")>
+
+      Public alwaysUpdateInPlayMode As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: >-
+        For performance, it's better to leave it to false and call UpdateLayout() after making changes.
+
+        Turn this on if you are in a hurry or testing stuff.
+- uid: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  id: alwaysUpdateBounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: alwaysUpdateBounds
+  nameWithType: LayoutGroup.alwaysUpdateBounds
+  fullName: TinyGiantStudio.Layout.LayoutGroup.alwaysUpdateBounds
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: alwaysUpdateBounds
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("For performance, it's better to leave it to false and call GetAllChildBounds() when a bound(size of an element) changes")]
+
+      public bool alwaysUpdateBounds
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("For performance, it's better to leave it to false and call GetAllChildBounds() when a bound(size of an element) changes")>
+
+      Public alwaysUpdateBounds As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: For performance, it's better to leave it to false and call GetAllChildBounds() when a bound(size of an element) changes
+- uid: TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  id: elementUpdater
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: elementUpdater
+  nameWithType: LayoutGroup.elementUpdater
+  fullName: TinyGiantStudio.Layout.LayoutGroup.elementUpdater
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: elementUpdater
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public LayoutElementModuleContainer elementUpdater
+    return:
+      type: TinyGiantStudio.Layout.LayoutElementModuleContainer
+    content.vb: Public elementUpdater As LayoutElementModuleContainer
+- uid: TinyGiantStudio.Layout.LayoutGroup.bounds
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.bounds
+  id: bounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: bounds
+  nameWithType: LayoutGroup.bounds
+  fullName: TinyGiantStudio.Layout.LayoutGroup.bounds
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: bounds
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Tooltip("Auto updated with the layout. Visible for debugging purposes.")]
+
+      public Bounds[] bounds
+    return:
+      type: UnityEngine.Bounds[]
+    content.vb: >-
+      <Tooltip("Auto updated with the layout. Visible for debugging purposes.")>
+
+      Public bounds As Bounds()
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Auto updated with the layout. Visible for debugging purposes.
+- uid: TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  commentId: F:TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  id: showSceneViewGizmo
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: showSceneViewGizmo
+  nameWithType: LayoutGroup.showSceneViewGizmo
+  fullName: TinyGiantStudio.Layout.LayoutGroup.showSceneViewGizmo
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: showSceneViewGizmo
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public bool showSceneViewGizmo
+    return:
+      type: System.Boolean
+    content.vb: Public showSceneViewGizmo As Boolean
+- uid: TinyGiantStudio.Layout.LayoutGroup.Update
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.Update
+  id: Update
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: LayoutGroup.Update()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.Update()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Update
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [ExecuteInEditMode]
+
+      protected virtual void Update()
+    content.vb: >-
+      <ExecuteInEditMode>
+
+      Protected Overridable Sub Update()
+  overload: TinyGiantStudio.Layout.LayoutGroup.Update*
+  attributes:
+  - type: UnityEngine.ExecuteInEditMode
+    ctor: UnityEngine.ExecuteInEditMode.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(System.Int32)
+  id: UpdateLayout(System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayout(int)
+  nameWithType: LayoutGroup.UpdateLayout(int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateLayout
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 55
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateLayout(int startRepositioningFrom = 0)
+    parameters:
+    - id: startRepositioningFrom
+      type: System.Int32
+    content.vb: Public MustOverride Sub UpdateLayout(startRepositioningFrom As Integer = 0)
+  overload: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout*
+  nameWithType.vb: LayoutGroup.UpdateLayout(Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout(Integer)
+  name.vb: UpdateLayout(Integer)
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  id: GetPositions(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetPositions(List<MeshLayout>)
+  nameWithType: LayoutGroup.GetPositions(List<MeshLayout>)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetPositions
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: Used to retrieve appropriate positions of meshes without needing to place them on scene for single mesh
+  example: []
+  syntax:
+    content: public abstract List<MeshLayout> GetPositions(List<MeshLayout> meshLayouts)
+    parameters:
+    - id: meshLayouts
+      type: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+    content.vb: Public MustOverride Function GetPositions(meshLayouts As List(Of MeshLayout)) As List(Of MeshLayout)
+  overload: TinyGiantStudio.Layout.LayoutGroup.GetPositions*
+  nameWithType.vb: LayoutGroup.GetPositions(List(Of MeshLayout))
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.GetPositions(System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout))
+  name.vb: GetPositions(List(Of MeshLayout))
+- uid: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  id: TotalActiveChildCount
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: TotalActiveChildCount()
+  nameWithType: LayoutGroup.TotalActiveChildCount()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TotalActiveChildCount
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 62
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public int TotalActiveChildCount()
+    return:
+      type: System.Int32
+    content.vb: Public Function TotalActiveChildCount() As Integer
+  overload: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount*
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  id: GetBound(UnityEngine.Transform)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetBound(Transform)
+  nameWithType: LayoutGroup.GetBound(Transform)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetBound(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetBound
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 75
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Bounds GetBound(Transform target)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    return:
+      type: UnityEngine.Bounds
+    content.vb: Public Function GetBound(target As Transform) As Bounds
+  overload: TinyGiantStudio.Layout.LayoutGroup.GetBound*
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  id: GetBound(TinyGiantStudio.Layout.MeshLayout)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetBound(MeshLayout)
+  nameWithType: LayoutGroup.GetBound(MeshLayout)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetBound(TinyGiantStudio.Layout.MeshLayout)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetBound
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 91
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Bounds GetBound(MeshLayout meshLayout)
+    parameters:
+    - id: meshLayout
+      type: TinyGiantStudio.Layout.MeshLayout
+    return:
+      type: UnityEngine.Bounds
+    content.vb: Public Function GetBound(meshLayout As MeshLayout) As Bounds
+  overload: TinyGiantStudio.Layout.LayoutGroup.GetBound*
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  id: GetAllChildBounds
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetAllChildBounds()
+  nameWithType: LayoutGroup.GetAllChildBounds()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetAllChildBounds
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Bounds[] GetAllChildBounds()
+    return:
+      type: UnityEngine.Bounds[]
+    content.vb: Public Function GetAllChildBounds() As Bounds()
+  overload: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds*
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  id: GetAllChildBounds(System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout})
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: GetAllChildBounds(List<MeshLayout>)
+  nameWithType: LayoutGroup.GetAllChildBounds(List<MeshLayout>)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: GetAllChildBounds
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 106
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Bounds[] GetAllChildBounds(List<MeshLayout> meshLayouts)
+    parameters:
+    - id: meshLayouts
+      type: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+    return:
+      type: UnityEngine.Bounds[]
+    content.vb: Public Function GetAllChildBounds(meshLayouts As List(Of MeshLayout)) As Bounds()
+  overload: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds*
+  nameWithType.vb: LayoutGroup.GetAllChildBounds(List(Of MeshLayout))
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds(System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout))
+  name.vb: GetAllChildBounds(List(Of MeshLayout))
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  id: IgnoreChildBound(UnityEngine.Bounds[],System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: IgnoreChildBound(Bounds[], int)
+  nameWithType: LayoutGroup.IgnoreChildBound(Bounds[], int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds[], int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IgnoreChildBound
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 116
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public bool IgnoreChildBound(Bounds[] bounds, int i)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds[]
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IgnoreChildBound(bounds As Bounds(), i As Integer) As Boolean
+  overload: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound*
+  nameWithType.vb: LayoutGroup.IgnoreChildBound(Bounds(), Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound(UnityEngine.Bounds(), Integer)
+  name.vb: IgnoreChildBound(Bounds(), Integer)
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  id: IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[],System.Int32)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: IgnoreChildBoundAndLineBreak(Bounds[], int)
+  nameWithType: LayoutGroup.IgnoreChildBoundAndLineBreak(Bounds[], int)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds[], int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IgnoreChildBoundAndLineBreak
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 133
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public bool IgnoreChildBoundAndLineBreak(Bounds[] bounds, int i)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds[]
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IgnoreChildBoundAndLineBreak(bounds As Bounds(), i As Integer) As Boolean
+  overload: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak*
+  nameWithType.vb: LayoutGroup.IgnoreChildBoundAndLineBreak(Bounds(), Integer)
+  fullName.vb: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak(UnityEngine.Bounds(), Integer)
+  name.vb: IgnoreChildBoundAndLineBreak(Bounds(), Integer)
+- uid: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  id: RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: RemoveNaNErrorIfAny(Vector3)
+  nameWithType: LayoutGroup.RemoveNaNErrorIfAny(Vector3)
+  fullName: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny(UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: RemoveNaNErrorIfAny
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public Vector3 RemoveNaNErrorIfAny(Vector3 vector3)
+    parameters:
+    - id: vector3
+      type: UnityEngine.Vector3
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Function RemoveNaNErrorIfAny(vector3 As Vector3) As Vector3
+  overload: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny*
+- uid: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  commentId: M:TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  id: OnDrawGizmosSelected
+  parent: TinyGiantStudio.Layout.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: OnDrawGizmosSelected()
+  nameWithType: LayoutGroup.OnDrawGizmosSelected()
+  fullName: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: OnDrawGizmosSelected
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/LayoutGroup.cs
+    startLine: 198
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  summary: >-
+    Draws each element bound.
+
+    This is public so that this can be optionally called.
+  example: []
+  syntax:
+    content: public void OnDrawGizmosSelected()
+    content.vb: Public Sub OnDrawGizmosSelected()
+  overload: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected*
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModuleContainer
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutElementModuleContainer.html
+  name: LayoutElementModuleContainer
+  nameWithType: LayoutElementModuleContainer
+  fullName: TinyGiantStudio.Layout.LayoutElementModuleContainer
+- uid: UnityEngine.Bounds[]
+  isExternal: true
+  name: Bounds[]
+  nameWithType: Bounds[]
+  fullName: UnityEngine.Bounds[]
+  nameWithType.vb: Bounds()
+  fullName.vb: UnityEngine.Bounds()
+  name.vb: Bounds()
+  spec.csharp:
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Bounds
+    name: Bounds
+    isExternal: true
+  - name: (
+  - name: )
+- uid: TinyGiantStudio.Layout.LayoutGroup.Update*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.Update
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_Update
+  name: Update
+  nameWithType: LayoutGroup.Update
+  fullName: TinyGiantStudio.Layout.LayoutGroup.Update
+- uid: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.UpdateLayout
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_UpdateLayout_System_Int32_
+  name: UpdateLayout
+  nameWithType: LayoutGroup.UpdateLayout
+  fullName: TinyGiantStudio.Layout.LayoutGroup.UpdateLayout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetPositions*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.GetPositions
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetPositions_System_Collections_Generic_List_TinyGiantStudio_Layout_MeshLayout__
+  name: GetPositions
+  nameWithType: LayoutGroup.GetPositions
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetPositions
+- uid: System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+  commentId: T:System.Collections.Generic.List{TinyGiantStudio.Layout.MeshLayout}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: TinyGiantStudio.Layout.MeshLayout.html
+  name: List<MeshLayout>
+  nameWithType: List<MeshLayout>
+  fullName: System.Collections.Generic.List<TinyGiantStudio.Layout.MeshLayout>
+  nameWithType.vb: List(Of MeshLayout)
+  fullName.vb: System.Collections.Generic.List(Of TinyGiantStudio.Layout.MeshLayout)
+  name.vb: List(Of MeshLayout)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Layout.MeshLayout
+    name: MeshLayout
+    href: TinyGiantStudio.Layout.MeshLayout.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_TotalActiveChildCount
+  name: TotalActiveChildCount
+  nameWithType: LayoutGroup.TotalActiveChildCount
+  fullName: TinyGiantStudio.Layout.LayoutGroup.TotalActiveChildCount
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetBound*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.GetBound
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetBound_UnityEngine_Transform_
+  name: GetBound
+  nameWithType: LayoutGroup.GetBound
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetBound
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Bounds
+  commentId: T:UnityEngine.Bounds
+  parent: UnityEngine
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: UnityEngine.Bounds
+- uid: TinyGiantStudio.Layout.MeshLayout
+  commentId: T:TinyGiantStudio.Layout.MeshLayout
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.MeshLayout.html
+  name: MeshLayout
+  nameWithType: MeshLayout
+  fullName: TinyGiantStudio.Layout.MeshLayout
+- uid: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_GetAllChildBounds
+  name: GetAllChildBounds
+  nameWithType: LayoutGroup.GetAllChildBounds
+  fullName: TinyGiantStudio.Layout.LayoutGroup.GetAllChildBounds
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBound_UnityEngine_Bounds___System_Int32_
+  name: IgnoreChildBound
+  nameWithType: LayoutGroup.IgnoreChildBound
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBound
+- uid: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_IgnoreChildBoundAndLineBreak_UnityEngine_Bounds___System_Int32_
+  name: IgnoreChildBoundAndLineBreak
+  nameWithType: LayoutGroup.IgnoreChildBoundAndLineBreak
+  fullName: TinyGiantStudio.Layout.LayoutGroup.IgnoreChildBoundAndLineBreak
+- uid: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_RemoveNaNErrorIfAny_UnityEngine_Vector3_
+  name: RemoveNaNErrorIfAny
+  nameWithType: LayoutGroup.RemoveNaNErrorIfAny
+  fullName: TinyGiantStudio.Layout.LayoutGroup.RemoveNaNErrorIfAny
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected
+  href: TinyGiantStudio.Layout.LayoutGroup.html#TinyGiantStudio_Layout_LayoutGroup_OnDrawGizmosSelected
+  name: OnDrawGizmosSelected
+  nameWithType: LayoutGroup.OnDrawGizmosSelected
+  fullName: TinyGiantStudio.Layout.LayoutGroup.OnDrawGizmosSelected

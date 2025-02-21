@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.ScoreType
+  commentId: T:RocketshiftStudio.Trophy.ScoreType
+  id: ScoreType
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.ScoreType.Best
+  - RocketshiftStudio.Trophy.ScoreType.Current
+  - RocketshiftStudio.Trophy.ScoreType.Latest
+  langs:
+  - csharp
+  - vb
+  name: ScoreType
+  nameWithType: ScoreType
+  fullName: RocketshiftStudio.Trophy.ScoreType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreType
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Types of score
+  example: []
+  syntax:
+    content: public enum ScoreType
+    content.vb: Public Enum ScoreType
+- uid: RocketshiftStudio.Trophy.ScoreType.Current
+  commentId: F:RocketshiftStudio.Trophy.ScoreType.Current
+  id: Current
+  parent: RocketshiftStudio.Trophy.ScoreType
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: ScoreType.Current
+  fullName: RocketshiftStudio.Trophy.ScoreType.Current
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Current
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: The concurrent value of score when count mode is on
+  example: []
+  syntax:
+    content: Current = 0
+    return:
+      type: RocketshiftStudio.Trophy.ScoreType
+- uid: RocketshiftStudio.Trophy.ScoreType.Best
+  commentId: F:RocketshiftStudio.Trophy.ScoreType.Best
+  id: Best
+  parent: RocketshiftStudio.Trophy.ScoreType
+  langs:
+  - csharp
+  - vb
+  name: Best
+  nameWithType: ScoreType.Best
+  fullName: RocketshiftStudio.Trophy.ScoreType.Best
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Best
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Highest saved value of score after score count ended
+  example: []
+  syntax:
+    content: Best = 1
+    return:
+      type: RocketshiftStudio.Trophy.ScoreType
+- uid: RocketshiftStudio.Trophy.ScoreType.Latest
+  commentId: F:RocketshiftStudio.Trophy.ScoreType.Latest
+  id: Latest
+  parent: RocketshiftStudio.Trophy.ScoreType
+  langs:
+  - csharp
+  - vb
+  name: Latest
+  nameWithType: ScoreType.Latest
+  fullName: RocketshiftStudio.Trophy.ScoreType.Latest
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Latest
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Latest saved value of score after score count ended
+  example: []
+  syntax:
+    content: Latest = 2
+    return:
+      type: RocketshiftStudio.Trophy.ScoreType
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.ScoreType
+  commentId: T:RocketshiftStudio.Trophy.ScoreType
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreType.html
+  name: ScoreType
+  nameWithType: ScoreType
+  fullName: RocketshiftStudio.Trophy.ScoreType

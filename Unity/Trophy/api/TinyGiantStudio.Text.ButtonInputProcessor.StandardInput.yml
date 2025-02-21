@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  commentId: T:TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  id: ButtonInputProcessor.StandardInput
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.key
+  - TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.lastPressed
+  - TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.unityEvent
+  langs:
+  - csharp
+  - vb
+  name: ButtonInputProcessor.StandardInput
+  nameWithType: ButtonInputProcessor.StandardInput
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: StandardInput
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ButtonInputProcessor.StandardInput
+    content.vb: >-
+      <Serializable>
+
+      Public Class ButtonInputProcessor.StandardInput
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.key
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.key
+  id: key
+  parent: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: ButtonInputProcessor.StandardInput.key
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.key
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: key
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public KeyCode key
+    return:
+      type: UnityEngine.KeyCode
+    content.vb: Public key As KeyCode
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.unityEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.unityEvent
+  id: unityEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  langs:
+  - csharp
+  - vb
+  name: unityEvent
+  nameWithType: ButtonInputProcessor.StandardInput.unityEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.unityEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: unityEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 53
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent unityEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public unityEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.lastPressed
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.lastPressed
+  id: lastPressed
+  parent: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  langs:
+  - csharp
+  - vb
+  name: lastPressed
+  nameWithType: ButtonInputProcessor.StandardInput.lastPressed
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.lastPressed
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: lastPressed
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public float lastPressed
+    return:
+      type: System.Single
+    content.vb: >-
+      <HideInInspector>
+
+      Public lastPressed As Single
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.KeyCode
+  commentId: T:UnityEngine.KeyCode
+  parent: UnityEngine
+  isExternal: true
+  name: KeyCode
+  nameWithType: KeyCode
+  fullName: UnityEngine.KeyCode
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  id: TinyGiantStudio.Modules
+  children:
+  - TinyGiantStudio.Modules.AddPhysics
+  - TinyGiantStudio.Modules.Module
+  - TinyGiantStudio.Modules.ModuleApplier
+  - TinyGiantStudio.Modules.ModuleApplierEditor
+  - TinyGiantStudio.Modules.ModuleContainer
+  - TinyGiantStudio.Modules.ModuleCore
+  - TinyGiantStudio.Modules.ModuleDrawer
+  - TinyGiantStudio.Modules.ModuleEditor
+  - TinyGiantStudio.Modules.ModuleVariableType
+  - TinyGiantStudio.Modules.PlayParticles
+  - TinyGiantStudio.Modules.RemovePhysics
+  - TinyGiantStudio.Modules.ScaleChange
+  - TinyGiantStudio.Modules.VariableHolder
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+references:
+- uid: TinyGiantStudio.Modules.ModuleApplierEditor
+  commentId: T:TinyGiantStudio.Modules.ModuleApplierEditor
+  href: TinyGiantStudio.Modules.ModuleApplierEditor.html
+  name: ModuleApplierEditor
+  nameWithType: ModuleApplierEditor
+  fullName: TinyGiantStudio.Modules.ModuleApplierEditor
+- uid: TinyGiantStudio.Modules.ModuleDrawer
+  commentId: T:TinyGiantStudio.Modules.ModuleDrawer
+  href: TinyGiantStudio.Modules.ModuleDrawer.html
+  name: ModuleDrawer
+  nameWithType: ModuleDrawer
+  fullName: TinyGiantStudio.Modules.ModuleDrawer
+- uid: TinyGiantStudio.Modules.ModuleEditor
+  commentId: T:TinyGiantStudio.Modules.ModuleEditor
+  href: TinyGiantStudio.Modules.ModuleEditor.html
+  name: ModuleEditor
+  nameWithType: ModuleEditor
+  fullName: TinyGiantStudio.Modules.ModuleEditor
+- uid: TinyGiantStudio.Modules.PlayParticles
+  commentId: T:TinyGiantStudio.Modules.PlayParticles
+  href: TinyGiantStudio.Modules.PlayParticles.html
+  name: PlayParticles
+  nameWithType: PlayParticles
+  fullName: TinyGiantStudio.Modules.PlayParticles
+- uid: TinyGiantStudio.Modules.ModuleCore
+  commentId: T:TinyGiantStudio.Modules.ModuleCore
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.ModuleCore.html
+  name: ModuleCore
+  nameWithType: ModuleCore
+  fullName: TinyGiantStudio.Modules.ModuleCore
+- uid: TinyGiantStudio.Modules.Module
+  commentId: T:TinyGiantStudio.Modules.Module
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.Module.html
+  name: Module
+  nameWithType: Module
+  fullName: TinyGiantStudio.Modules.Module
+- uid: TinyGiantStudio.Modules.AddPhysics
+  commentId: T:TinyGiantStudio.Modules.AddPhysics
+  href: TinyGiantStudio.Modules.AddPhysics.html
+  name: AddPhysics
+  nameWithType: AddPhysics
+  fullName: TinyGiantStudio.Modules.AddPhysics
+- uid: TinyGiantStudio.Modules.RemovePhysics
+  commentId: T:TinyGiantStudio.Modules.RemovePhysics
+  href: TinyGiantStudio.Modules.RemovePhysics.html
+  name: RemovePhysics
+  nameWithType: RemovePhysics
+  fullName: TinyGiantStudio.Modules.RemovePhysics
+- uid: TinyGiantStudio.Modules.ModuleContainer
+  commentId: T:TinyGiantStudio.Modules.ModuleContainer
+  href: TinyGiantStudio.Modules.ModuleContainer.html
+  name: ModuleContainer
+  nameWithType: ModuleContainer
+  fullName: TinyGiantStudio.Modules.ModuleContainer
+- uid: TinyGiantStudio.Modules.VariableHolder
+  commentId: T:TinyGiantStudio.Modules.VariableHolder
+  href: TinyGiantStudio.Modules.VariableHolder.html
+  name: VariableHolder
+  nameWithType: VariableHolder
+  fullName: TinyGiantStudio.Modules.VariableHolder
+- uid: TinyGiantStudio.Modules.ModuleVariableType
+  commentId: T:TinyGiantStudio.Modules.ModuleVariableType
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.ModuleVariableType.html
+  name: ModuleVariableType
+  nameWithType: ModuleVariableType
+  fullName: TinyGiantStudio.Modules.ModuleVariableType
+- uid: TinyGiantStudio.Modules.ModuleApplier
+  commentId: T:TinyGiantStudio.Modules.ModuleApplier
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.ModuleApplier.html
+  name: ModuleApplier
+  nameWithType: ModuleApplier
+  fullName: TinyGiantStudio.Modules.ModuleApplier
+- uid: TinyGiantStudio.Modules.ScaleChange
+  commentId: T:TinyGiantStudio.Modules.ScaleChange
+  href: TinyGiantStudio.Modules.ScaleChange.html
+  name: ScaleChange
+  nameWithType: ScaleChange
+  fullName: TinyGiantStudio.Modules.ScaleChange
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html

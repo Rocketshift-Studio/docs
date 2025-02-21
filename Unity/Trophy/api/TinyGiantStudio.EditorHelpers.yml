@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.EditorHelpers
+  commentId: N:TinyGiantStudio.EditorHelpers
+  id: TinyGiantStudio.EditorHelpers
+  children:
+  - TinyGiantStudio.EditorHelpers.FieldSize
+  - TinyGiantStudio.EditorHelpers.MText_Editor_Methods
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.EditorHelpers
+  nameWithType: TinyGiantStudio.EditorHelpers
+  fullName: TinyGiantStudio.EditorHelpers
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+references:
+- uid: TinyGiantStudio.EditorHelpers.FieldSize
+  commentId: T:TinyGiantStudio.EditorHelpers.FieldSize
+  parent: TinyGiantStudio.EditorHelpers
+  href: TinyGiantStudio.EditorHelpers.FieldSize.html
+  name: FieldSize
+  nameWithType: FieldSize
+  fullName: TinyGiantStudio.EditorHelpers.FieldSize
+- uid: TinyGiantStudio.EditorHelpers.MText_Editor_Methods
+  commentId: T:TinyGiantStudio.EditorHelpers.MText_Editor_Methods
+  href: TinyGiantStudio.EditorHelpers.MText_Editor_Methods.html
+  name: MText_Editor_Methods
+  nameWithType: MText_Editor_Methods
+  fullName: TinyGiantStudio.EditorHelpers.MText_Editor_Methods
+- uid: TinyGiantStudio.EditorHelpers
+  commentId: N:TinyGiantStudio.EditorHelpers
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.EditorHelpers
+  nameWithType: TinyGiantStudio.EditorHelpers
+  fullName: TinyGiantStudio.EditorHelpers
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.EditorHelpers
+    name: EditorHelpers
+    href: TinyGiantStudio.EditorHelpers.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.EditorHelpers
+    name: EditorHelpers
+    href: TinyGiantStudio.EditorHelpers.html

@@ -1,0 +1,2017 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.InputField
+  commentId: T:TinyGiantStudio.Text.InputField
+  id: InputField
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent
+  - TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent
+  - TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent
+  - TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard
+  - TinyGiantStudio.Text.InputField.DisableVisual
+  - TinyGiantStudio.Text.InputField.EmptyText
+  - TinyGiantStudio.Text.InputField.Focus(System.Boolean)
+  - TinyGiantStudio.Text.InputField.Focus(System.Boolean,System.Boolean)
+  - TinyGiantStudio.Text.InputField.FocusToggle
+  - TinyGiantStudio.Text.InputField.Focused(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.HoverEnter
+  - TinyGiantStudio.Text.InputField.HoverEnter(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.HoverExit
+  - TinyGiantStudio.Text.InputField.HoverExit(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.InputComplete
+  - TinyGiantStudio.Text.InputField.Interactable
+  - TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard
+  - TinyGiantStudio.Text.InputField.PressComplete
+  - TinyGiantStudio.Text.InputField.PressComplete(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.PressStart
+  - TinyGiantStudio.Text.InputField.PressStart(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.Select
+  - TinyGiantStudio.Text.InputField.Text
+  - TinyGiantStudio.Text.InputField.Unfocused(System.Object,System.EventArgs)
+  - TinyGiantStudio.Text.InputField.Uninteractable
+  - TinyGiantStudio.Text.InputField.UpdateText
+  - TinyGiantStudio.Text.InputField.UpdateText(System.Boolean,System.Boolean)
+  - TinyGiantStudio.Text.InputField.UpdateText(System.Int32)
+  - TinyGiantStudio.Text.InputField.UpdateText(System.Single)
+  - TinyGiantStudio.Text.InputField.UpdateText(System.String)
+  - TinyGiantStudio.Text.InputField.autoFocusOnGameStart
+  - TinyGiantStudio.Text.InputField.background
+  - TinyGiantStudio.Text.InputField.caret
+  - TinyGiantStudio.Text.InputField.contentType
+  - TinyGiantStudio.Text.InputField.disabledBackgroundMat
+  - TinyGiantStudio.Text.InputField.disabledTextMat
+  - TinyGiantStudio.Text.InputField.enterKeyEndsInput
+  - TinyGiantStudio.Text.InputField.hideCaretIfMaxCharacter
+  - TinyGiantStudio.Text.InputField.hoveredBackgroundMaterial
+  - TinyGiantStudio.Text.InputField.inFocusBackgroundMat
+  - TinyGiantStudio.Text.InputField.inFocusTextMat
+  - TinyGiantStudio.Text.InputField.interactable
+  - TinyGiantStudio.Text.InputField.maxCharacter
+  - TinyGiantStudio.Text.InputField.normalBackgroundMaterial
+  - TinyGiantStudio.Text.InputField.onBackspace
+  - TinyGiantStudio.Text.InputField.onInput
+  - TinyGiantStudio.Text.InputField.onInputEnd
+  - TinyGiantStudio.Text.InputField.outOfFocusTextMat
+  - TinyGiantStudio.Text.InputField.placeHolderText
+  - TinyGiantStudio.Text.InputField.placeHolderTextMat
+  - TinyGiantStudio.Text.InputField.state
+  - TinyGiantStudio.Text.InputField.textComponent
+  langs:
+  - csharp
+  - vb
+  name: InputField
+  nameWithType: InputField
+  fullName: TinyGiantStudio.Text.InputField
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: InputField
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input field", 20003)]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/input-field")]
+
+      public class InputField : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input field", 20003)>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/input-field")>
+
+      Public Class InputField Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/Input field
+    - type: System.Int32
+      value: 20003
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/ui/input-field
+- uid: TinyGiantStudio.Text.InputField.state
+  commentId: F:TinyGiantStudio.Text.InputField.state
+  id: state
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: state
+  nameWithType: InputField.state
+  fullName: TinyGiantStudio.Text.InputField.state
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: state
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UIState state
+    return:
+      type: TinyGiantStudio.Text.UIState
+    content.vb: Public state As UIState
+- uid: TinyGiantStudio.Text.InputField.autoFocusOnGameStart
+  commentId: F:TinyGiantStudio.Text.InputField.autoFocusOnGameStart
+  id: autoFocusOnGameStart
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: autoFocusOnGameStart
+  nameWithType: InputField.autoFocusOnGameStart
+  fullName: TinyGiantStudio.Text.InputField.autoFocusOnGameStart
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: autoFocusOnGameStart
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Tooltip("If set to true, the inputfield is focused on awake.\r\nIf it is in a list, the list controls who to focus on.")]
+
+      public bool autoFocusOnGameStart
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("If set to true, the inputfield is focused on awake." & vbCrLf & "If it is in a list, the list controls who to focus on.")>
+
+      Public autoFocusOnGameStart As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: >-
+        If set to true, the inputfield is focused on awake.
+
+        If it is in a list, the list controls who to focus on.
+- uid: TinyGiantStudio.Text.InputField.interactable
+  commentId: F:TinyGiantStudio.Text.InputField.interactable
+  id: interactable
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: interactable
+  nameWithType: InputField.interactable
+  fullName: TinyGiantStudio.Text.InputField.interactable
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: interactable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool interactable
+    return:
+      type: System.Boolean
+    content.vb: Public interactable As Boolean
+- uid: TinyGiantStudio.Text.InputField.Text
+  commentId: P:TinyGiantStudio.Text.InputField.Text
+  id: Text
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: InputField.Text
+  fullName: TinyGiantStudio.Text.InputField.Text
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Text
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Directly assigning the Text property makes a sound If it has both Audioclip and Audio Source.
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: TinyGiantStudio.Text.InputField.Text*
+- uid: TinyGiantStudio.Text.InputField.placeHolderText
+  commentId: F:TinyGiantStudio.Text.InputField.placeHolderText
+  id: placeHolderText
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: placeHolderText
+  nameWithType: InputField.placeHolderText
+  fullName: TinyGiantStudio.Text.InputField.placeHolderText
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: placeHolderText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public string placeHolderText
+    return:
+      type: System.String
+    content.vb: Public placeHolderText As String
+- uid: TinyGiantStudio.Text.InputField.maxCharacter
+  commentId: F:TinyGiantStudio.Text.InputField.maxCharacter
+  id: maxCharacter
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: maxCharacter
+  nameWithType: InputField.maxCharacter
+  fullName: TinyGiantStudio.Text.InputField.maxCharacter
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: maxCharacter
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public int maxCharacter
+    return:
+      type: System.Int32
+    content.vb: Public maxCharacter As Integer
+- uid: TinyGiantStudio.Text.InputField.caret
+  commentId: F:TinyGiantStudio.Text.InputField.caret
+  id: caret
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: caret
+  nameWithType: InputField.caret
+  fullName: TinyGiantStudio.Text.InputField.caret
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: caret
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 36
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public string caret
+    return:
+      type: System.String
+    content.vb: Public caret As String
+- uid: TinyGiantStudio.Text.InputField.hideCaretIfMaxCharacter
+  commentId: F:TinyGiantStudio.Text.InputField.hideCaretIfMaxCharacter
+  id: hideCaretIfMaxCharacter
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: hideCaretIfMaxCharacter
+  nameWithType: InputField.hideCaretIfMaxCharacter
+  fullName: TinyGiantStudio.Text.InputField.hideCaretIfMaxCharacter
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: hideCaretIfMaxCharacter
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool hideCaretIfMaxCharacter
+    return:
+      type: System.Boolean
+    content.vb: Public hideCaretIfMaxCharacter As Boolean
+- uid: TinyGiantStudio.Text.InputField.contentType
+  commentId: F:TinyGiantStudio.Text.InputField.contentType
+  id: contentType
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: contentType
+  nameWithType: InputField.contentType
+  fullName: TinyGiantStudio.Text.InputField.contentType
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: contentType
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 41
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public InputField.ContentType contentType
+    return:
+      type: TinyGiantStudio.Text.InputField.ContentType
+    content.vb: Public contentType As InputField.ContentType
+- uid: TinyGiantStudio.Text.InputField.textComponent
+  commentId: F:TinyGiantStudio.Text.InputField.textComponent
+  id: textComponent
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: textComponent
+  nameWithType: InputField.textComponent
+  fullName: TinyGiantStudio.Text.InputField.textComponent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: textComponent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Modular3DText textComponent
+    return:
+      type: TinyGiantStudio.Text.Modular3DText
+    content.vb: Public textComponent As Modular3DText
+- uid: TinyGiantStudio.Text.InputField.background
+  commentId: F:TinyGiantStudio.Text.InputField.background
+  id: background
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: InputField.background
+  fullName: TinyGiantStudio.Text.InputField.background
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: background
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Renderer background
+    return:
+      type: UnityEngine.Renderer
+    content.vb: Public background As Renderer
+- uid: TinyGiantStudio.Text.InputField.enterKeyEndsInput
+  commentId: F:TinyGiantStudio.Text.InputField.enterKeyEndsInput
+  id: enterKeyEndsInput
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: enterKeyEndsInput
+  nameWithType: InputField.enterKeyEndsInput
+  fullName: TinyGiantStudio.Text.InputField.enterKeyEndsInput
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: enterKeyEndsInput
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool enterKeyEndsInput
+    return:
+      type: System.Boolean
+    content.vb: Public enterKeyEndsInput As Boolean
+- uid: TinyGiantStudio.Text.InputField.placeHolderTextMat
+  commentId: F:TinyGiantStudio.Text.InputField.placeHolderTextMat
+  id: placeHolderTextMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: placeHolderTextMat
+  nameWithType: InputField.placeHolderTextMat
+  fullName: TinyGiantStudio.Text.InputField.placeHolderTextMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: placeHolderTextMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 48
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material placeHolderTextMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public placeHolderTextMat As Material
+- uid: TinyGiantStudio.Text.InputField.inFocusTextMat
+  commentId: F:TinyGiantStudio.Text.InputField.inFocusTextMat
+  id: inFocusTextMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: inFocusTextMat
+  nameWithType: InputField.inFocusTextMat
+  fullName: TinyGiantStudio.Text.InputField.inFocusTextMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: inFocusTextMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material inFocusTextMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public inFocusTextMat As Material
+- uid: TinyGiantStudio.Text.InputField.inFocusBackgroundMat
+  commentId: F:TinyGiantStudio.Text.InputField.inFocusBackgroundMat
+  id: inFocusBackgroundMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: inFocusBackgroundMat
+  nameWithType: InputField.inFocusBackgroundMat
+  fullName: TinyGiantStudio.Text.InputField.inFocusBackgroundMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: inFocusBackgroundMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material inFocusBackgroundMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public inFocusBackgroundMat As Material
+- uid: TinyGiantStudio.Text.InputField.outOfFocusTextMat
+  commentId: F:TinyGiantStudio.Text.InputField.outOfFocusTextMat
+  id: outOfFocusTextMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: outOfFocusTextMat
+  nameWithType: InputField.outOfFocusTextMat
+  fullName: TinyGiantStudio.Text.InputField.outOfFocusTextMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: outOfFocusTextMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 53
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material outOfFocusTextMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public outOfFocusTextMat As Material
+- uid: TinyGiantStudio.Text.InputField.normalBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.InputField.normalBackgroundMaterial
+  id: normalBackgroundMaterial
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: normalBackgroundMaterial
+  nameWithType: InputField.normalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.InputField.normalBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: normalBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 54
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material normalBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public normalBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.InputField.hoveredBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.InputField.hoveredBackgroundMaterial
+  id: hoveredBackgroundMaterial
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: hoveredBackgroundMaterial
+  nameWithType: InputField.hoveredBackgroundMaterial
+  fullName: TinyGiantStudio.Text.InputField.hoveredBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: hoveredBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material hoveredBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public hoveredBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.InputField.disabledTextMat
+  commentId: F:TinyGiantStudio.Text.InputField.disabledTextMat
+  id: disabledTextMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: disabledTextMat
+  nameWithType: InputField.disabledTextMat
+  fullName: TinyGiantStudio.Text.InputField.disabledTextMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: disabledTextMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 58
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material disabledTextMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public disabledTextMat As Material
+- uid: TinyGiantStudio.Text.InputField.disabledBackgroundMat
+  commentId: F:TinyGiantStudio.Text.InputField.disabledBackgroundMat
+  id: disabledBackgroundMat
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: disabledBackgroundMat
+  nameWithType: InputField.disabledBackgroundMat
+  fullName: TinyGiantStudio.Text.InputField.disabledBackgroundMat
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: disabledBackgroundMat
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 59
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material disabledBackgroundMat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public disabledBackgroundMat As Material
+- uid: TinyGiantStudio.Text.InputField.onInput
+  commentId: F:TinyGiantStudio.Text.InputField.onInput
+  id: onInput
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: onInput
+  nameWithType: InputField.onInput
+  fullName: TinyGiantStudio.Text.InputField.onInput
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: onInput
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 68
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent onInput
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public onInput As UnityEvent
+- uid: TinyGiantStudio.Text.InputField.onBackspace
+  commentId: F:TinyGiantStudio.Text.InputField.onBackspace
+  id: onBackspace
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: onBackspace
+  nameWithType: InputField.onBackspace
+  fullName: TinyGiantStudio.Text.InputField.onBackspace
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: onBackspace
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 69
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent onBackspace
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public onBackspace As UnityEvent
+- uid: TinyGiantStudio.Text.InputField.onInputEnd
+  commentId: F:TinyGiantStudio.Text.InputField.onInputEnd
+  id: onInputEnd
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: onInputEnd
+  nameWithType: InputField.onInputEnd
+  fullName: TinyGiantStudio.Text.InputField.onInputEnd
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: onInputEnd
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 70
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent onInputEnd
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public onInputEnd As UnityEvent
+- uid: TinyGiantStudio.Text.InputField.InputComplete
+  commentId: M:TinyGiantStudio.Text.InputField.InputComplete
+  id: InputComplete
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: InputComplete()
+  nameWithType: InputField.InputComplete()
+  fullName: TinyGiantStudio.Text.InputField.InputComplete()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: InputComplete
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 146
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void InputComplete()
+    content.vb: Public Sub InputComplete()
+  overload: TinyGiantStudio.Text.InputField.InputComplete*
+- uid: TinyGiantStudio.Text.InputField.UpdateText
+  commentId: M:TinyGiantStudio.Text.InputField.UpdateText
+  id: UpdateText
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: UpdateText()
+  nameWithType: InputField.UpdateText()
+  fullName: TinyGiantStudio.Text.InputField.UpdateText()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 153
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpdateText()
+    content.vb: Public Sub UpdateText()
+  overload: TinyGiantStudio.Text.InputField.UpdateText*
+- uid: TinyGiantStudio.Text.InputField.UpdateText(System.String)
+  commentId: M:TinyGiantStudio.Text.InputField.UpdateText(System.String)
+  id: UpdateText(System.String)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(string)
+  nameWithType: InputField.UpdateText(string)
+  fullName: TinyGiantStudio.Text.InputField.UpdateText(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 157
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpdateText(string newText)
+    parameters:
+    - id: newText
+      type: System.String
+    content.vb: Public Sub UpdateText(newText As String)
+  overload: TinyGiantStudio.Text.InputField.UpdateText*
+  nameWithType.vb: InputField.UpdateText(String)
+  fullName.vb: TinyGiantStudio.Text.InputField.UpdateText(String)
+  name.vb: UpdateText(String)
+- uid: TinyGiantStudio.Text.InputField.UpdateText(System.Int32)
+  commentId: M:TinyGiantStudio.Text.InputField.UpdateText(System.Int32)
+  id: UpdateText(System.Int32)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(int)
+  nameWithType: InputField.UpdateText(int)
+  fullName: TinyGiantStudio.Text.InputField.UpdateText(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 162
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpdateText(int newTextInt)
+    parameters:
+    - id: newTextInt
+      type: System.Int32
+    content.vb: Public Sub UpdateText(newTextInt As Integer)
+  overload: TinyGiantStudio.Text.InputField.UpdateText*
+  nameWithType.vb: InputField.UpdateText(Integer)
+  fullName.vb: TinyGiantStudio.Text.InputField.UpdateText(Integer)
+  name.vb: UpdateText(Integer)
+- uid: TinyGiantStudio.Text.InputField.UpdateText(System.Single)
+  commentId: M:TinyGiantStudio.Text.InputField.UpdateText(System.Single)
+  id: UpdateText(System.Single)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(float)
+  nameWithType: InputField.UpdateText(float)
+  fullName: TinyGiantStudio.Text.InputField.UpdateText(float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 167
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpdateText(float newTextFloat)
+    parameters:
+    - id: newTextFloat
+      type: System.Single
+    content.vb: Public Sub UpdateText(newTextFloat As Single)
+  overload: TinyGiantStudio.Text.InputField.UpdateText*
+  nameWithType.vb: InputField.UpdateText(Single)
+  fullName.vb: TinyGiantStudio.Text.InputField.UpdateText(Single)
+  name.vb: UpdateText(Single)
+- uid: TinyGiantStudio.Text.InputField.UpdateText(System.Boolean,System.Boolean)
+  commentId: M:TinyGiantStudio.Text.InputField.UpdateText(System.Boolean,System.Boolean)
+  id: UpdateText(System.Boolean,System.Boolean)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(bool, bool)
+  nameWithType: InputField.UpdateText(bool, bool)
+  fullName: TinyGiantStudio.Text.InputField.UpdateText(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 177
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: ''
+  example: []
+  syntax:
+    content: public void UpdateText(bool sound, bool ignoreCaret = false)
+    parameters:
+    - id: sound
+      type: System.Boolean
+      description: Sound on/off
+    - id: ignoreCaret
+      type: System.Boolean
+    content.vb: Public Sub UpdateText(sound As Boolean, ignoreCaret As Boolean = False)
+  overload: TinyGiantStudio.Text.InputField.UpdateText*
+  nameWithType.vb: InputField.UpdateText(Boolean, Boolean)
+  fullName.vb: TinyGiantStudio.Text.InputField.UpdateText(Boolean, Boolean)
+  name.vb: UpdateText(Boolean, Boolean)
+- uid: TinyGiantStudio.Text.InputField.EmptyText
+  commentId: M:TinyGiantStudio.Text.InputField.EmptyText
+  id: EmptyText
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: EmptyText()
+  nameWithType: InputField.EmptyText()
+  fullName: TinyGiantStudio.Text.InputField.EmptyText()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: EmptyText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 259
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Sets the text to empty
+  example: []
+  syntax:
+    content: public void EmptyText()
+    content.vb: Public Sub EmptyText()
+  overload: TinyGiantStudio.Text.InputField.EmptyText*
+- uid: TinyGiantStudio.Text.InputField.Select
+  commentId: M:TinyGiantStudio.Text.InputField.Select
+  id: Select
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Select()
+  nameWithType: InputField.Select()
+  fullName: TinyGiantStudio.Text.InputField.Select()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Select
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 265
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Select()
+    content.vb: Public Sub [Select]()
+  overload: TinyGiantStudio.Text.InputField.Select*
+- uid: TinyGiantStudio.Text.InputField.Focused(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.Focused(System.Object,System.EventArgs)
+  id: Focused(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Focused(object, EventArgs)
+  nameWithType: InputField.Focused(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.Focused(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focused
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 276
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Focused(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Sub Focused(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.Focused*
+  nameWithType.vb: InputField.Focused(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.Focused(Object, System.EventArgs)
+  name.vb: Focused(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.Unfocused(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.Unfocused(System.Object,System.EventArgs)
+  id: Unfocused(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Unfocused(object, EventArgs)
+  nameWithType: InputField.Unfocused(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.Unfocused(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Unfocused
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 277
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Unfocused(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Sub Unfocused(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.Unfocused*
+  nameWithType.vb: InputField.Unfocused(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.Unfocused(Object, System.EventArgs)
+  name.vb: Unfocused(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.FocusToggle
+  commentId: M:TinyGiantStudio.Text.InputField.FocusToggle
+  id: FocusToggle
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: FocusToggle()
+  nameWithType: InputField.FocusToggle()
+  fullName: TinyGiantStudio.Text.InputField.FocusToggle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FocusToggle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 285
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    If this component is enabled, switch to focus disable, 
+
+    Or, enable focus
+  example: []
+  syntax:
+    content: public void FocusToggle()
+    content.vb: Public Sub FocusToggle()
+  overload: TinyGiantStudio.Text.InputField.FocusToggle*
+- uid: TinyGiantStudio.Text.InputField.Focus(System.Boolean)
+  commentId: M:TinyGiantStudio.Text.InputField.Focus(System.Boolean)
+  id: Focus(System.Boolean)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Focus(bool)
+  nameWithType: InputField.Focus(bool)
+  fullName: TinyGiantStudio.Text.InputField.Focus(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focus
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 297
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    There is a one-frame delay in this working.
+
+    This is to avoid pressing the "enter" key in one list to apply to another UI just getting enabled
+  example: []
+  syntax:
+    content: public void Focus(bool enable)
+    parameters:
+    - id: enable
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub Focus(enable As Boolean)
+  overload: TinyGiantStudio.Text.InputField.Focus*
+  nameWithType.vb: InputField.Focus(Boolean)
+  fullName.vb: TinyGiantStudio.Text.InputField.Focus(Boolean)
+  name.vb: Focus(Boolean)
+- uid: TinyGiantStudio.Text.InputField.Focus(System.Boolean,System.Boolean)
+  commentId: M:TinyGiantStudio.Text.InputField.Focus(System.Boolean,System.Boolean)
+  id: Focus(System.Boolean,System.Boolean)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Focus(bool, bool)
+  nameWithType: InputField.Focus(bool, bool)
+  fullName: TinyGiantStudio.Text.InputField.Focus(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focus
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 313
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Focus(bool enable, bool delay)
+    parameters:
+    - id: enable
+      type: System.Boolean
+    - id: delay
+      type: System.Boolean
+    content.vb: Public Sub Focus(enable As Boolean, delay As Boolean)
+  overload: TinyGiantStudio.Text.InputField.Focus*
+  nameWithType.vb: InputField.Focus(Boolean, Boolean)
+  fullName.vb: TinyGiantStudio.Text.InputField.Focus(Boolean, Boolean)
+  name.vb: Focus(Boolean, Boolean)
+- uid: TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard
+  commentId: M:TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard
+  id: OpenTouchScreenKeyboard
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: OpenTouchScreenKeyboard()
+  nameWithType: InputField.OpenTouchScreenKeyboard()
+  fullName: TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: OpenTouchScreenKeyboard
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 350
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void OpenTouchScreenKeyboard()
+    content.vb: Public Sub OpenTouchScreenKeyboard()
+  overload: TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard*
+- uid: TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard
+  commentId: M:TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard
+  id: CloseTouchScreenKeyboard
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: CloseTouchScreenKeyboard()
+  nameWithType: InputField.CloseTouchScreenKeyboard()
+  fullName: TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CloseTouchScreenKeyboard
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 364
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void CloseTouchScreenKeyboard()
+    content.vb: Public Sub CloseTouchScreenKeyboard()
+  overload: TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard*
+- uid: TinyGiantStudio.Text.InputField.Interactable
+  commentId: M:TinyGiantStudio.Text.InputField.Interactable
+  id: Interactable
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Interactable()
+  nameWithType: InputField.Interactable()
+  fullName: TinyGiantStudio.Text.InputField.Interactable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Interactable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 371
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Interactable()
+    content.vb: Public Sub Interactable()
+  overload: TinyGiantStudio.Text.InputField.Interactable*
+- uid: TinyGiantStudio.Text.InputField.Uninteractable
+  commentId: M:TinyGiantStudio.Text.InputField.Uninteractable
+  id: Uninteractable
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: Uninteractable()
+  nameWithType: InputField.Uninteractable()
+  fullName: TinyGiantStudio.Text.InputField.Uninteractable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Uninteractable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 375
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Uninteractable()
+    content.vb: Public Sub Uninteractable()
+  overload: TinyGiantStudio.Text.InputField.Uninteractable*
+- uid: TinyGiantStudio.Text.InputField.HoverEnter
+  commentId: M:TinyGiantStudio.Text.InputField.HoverEnter
+  id: HoverEnter
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: HoverEnter()
+  nameWithType: InputField.HoverEnter()
+  fullName: TinyGiantStudio.Text.InputField.HoverEnter()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverEnter
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 397
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void HoverEnter()
+    content.vb: Public Sub HoverEnter()
+  overload: TinyGiantStudio.Text.InputField.HoverEnter*
+- uid: TinyGiantStudio.Text.InputField.HoverEnter(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.HoverEnter(System.Object,System.EventArgs)
+  id: HoverEnter(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: HoverEnter(object, EventArgs)
+  nameWithType: InputField.HoverEnter(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.HoverEnter(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverEnter
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 411
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Used by UIState event. 
+
+    Not meant for user, but no issue with using, just wasted resource.
+  example: []
+  syntax:
+    content: public void HoverEnter(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.EventArgs
+      description: ''
+    content.vb: Public Sub HoverEnter(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.HoverEnter*
+  nameWithType.vb: InputField.HoverEnter(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.HoverEnter(Object, System.EventArgs)
+  name.vb: HoverEnter(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.HoverExit
+  commentId: M:TinyGiantStudio.Text.InputField.HoverExit
+  id: HoverExit
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: HoverExit()
+  nameWithType: InputField.HoverExit()
+  fullName: TinyGiantStudio.Text.InputField.HoverExit()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverExit
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 416
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void HoverExit()
+    content.vb: Public Sub HoverExit()
+  overload: TinyGiantStudio.Text.InputField.HoverExit*
+- uid: TinyGiantStudio.Text.InputField.HoverExit(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.HoverExit(System.Object,System.EventArgs)
+  id: HoverExit(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: HoverExit(object, EventArgs)
+  nameWithType: InputField.HoverExit(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.HoverExit(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverExit
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 429
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Used by UIState event.
+  example: []
+  syntax:
+    content: public void HoverExit(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.EventArgs
+      description: ''
+    content.vb: Public Sub HoverExit(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.HoverExit*
+  nameWithType.vb: InputField.HoverExit(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.HoverExit(Object, System.EventArgs)
+  name.vb: HoverExit(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.PressStart
+  commentId: M:TinyGiantStudio.Text.InputField.PressStart
+  id: PressStart
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: PressStart()
+  nameWithType: InputField.PressStart()
+  fullName: TinyGiantStudio.Text.InputField.PressStart()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressStart
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 433
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressStart()
+    content.vb: Public Sub PressStart()
+  overload: TinyGiantStudio.Text.InputField.PressStart*
+- uid: TinyGiantStudio.Text.InputField.PressStart(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.PressStart(System.Object,System.EventArgs)
+  id: PressStart(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: PressStart(object, EventArgs)
+  nameWithType: InputField.PressStart(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.PressStart(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressStart
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 443
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Used by UIState event.
+  example: []
+  syntax:
+    content: public void PressStart(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.EventArgs
+      description: ''
+    content.vb: Public Sub PressStart(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.PressStart*
+  nameWithType.vb: InputField.PressStart(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.PressStart(Object, System.EventArgs)
+  name.vb: PressStart(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.PressComplete
+  commentId: M:TinyGiantStudio.Text.InputField.PressComplete
+  id: PressComplete
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: PressComplete()
+  nameWithType: InputField.PressComplete()
+  fullName: TinyGiantStudio.Text.InputField.PressComplete()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressComplete
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 448
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressComplete()
+    content.vb: Public Sub PressComplete()
+  overload: TinyGiantStudio.Text.InputField.PressComplete*
+- uid: TinyGiantStudio.Text.InputField.PressComplete(System.Object,System.EventArgs)
+  commentId: M:TinyGiantStudio.Text.InputField.PressComplete(System.Object,System.EventArgs)
+  id: PressComplete(System.Object,System.EventArgs)
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: PressComplete(object, EventArgs)
+  nameWithType: InputField.PressComplete(object, EventArgs)
+  fullName: TinyGiantStudio.Text.InputField.PressComplete(object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressComplete
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 460
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Used by UIState event.
+  example: []
+  syntax:
+    content: public void PressComplete(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.EventArgs
+      description: ''
+    content.vb: Public Sub PressComplete(sender As Object, e As EventArgs)
+  overload: TinyGiantStudio.Text.InputField.PressComplete*
+  nameWithType.vb: InputField.PressComplete(Object, EventArgs)
+  fullName.vb: TinyGiantStudio.Text.InputField.PressComplete(Object, System.EventArgs)
+  name.vb: PressComplete(Object, EventArgs)
+- uid: TinyGiantStudio.Text.InputField.DisableVisual
+  commentId: M:TinyGiantStudio.Text.InputField.DisableVisual
+  id: DisableVisual
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: DisableVisual()
+  nameWithType: InputField.DisableVisual()
+  fullName: TinyGiantStudio.Text.InputField.DisableVisual()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisableVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 498
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void DisableVisual()
+    content.vb: Public Sub DisableVisual()
+  overload: TinyGiantStudio.Text.InputField.DisableVisual*
+- uid: TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent
+  commentId: M:TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent
+  id: ApplyNormalStyleFromParent
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: ApplyNormalStyleFromParent()
+  nameWithType: InputField.ApplyNormalStyleFromParent()
+  fullName: TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyNormalStyleFromParent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 532
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, List) ApplyNormalStyleFromParent()
+    return:
+      type: System.ValueTuple{System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyNormalStyleFromParent() As (Boolean, List)
+  overload: TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent*
+- uid: TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent
+  commentId: M:TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent
+  id: ApplySelectedStyleFromParent
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: ApplySelectedStyleFromParent()
+  nameWithType: InputField.ApplySelectedStyleFromParent()
+  fullName: TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplySelectedStyleFromParent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 545
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, List) ApplySelectedStyleFromParent()
+    return:
+      type: System.ValueTuple{System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplySelectedStyleFromParent() As (Boolean, List)
+  overload: TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent*
+- uid: TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent
+  commentId: M:TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent
+  id: ApplyDisabledStyleFromParent
+  parent: TinyGiantStudio.Text.InputField
+  langs:
+  - csharp
+  - vb
+  name: ApplyDisabledStyleFromParent()
+  nameWithType: InputField.ApplyDisabledStyleFromParent()
+  fullName: TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyDisabledStyleFromParent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/InputField.cs
+    startLine: 559
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, List) ApplyDisabledStyleFromParent()
+    return:
+      type: System.ValueTuple{System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyDisabledStyleFromParent() As (Boolean, List)
+  overload: TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Text.UIState
+  commentId: T:TinyGiantStudio.Text.UIState
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.UIState.html
+  name: UIState
+  nameWithType: UIState
+  fullName: TinyGiantStudio.Text.UIState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Text.InputField.Text*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Text
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Text
+  name: Text
+  nameWithType: InputField.Text
+  fullName: TinyGiantStudio.Text.InputField.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TinyGiantStudio.Text.InputField.ContentType
+  commentId: T:TinyGiantStudio.Text.InputField.ContentType
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.InputField.html
+  name: InputField.ContentType
+  nameWithType: InputField.ContentType
+  fullName: TinyGiantStudio.Text.InputField.ContentType
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.InputField
+    name: InputField
+    href: TinyGiantStudio.Text.InputField.html
+  - name: .
+  - uid: TinyGiantStudio.Text.InputField.ContentType
+    name: ContentType
+    href: TinyGiantStudio.Text.InputField.ContentType.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.InputField
+    name: InputField
+    href: TinyGiantStudio.Text.InputField.html
+  - name: .
+  - uid: TinyGiantStudio.Text.InputField.ContentType
+    name: ContentType
+    href: TinyGiantStudio.Text.InputField.ContentType.html
+- uid: TinyGiantStudio.Text.Modular3DText
+  commentId: T:TinyGiantStudio.Text.Modular3DText
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Modular3DText.html
+  name: Modular3DText
+  nameWithType: Modular3DText
+  fullName: TinyGiantStudio.Text.Modular3DText
+- uid: UnityEngine.Renderer
+  commentId: T:UnityEngine.Renderer
+  parent: UnityEngine
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: UnityEngine.Renderer
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: TinyGiantStudio.Text.InputField.InputComplete*
+  commentId: Overload:TinyGiantStudio.Text.InputField.InputComplete
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_InputComplete
+  name: InputComplete
+  nameWithType: InputField.InputComplete
+  fullName: TinyGiantStudio.Text.InputField.InputComplete
+- uid: TinyGiantStudio.Text.InputField.UpdateText*
+  commentId: Overload:TinyGiantStudio.Text.InputField.UpdateText
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_UpdateText
+  name: UpdateText
+  nameWithType: InputField.UpdateText
+  fullName: TinyGiantStudio.Text.InputField.UpdateText
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: TinyGiantStudio.Text.InputField.EmptyText*
+  commentId: Overload:TinyGiantStudio.Text.InputField.EmptyText
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_EmptyText
+  name: EmptyText
+  nameWithType: InputField.EmptyText
+  fullName: TinyGiantStudio.Text.InputField.EmptyText
+- uid: TinyGiantStudio.Text.InputField.Select*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Select
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Select
+  name: Select
+  nameWithType: InputField.Select
+  fullName: TinyGiantStudio.Text.InputField.Select
+- uid: TinyGiantStudio.Text.InputField.Focused*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Focused
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Focused_System_Object_System_EventArgs_
+  name: Focused
+  nameWithType: InputField.Focused
+  fullName: TinyGiantStudio.Text.InputField.Focused
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: TinyGiantStudio.Text.InputField.Unfocused*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Unfocused
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Unfocused_System_Object_System_EventArgs_
+  name: Unfocused
+  nameWithType: InputField.Unfocused
+  fullName: TinyGiantStudio.Text.InputField.Unfocused
+- uid: TinyGiantStudio.Text.InputField.FocusToggle*
+  commentId: Overload:TinyGiantStudio.Text.InputField.FocusToggle
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_FocusToggle
+  name: FocusToggle
+  nameWithType: InputField.FocusToggle
+  fullName: TinyGiantStudio.Text.InputField.FocusToggle
+- uid: TinyGiantStudio.Text.InputField.Focus*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Focus
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Focus_System_Boolean_
+  name: Focus
+  nameWithType: InputField.Focus
+  fullName: TinyGiantStudio.Text.InputField.Focus
+- uid: TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard*
+  commentId: Overload:TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_OpenTouchScreenKeyboard
+  name: OpenTouchScreenKeyboard
+  nameWithType: InputField.OpenTouchScreenKeyboard
+  fullName: TinyGiantStudio.Text.InputField.OpenTouchScreenKeyboard
+- uid: TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard*
+  commentId: Overload:TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_CloseTouchScreenKeyboard
+  name: CloseTouchScreenKeyboard
+  nameWithType: InputField.CloseTouchScreenKeyboard
+  fullName: TinyGiantStudio.Text.InputField.CloseTouchScreenKeyboard
+- uid: TinyGiantStudio.Text.InputField.Interactable*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Interactable
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Interactable
+  name: Interactable
+  nameWithType: InputField.Interactable
+  fullName: TinyGiantStudio.Text.InputField.Interactable
+- uid: TinyGiantStudio.Text.InputField.Uninteractable*
+  commentId: Overload:TinyGiantStudio.Text.InputField.Uninteractable
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_Uninteractable
+  name: Uninteractable
+  nameWithType: InputField.Uninteractable
+  fullName: TinyGiantStudio.Text.InputField.Uninteractable
+- uid: TinyGiantStudio.Text.InputField.HoverEnter*
+  commentId: Overload:TinyGiantStudio.Text.InputField.HoverEnter
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_HoverEnter
+  name: HoverEnter
+  nameWithType: InputField.HoverEnter
+  fullName: TinyGiantStudio.Text.InputField.HoverEnter
+- uid: TinyGiantStudio.Text.InputField.HoverExit*
+  commentId: Overload:TinyGiantStudio.Text.InputField.HoverExit
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_HoverExit
+  name: HoverExit
+  nameWithType: InputField.HoverExit
+  fullName: TinyGiantStudio.Text.InputField.HoverExit
+- uid: TinyGiantStudio.Text.InputField.PressStart*
+  commentId: Overload:TinyGiantStudio.Text.InputField.PressStart
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_PressStart
+  name: PressStart
+  nameWithType: InputField.PressStart
+  fullName: TinyGiantStudio.Text.InputField.PressStart
+- uid: TinyGiantStudio.Text.InputField.PressComplete*
+  commentId: Overload:TinyGiantStudio.Text.InputField.PressComplete
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_PressComplete
+  name: PressComplete
+  nameWithType: InputField.PressComplete
+  fullName: TinyGiantStudio.Text.InputField.PressComplete
+- uid: TinyGiantStudio.Text.InputField.DisableVisual*
+  commentId: Overload:TinyGiantStudio.Text.InputField.DisableVisual
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_DisableVisual
+  name: DisableVisual
+  nameWithType: InputField.DisableVisual
+  fullName: TinyGiantStudio.Text.InputField.DisableVisual
+- uid: TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent*
+  commentId: Overload:TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_ApplyNormalStyleFromParent
+  name: ApplyNormalStyleFromParent
+  nameWithType: InputField.ApplyNormalStyleFromParent
+  fullName: TinyGiantStudio.Text.InputField.ApplyNormalStyleFromParent
+- uid: System.ValueTuple{System.Boolean,TinyGiantStudio.Text.List}
+  commentId: T:System.ValueTuple{System.Boolean,TinyGiantStudio.Text.List}
+  parent: System
+  definition: System.ValueTuple`2
+  href: TinyGiantStudio.Text.List.html
+  name: (bool, List)
+  nameWithType: (bool, List)
+  fullName: (bool, TinyGiantStudio.Text.List)
+  nameWithType.vb: (Boolean, List)
+  fullName.vb: (Boolean, TinyGiantStudio.Text.List)
+  name.vb: (Boolean, List)
+  spec.csharp:
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Text.List
+    name: List
+    href: TinyGiantStudio.Text.List.html
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Text.List
+    name: List
+    href: TinyGiantStudio.Text.List.html
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent*
+  commentId: Overload:TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_ApplySelectedStyleFromParent
+  name: ApplySelectedStyleFromParent
+  nameWithType: InputField.ApplySelectedStyleFromParent
+  fullName: TinyGiantStudio.Text.InputField.ApplySelectedStyleFromParent
+- uid: TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent*
+  commentId: Overload:TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent
+  href: TinyGiantStudio.Text.InputField.html#TinyGiantStudio_Text_InputField_ApplyDisabledStyleFromParent
+  name: ApplyDisabledStyleFromParent
+  nameWithType: InputField.ApplyDisabledStyleFromParent
+  fullName: TinyGiantStudio.Text.InputField.ApplyDisabledStyleFromParent

@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  commentId: T:TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  id: EditorThemeManager
+  parent: TinyGiantStudio.Text.EditorFiles
+  children:
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor(UnityEngine.UIElements.GroupBox)
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme
+  - TinyGiantStudio.Text.EditorFiles.EditorThemeManager._theme
+  langs:
+  - csharp
+  - vb
+  name: EditorThemeManager
+  nameWithType: EditorThemeManager
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: EditorThemeManager
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  summary: This provides a uniform way for all UI in Modular 3D Text to switch themes in UIToolkit
+  example: []
+  syntax:
+    content: public class EditorThemeManager
+    content.vb: Public Class EditorThemeManager
+  inheritance:
+  - System.Object
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager._theme
+  commentId: F:TinyGiantStudio.Text.EditorFiles.EditorThemeManager._theme
+  id: _theme
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: _theme
+  nameWithType: EditorThemeManager._theme
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager._theme
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: _theme
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public Theme _theme
+    return:
+      type: TinyGiantStudio.Text.EditorFiles.Theme
+    content.vb: Public _theme As Theme
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+  commentId: P:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+  id: Theme
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: EditorThemeManager.Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Theme
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public Theme Theme { get; set; }
+    parameters: []
+    return:
+      type: TinyGiantStudio.Text.EditorFiles.Theme
+    content.vb: Public Property Theme As Theme
+  overload: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme*
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+  commentId: P:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+  id: Root
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: EditorThemeManager.Root
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Root
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 41
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public VisualElement Root { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Property Root As VisualElement
+  overload: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root*
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor(UnityEngine.UIElements.GroupBox)
+  commentId: M:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor(UnityEngine.UIElements.GroupBox)
+  id: '#ctor(UnityEngine.UIElements.GroupBox)'
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: EditorThemeManager(GroupBox)
+  nameWithType: EditorThemeManager.EditorThemeManager(GroupBox)
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.EditorThemeManager(UnityEngine.UIElements.GroupBox)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 83
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  summary: Initializes a new instance of the <xref href="TinyGiantStudio.Text.EditorFiles.EditorThemeManager" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public EditorThemeManager(GroupBox newContainer)
+    parameters:
+    - id: newContainer
+      type: UnityEngine.UIElements.GroupBox
+      description: The root of the UI.
+    content.vb: Public Sub New(newContainer As GroupBox)
+  overload: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor*
+  nameWithType.vb: EditorThemeManager.New(GroupBox)
+  fullName.vb: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.New(UnityEngine.UIElements.GroupBox)
+  name.vb: New(GroupBox)
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start
+  commentId: M:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start
+  id: Start
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: EditorThemeManager.Start()
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Start
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 88
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start()
+  overload: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start*
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme
+  commentId: M:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme
+  id: UpdateTheme
+  parent: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateTheme()
+  nameWithType: EditorThemeManager.UpdateTheme()
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateTheme
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public void UpdateTheme()
+    content.vb: Public Sub UpdateTheme()
+  overload: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme*
+references:
+- uid: TinyGiantStudio.Text.EditorFiles
+  commentId: N:TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.EditorFiles
+  nameWithType: TinyGiantStudio.Text.EditorFiles
+  fullName: TinyGiantStudio.Text.EditorFiles
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Text.EditorFiles.Theme
+  commentId: T:TinyGiantStudio.Text.EditorFiles.Theme
+  parent: TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.Text.EditorFiles.Theme.html
+  name: Theme
+  nameWithType: Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html#TinyGiantStudio_Text_EditorFiles_EditorThemeManager_Theme
+  name: Theme
+  nameWithType: EditorThemeManager.Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Theme
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html#TinyGiantStudio_Text_EditorFiles_EditorThemeManager_Root
+  name: Root
+  nameWithType: EditorThemeManager.Root
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Root
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  commentId: T:TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html
+  name: EditorThemeManager
+  nameWithType: EditorThemeManager
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.#ctor
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html#TinyGiantStudio_Text_EditorFiles_EditorThemeManager__ctor_UnityEngine_UIElements_GroupBox_
+  name: EditorThemeManager
+  nameWithType: EditorThemeManager.EditorThemeManager
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.EditorThemeManager
+  nameWithType.vb: EditorThemeManager.New
+  fullName.vb: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.New
+  name.vb: New
+- uid: UnityEngine.UIElements.GroupBox
+  commentId: T:UnityEngine.UIElements.GroupBox
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: GroupBox
+  nameWithType: GroupBox
+  fullName: UnityEngine.UIElements.GroupBox
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html#TinyGiantStudio_Text_EditorFiles_EditorThemeManager_Start
+  name: Start
+  nameWithType: EditorThemeManager.Start
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.Start
+- uid: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme
+  href: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.html#TinyGiantStudio_Text_EditorFiles_EditorThemeManager_UpdateTheme
+  name: UpdateTheme
+  nameWithType: EditorThemeManager.UpdateTheme
+  fullName: TinyGiantStudio.Text.EditorFiles.EditorThemeManager.UpdateTheme

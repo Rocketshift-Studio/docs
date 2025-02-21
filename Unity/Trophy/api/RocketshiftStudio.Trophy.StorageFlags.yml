@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.StorageFlags
+  commentId: T:RocketshiftStudio.Trophy.StorageFlags
+  id: StorageFlags
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.StorageFlags.Both
+  - RocketshiftStudio.Trophy.StorageFlags.Cloud
+  - RocketshiftStudio.Trophy.StorageFlags.Local
+  - RocketshiftStudio.Trophy.StorageFlags.None
+  langs:
+  - csharp
+  - vb
+  name: StorageFlags
+  nameWithType: StorageFlags
+  fullName: RocketshiftStudio.Trophy.StorageFlags
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: StorageFlags
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines how the score values will be saved or loaded
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum StorageFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum StorageFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.StorageFlags.None
+  commentId: F:RocketshiftStudio.Trophy.StorageFlags.None
+  id: None
+  parent: RocketshiftStudio.Trophy.StorageFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StorageFlags.None
+  fullName: RocketshiftStudio.Trophy.StorageFlags.None
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: None
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+    startLine: 13
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: No save/load
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+- uid: RocketshiftStudio.Trophy.StorageFlags.Local
+  commentId: F:RocketshiftStudio.Trophy.StorageFlags.Local
+  id: Local
+  parent: RocketshiftStudio.Trophy.StorageFlags
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: StorageFlags.Local
+  fullName: RocketshiftStudio.Trophy.StorageFlags.Local
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Local
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+    startLine: 17
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Saved/Loaded using local storage
+  example: []
+  syntax:
+    content: Local = 1
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+- uid: RocketshiftStudio.Trophy.StorageFlags.Cloud
+  commentId: F:RocketshiftStudio.Trophy.StorageFlags.Cloud
+  id: Cloud
+  parent: RocketshiftStudio.Trophy.StorageFlags
+  langs:
+  - csharp
+  - vb
+  name: Cloud
+  nameWithType: StorageFlags.Cloud
+  fullName: RocketshiftStudio.Trophy.StorageFlags.Cloud
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Cloud
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+    startLine: 21
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Saved/Loaded using cloud storage
+  example: []
+  syntax:
+    content: Cloud = 4
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+- uid: RocketshiftStudio.Trophy.StorageFlags.Both
+  commentId: F:RocketshiftStudio.Trophy.StorageFlags.Both
+  id: Both
+  parent: RocketshiftStudio.Trophy.StorageFlags
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: StorageFlags.Both
+  fullName: RocketshiftStudio.Trophy.StorageFlags.Both
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Both
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/StorageFlags.cs
+    startLine: 25
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Saved/Loaded using both local and cloud storage
+  example: []
+  syntax:
+    content: Both = -1
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.StorageFlags
+  commentId: T:RocketshiftStudio.Trophy.StorageFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.StorageFlags.html
+  name: StorageFlags
+  nameWithType: StorageFlags
+  fullName: RocketshiftStudio.Trophy.StorageFlags

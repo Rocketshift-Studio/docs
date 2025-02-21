@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobal
+  id: ButtonInputSystemGlobal
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.Instance
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.Select(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(System.Boolean)
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.debugLogs
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.selectedInputSystem
+  langs:
+  - csharp
+  - vb
+  name: ButtonInputSystemGlobal
+  nameWithType: ButtonInputSystemGlobal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ButtonInputSystemGlobal
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input System/Global Button Input System", 20050)]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system")]
+
+      public class ButtonInputSystemGlobal : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input System/Global Button Input System", 20050)>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system")>
+
+      Public Class ButtonInputSystemGlobal Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/Input System/Global Button Input System
+    - type: System.Int32
+      value: 20050
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.Instance
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemGlobal.Instance
+  id: Instance
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ButtonInputSystemGlobal.Instance
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.Instance
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Instance
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public static ButtonInputSystemGlobal Instance
+    return:
+      type: TinyGiantStudio.Text.ButtonInputSystemGlobal
+    content.vb: Public Shared Instance As ButtonInputSystemGlobal
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  commentId: P:TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  id: MyButtonInputProcessorStyle
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: MyButtonInputProcessorStyle
+  nameWithType: ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MyButtonInputProcessorStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public ButtonInputSystemGlobal.ButtonInputProcessorStyle MyButtonInputProcessorStyle { get; set; }
+    parameters: []
+    return:
+      type: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+    content.vb: Public Property MyButtonInputProcessorStyle As ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.selectedInputSystem
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemGlobal.selectedInputSystem
+  id: selectedInputSystem
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: selectedInputSystem
+  nameWithType: ButtonInputSystemGlobal.selectedInputSystem
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.selectedInputSystem
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedInputSystem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: This is assigned when MText_InputSystemController is enabled/disabled and when a list with autofocus is instantiated on void start()
+  example: []
+  syntax:
+    content: public ButtonInputSystemLocal selectedInputSystem
+    return:
+      type: TinyGiantStudio.Text.ButtonInputSystemLocal
+    content.vb: Public selectedInputSystem As ButtonInputSystemLocal
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.debugLogs
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemGlobal.debugLogs
+  id: debugLogs
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: debugLogs
+  nameWithType: ButtonInputSystemGlobal.debugLogs
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.debugLogs
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: debugLogs
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool debugLogs
+    return:
+      type: System.Boolean
+    content.vb: Public debugLogs As Boolean
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.Select(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.Select(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  id: Select(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: Select(ButtonInputSystemLocal)
+  nameWithType: ButtonInputSystemGlobal.Select(ButtonInputSystemLocal)
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.Select(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Select
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 82
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void Select(ButtonInputSystemLocal buttonInputSystem)
+    parameters:
+    - id: buttonInputSystem
+      type: TinyGiantStudio.Text.ButtonInputSystemLocal
+    content.vb: Public Sub [Select](buttonInputSystem As ButtonInputSystemLocal)
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.Select*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  id: DeSelect(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: DeSelect(ButtonInputSystemLocal)
+  nameWithType: ButtonInputSystemGlobal.DeSelect(ButtonInputSystemLocal)
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect(TinyGiantStudio.Text.ButtonInputSystemLocal)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DeSelect
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 86
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void DeSelect(ButtonInputSystemLocal buttonInputSystem)
+    parameters:
+    - id: buttonInputSystem
+      type: TinyGiantStudio.Text.ButtonInputSystemLocal
+    content.vb: Public Sub DeSelect(buttonInputSystem As ButtonInputSystemLocal)
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(System.Boolean)
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(System.Boolean)
+  id: UpdateButtonInputProcessorScript(System.Boolean)
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: UpdateButtonInputProcessorScript(bool)
+  nameWithType: ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(bool)
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateButtonInputProcessorScript
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 102
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Adds/removes and adds all required listeners to button input processor script. 
+
+
+    Called in 3 cases.
+
+    In Awake()
+
+    MyButtonInputProcessorStyle modification
+
+    By editor script that doesn't do setup instantly and calls it later because of add component delay
+  example: []
+  syntax:
+    content: public void UpdateButtonInputProcessorScript(bool alsoDoSetup = true)
+    parameters:
+    - id: alsoDoSetup
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub UpdateButtonInputProcessorScript(alsoDoSetup As Boolean = True)
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript*
+  nameWithType.vb: ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(Boolean)
+  fullName.vb: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript(Boolean)
+  name.vb: UpdateButtonInputProcessorScript(Boolean)
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor
+  id: SetupInputProcessor
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: SetupInputProcessor()
+  nameWithType: ButtonInputSystemGlobal.SetupInputProcessor()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SetupInputProcessor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 127
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Attaches required listeners to button input processor
+  example: []
+  syntax:
+    content: public void SetupInputProcessor()
+    content.vb: Public Sub SetupInputProcessor()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent
+  id: UpAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: UpAxisEvent()
+  nameWithType: ButtonInputSystemGlobal.UpAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 217
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpAxisEvent()
+    content.vb: Public Sub UpAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent
+  id: DownAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: DownAxisEvent()
+  nameWithType: ButtonInputSystemGlobal.DownAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DownAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 222
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void DownAxisEvent()
+    content.vb: Public Sub DownAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent
+  id: LeftAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: LeftAxisEvent()
+  nameWithType: ButtonInputSystemGlobal.LeftAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeftAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 227
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void LeftAxisEvent()
+    content.vb: Public Sub LeftAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent
+  id: RightAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: RightAxisEvent()
+  nameWithType: ButtonInputSystemGlobal.RightAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: RightAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 232
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void RightAxisEvent()
+    content.vb: Public Sub RightAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent
+  id: SubmitEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  langs:
+  - csharp
+  - vb
+  name: SubmitEvent()
+  nameWithType: ButtonInputSystemGlobal.SubmitEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SubmitEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemGlobal.cs
+    startLine: 238
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void SubmitEvent()
+    content.vb: Public Sub SubmitEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobal
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  name: ButtonInputSystemGlobal
+  nameWithType: ButtonInputSystemGlobal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_MyButtonInputProcessorStyle
+  name: MyButtonInputProcessorStyle
+  nameWithType: ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.MyButtonInputProcessorStyle
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  name: ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  nameWithType: ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+    name: ButtonInputSystemGlobal
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+    name: ButtonInputProcessorStyle
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+    name: ButtonInputSystemGlobal
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+    name: ButtonInputProcessorStyle
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.html
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemLocal
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html
+  name: ButtonInputSystemLocal
+  nameWithType: ButtonInputSystemLocal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.Select*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.Select
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_Select_TinyGiantStudio_Text_ButtonInputSystemLocal_
+  name: Select
+  nameWithType: ButtonInputSystemGlobal.Select
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.Select
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_DeSelect_TinyGiantStudio_Text_ButtonInputSystemLocal_
+  name: DeSelect
+  nameWithType: ButtonInputSystemGlobal.DeSelect
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.DeSelect
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_UpdateButtonInputProcessorScript_System_Boolean_
+  name: UpdateButtonInputProcessorScript
+  nameWithType: ButtonInputSystemGlobal.UpdateButtonInputProcessorScript
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpdateButtonInputProcessorScript
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_SetupInputProcessor
+  name: SetupInputProcessor
+  nameWithType: ButtonInputSystemGlobal.SetupInputProcessor
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.SetupInputProcessor
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_UpAxisEvent
+  name: UpAxisEvent
+  nameWithType: ButtonInputSystemGlobal.UpAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.UpAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_DownAxisEvent
+  name: DownAxisEvent
+  nameWithType: ButtonInputSystemGlobal.DownAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.DownAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_LeftAxisEvent
+  name: LeftAxisEvent
+  nameWithType: ButtonInputSystemGlobal.LeftAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.LeftAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_RightAxisEvent
+  name: RightAxisEvent
+  nameWithType: ButtonInputSystemGlobal.RightAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.RightAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html#TinyGiantStudio_Text_ButtonInputSystemGlobal_SubmitEvent
+  name: SubmitEvent
+  nameWithType: ButtonInputSystemGlobal.SubmitEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.SubmitEvent

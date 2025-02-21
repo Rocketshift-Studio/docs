@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.Binary
+  commentId: T:RocketshiftStudio.Trophy.Extensions.Binary
+  id: Binary
+  parent: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync(System.String[])
+  - RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync(System.String[])
+  - RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+  - RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  langs:
+  - csharp
+  - vb
+  name: Binary
+  nameWithType: Binary
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Binary
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: 'public sealed class Binary : BaseLocalStorageExtension, ILocalStorageExtension, IStorageExtension, IExtension'
+    content.vb: Public NotInheritable Class Binary Inherits BaseLocalStorageExtension Implements ILocalStorageExtension, IStorageExtension, IExtension
+  inheritance:
+  - System.Object
+  - RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.IExtension
+  inheritedMembers:
+  - RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+  commentId: P:RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+  id: SaveDirectory
+  parent: RocketshiftStudio.Trophy.Extensions.Binary
+  langs:
+  - csharp
+  - vb
+  name: SaveDirectory
+  nameWithType: Binary.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SaveDirectory
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  example: []
+  syntax:
+    content: public override string SaveDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property SaveDirectory As String
+  overridden: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
+  overload: RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory*
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync(System.String[])
+  id: LoadMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.Binary
+  langs:
+  - csharp
+  - vb
+  name: LoadMultipleAsync(string[])
+  nameWithType: Binary.LoadMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync(string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LoadMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  example: []
+  syntax:
+    content: public override Task<ScoreData[]> LoadMultipleAsync(string[] keys)
+    parameters:
+    - id: keys
+      type: System.String[]
+    return:
+      type: System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+    content.vb: Public Overrides Function LoadMultipleAsync(keys As String()) As Task(Of ScoreData())
+  overridden: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
+  overload: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync*
+  nameWithType.vb: Binary.LoadMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync(String())
+  name.vb: LoadMultipleAsync(String())
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  id: SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  parent: RocketshiftStudio.Trophy.Extensions.Binary
+  langs:
+  - csharp
+  - vb
+  name: SaveMultipleAsync(ScoreData[])
+  nameWithType: Binary.SaveMultipleAsync(ScoreData[])
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SaveMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+    startLine: 53
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  example: []
+  syntax:
+    content: public override Task SaveMultipleAsync(ScoreData[] data)
+    parameters:
+    - id: data
+      type: RocketshiftStudio.Trophy.ScoreData[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function SaveMultipleAsync(data As ScoreData()) As Task
+  overridden: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  overload: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync*
+  nameWithType.vb: Binary.SaveMultipleAsync(ScoreData())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
+  name.vb: SaveMultipleAsync(ScoreData())
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync(System.String[])
+  id: DeleteMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.Binary
+  langs:
+  - csharp
+  - vb
+  name: DeleteMultipleAsync(string[])
+  nameWithType: Binary.DeleteMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync(string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DeleteMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Others/Storage/Binary.cs
+    startLine: 65
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  example: []
+  syntax:
+    content: public override Task DeleteMultipleAsync(string[] keys)
+    parameters:
+    - id: keys
+      type: System.String[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function DeleteMultipleAsync(keys As String()) As Task
+  overridden: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
+  overload: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync*
+  nameWithType.vb: Binary.DeleteMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync(String())
+  name.vb: DeleteMultipleAsync(String())
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html
+  name: BaseLocalStorageExtension
+  nameWithType: BaseLocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html
+  name: ILocalStorageExtension
+  nameWithType: ILocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html
+  name: IStorageExtension
+  nameWithType: IStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IExtension.html
+  name: IExtension
+  nameWithType: IExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IExtension
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
+  parent: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  name: FileExtension
+  nameWithType: BaseLocalStorageExtension.FileExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
+  parent: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  name: SaveDirectory
+  nameWithType: BaseLocalStorageExtension.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+  href: RocketshiftStudio.Trophy.Extensions.Binary.html#RocketshiftStudio_Trophy_Extensions_Binary_SaveDirectory
+  name: SaveDirectory
+  nameWithType: Binary.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.SaveDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  isExternal: true
+  name: LoadMultipleAsync(string[])
+  nameWithType: BaseLocalStorageExtension.LoadMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(string[])
+  nameWithType.vb: BaseLocalStorageExtension.LoadMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(String())
+  name.vb: LoadMultipleAsync(String())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
+    name: LoadMultipleAsync
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
+    name: LoadMultipleAsync
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.Binary.html#RocketshiftStudio_Trophy_Extensions_Binary_LoadMultipleAsync_System_String___
+  name: LoadMultipleAsync
+  nameWithType: Binary.LoadMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.LoadMultipleAsync
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+  commentId: T:System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: RocketshiftStudio.Trophy.ScoreData.html
+  name: Task<ScoreData[]>
+  nameWithType: Task<ScoreData[]>
+  fullName: System.Threading.Tasks.Task<RocketshiftStudio.Trophy.ScoreData[]>
+  nameWithType.vb: Task(Of ScoreData())
+  fullName.vb: System.Threading.Tasks.Task(Of RocketshiftStudio.Trophy.ScoreData())
+  name.vb: Task(Of ScoreData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  name: SaveMultipleAsync(ScoreData[])
+  nameWithType: BaseLocalStorageExtension.SaveMultipleAsync(ScoreData[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  nameWithType.vb: BaseLocalStorageExtension.SaveMultipleAsync(ScoreData())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
+  name.vb: SaveMultipleAsync(ScoreData())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+    name: SaveMultipleAsync
+  - name: (
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+    name: SaveMultipleAsync
+  - name: (
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+  - name: (
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.Binary.html#RocketshiftStudio_Trophy_Extensions_Binary_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
+  name: SaveMultipleAsync
+  nameWithType: Binary.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.SaveMultipleAsync
+- uid: RocketshiftStudio.Trophy.ScoreData[]
+  isExternal: true
+  href: RocketshiftStudio.Trophy.ScoreData.html
+  name: ScoreData[]
+  nameWithType: ScoreData[]
+  fullName: RocketshiftStudio.Trophy.ScoreData[]
+  nameWithType.vb: ScoreData()
+  fullName.vb: RocketshiftStudio.Trophy.ScoreData()
+  name.vb: ScoreData()
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
+  isExternal: true
+  name: DeleteMultipleAsync(string[])
+  nameWithType: BaseLocalStorageExtension.DeleteMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(string[])
+  nameWithType.vb: BaseLocalStorageExtension.DeleteMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(String())
+  name.vb: DeleteMultipleAsync(String())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
+    name: DeleteMultipleAsync
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
+    name: DeleteMultipleAsync
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.Binary.html#RocketshiftStudio_Trophy_Extensions_Binary_DeleteMultipleAsync_System_String___
+  name: DeleteMultipleAsync
+  nameWithType: Binary.DeleteMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.Binary.DeleteMultipleAsync

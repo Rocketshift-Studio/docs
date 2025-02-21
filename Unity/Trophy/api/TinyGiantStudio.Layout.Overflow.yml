@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.Overflow
+  commentId: T:TinyGiantStudio.Layout.Overflow
+  id: Overflow
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.Overflow.overflow
+  - TinyGiantStudio.Layout.Overflow.wrap
+  langs:
+  - csharp
+  - vb
+  name: Overflow
+  nameWithType: Overflow
+  fullName: TinyGiantStudio.Layout.Overflow
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Overflow
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+    startLine: 2
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public enum Overflow
+    content.vb: Public Enum Overflow
+- uid: TinyGiantStudio.Layout.Overflow.overflow
+  commentId: F:TinyGiantStudio.Layout.Overflow.overflow
+  id: overflow
+  parent: TinyGiantStudio.Layout.Overflow
+  langs:
+  - csharp
+  - vb
+  name: overflow
+  nameWithType: Overflow.overflow
+  fullName: TinyGiantStudio.Layout.Overflow.overflow
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: overflow
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: overflow = 0
+    return:
+      type: TinyGiantStudio.Layout.Overflow
+- uid: TinyGiantStudio.Layout.Overflow.wrap
+  commentId: F:TinyGiantStudio.Layout.Overflow.wrap
+  id: wrap
+  parent: TinyGiantStudio.Layout.Overflow
+  langs:
+  - csharp
+  - vb
+  name: wrap
+  nameWithType: Overflow.wrap
+  fullName: TinyGiantStudio.Layout.Overflow.wrap
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: wrap
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Overflow.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: wrap = 1
+    return:
+      type: TinyGiantStudio.Layout.Overflow
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: TinyGiantStudio.Layout.Overflow
+  commentId: T:TinyGiantStudio.Layout.Overflow
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.Overflow.html
+  name: Overflow
+  nameWithType: Overflow
+  fullName: TinyGiantStudio.Layout.Overflow

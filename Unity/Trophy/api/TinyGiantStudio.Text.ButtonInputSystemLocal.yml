@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemLocal
+  id: ButtonInputSystemLocal
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.downAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.leftAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.rightAxisEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.submitEvent
+  - TinyGiantStudio.Text.ButtonInputSystemLocal.upAxisEvent
+  langs:
+  - csharp
+  - vb
+  name: ButtonInputSystemLocal
+  nameWithType: ButtonInputSystemLocal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ButtonInputSystemLocal
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input System/Local Button Input System", 20051)]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system")]
+
+      public class ButtonInputSystemLocal : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Input System/Local Button Input System", 20051)>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system")>
+
+      Public Class ButtonInputSystemLocal Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/Input System/Local Button Input System
+    - type: System.Int32
+      value: 20051
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/input/button-key/button-input-system
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.upAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemLocal.upAxisEvent
+  id: upAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: upAxisEvent
+  nameWithType: ButtonInputSystemLocal.upAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.upAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: upAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent upAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public upAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.downAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemLocal.downAxisEvent
+  id: downAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: downAxisEvent
+  nameWithType: ButtonInputSystemLocal.downAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.downAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: downAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent downAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public downAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.leftAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemLocal.leftAxisEvent
+  id: leftAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: leftAxisEvent
+  nameWithType: ButtonInputSystemLocal.leftAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.leftAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: leftAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent leftAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public leftAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.rightAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemLocal.rightAxisEvent
+  id: rightAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: rightAxisEvent
+  nameWithType: ButtonInputSystemLocal.rightAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.rightAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: rightAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent rightAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public rightAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.submitEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputSystemLocal.submitEvent
+  id: submitEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: submitEvent
+  nameWithType: ButtonInputSystemLocal.submitEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.submitEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: submitEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent submitEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public submitEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor
+  id: SetupInputProcessor
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: SetupInputProcessor()
+  nameWithType: ButtonInputSystemLocal.SetupInputProcessor()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SetupInputProcessor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 111
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Attaches required listeners to button input processor
+  example: []
+  syntax:
+    content: public void SetupInputProcessor()
+    content.vb: Public Sub SetupInputProcessor()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor*
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent
+  id: UpAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: UpAxisEvent()
+  nameWithType: ButtonInputSystemLocal.UpAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 198
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpAxisEvent()
+    content.vb: Public Sub UpAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent
+  id: DownAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: DownAxisEvent()
+  nameWithType: ButtonInputSystemLocal.DownAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DownAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 204
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void DownAxisEvent()
+    content.vb: Public Sub DownAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent
+  id: LeftAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: LeftAxisEvent()
+  nameWithType: ButtonInputSystemLocal.LeftAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeftAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 210
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void LeftAxisEvent()
+    content.vb: Public Sub LeftAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent
+  id: RightAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: RightAxisEvent()
+  nameWithType: ButtonInputSystemLocal.RightAxisEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: RightAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 216
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void RightAxisEvent()
+    content.vb: Public Sub RightAxisEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent*
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent
+  commentId: M:TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent
+  id: SubmitEvent
+  parent: TinyGiantStudio.Text.ButtonInputSystemLocal
+  langs:
+  - csharp
+  - vb
+  name: SubmitEvent()
+  nameWithType: ButtonInputSystemLocal.SubmitEvent()
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SubmitEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputSystemLocal.cs
+    startLine: 222
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void SubmitEvent()
+    content.vb: Public Sub SubmitEvent()
+  overload: TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_SetupInputProcessor
+  name: SetupInputProcessor
+  nameWithType: ButtonInputSystemLocal.SetupInputProcessor
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.SetupInputProcessor
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_UpAxisEvent
+  name: UpAxisEvent
+  nameWithType: ButtonInputSystemLocal.UpAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.UpAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_DownAxisEvent
+  name: DownAxisEvent
+  nameWithType: ButtonInputSystemLocal.DownAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.DownAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_LeftAxisEvent
+  name: LeftAxisEvent
+  nameWithType: ButtonInputSystemLocal.LeftAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.LeftAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_RightAxisEvent
+  name: RightAxisEvent
+  nameWithType: ButtonInputSystemLocal.RightAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.RightAxisEvent
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent*
+  commentId: Overload:TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html#TinyGiantStudio_Text_ButtonInputSystemLocal_SubmitEvent
+  name: SubmitEvent
+  nameWithType: ButtonInputSystemLocal.SubmitEvent
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal.SubmitEvent

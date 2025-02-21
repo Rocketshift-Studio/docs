@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  commentId: T:TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  id: MaterialPreviewManager
+  parent: TinyGiantStudio.Text.EditorFiles
+  children:
+  - TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook(UnityEngine.UIElements.TemplateContainer,UnityEditor.SerializedProperty,System.String,UnityEngine.Material)
+  langs:
+  - csharp
+  - vb
+  name: MaterialPreviewManager
+  nameWithType: MaterialPreviewManager
+  fullName: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/MaterialPreviewManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MaterialPreviewManager
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/MaterialPreviewManager.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  summary: >-
+    This handles using the Material Preview Field Template.
+
+    Call the Hook method
+  example: []
+  syntax:
+    content: public class MaterialPreviewManager
+    content.vb: Public Class MaterialPreviewManager
+  inheritance:
+  - System.Object
+- uid: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook(UnityEngine.UIElements.TemplateContainer,UnityEditor.SerializedProperty,System.String,UnityEngine.Material)
+  commentId: M:TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook(UnityEngine.UIElements.TemplateContainer,UnityEditor.SerializedProperty,System.String,UnityEngine.Material)
+  id: Hook(UnityEngine.UIElements.TemplateContainer,UnityEditor.SerializedProperty,System.String,UnityEngine.Material)
+  parent: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager
+  langs:
+  - csharp
+  - vb
+  name: Hook(TemplateContainer, SerializedProperty, string, Material)
+  nameWithType: MaterialPreviewManager.Hook(TemplateContainer, SerializedProperty, string, Material)
+  fullName: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook(UnityEngine.UIElements.TemplateContainer, UnityEditor.SerializedProperty, string, UnityEngine.Material)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/MaterialPreviewManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Hook
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/MaterialPreviewManager.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public void Hook(TemplateContainer container, SerializedProperty serializedProperty, string label, Material material)
+    parameters:
+    - id: container
+      type: UnityEngine.UIElements.TemplateContainer
+    - id: serializedProperty
+      type: UnityEditor.SerializedProperty
+    - id: label
+      type: System.String
+    - id: material
+      type: UnityEngine.Material
+    content.vb: Public Sub Hook(container As TemplateContainer, serializedProperty As SerializedProperty, label As String, material As Material)
+  overload: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook*
+  nameWithType.vb: MaterialPreviewManager.Hook(TemplateContainer, SerializedProperty, String, Material)
+  fullName.vb: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook(UnityEngine.UIElements.TemplateContainer, UnityEditor.SerializedProperty, String, UnityEngine.Material)
+  name.vb: Hook(TemplateContainer, SerializedProperty, String, Material)
+references:
+- uid: TinyGiantStudio.Text.EditorFiles
+  commentId: N:TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.EditorFiles
+  nameWithType: TinyGiantStudio.Text.EditorFiles
+  fullName: TinyGiantStudio.Text.EditorFiles
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook*
+  commentId: Overload:TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook
+  href: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.html#TinyGiantStudio_Text_EditorFiles_MaterialPreviewManager_Hook_UnityEngine_UIElements_TemplateContainer_UnityEditor_SerializedProperty_System_String_UnityEngine_Material_
+  name: Hook
+  nameWithType: MaterialPreviewManager.Hook
+  fullName: TinyGiantStudio.Text.EditorFiles.MaterialPreviewManager.Hook
+- uid: UnityEngine.UIElements.TemplateContainer
+  commentId: T:UnityEngine.UIElements.TemplateContainer
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TemplateContainer
+  nameWithType: TemplateContainer
+  fullName: UnityEngine.UIElements.TemplateContainer
+- uid: UnityEditor.SerializedProperty
+  commentId: T:UnityEditor.SerializedProperty
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: UnityEditor.SerializedProperty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.TextMeshPro
+  commentId: T:RocketshiftStudio.Trophy.Extensions.TextMeshPro
+  id: TextMeshPro
+  parent: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TextMeshPro
+  nameWithType: TextMeshPro
+  fullName: RocketshiftStudio.Trophy.Extensions.TextMeshPro
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Unity/Display/3D/TextMeshPro.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TextMeshPro
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Unity/Display/3D/TextMeshPro.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: >-
+      [DynamicReferenceFolder("3D")]
+
+      public sealed class TextMeshPro : BaseScoreTextDisplayExtension<TextMeshPro>, IScoreTextDisplayExtension, IScoreDisplayExtension<string>, IExtension
+    content.vb: >-
+      <DynamicReferenceFolder("3D")>
+
+      Public NotInheritable Class TextMeshPro Inherits BaseScoreTextDisplayExtension(Of TextMeshPro) Implements IScoreTextDisplayExtension, IScoreDisplayExtension(Of String), IExtension
+  inheritance:
+  - System.Object
+  - RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
+  - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension{System.String}
+  - RocketshiftStudio.Trophy.Extensions.IExtension
+  inheritedMembers:
+  - RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.ScoreType
+  - RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Format
+  - RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Definition
+  attributes:
+  - type: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+    ctor: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 3D
+- uid: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated(System.String)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated(System.String)
+  id: Updated(System.String)
+  parent: RocketshiftStudio.Trophy.Extensions.TextMeshPro
+  langs:
+  - csharp
+  - vb
+  name: Updated(string)
+  nameWithType: TextMeshPro.Updated(string)
+  fullName: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Unity/Display/3D/TextMeshPro.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Updated
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Extensions [Delete If Not Required]/Unity/Display/3D/TextMeshPro.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: RocketshiftStudio.Trophy.Extensions
+  example: []
+  syntax:
+    content: public override void Updated(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Overrides Sub Updated(value As String)
+  overridden: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Updated(System.String)
+  overload: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated*
+  nameWithType.vb: TextMeshPro.Updated(String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated(String)
+  name.vb: Updated(String)
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  parent: RocketshiftStudio.Trophy.Extensions
+  definition: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+  name: BaseScoreTextDisplayExtension<TextMeshPro>
+  nameWithType: BaseScoreTextDisplayExtension<TextMeshPro>
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TMPro.TextMeshPro>
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TextMeshPro)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TMPro.TextMeshPro)
+  name.vb: BaseScoreTextDisplayExtension(Of TextMeshPro)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+    name: BaseScoreTextDisplayExtension
+  - name: <
+  - uid: TMPro.TextMeshPro
+    name: TextMeshPro
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+    name: BaseScoreTextDisplayExtension
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TMPro.TextMeshPro
+    name: TextMeshPro
+    isExternal: true
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension.html
+  name: IScoreTextDisplayExtension
+  nameWithType: IScoreTextDisplayExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension{System.String}
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension{System.String}
+  parent: RocketshiftStudio.Trophy.Extensions
+  definition: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+  href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  name: IScoreDisplayExtension<string>
+  nameWithType: IScoreDisplayExtension<string>
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<string>
+  nameWithType.vb: IScoreDisplayExtension(Of String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of String)
+  name.vb: IScoreDisplayExtension(Of String)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+    name: IScoreDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+    name: IScoreDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IExtension.html
+  name: IExtension
+  nameWithType: IExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IExtension
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.ScoreType
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.ScoreType
+  parent: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  definition: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.ScoreType
+  name: ScoreType
+  nameWithType: BaseScoreTextDisplayExtension<TextMeshPro>.ScoreType
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TMPro.TextMeshPro>.ScoreType
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TextMeshPro).ScoreType
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TMPro.TextMeshPro).ScoreType
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Format
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Format
+  parent: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  definition: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Format
+  name: Format
+  nameWithType: BaseScoreTextDisplayExtension<TextMeshPro>.Format
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TMPro.TextMeshPro>.Format
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TextMeshPro).Format
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TMPro.TextMeshPro).Format
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Definition
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Definition
+  parent: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  definition: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Definition
+  name: Definition
+  nameWithType: BaseScoreTextDisplayExtension<TextMeshPro>.Definition
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TMPro.TextMeshPro>.Definition
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TextMeshPro).Definition
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TMPro.TextMeshPro).Definition
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+  href: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.html
+  name: BaseScoreTextDisplayExtension<TComponent>
+  nameWithType: BaseScoreTextDisplayExtension<TComponent>
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TComponent)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TComponent)
+  name.vb: BaseScoreTextDisplayExtension(Of TComponent)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+    name: BaseScoreTextDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.html
+  - name: <
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1
+    name: BaseScoreTextDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TComponent
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+  href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  name: IScoreDisplayExtension<TValue>
+  nameWithType: IScoreDisplayExtension<TValue>
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>
+  nameWithType.vb: IScoreDisplayExtension(Of TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue)
+  name.vb: IScoreDisplayExtension(Of TValue)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+    name: IScoreDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
+    name: IScoreDisplayExtension
+    href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.ScoreType
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.ScoreType
+  name: ScoreType
+  nameWithType: BaseScoreTextDisplayExtension<TComponent>.ScoreType
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>.ScoreType
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TComponent).ScoreType
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TComponent).ScoreType
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Format
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Format
+  name: Format
+  nameWithType: BaseScoreTextDisplayExtension<TComponent>.Format
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>.Format
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TComponent).Format
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TComponent).Format
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Definition
+  commentId: P:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Definition
+  name: Definition
+  nameWithType: BaseScoreTextDisplayExtension<TComponent>.Definition
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>.Definition
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TComponent).Definition
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TComponent).Definition
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Updated(System.String)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Updated(System.String)
+  parent: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}
+  definition: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Updated(System.String)
+  name: Updated(string)
+  nameWithType: BaseScoreTextDisplayExtension<TextMeshPro>.Updated(string)
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TMPro.TextMeshPro>.Updated(string)
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TextMeshPro).Updated(String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TMPro.TextMeshPro).Updated(String)
+  name.vb: Updated(String)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Updated(System.String)
+    name: Updated
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension{TMPro.TextMeshPro}.Updated(System.String)
+    name: Updated
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated
+  href: RocketshiftStudio.Trophy.Extensions.TextMeshPro.html#RocketshiftStudio_Trophy_Extensions_TextMeshPro_Updated_System_String_
+  name: Updated
+  nameWithType: TextMeshPro.Updated
+  fullName: RocketshiftStudio.Trophy.Extensions.TextMeshPro.Updated
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Updated(System.String)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Updated(System.String)
+  isExternal: true
+  name: Updated(string)
+  nameWithType: BaseScoreTextDisplayExtension<TComponent>.Updated(string)
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension<TComponent>.Updated(string)
+  nameWithType.vb: BaseScoreTextDisplayExtension(Of TComponent).Updated(String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension(Of TComponent).Updated(String)
+  name.vb: Updated(String)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Updated(System.String)
+    name: Updated
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.BaseScoreTextDisplayExtension`1.Updated(System.String)
+    name: Updated
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

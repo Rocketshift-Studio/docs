@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  id: CircularLayoutGroup.Direction
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.CircularLayoutGroup.Direction.left
+  - TinyGiantStudio.Layout.CircularLayoutGroup.Direction.right
+  langs:
+  - csharp
+  - vb
+  name: CircularLayoutGroup.Direction
+  nameWithType: CircularLayoutGroup.Direction
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Direction
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public enum CircularLayoutGroup.Direction
+    content.vb: Public Enum CircularLayoutGroup.Direction
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.left
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.Direction.left
+  id: left
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  langs:
+  - csharp
+  - vb
+  name: left
+  nameWithType: CircularLayoutGroup.Direction.left
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.left
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: left
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: left = 0
+    return:
+      type: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.right
+  commentId: F:TinyGiantStudio.Layout.CircularLayoutGroup.Direction.right
+  id: right
+  parent: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  langs:
+  - csharp
+  - vb
+  name: right
+  nameWithType: CircularLayoutGroup.Direction.right
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.right
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: right
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/CircularLayoutGroup.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: right = 1
+    return:
+      type: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  commentId: T:TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  name: CircularLayoutGroup.Direction
+  nameWithType: CircularLayoutGroup.Direction
+  fullName: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+  spec.csharp:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html
+  spec.vb:
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup
+    name: CircularLayoutGroup
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.html
+  - name: .
+  - uid: TinyGiantStudio.Layout.CircularLayoutGroup.Direction
+    name: Direction
+    href: TinyGiantStudio.Layout.CircularLayoutGroup.Direction.html

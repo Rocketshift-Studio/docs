@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.ButtonInputProcessor
+  commentId: T:TinyGiantStudio.Text.ButtonInputProcessor
+  id: ButtonInputProcessor
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.ButtonInputProcessor.downAxisEvent
+  - TinyGiantStudio.Text.ButtonInputProcessor.inputs
+  - TinyGiantStudio.Text.ButtonInputProcessor.leftAxisEvent
+  - TinyGiantStudio.Text.ButtonInputProcessor.rightAxisEvent
+  - TinyGiantStudio.Text.ButtonInputProcessor.submitEvent
+  - TinyGiantStudio.Text.ButtonInputProcessor.tickRate
+  - TinyGiantStudio.Text.ButtonInputProcessor.tickRateSideWays
+  - TinyGiantStudio.Text.ButtonInputProcessor.upAxisEvent
+  langs:
+  - csharp
+  - vb
+  name: ButtonInputProcessor
+  nameWithType: ButtonInputProcessor
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ButtonInputProcessor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      public class ButtonInputProcessor : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      Public Class ButtonInputProcessor Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.tickRate
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.tickRate
+  id: tickRate
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: tickRate
+  nameWithType: ButtonInputProcessor.tickRate
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.tickRate
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: tickRate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: How long you have to press a key down for it to register as a second key press
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("How long you have to press a key down for it to register as a second key press")]
+
+      public float tickRate
+    return:
+      type: System.Single
+    content.vb: >-
+      <Tooltip("How long you have to press a key down for it to register as a second key press")>
+
+      Public tickRate As Single
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: How long you have to press a key down for it to register as a second key press
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.tickRateSideWays
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.tickRateSideWays
+  id: tickRateSideWays
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: tickRateSideWays
+  nameWithType: ButtonInputProcessor.tickRateSideWays
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.tickRateSideWays
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: tickRateSideWays
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float tickRateSideWays
+    return:
+      type: System.Single
+    content.vb: Public tickRateSideWays As Single
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.upAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.upAxisEvent
+  id: upAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: upAxisEvent
+  nameWithType: ButtonInputProcessor.upAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.upAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: upAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent upAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public upAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.downAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.downAxisEvent
+  id: downAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: downAxisEvent
+  nameWithType: ButtonInputProcessor.downAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.downAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: downAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent downAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public downAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.leftAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.leftAxisEvent
+  id: leftAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: leftAxisEvent
+  nameWithType: ButtonInputProcessor.leftAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.leftAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: leftAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent leftAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public leftAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.rightAxisEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.rightAxisEvent
+  id: rightAxisEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: rightAxisEvent
+  nameWithType: ButtonInputProcessor.rightAxisEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.rightAxisEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: rightAxisEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent rightAxisEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public rightAxisEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.submitEvent
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.submitEvent
+  id: submitEvent
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: submitEvent
+  nameWithType: ButtonInputProcessor.submitEvent
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.submitEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: submitEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 30
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent submitEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public submitEvent As UnityEvent
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.inputs
+  commentId: F:TinyGiantStudio.Text.ButtonInputProcessor.inputs
+  id: inputs
+  parent: TinyGiantStudio.Text.ButtonInputProcessor
+  langs:
+  - csharp
+  - vb
+  name: inputs
+  nameWithType: ButtonInputProcessor.inputs
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.inputs
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: inputs
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Input/ButtonInputProcessor.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public List<ButtonInputProcessor.StandardInput> inputs
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Text.ButtonInputProcessor.StandardInput}
+    content.vb: >-
+      <HideInInspector>
+
+      Public inputs As List(Of ButtonInputProcessor.StandardInput)
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: System.Collections.Generic.List{TinyGiantStudio.Text.ButtonInputProcessor.StandardInput}
+  commentId: T:System.Collections.Generic.List{TinyGiantStudio.Text.ButtonInputProcessor.StandardInput}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  name: List<ButtonInputProcessor.StandardInput>
+  nameWithType: List<ButtonInputProcessor.StandardInput>
+  fullName: System.Collections.Generic.List<TinyGiantStudio.Text.ButtonInputProcessor.StandardInput>
+  nameWithType.vb: List(Of ButtonInputProcessor.StandardInput)
+  fullName.vb: System.Collections.Generic.List(Of TinyGiantStudio.Text.ButtonInputProcessor.StandardInput)
+  name.vb: List(Of ButtonInputProcessor.StandardInput)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor
+    name: ButtonInputProcessor
+    href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+    name: StandardInput
+    href: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor
+    name: ButtonInputProcessor
+    href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+    name: StandardInput
+    href: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.Example.DamageText
+  commentId: T:TinyGiantStudio.Text.Example.DamageText
+  id: DamageText
+  parent: TinyGiantStudio.Text.Example
+  children:
+  - TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Int32)
+  - TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Single)
+  - TinyGiantStudio.Text.Example.DamageText.UpdateText(System.String)
+  - TinyGiantStudio.Text.Example.DamageText.modular3DText
+  - TinyGiantStudio.Text.Example.DamageText.module
+  - TinyGiantStudio.Text.Example.DamageText.textHolder
+  langs:
+  - csharp
+  - vb
+  name: DamageText
+  nameWithType: DamageText
+  fullName: TinyGiantStudio.Text.Example.DamageText
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DamageText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: 'public class DamageText : MonoBehaviour'
+    content.vb: Public Class DamageText Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: TinyGiantStudio.Text.Example.DamageText.modular3DText
+  commentId: F:TinyGiantStudio.Text.Example.DamageText.modular3DText
+  id: modular3DText
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: modular3DText
+  nameWithType: DamageText.modular3DText
+  fullName: TinyGiantStudio.Text.Example.DamageText.modular3DText
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: modular3DText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public Modular3DText modular3DText
+    return:
+      type: TinyGiantStudio.Text.Modular3DText
+    content.vb: Public modular3DText As Modular3DText
+- uid: TinyGiantStudio.Text.Example.DamageText.textHolder
+  commentId: F:TinyGiantStudio.Text.Example.DamageText.textHolder
+  id: textHolder
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: textHolder
+  nameWithType: DamageText.textHolder
+  fullName: TinyGiantStudio.Text.Example.DamageText.textHolder
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: textHolder
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public Transform textHolder
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public textHolder As Transform
+- uid: TinyGiantStudio.Text.Example.DamageText.module
+  commentId: F:TinyGiantStudio.Text.Example.DamageText.module
+  id: module
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: module
+  nameWithType: DamageText.module
+  fullName: TinyGiantStudio.Text.Example.DamageText.module
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: module
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public Module module
+    return:
+      type: TinyGiantStudio.Modules.Module
+    content.vb: Public [module] As [Module]
+- uid: TinyGiantStudio.Text.Example.DamageText.UpdateText(System.String)
+  commentId: M:TinyGiantStudio.Text.Example.DamageText.UpdateText(System.String)
+  id: UpdateText(System.String)
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(string)
+  nameWithType: DamageText.UpdateText(string)
+  fullName: TinyGiantStudio.Text.Example.DamageText.UpdateText(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public void UpdateText(string str)
+    parameters:
+    - id: str
+      type: System.String
+    content.vb: Public Sub UpdateText(str As String)
+  overload: TinyGiantStudio.Text.Example.DamageText.UpdateText*
+  nameWithType.vb: DamageText.UpdateText(String)
+  fullName.vb: TinyGiantStudio.Text.Example.DamageText.UpdateText(String)
+  name.vb: UpdateText(String)
+- uid: TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Single)
+  commentId: M:TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Single)
+  id: UpdateText(System.Single)
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(float)
+  nameWithType: DamageText.UpdateText(float)
+  fullName: TinyGiantStudio.Text.Example.DamageText.UpdateText(float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public void UpdateText(float number)
+    parameters:
+    - id: number
+      type: System.Single
+    content.vb: Public Sub UpdateText(number As Single)
+  overload: TinyGiantStudio.Text.Example.DamageText.UpdateText*
+  nameWithType.vb: DamageText.UpdateText(Single)
+  fullName.vb: TinyGiantStudio.Text.Example.DamageText.UpdateText(Single)
+  name.vb: UpdateText(Single)
+- uid: TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Int32)
+  commentId: M:TinyGiantStudio.Text.Example.DamageText.UpdateText(System.Int32)
+  id: UpdateText(System.Int32)
+  parent: TinyGiantStudio.Text.Example.DamageText
+  langs:
+  - csharp
+  - vb
+  name: UpdateText(int)
+  nameWithType: DamageText.UpdateText(int)
+  fullName: TinyGiantStudio.Text.Example.DamageText.UpdateText(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateText
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Examples/DamageText.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.Example
+  syntax:
+    content: public void UpdateText(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+    content.vb: Public Sub UpdateText(number As Integer)
+  overload: TinyGiantStudio.Text.Example.DamageText.UpdateText*
+  nameWithType.vb: DamageText.UpdateText(Integer)
+  fullName.vb: TinyGiantStudio.Text.Example.DamageText.UpdateText(Integer)
+  name.vb: UpdateText(Integer)
+references:
+- uid: TinyGiantStudio.Text.Example
+  commentId: N:TinyGiantStudio.Text.Example
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.Example
+  nameWithType: TinyGiantStudio.Text.Example
+  fullName: TinyGiantStudio.Text.Example
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.Example
+    name: Example
+    href: TinyGiantStudio.Text.Example.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.Example
+    name: Example
+    href: TinyGiantStudio.Text.Example.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Text.Modular3DText
+  commentId: T:TinyGiantStudio.Text.Modular3DText
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Modular3DText.html
+  name: Modular3DText
+  nameWithType: Modular3DText
+  fullName: TinyGiantStudio.Text.Modular3DText
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: TinyGiantStudio.Modules.Module
+  commentId: T:TinyGiantStudio.Modules.Module
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.Module.html
+  name: Module
+  nameWithType: Module
+  fullName: TinyGiantStudio.Modules.Module
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+- uid: TinyGiantStudio.Text.Example.DamageText.UpdateText*
+  commentId: Overload:TinyGiantStudio.Text.Example.DamageText.UpdateText
+  href: TinyGiantStudio.Text.Example.DamageText.html#TinyGiantStudio_Text_Example_DamageText_UpdateText_System_String_
+  name: UpdateText
+  nameWithType: DamageText.UpdateText
+  fullName: TinyGiantStudio.Text.Example.DamageText.UpdateText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

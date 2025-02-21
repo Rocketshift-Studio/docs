@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  id: BaseCloudStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(System.String[])
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[])
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  langs:
+  - csharp
+  - vb
+  name: BaseCloudStorageExtension
+  nameWithType: BaseCloudStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: BaseCloudStorageExtension
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To allow cloud storage based save/load operations on score values
+  example: []
+  syntax:
+    content: 'public abstract class BaseCloudStorageExtension : ICloudStorageExtension, IStorageExtension, ISpecialPermissionExtension, IExtension'
+    content.vb: Public MustInherit Class BaseCloudStorageExtension Implements ICloudStorageExtension, IStorageExtension, ISpecialPermissionExtension, IExtension
+  inheritance:
+  - System.Object
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  - RocketshiftStudio.Trophy.Extensions.IExtension
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[])
+  id: LoadMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: LoadMultipleAsync(string[])
+  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LoadMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 9
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To load and sync score values with saved values
+  example: []
+  syntax:
+    content: public virtual Task<ScoreData[]> LoadMultipleAsync(string[] keys)
+    parameters:
+    - id: keys
+      type: System.String[]
+      description: Target keys
+    return:
+      type: System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+      description: Score data collection
+    content.vb: Public Overridable Function LoadMultipleAsync(keys As String()) As Task(Of ScoreData())
+  overload: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync*
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
+  nameWithType.vb: BaseCloudStorageExtension.LoadMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(String())
+  name.vb: LoadMultipleAsync(String())
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  id: LoadMultipleAsync(System.String[],System.String)
+  parent: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: LoadMultipleAsync(string[], string)
+  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync(string[], string)
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(string[], string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LoadMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To fetch score values of a user with id
+  example: []
+  syntax:
+    content: public abstract Task<ScoreData[]> LoadMultipleAsync(string[] keys, string userId)
+    parameters:
+    - id: keys
+      type: System.String[]
+      description: Target keys
+    - id: userId
+      type: System.String
+      description: Id of user
+    return:
+      type: System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+      description: Score data collection
+    content.vb: Public MustOverride Function LoadMultipleAsync(keys As String(), userId As String) As Task(Of ScoreData())
+  overload: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync*
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  nameWithType.vb: BaseCloudStorageExtension.LoadMultipleAsync(String(), String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(String(), String)
+  name.vb: LoadMultipleAsync(String(), String)
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  id: SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: SaveMultipleAsync(ScoreData[])
+  nameWithType: BaseCloudStorageExtension.SaveMultipleAsync(ScoreData[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SaveMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 15
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To save score values to storage
+  example: []
+  syntax:
+    content: public abstract Task SaveMultipleAsync(ScoreData[] scoreDatas)
+    parameters:
+    - id: scoreDatas
+      type: RocketshiftStudio.Trophy.ScoreData[]
+    return:
+      type: System.Threading.Tasks.Task
+      description: Asynchronous operation
+    content.vb: Public MustOverride Function SaveMultipleAsync(scoreDatas As ScoreData()) As Task
+  overload: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync*
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  nameWithType.vb: BaseCloudStorageExtension.SaveMultipleAsync(ScoreData())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
+  name.vb: SaveMultipleAsync(ScoreData())
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(System.String[])
+  id: DeleteMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: DeleteMultipleAsync(string[])
+  nameWithType: BaseCloudStorageExtension.DeleteMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DeleteMultipleAsync
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 16
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To delete score values from storage
+  example: []
+  syntax:
+    content: public abstract Task DeleteMultipleAsync(string[] keys)
+    parameters:
+    - id: keys
+      type: System.String[]
+      description: Target keys
+    return:
+      type: System.Threading.Tasks.Task
+      description: Asynchronous operation
+    content.vb: Public MustOverride Function DeleteMultipleAsync(keys As String()) As Task
+  overload: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync*
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
+  nameWithType.vb: BaseCloudStorageExtension.DeleteMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(String())
+  name.vb: DeleteMultipleAsync(String())
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
+  id: IsAuthorized
+  parent: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: IsAuthorized()
+  nameWithType: BaseCloudStorageExtension.IsAuthorized()
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized()
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IsAuthorized
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/BaseCloudStorageExtension.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: Used by <xref href="RocketshiftStudio.Trophy.Trophy" data-throw-if-not-resolved="false"></xref> to check for database authorization
+  example: []
+  syntax:
+    content: public abstract bool IsAuthorized()
+    return:
+      type: System.Boolean
+      description: Authorization status
+    content.vb: Public MustOverride Function IsAuthorized() As Boolean
+  overload: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized*
+  implements:
+  - RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html
+  name: ICloudStorageExtension
+  nameWithType: ICloudStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html
+  name: IStorageExtension
+  nameWithType: IStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html
+  name: ISpecialPermissionExtension
+  nameWithType: ISpecialPermissionExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IExtension.html
+  name: IExtension
+  nameWithType: IExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IExtension
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadMultipleAsync_System_String___
+  name: LoadMultipleAsync
+  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_System_String___
+  name: LoadMultipleAsync(string[])
+  nameWithType: IStorageExtension.LoadMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(string[])
+  nameWithType.vb: IStorageExtension.LoadMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(String())
+  name.vb: LoadMultipleAsync(String())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
+    name: LoadMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
+    name: LoadMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+  commentId: T:System.Threading.Tasks.Task{RocketshiftStudio.Trophy.ScoreData[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: RocketshiftStudio.Trophy.ScoreData.html
+  name: Task<ScoreData[]>
+  nameWithType: Task<ScoreData[]>
+  fullName: System.Threading.Tasks.Task<RocketshiftStudio.Trophy.ScoreData[]>
+  nameWithType.vb: Task(Of ScoreData())
+  fullName.vb: System.Threading.Tasks.Task(Of RocketshiftStudio.Trophy.ScoreData())
+  name.vb: Task(Of ScoreData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+  parent: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadMultipleAsync_System_String___System_String_
+  name: LoadMultipleAsync(string[], string)
+  nameWithType: ICloudStorageExtension.LoadMultipleAsync(string[], string)
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(string[], string)
+  nameWithType.vb: ICloudStorageExtension.LoadMultipleAsync(String(), String)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(String(), String)
+  name.vb: LoadMultipleAsync(String(), String)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+    name: LoadMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadMultipleAsync_System_String___System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
+    name: LoadMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadMultipleAsync_System_String___System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
+  name: SaveMultipleAsync
+  nameWithType: BaseCloudStorageExtension.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
+  name: SaveMultipleAsync(ScoreData[])
+  nameWithType: IStorageExtension.SaveMultipleAsync(ScoreData[])
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+  nameWithType.vb: IStorageExtension.SaveMultipleAsync(ScoreData())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
+  name.vb: SaveMultipleAsync(ScoreData())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+    name: SaveMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
+  - name: (
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
+    name: SaveMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
+  - name: (
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: (
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.ScoreData[]
+  isExternal: true
+  href: RocketshiftStudio.Trophy.ScoreData.html
+  name: ScoreData[]
+  nameWithType: ScoreData[]
+  fullName: RocketshiftStudio.Trophy.ScoreData[]
+  nameWithType.vb: ScoreData()
+  fullName.vb: RocketshiftStudio.Trophy.ScoreData()
+  name.vb: ScoreData()
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync
+  href: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_DeleteMultipleAsync_System_String___
+  name: DeleteMultipleAsync
+  nameWithType: BaseCloudStorageExtension.DeleteMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_System_String___
+  name: DeleteMultipleAsync(string[])
+  nameWithType: IStorageExtension.DeleteMultipleAsync(string[])
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(string[])
+  nameWithType.vb: IStorageExtension.DeleteMultipleAsync(String())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(String())
+  name.vb: DeleteMultipleAsync(String())
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
+    name: DeleteMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
+    name: DeleteMultipleAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Trophy
+  commentId: T:RocketshiftStudio.Trophy.Trophy
+  href: RocketshiftStudio.Trophy.Trophy.html
+  name: Trophy
+  nameWithType: Trophy
+  fullName: RocketshiftStudio.Trophy.Trophy
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
+  href: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_IsAuthorized
+  name: IsAuthorized
+  nameWithType: BaseCloudStorageExtension.IsAuthorized
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  commentId: M:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  parent: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html#RocketshiftStudio_Trophy_Extensions_ISpecialPermissionExtension_IsAuthorized
+  name: IsAuthorized()
+  nameWithType: ISpecialPermissionExtension.IsAuthorized()
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized()
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+    name: IsAuthorized
+    href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html#RocketshiftStudio_Trophy_Extensions_ISpecialPermissionExtension_IsAuthorized
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+    name: IsAuthorized
+    href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html#RocketshiftStudio_Trophy_Extensions_ISpecialPermissionExtension_IsAuthorized
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

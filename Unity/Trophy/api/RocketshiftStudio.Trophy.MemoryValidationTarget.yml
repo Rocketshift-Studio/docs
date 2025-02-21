@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.MemoryValidationTarget
+  commentId: T:RocketshiftStudio.Trophy.MemoryValidationTarget
+  id: MemoryValidationTarget
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.MemoryValidationTarget.Best
+  - RocketshiftStudio.Trophy.MemoryValidationTarget.Current
+  - RocketshiftStudio.Trophy.MemoryValidationTarget.Latest
+  langs:
+  - csharp
+  - vb
+  name: MemoryValidationTarget
+  nameWithType: MemoryValidationTarget
+  fullName: RocketshiftStudio.Trophy.MemoryValidationTarget
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MemoryValidationTarget
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+    startLine: 4
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MemoryValidationTarget
+    content.vb: >-
+      <Flags>
+
+      Public Enum MemoryValidationTarget
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.MemoryValidationTarget.Current
+  commentId: F:RocketshiftStudio.Trophy.MemoryValidationTarget.Current
+  id: Current
+  parent: RocketshiftStudio.Trophy.MemoryValidationTarget
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: MemoryValidationTarget.Current
+  fullName: RocketshiftStudio.Trophy.MemoryValidationTarget.Current
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Current
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: Current = 1
+    return:
+      type: RocketshiftStudio.Trophy.MemoryValidationTarget
+- uid: RocketshiftStudio.Trophy.MemoryValidationTarget.Best
+  commentId: F:RocketshiftStudio.Trophy.MemoryValidationTarget.Best
+  id: Best
+  parent: RocketshiftStudio.Trophy.MemoryValidationTarget
+  langs:
+  - csharp
+  - vb
+  name: Best
+  nameWithType: MemoryValidationTarget.Best
+  fullName: RocketshiftStudio.Trophy.MemoryValidationTarget.Best
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Best
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: Best = 2
+    return:
+      type: RocketshiftStudio.Trophy.MemoryValidationTarget
+- uid: RocketshiftStudio.Trophy.MemoryValidationTarget.Latest
+  commentId: F:RocketshiftStudio.Trophy.MemoryValidationTarget.Latest
+  id: Latest
+  parent: RocketshiftStudio.Trophy.MemoryValidationTarget
+  langs:
+  - csharp
+  - vb
+  name: Latest
+  nameWithType: MemoryValidationTarget.Latest
+  fullName: RocketshiftStudio.Trophy.MemoryValidationTarget.Latest
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Latest
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/MemoryValidationTarget.cs
+    startLine: 9
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: Latest = 4
+    return:
+      type: RocketshiftStudio.Trophy.MemoryValidationTarget
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.MemoryValidationTarget
+  commentId: T:RocketshiftStudio.Trophy.MemoryValidationTarget
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.MemoryValidationTarget.html
+  name: MemoryValidationTarget
+  nameWithType: MemoryValidationTarget
+  fullName: RocketshiftStudio.Trophy.MemoryValidationTarget
+shouldSkipMarkup: true

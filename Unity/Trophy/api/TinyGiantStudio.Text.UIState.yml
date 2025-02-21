@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.UIState
+  commentId: T:TinyGiantStudio.Text.UIState
+  id: UIState
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.UIState.CallAppropriateMethods
+  - TinyGiantStudio.Text.UIState.Focused
+  - TinyGiantStudio.Text.UIState.HoverEnter
+  - TinyGiantStudio.Text.UIState.HoverExit
+  - TinyGiantStudio.Text.UIState.PressComplete
+  - TinyGiantStudio.Text.UIState.PressStart
+  - TinyGiantStudio.Text.UIState.State
+  - TinyGiantStudio.Text.UIState.Unfocused
+  - TinyGiantStudio.Text.UIState._state
+  langs:
+  - csharp
+  - vb
+  name: UIState
+  nameWithType: UIState
+  fullName: TinyGiantStudio.Text.UIState
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UIState
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If current state is focused, it won't set state to hovered and unhovered
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class UIState
+    content.vb: >-
+      <Serializable>
+
+      Public Class UIState
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.UIState._state
+  commentId: F:TinyGiantStudio.Text.UIState._state
+  id: _state
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: _state
+  nameWithType: UIState._state
+  fullName: TinyGiantStudio.Text.UIState._state
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: _state
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public UIState.StateEnum _state
+    return:
+      type: TinyGiantStudio.Text.UIState.StateEnum
+    content.vb: >-
+      <SerializeField>
+
+      Public _state As UIState.StateEnum
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.UIState.State
+  commentId: P:TinyGiantStudio.Text.UIState.State
+  id: State
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: UIState.State
+  fullName: TinyGiantStudio.Text.UIState.State
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: State
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UIState.StateEnum State { get; set; }
+    parameters: []
+    return:
+      type: TinyGiantStudio.Text.UIState.StateEnum
+    content.vb: Public Property State As UIState.StateEnum
+  overload: TinyGiantStudio.Text.UIState.State*
+- uid: TinyGiantStudio.Text.UIState.HoverEnter
+  commentId: E:TinyGiantStudio.Text.UIState.HoverEnter
+  id: HoverEnter
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: HoverEnter
+  nameWithType: UIState.HoverEnter
+  fullName: TinyGiantStudio.Text.UIState.HoverEnter
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverEnter
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 30
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler HoverEnter
+    return:
+      type: System.EventHandler
+    content.vb: Public Event HoverEnter As EventHandler
+- uid: TinyGiantStudio.Text.UIState.HoverExit
+  commentId: E:TinyGiantStudio.Text.UIState.HoverExit
+  id: HoverExit
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: HoverExit
+  nameWithType: UIState.HoverExit
+  fullName: TinyGiantStudio.Text.UIState.HoverExit
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HoverExit
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler HoverExit
+    return:
+      type: System.EventHandler
+    content.vb: Public Event HoverExit As EventHandler
+- uid: TinyGiantStudio.Text.UIState.PressStart
+  commentId: E:TinyGiantStudio.Text.UIState.PressStart
+  id: PressStart
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: PressStart
+  nameWithType: UIState.PressStart
+  fullName: TinyGiantStudio.Text.UIState.PressStart
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressStart
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler PressStart
+    return:
+      type: System.EventHandler
+    content.vb: Public Event PressStart As EventHandler
+- uid: TinyGiantStudio.Text.UIState.PressComplete
+  commentId: E:TinyGiantStudio.Text.UIState.PressComplete
+  id: PressComplete
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: PressComplete
+  nameWithType: UIState.PressComplete
+  fullName: TinyGiantStudio.Text.UIState.PressComplete
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressComplete
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler PressComplete
+    return:
+      type: System.EventHandler
+    content.vb: Public Event PressComplete As EventHandler
+- uid: TinyGiantStudio.Text.UIState.Focused
+  commentId: E:TinyGiantStudio.Text.UIState.Focused
+  id: Focused
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: Focused
+  nameWithType: UIState.Focused
+  fullName: TinyGiantStudio.Text.UIState.Focused
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Focused
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler Focused
+    return:
+      type: System.EventHandler
+    content.vb: Public Event Focused As EventHandler
+- uid: TinyGiantStudio.Text.UIState.Unfocused
+  commentId: E:TinyGiantStudio.Text.UIState.Unfocused
+  id: Unfocused
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: Unfocused
+  nameWithType: UIState.Unfocused
+  fullName: TinyGiantStudio.Text.UIState.Unfocused
+  type: Event
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Unfocused
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public event EventHandler Unfocused
+    return:
+      type: System.EventHandler
+    content.vb: Public Event Unfocused As EventHandler
+- uid: TinyGiantStudio.Text.UIState.CallAppropriateMethods
+  commentId: M:TinyGiantStudio.Text.UIState.CallAppropriateMethods
+  id: CallAppropriateMethods
+  parent: TinyGiantStudio.Text.UIState
+  langs:
+  - csharp
+  - vb
+  name: CallAppropriateMethods()
+  nameWithType: UIState.CallAppropriateMethods()
+  fullName: TinyGiantStudio.Text.UIState.CallAppropriateMethods()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CallAppropriateMethods
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/UI Element/UIState.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void CallAppropriateMethods()
+    content.vb: Public Sub CallAppropriateMethods()
+  overload: TinyGiantStudio.Text.UIState.CallAppropriateMethods*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Text.UIState.StateEnum
+  commentId: T:TinyGiantStudio.Text.UIState.StateEnum
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.UIState.html
+  name: UIState.StateEnum
+  nameWithType: UIState.StateEnum
+  fullName: TinyGiantStudio.Text.UIState.StateEnum
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.UIState
+    name: UIState
+    href: TinyGiantStudio.Text.UIState.html
+  - name: .
+  - uid: TinyGiantStudio.Text.UIState.StateEnum
+    name: StateEnum
+    href: TinyGiantStudio.Text.UIState.StateEnum.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.UIState
+    name: UIState
+    href: TinyGiantStudio.Text.UIState.html
+  - name: .
+  - uid: TinyGiantStudio.Text.UIState.StateEnum
+    name: StateEnum
+    href: TinyGiantStudio.Text.UIState.StateEnum.html
+- uid: TinyGiantStudio.Text.UIState.State*
+  commentId: Overload:TinyGiantStudio.Text.UIState.State
+  href: TinyGiantStudio.Text.UIState.html#TinyGiantStudio_Text_UIState_State
+  name: State
+  nameWithType: UIState.State
+  fullName: TinyGiantStudio.Text.UIState.State
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: TinyGiantStudio.Text.UIState.CallAppropriateMethods*
+  commentId: Overload:TinyGiantStudio.Text.UIState.CallAppropriateMethods
+  href: TinyGiantStudio.Text.UIState.html#TinyGiantStudio_Text_UIState_CallAppropriateMethods
+  name: CallAppropriateMethods
+  nameWithType: UIState.CallAppropriateMethods
+  fullName: TinyGiantStudio.Text.UIState.CallAppropriateMethods

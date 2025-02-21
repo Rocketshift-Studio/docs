@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.LineSpacingStyle
+  commentId: T:TinyGiantStudio.Layout.LineSpacingStyle
+  id: LineSpacingStyle
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.LineSpacingStyle.average
+  - TinyGiantStudio.Layout.LineSpacingStyle.individual
+  - TinyGiantStudio.Layout.LineSpacingStyle.maximum
+  langs:
+  - csharp
+  - vb
+  name: LineSpacingStyle
+  nameWithType: LineSpacingStyle
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LineSpacingStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+    startLine: 1436
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public enum LineSpacingStyle
+    content.vb: Public Enum LineSpacingStyle
+- uid: TinyGiantStudio.Layout.LineSpacingStyle.maximum
+  commentId: F:TinyGiantStudio.Layout.LineSpacingStyle.maximum
+  id: maximum
+  parent: TinyGiantStudio.Layout.LineSpacingStyle
+  langs:
+  - csharp
+  - vb
+  name: maximum
+  nameWithType: LineSpacingStyle.maximum
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle.maximum
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: maximum
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+    startLine: 1438
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: maximum = 0
+    return:
+      type: TinyGiantStudio.Layout.LineSpacingStyle
+- uid: TinyGiantStudio.Layout.LineSpacingStyle.average
+  commentId: F:TinyGiantStudio.Layout.LineSpacingStyle.average
+  id: average
+  parent: TinyGiantStudio.Layout.LineSpacingStyle
+  langs:
+  - csharp
+  - vb
+  name: average
+  nameWithType: LineSpacingStyle.average
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle.average
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: average
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+    startLine: 1439
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: average = 1
+    return:
+      type: TinyGiantStudio.Layout.LineSpacingStyle
+- uid: TinyGiantStudio.Layout.LineSpacingStyle.individual
+  commentId: F:TinyGiantStudio.Layout.LineSpacingStyle.individual
+  id: individual
+  parent: TinyGiantStudio.Layout.LineSpacingStyle
+  langs:
+  - csharp
+  - vb
+  name: individual
+  nameWithType: LineSpacingStyle.individual
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle.individual
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: individual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/GridLayoutGroup.cs
+    startLine: 1440
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: individual = 2
+    return:
+      type: TinyGiantStudio.Layout.LineSpacingStyle
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: TinyGiantStudio.Layout.LineSpacingStyle
+  commentId: T:TinyGiantStudio.Layout.LineSpacingStyle
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LineSpacingStyle.html
+  name: LineSpacingStyle
+  nameWithType: LineSpacingStyle
+  fullName: TinyGiantStudio.Layout.LineSpacingStyle

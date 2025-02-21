@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.FontInstanceUpdater
+  commentId: T:TinyGiantStudio.Text.FontInstanceUpdater
+  id: FontInstanceUpdater
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene(TinyGiantStudio.Text.Font)
+  langs:
+  - csharp
+  - vb
+  name: FontInstanceUpdater
+  nameWithType: FontInstanceUpdater
+  fullName: TinyGiantStudio.Text.FontInstanceUpdater
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Font/FontInstanceUpdater.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FontInstanceUpdater
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Font/FontInstanceUpdater.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    The purpose of this script is to update all instance of a font.
+
+    Used by editor script to update scene objects
+  example: []
+  syntax:
+    content: public class FontInstanceUpdater
+    content.vb: Public Class FontInstanceUpdater
+  inheritance:
+  - System.Object
+- uid: TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene(TinyGiantStudio.Text.Font)
+  commentId: M:TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene(TinyGiantStudio.Text.Font)
+  id: ApplyFontChangesToTheScene(TinyGiantStudio.Text.Font)
+  parent: TinyGiantStudio.Text.FontInstanceUpdater
+  langs:
+  - csharp
+  - vb
+  name: ApplyFontChangesToTheScene(Font)
+  nameWithType: FontInstanceUpdater.ApplyFontChangesToTheScene(Font)
+  fullName: TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene(TinyGiantStudio.Text.Font)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Font/FontInstanceUpdater.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyFontChangesToTheScene
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Font/FontInstanceUpdater.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ApplyFontChangesToTheScene(Font targetFont)
+    parameters:
+    - id: targetFont
+      type: TinyGiantStudio.Text.Font
+    content.vb: Public Sub ApplyFontChangesToTheScene(targetFont As Font)
+  overload: TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene*
+  commentId: Overload:TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene
+  href: TinyGiantStudio.Text.FontInstanceUpdater.html#TinyGiantStudio_Text_FontInstanceUpdater_ApplyFontChangesToTheScene_TinyGiantStudio_Text_Font_
+  name: ApplyFontChangesToTheScene
+  nameWithType: FontInstanceUpdater.ApplyFontChangesToTheScene
+  fullName: TinyGiantStudio.Text.FontInstanceUpdater.ApplyFontChangesToTheScene
+- uid: TinyGiantStudio.Text.Font
+  commentId: T:TinyGiantStudio.Text.Font
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: TinyGiantStudio.Text.Font

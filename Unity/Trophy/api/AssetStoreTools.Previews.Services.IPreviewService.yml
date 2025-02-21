@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: AssetStoreTools.Previews.Services.IPreviewService
+  commentId: T:AssetStoreTools.Previews.Services.IPreviewService
+  id: IPreviewService
+  parent: AssetStoreTools.Previews.Services
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IPreviewService
+  nameWithType: IPreviewService
+  fullName: AssetStoreTools.Previews.Services.IPreviewService
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/IPreviewService.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IPreviewService
+    path: ../Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/IPreviewService.cs
+    startLine: 2
+  assemblies:
+  - asset-store-tools-editor
+  namespace: AssetStoreTools.Previews.Services
+  syntax:
+    content: public interface IPreviewService
+    content.vb: Public Interface IPreviewService
+references:
+- uid: AssetStoreTools.Previews.Services
+  commentId: N:AssetStoreTools.Previews.Services
+  href: AssetStoreTools.html
+  name: AssetStoreTools.Previews.Services
+  nameWithType: AssetStoreTools.Previews.Services
+  fullName: AssetStoreTools.Previews.Services
+  spec.csharp:
+  - uid: AssetStoreTools
+    name: AssetStoreTools
+    href: AssetStoreTools.html
+  - name: .
+  - uid: AssetStoreTools.Previews
+    name: Previews
+    href: AssetStoreTools.Previews.html
+  - name: .
+  - uid: AssetStoreTools.Previews.Services
+    name: Services
+    href: AssetStoreTools.Previews.Services.html
+  spec.vb:
+  - uid: AssetStoreTools
+    name: AssetStoreTools
+    href: AssetStoreTools.html
+  - name: .
+  - uid: AssetStoreTools.Previews
+    name: Previews
+    href: AssetStoreTools.Previews.html
+  - name: .
+  - uid: AssetStoreTools.Previews.Services
+    name: Services
+    href: AssetStoreTools.Previews.Services.html

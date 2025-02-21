@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.EditorFiles.Theme
+  commentId: T:TinyGiantStudio.Text.EditorFiles.Theme
+  id: Theme
+  parent: TinyGiantStudio.Text.EditorFiles
+  children:
+  - TinyGiantStudio.Text.EditorFiles.Theme.Dark
+  - TinyGiantStudio.Text.EditorFiles.Theme.Light
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Theme
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 332
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: public enum Theme
+    content.vb: Public Enum Theme
+- uid: TinyGiantStudio.Text.EditorFiles.Theme.Dark
+  commentId: F:TinyGiantStudio.Text.EditorFiles.Theme.Dark
+  id: Dark
+  parent: TinyGiantStudio.Text.EditorFiles.Theme
+  langs:
+  - csharp
+  - vb
+  name: Dark
+  nameWithType: Theme.Dark
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme.Dark
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Dark
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 334
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: Dark = 0
+    return:
+      type: TinyGiantStudio.Text.EditorFiles.Theme
+- uid: TinyGiantStudio.Text.EditorFiles.Theme.Light
+  commentId: F:TinyGiantStudio.Text.EditorFiles.Theme.Light
+  id: Light
+  parent: TinyGiantStudio.Text.EditorFiles.Theme
+  langs:
+  - csharp
+  - vb
+  name: Light
+  nameWithType: Theme.Light
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme.Light
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Light
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Editor/Common/EditorThemeManager.cs
+    startLine: 335
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+  namespace: TinyGiantStudio.Text.EditorFiles
+  syntax:
+    content: Light = 1
+    return:
+      type: TinyGiantStudio.Text.EditorFiles.Theme
+references:
+- uid: TinyGiantStudio.Text.EditorFiles
+  commentId: N:TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.EditorFiles
+  nameWithType: TinyGiantStudio.Text.EditorFiles
+  fullName: TinyGiantStudio.Text.EditorFiles
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.EditorFiles
+    name: EditorFiles
+    href: TinyGiantStudio.Text.EditorFiles.html
+- uid: TinyGiantStudio.Text.EditorFiles.Theme
+  commentId: T:TinyGiantStudio.Text.EditorFiles.Theme
+  parent: TinyGiantStudio.Text.EditorFiles
+  href: TinyGiantStudio.Text.EditorFiles.Theme.html
+  name: Theme
+  nameWithType: Theme
+  fullName: TinyGiantStudio.Text.EditorFiles.Theme

@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  commentId: T:TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  id: MText_SampleScene_VRCam.RotationAxes
+  parent: TinyGiantStudio.Text.SampleScene
+  children:
+  - TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseX
+  - TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseXAndY
+  - TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseY
+  langs:
+  - csharp
+  - vb
+  name: MText_SampleScene_VRCam.RotationAxes
+  nameWithType: MText_SampleScene_VRCam.RotationAxes
+  fullName: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: RotationAxes
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.SampleScene
+  syntax:
+    content: public enum MText_SampleScene_VRCam.RotationAxes
+    content.vb: Public Enum MText_SampleScene_VRCam.RotationAxes
+- uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseXAndY
+  commentId: F:TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseXAndY
+  id: MouseXAndY
+  parent: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  langs:
+  - csharp
+  - vb
+  name: MouseXAndY
+  nameWithType: MText_SampleScene_VRCam.RotationAxes.MouseXAndY
+  fullName: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseXAndY
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MouseXAndY
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.SampleScene
+  syntax:
+    content: MouseXAndY = 0
+    return:
+      type: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+- uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseX
+  commentId: F:TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseX
+  id: MouseX
+  parent: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  langs:
+  - csharp
+  - vb
+  name: MouseX
+  nameWithType: MText_SampleScene_VRCam.RotationAxes.MouseX
+  fullName: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseX
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MouseX
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.SampleScene
+  syntax:
+    content: MouseX = 1
+    return:
+      type: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+- uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseY
+  commentId: F:TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseY
+  id: MouseY
+  parent: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  langs:
+  - csharp
+  - vb
+  name: MouseY
+  nameWithType: MText_SampleScene_VRCam.RotationAxes.MouseY
+  fullName: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.MouseY
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MouseY
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Sample Scene/MText_SampleScene_VRCam.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text.SampleScene
+  syntax:
+    content: MouseY = 2
+    return:
+      type: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+references:
+- uid: TinyGiantStudio.Text.SampleScene
+  commentId: N:TinyGiantStudio.Text.SampleScene
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text.SampleScene
+  nameWithType: TinyGiantStudio.Text.SampleScene
+  fullName: TinyGiantStudio.Text.SampleScene
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.SampleScene
+    name: SampleScene
+    href: TinyGiantStudio.Text.SampleScene.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  - name: .
+  - uid: TinyGiantStudio.Text.SampleScene
+    name: SampleScene
+    href: TinyGiantStudio.Text.SampleScene.html
+- uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  commentId: T:TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  parent: TinyGiantStudio.Text.SampleScene
+  href: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.html
+  name: MText_SampleScene_VRCam.RotationAxes
+  nameWithType: MText_SampleScene_VRCam.RotationAxes
+  fullName: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam
+    name: MText_SampleScene_VRCam
+    href: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.html
+  - name: .
+  - uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+    name: RotationAxes
+    href: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam
+    name: MText_SampleScene_VRCam
+    href: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.html
+  - name: .
+  - uid: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes
+    name: RotationAxes
+    href: TinyGiantStudio.Text.SampleScene.MText_SampleScene_VRCam.RotationAxes.html

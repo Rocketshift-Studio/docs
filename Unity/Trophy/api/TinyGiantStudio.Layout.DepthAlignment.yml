@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.DepthAlignment
+  commentId: T:TinyGiantStudio.Layout.DepthAlignment
+  id: DepthAlignment
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.DepthAlignment.back
+  - TinyGiantStudio.Layout.DepthAlignment.front
+  - TinyGiantStudio.Layout.DepthAlignment.middle
+  langs:
+  - csharp
+  - vb
+  name: DepthAlignment
+  nameWithType: DepthAlignment
+  fullName: TinyGiantStudio.Layout.DepthAlignment
+  type: Enum
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DepthAlignment
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+    startLine: 1288
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public enum DepthAlignment
+    content.vb: Public Enum DepthAlignment
+- uid: TinyGiantStudio.Layout.DepthAlignment.front
+  commentId: F:TinyGiantStudio.Layout.DepthAlignment.front
+  id: front
+  parent: TinyGiantStudio.Layout.DepthAlignment
+  langs:
+  - csharp
+  - vb
+  name: front
+  nameWithType: DepthAlignment.front
+  fullName: TinyGiantStudio.Layout.DepthAlignment.front
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: front
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+    startLine: 1290
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: front = 0
+    return:
+      type: TinyGiantStudio.Layout.DepthAlignment
+- uid: TinyGiantStudio.Layout.DepthAlignment.middle
+  commentId: F:TinyGiantStudio.Layout.DepthAlignment.middle
+  id: middle
+  parent: TinyGiantStudio.Layout.DepthAlignment
+  langs:
+  - csharp
+  - vb
+  name: middle
+  nameWithType: DepthAlignment.middle
+  fullName: TinyGiantStudio.Layout.DepthAlignment.middle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: middle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+    startLine: 1291
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: middle = 1
+    return:
+      type: TinyGiantStudio.Layout.DepthAlignment
+- uid: TinyGiantStudio.Layout.DepthAlignment.back
+  commentId: F:TinyGiantStudio.Layout.DepthAlignment.back
+  id: back
+  parent: TinyGiantStudio.Layout.DepthAlignment
+  langs:
+  - csharp
+  - vb
+  name: back
+  nameWithType: DepthAlignment.back
+  fullName: TinyGiantStudio.Layout.DepthAlignment.back
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: back
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/Layout Types/VolumeLayoutGroup.cs
+    startLine: 1292
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: back = 2
+    return:
+      type: TinyGiantStudio.Layout.DepthAlignment
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: TinyGiantStudio.Layout.DepthAlignment
+  commentId: T:TinyGiantStudio.Layout.DepthAlignment
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.DepthAlignment.html
+  name: DepthAlignment
+  nameWithType: DepthAlignment
+  fullName: TinyGiantStudio.Layout.DepthAlignment

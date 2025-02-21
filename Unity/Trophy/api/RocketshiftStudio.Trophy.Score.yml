@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Score
+  commentId: T:RocketshiftStudio.Trophy.Score
+  id: Score
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.Score.BestValue
+  - RocketshiftStudio.Trophy.Score.CurrentValue
+  - RocketshiftStudio.Trophy.Score.IsCounting
+  - RocketshiftStudio.Trophy.Score.LatestValue
+  - RocketshiftStudio.Trophy.Score.Multiplier
+  - RocketshiftStudio.Trophy.Score.Status
+  - RocketshiftStudio.Trophy.Score.definition
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Score
+  fullName: RocketshiftStudio.Trophy.Score
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Score
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public sealed class Score
+    content.vb: Public NotInheritable Class Score
+  inheritance:
+  - System.Object
+- uid: RocketshiftStudio.Trophy.Score.definition
+  commentId: F:RocketshiftStudio.Trophy.Score.definition
+  id: definition
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: definition
+  nameWithType: Score.definition
+  fullName: RocketshiftStudio.Trophy.Score.definition
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: definition
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public readonly ScoreDefinition definition
+    return:
+      type: RocketshiftStudio.Trophy.ScoreDefinition
+    content.vb: Public ReadOnly definition As ScoreDefinition
+- uid: RocketshiftStudio.Trophy.Score.CurrentValue
+  commentId: P:RocketshiftStudio.Trophy.Score.CurrentValue
+  id: CurrentValue
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: CurrentValue
+  nameWithType: Score.CurrentValue
+  fullName: RocketshiftStudio.Trophy.Score.CurrentValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CurrentValue
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public double CurrentValue { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property CurrentValue As Double
+  overload: RocketshiftStudio.Trophy.Score.CurrentValue*
+- uid: RocketshiftStudio.Trophy.Score.BestValue
+  commentId: P:RocketshiftStudio.Trophy.Score.BestValue
+  id: BestValue
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: BestValue
+  nameWithType: Score.BestValue
+  fullName: RocketshiftStudio.Trophy.Score.BestValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: BestValue
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 9
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public double BestValue { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property BestValue As Double
+  overload: RocketshiftStudio.Trophy.Score.BestValue*
+- uid: RocketshiftStudio.Trophy.Score.LatestValue
+  commentId: P:RocketshiftStudio.Trophy.Score.LatestValue
+  id: LatestValue
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: LatestValue
+  nameWithType: Score.LatestValue
+  fullName: RocketshiftStudio.Trophy.Score.LatestValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LatestValue
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public double LatestValue { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property LatestValue As Double
+  overload: RocketshiftStudio.Trophy.Score.LatestValue*
+- uid: RocketshiftStudio.Trophy.Score.Multiplier
+  commentId: P:RocketshiftStudio.Trophy.Score.Multiplier
+  id: Multiplier
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: Multiplier
+  nameWithType: Score.Multiplier
+  fullName: RocketshiftStudio.Trophy.Score.Multiplier
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Multiplier
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 11
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public float Multiplier { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Multiplier As Single
+  overload: RocketshiftStudio.Trophy.Score.Multiplier*
+- uid: RocketshiftStudio.Trophy.Score.IsCounting
+  commentId: P:RocketshiftStudio.Trophy.Score.IsCounting
+  id: IsCounting
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: IsCounting
+  nameWithType: Score.IsCounting
+  fullName: RocketshiftStudio.Trophy.Score.IsCounting
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IsCounting
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 12
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public bool IsCounting { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCounting As Boolean
+  overload: RocketshiftStudio.Trophy.Score.IsCounting*
+- uid: RocketshiftStudio.Trophy.Score.Status
+  commentId: P:RocketshiftStudio.Trophy.Score.Status
+  id: Status
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Score.Status
+  fullName: RocketshiftStudio.Trophy.Score.Status
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Status
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 13
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public ScoreStatusFlags Status { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.ScoreStatusFlags
+    content.vb: Public Property Status As ScoreStatusFlags
+  overload: RocketshiftStudio.Trophy.Score.Status*
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.ScoreDefinition
+  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  name: ScoreDefinition
+  nameWithType: ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.Score.CurrentValue*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.CurrentValue
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_CurrentValue
+  name: CurrentValue
+  nameWithType: Score.CurrentValue
+  fullName: RocketshiftStudio.Trophy.Score.CurrentValue
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: RocketshiftStudio.Trophy.Score.BestValue*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.BestValue
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_BestValue
+  name: BestValue
+  nameWithType: Score.BestValue
+  fullName: RocketshiftStudio.Trophy.Score.BestValue
+- uid: RocketshiftStudio.Trophy.Score.LatestValue*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.LatestValue
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_LatestValue
+  name: LatestValue
+  nameWithType: Score.LatestValue
+  fullName: RocketshiftStudio.Trophy.Score.LatestValue
+- uid: RocketshiftStudio.Trophy.Score.Multiplier*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.Multiplier
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_Multiplier
+  name: Multiplier
+  nameWithType: Score.Multiplier
+  fullName: RocketshiftStudio.Trophy.Score.Multiplier
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: RocketshiftStudio.Trophy.Score.IsCounting*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.IsCounting
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_IsCounting
+  name: IsCounting
+  nameWithType: Score.IsCounting
+  fullName: RocketshiftStudio.Trophy.Score.IsCounting
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: RocketshiftStudio.Trophy.Score.Status*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.Status
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_Status
+  name: Status
+  nameWithType: Score.Status
+  fullName: RocketshiftStudio.Trophy.Score.Status
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags
+  commentId: T:RocketshiftStudio.Trophy.ScoreStatusFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreStatusFlags.html
+  name: ScoreStatusFlags
+  nameWithType: ScoreStatusFlags
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags

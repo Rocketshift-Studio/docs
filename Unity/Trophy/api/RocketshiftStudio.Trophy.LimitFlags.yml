@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.LimitFlags
+  commentId: T:RocketshiftStudio.Trophy.LimitFlags
+  id: LimitFlags
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.LimitFlags.Both
+  - RocketshiftStudio.Trophy.LimitFlags.Maximum
+  - RocketshiftStudio.Trophy.LimitFlags.Minimum
+  - RocketshiftStudio.Trophy.LimitFlags.None
+  langs:
+  - csharp
+  - vb
+  name: LimitFlags
+  nameWithType: LimitFlags
+  fullName: RocketshiftStudio.Trophy.LimitFlags
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LimitFlags
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define the limit of a score
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum LimitFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum LimitFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.LimitFlags.None
+  commentId: F:RocketshiftStudio.Trophy.LimitFlags.None
+  id: None
+  parent: RocketshiftStudio.Trophy.LimitFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LimitFlags.None
+  fullName: RocketshiftStudio.Trophy.LimitFlags.None
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: None
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: No limit other then double.Min and double.Max
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: RocketshiftStudio.Trophy.LimitFlags
+- uid: RocketshiftStudio.Trophy.LimitFlags.Minimum
+  commentId: F:RocketshiftStudio.Trophy.LimitFlags.Minimum
+  id: Minimum
+  parent: RocketshiftStudio.Trophy.LimitFlags
+  langs:
+  - csharp
+  - vb
+  name: Minimum
+  nameWithType: LimitFlags.Minimum
+  fullName: RocketshiftStudio.Trophy.LimitFlags.Minimum
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Minimum
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define minimum limit
+  example: []
+  syntax:
+    content: Minimum = 1
+    return:
+      type: RocketshiftStudio.Trophy.LimitFlags
+- uid: RocketshiftStudio.Trophy.LimitFlags.Maximum
+  commentId: F:RocketshiftStudio.Trophy.LimitFlags.Maximum
+  id: Maximum
+  parent: RocketshiftStudio.Trophy.LimitFlags
+  langs:
+  - csharp
+  - vb
+  name: Maximum
+  nameWithType: LimitFlags.Maximum
+  fullName: RocketshiftStudio.Trophy.LimitFlags.Maximum
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Maximum
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+    startLine: 22
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define maximum limit
+  example: []
+  syntax:
+    content: Maximum = 4
+    return:
+      type: RocketshiftStudio.Trophy.LimitFlags
+- uid: RocketshiftStudio.Trophy.LimitFlags.Both
+  commentId: F:RocketshiftStudio.Trophy.LimitFlags.Both
+  id: Both
+  parent: RocketshiftStudio.Trophy.LimitFlags
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: LimitFlags.Both
+  fullName: RocketshiftStudio.Trophy.LimitFlags.Both
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Both
+    path: ../Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LimitFlags.cs
+    startLine: 26
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define both minimum and maximum limit
+  example: []
+  syntax:
+    content: Both = -1
+    return:
+      type: RocketshiftStudio.Trophy.LimitFlags
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.LimitFlags
+  commentId: T:RocketshiftStudio.Trophy.LimitFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.LimitFlags.html
+  name: LimitFlags
+  nameWithType: LimitFlags
+  fullName: RocketshiftStudio.Trophy.LimitFlags

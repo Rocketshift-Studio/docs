@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+  commentId: T:RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+  id: DynamicReferenceFolderAttribute
+  parent: RocketshiftStudio.Shared
+  children:
+  - RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor(System.String)
+  - RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+  langs:
+  - csharp
+  - vb
+  name: DynamicReferenceFolderAttribute
+  nameWithType: DynamicReferenceFolderAttribute
+  fullName: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DynamicReferenceFolderAttribute
+    path: ../Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared
+  syntax:
+    content: >-
+      [AttributeUsage(AttributeTargets.Class|AttributeTargets.Struct, Inherited = false, AllowMultiple = false)]
+
+      public sealed class DynamicReferenceFolderAttribute : PropertyAttribute
+    content.vb: >-
+      <AttributeUsage(AttributeTargets.ClassOrAttributeTargets.Struct, Inherited:=False, AllowMultiple:=False)>
+
+      Public NotInheritable Class DynamicReferenceFolderAttribute Inherits PropertyAttribute
+  inheritance:
+  - System.Object
+  - System.Attribute
+  - UnityEngine.PropertyAttribute
+  attributes:
+  - type: System.AttributeUsageAttribute
+    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
+    arguments:
+    - type: System.AttributeTargets
+      value: 12
+    namedArguments:
+    - name: Inherited
+      type: System.Boolean
+      value: false
+    - name: AllowMultiple
+      type: System.Boolean
+      value: false
+- uid: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+  commentId: P:RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+  id: Path
+  parent: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: DynamicReferenceFolderAttribute.Path
+  fullName: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Path
+    path: ../Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared
+  syntax:
+    content: public string Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path*
+- uid: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor(System.String)
+  commentId: M:RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute
+  langs:
+  - csharp
+  - vb
+  name: DynamicReferenceFolderAttribute(string)
+  nameWithType: DynamicReferenceFolderAttribute.DynamicReferenceFolderAttribute(string)
+  fullName: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.DynamicReferenceFolderAttribute(string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../Assets/Rocketshift Studio/Shared/Scripts/Attributes/DynamicReferenceFolderAttribute.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared
+  syntax:
+    content: public DynamicReferenceFolderAttribute(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub New(path As String)
+  overload: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor*
+  nameWithType.vb: DynamicReferenceFolderAttribute.New(String)
+  fullName.vb: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.New(String)
+  name.vb: New(String)
+references:
+- uid: RocketshiftStudio.Shared
+  commentId: N:RocketshiftStudio.Shared
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Shared
+  nameWithType: RocketshiftStudio.Shared
+  fullName: RocketshiftStudio.Shared
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: UnityEngine.PropertyAttribute
+  commentId: T:UnityEngine.PropertyAttribute
+  parent: UnityEngine
+  isExternal: true
+  name: PropertyAttribute
+  nameWithType: PropertyAttribute
+  fullName: UnityEngine.PropertyAttribute
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path*
+  commentId: Overload:RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+  href: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.html#RocketshiftStudio_Shared_DynamicReferenceFolderAttribute_Path
+  name: Path
+  nameWithType: DynamicReferenceFolderAttribute.Path
+  fullName: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.Path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor*
+  commentId: Overload:RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.#ctor
+  href: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.html#RocketshiftStudio_Shared_DynamicReferenceFolderAttribute__ctor_System_String_
+  name: DynamicReferenceFolderAttribute
+  nameWithType: DynamicReferenceFolderAttribute.DynamicReferenceFolderAttribute
+  fullName: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.DynamicReferenceFolderAttribute
+  nameWithType.vb: DynamicReferenceFolderAttribute.New
+  fullName.vb: RocketshiftStudio.Shared.DynamicReferenceFolderAttribute.New
+  name.vb: New

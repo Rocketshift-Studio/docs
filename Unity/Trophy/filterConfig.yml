@@ -1,0 +1,26 @@
+### YamlMime:ManagedReference
+apiRules:
+  - exclude:
+      uidRegex: ^System
+      type: Namespace
+  - exclude:
+      uidRegex: ^UnityEngine\.
+      type: Type
+  - exclude:
+      uidRegex: UxmlFactory$
+      type: Type
+  - exclude:
+      uidRegex: UxmlTraits$
+      type: Type
+  - include:
+      uidRegex: ^RocketshiftStudio\.Shared\.SingletonMonoBehaviour
+      type: Type
+  - exclude:
+      uidRegex: ^RocketshiftStudio\.Shared\.
+      type: Type
+  - exclude:
+      uidRegex: Constants$
+      type: Type
+  - exclude:
+      hasAttribute: 
+        uid: RocketshiftStudio.Shared.ExcludeFromDocsAttribute

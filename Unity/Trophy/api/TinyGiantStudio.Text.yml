@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  id: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.AssetSettings
+  - TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  - TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  - TinyGiantStudio.Text.Button
+  - TinyGiantStudio.Text.ButtonEditor
+  - TinyGiantStudio.Text.ButtonInputProcessor
+  - TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  - TinyGiantStudio.Text.ButtonInputProcessorEditor
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal
+  - TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  - TinyGiantStudio.Text.ButtonInputSystemGlobalEditor
+  - TinyGiantStudio.Text.ButtonInputSystemLocal
+  - TinyGiantStudio.Text.Character
+  - TinyGiantStudio.Text.CharacterCleanUp
+  - TinyGiantStudio.Text.CharacterDrawer
+  - TinyGiantStudio.Text.DebugLogger
+  - TinyGiantStudio.Text.DelayCallCharacterCleanUp
+  - TinyGiantStudio.Text.Font
+  - TinyGiantStudio.Text.FontEditor
+  - TinyGiantStudio.Text.FontInstanceUpdater
+  - TinyGiantStudio.Text.GetCharacterObject
+  - TinyGiantStudio.Text.HorizontalSelector
+  - TinyGiantStudio.Text.HorizontalSelectorEditor
+  - TinyGiantStudio.Text.InputField
+  - TinyGiantStudio.Text.InputField.ContentType
+  - TinyGiantStudio.Text.InputFieldEditor
+  - TinyGiantStudio.Text.Interactable
+  - TinyGiantStudio.Text.KerningPair
+  - TinyGiantStudio.Text.Letter
+  - TinyGiantStudio.Text.List
+  - TinyGiantStudio.Text.ListEditor
+  - TinyGiantStudio.Text.MenuItem
+  - TinyGiantStudio.Text.MeshCombiner
+  - TinyGiantStudio.Text.MeshPostProcess
+  - TinyGiantStudio.Text.MeshPostProcessing
+  - TinyGiantStudio.Text.Modular3DText
+  - TinyGiantStudio.Text.Modular3DTextEditor
+  - TinyGiantStudio.Text.RaycastInputProcessor
+  - TinyGiantStudio.Text.RaycastSelector
+  - TinyGiantStudio.Text.RaycastSelectorEditor
+  - TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor
+  - TinyGiantStudio.Text.RuntimeFontImporter
+  - TinyGiantStudio.Text.Slider
+  - TinyGiantStudio.Text.Slider.ValueRange
+  - TinyGiantStudio.Text.SliderEditor
+  - TinyGiantStudio.Text.SliderHandle
+  - TinyGiantStudio.Text.StaticMethods
+  - TinyGiantStudio.Text.TextUpdater
+  - TinyGiantStudio.Text.Toggle
+  - TinyGiantStudio.Text.ToggleEditor
+  - TinyGiantStudio.Text.UIState
+  - TinyGiantStudio.Text.UIState.StateEnum
+  langs:
+  - csharp
+  - vb
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp-Editor-firstpass
+references:
+- uid: TinyGiantStudio.Text.RaycastSelectorEditor
+  commentId: T:TinyGiantStudio.Text.RaycastSelectorEditor
+  href: TinyGiantStudio.Text.RaycastSelectorEditor.html
+  name: RaycastSelectorEditor
+  nameWithType: RaycastSelectorEditor
+  fullName: TinyGiantStudio.Text.RaycastSelectorEditor
+- uid: TinyGiantStudio.Text.InputFieldEditor
+  commentId: T:TinyGiantStudio.Text.InputFieldEditor
+  href: TinyGiantStudio.Text.InputFieldEditor.html
+  name: InputFieldEditor
+  nameWithType: InputFieldEditor
+  fullName: TinyGiantStudio.Text.InputFieldEditor
+- uid: TinyGiantStudio.Text.HorizontalSelectorEditor
+  commentId: T:TinyGiantStudio.Text.HorizontalSelectorEditor
+  href: TinyGiantStudio.Text.HorizontalSelectorEditor.html
+  name: HorizontalSelectorEditor
+  nameWithType: HorizontalSelectorEditor
+  fullName: TinyGiantStudio.Text.HorizontalSelectorEditor
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobalEditor
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobalEditor
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobalEditor.html
+  name: ButtonInputSystemGlobalEditor
+  nameWithType: ButtonInputSystemGlobalEditor
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobalEditor
+- uid: TinyGiantStudio.Text.ToggleEditor
+  commentId: T:TinyGiantStudio.Text.ToggleEditor
+  href: TinyGiantStudio.Text.ToggleEditor.html
+  name: ToggleEditor
+  nameWithType: ToggleEditor
+  fullName: TinyGiantStudio.Text.ToggleEditor
+- uid: TinyGiantStudio.Text.FontInstanceUpdater
+  commentId: T:TinyGiantStudio.Text.FontInstanceUpdater
+  href: TinyGiantStudio.Text.FontInstanceUpdater.html
+  name: FontInstanceUpdater
+  nameWithType: FontInstanceUpdater
+  fullName: TinyGiantStudio.Text.FontInstanceUpdater
+- uid: TinyGiantStudio.Text.ListEditor
+  commentId: T:TinyGiantStudio.Text.ListEditor
+  href: TinyGiantStudio.Text.ListEditor.html
+  name: ListEditor
+  nameWithType: ListEditor
+  fullName: TinyGiantStudio.Text.ListEditor
+- uid: TinyGiantStudio.Text.Modular3DTextEditor
+  commentId: T:TinyGiantStudio.Text.Modular3DTextEditor
+  href: TinyGiantStudio.Text.Modular3DTextEditor.html
+  name: Modular3DTextEditor
+  nameWithType: Modular3DTextEditor
+  fullName: TinyGiantStudio.Text.Modular3DTextEditor
+- uid: TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor
+  commentId: T:TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor
+  href: TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor.html
+  name: RaycastSelectorInputProcessorEditor
+  nameWithType: RaycastSelectorInputProcessorEditor
+  fullName: TinyGiantStudio.Text.RaycastSelectorInputProcessorEditor
+- uid: TinyGiantStudio.Text.ButtonEditor
+  commentId: T:TinyGiantStudio.Text.ButtonEditor
+  href: TinyGiantStudio.Text.ButtonEditor.html
+  name: ButtonEditor
+  nameWithType: ButtonEditor
+  fullName: TinyGiantStudio.Text.ButtonEditor
+- uid: TinyGiantStudio.Text.FontEditor
+  commentId: T:TinyGiantStudio.Text.FontEditor
+  href: TinyGiantStudio.Text.FontEditor.html
+  name: FontEditor
+  nameWithType: FontEditor
+  fullName: TinyGiantStudio.Text.FontEditor
+- uid: TinyGiantStudio.Text.ButtonInputProcessorEditor
+  commentId: T:TinyGiantStudio.Text.ButtonInputProcessorEditor
+  href: TinyGiantStudio.Text.ButtonInputProcessorEditor.html
+  name: ButtonInputProcessorEditor
+  nameWithType: ButtonInputProcessorEditor
+  fullName: TinyGiantStudio.Text.ButtonInputProcessorEditor
+- uid: TinyGiantStudio.Text.CharacterDrawer
+  commentId: T:TinyGiantStudio.Text.CharacterDrawer
+  href: TinyGiantStudio.Text.CharacterDrawer.html
+  name: CharacterDrawer
+  nameWithType: CharacterDrawer
+  fullName: TinyGiantStudio.Text.CharacterDrawer
+- uid: TinyGiantStudio.Text.SliderEditor
+  commentId: T:TinyGiantStudio.Text.SliderEditor
+  href: TinyGiantStudio.Text.SliderEditor.html
+  name: SliderEditor
+  nameWithType: SliderEditor
+  fullName: TinyGiantStudio.Text.SliderEditor
+- uid: TinyGiantStudio.Text.MeshCombiner
+  commentId: T:TinyGiantStudio.Text.MeshCombiner
+  href: TinyGiantStudio.Text.MeshCombiner.html
+  name: MeshCombiner
+  nameWithType: MeshCombiner
+  fullName: TinyGiantStudio.Text.MeshCombiner
+- uid: TinyGiantStudio.Text.Interactable
+  commentId: T:TinyGiantStudio.Text.Interactable
+  href: TinyGiantStudio.Text.Interactable.html
+  name: Interactable
+  nameWithType: Interactable
+  fullName: TinyGiantStudio.Text.Interactable
+- uid: TinyGiantStudio.Text.Letter
+  commentId: T:TinyGiantStudio.Text.Letter
+  href: TinyGiantStudio.Text.Letter.html
+  name: Letter
+  nameWithType: Letter
+  fullName: TinyGiantStudio.Text.Letter
+- uid: TinyGiantStudio.Text.Modular3DText
+  commentId: T:TinyGiantStudio.Text.Modular3DText
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Modular3DText.html
+  name: Modular3DText
+  nameWithType: Modular3DText
+  fullName: TinyGiantStudio.Text.Modular3DText
+- uid: TinyGiantStudio.Text.KerningPair
+  commentId: T:TinyGiantStudio.Text.KerningPair
+  href: TinyGiantStudio.Text.KerningPair.html
+  name: KerningPair
+  nameWithType: KerningPair
+  fullName: TinyGiantStudio.Text.KerningPair
+- uid: TinyGiantStudio.Text.RuntimeFontImporter
+  commentId: T:TinyGiantStudio.Text.RuntimeFontImporter
+  href: TinyGiantStudio.Text.RuntimeFontImporter.html
+  name: RuntimeFontImporter
+  nameWithType: RuntimeFontImporter
+  fullName: TinyGiantStudio.Text.RuntimeFontImporter
+- uid: TinyGiantStudio.Text.InputField
+  commentId: T:TinyGiantStudio.Text.InputField
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.InputField.html
+  name: InputField
+  nameWithType: InputField
+  fullName: TinyGiantStudio.Text.InputField
+- uid: TinyGiantStudio.Text.InputField.ContentType
+  commentId: T:TinyGiantStudio.Text.InputField.ContentType
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.InputField.html
+  name: InputField.ContentType
+  nameWithType: InputField.ContentType
+  fullName: TinyGiantStudio.Text.InputField.ContentType
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.InputField
+    name: InputField
+    href: TinyGiantStudio.Text.InputField.html
+  - name: .
+  - uid: TinyGiantStudio.Text.InputField.ContentType
+    name: ContentType
+    href: TinyGiantStudio.Text.InputField.ContentType.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.InputField
+    name: InputField
+    href: TinyGiantStudio.Text.InputField.html
+  - name: .
+  - uid: TinyGiantStudio.Text.InputField.ContentType
+    name: ContentType
+    href: TinyGiantStudio.Text.InputField.ContentType.html
+- uid: TinyGiantStudio.Text.CharacterCleanUp
+  commentId: T:TinyGiantStudio.Text.CharacterCleanUp
+  href: TinyGiantStudio.Text.CharacterCleanUp.html
+  name: CharacterCleanUp
+  nameWithType: CharacterCleanUp
+  fullName: TinyGiantStudio.Text.CharacterCleanUp
+- uid: TinyGiantStudio.Text.MeshPostProcessing
+  commentId: T:TinyGiantStudio.Text.MeshPostProcessing
+  href: TinyGiantStudio.Text.MeshPostProcessing.html
+  name: MeshPostProcessing
+  nameWithType: MeshPostProcessing
+  fullName: TinyGiantStudio.Text.MeshPostProcessing
+- uid: TinyGiantStudio.Text.MeshPostProcess
+  commentId: T:TinyGiantStudio.Text.MeshPostProcess
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.MeshPostProcess.html
+  name: MeshPostProcess
+  nameWithType: MeshPostProcess
+  fullName: TinyGiantStudio.Text.MeshPostProcess
+- uid: TinyGiantStudio.Text.Character
+  commentId: T:TinyGiantStudio.Text.Character
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Character.html
+  name: Character
+  nameWithType: Character
+  fullName: TinyGiantStudio.Text.Character
+- uid: TinyGiantStudio.Text.MenuItem
+  commentId: T:TinyGiantStudio.Text.MenuItem
+  href: TinyGiantStudio.Text.MenuItem.html
+  name: MenuItem
+  nameWithType: MenuItem
+  fullName: TinyGiantStudio.Text.MenuItem
+- uid: TinyGiantStudio.Text.RaycastSelector
+  commentId: T:TinyGiantStudio.Text.RaycastSelector
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.RaycastSelector.html
+  name: RaycastSelector
+  nameWithType: RaycastSelector
+  fullName: TinyGiantStudio.Text.RaycastSelector
+- uid: TinyGiantStudio.Text.Font
+  commentId: T:TinyGiantStudio.Text.Font
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: TinyGiantStudio.Text.Font
+- uid: TinyGiantStudio.Text.ButtonInputSystemLocal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemLocal
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemLocal.html
+  name: ButtonInputSystemLocal
+  nameWithType: ButtonInputSystemLocal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemLocal
+- uid: TinyGiantStudio.Text.DebugLogger
+  commentId: T:TinyGiantStudio.Text.DebugLogger
+  href: TinyGiantStudio.Text.DebugLogger.html
+  name: DebugLogger
+  nameWithType: DebugLogger
+  fullName: TinyGiantStudio.Text.DebugLogger
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobal
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  name: ButtonInputSystemGlobal
+  nameWithType: ButtonInputSystemGlobal
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal
+- uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  commentId: T:TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  name: ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  nameWithType: ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  fullName: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+    name: ButtonInputSystemGlobal
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+    name: ButtonInputProcessorStyle
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal
+    name: ButtonInputSystemGlobal
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle
+    name: ButtonInputProcessorStyle
+    href: TinyGiantStudio.Text.ButtonInputSystemGlobal.ButtonInputProcessorStyle.html
+- uid: TinyGiantStudio.Text.Slider
+  commentId: T:TinyGiantStudio.Text.Slider
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Slider.html
+  name: Slider
+  nameWithType: Slider
+  fullName: TinyGiantStudio.Text.Slider
+- uid: TinyGiantStudio.Text.Slider.ValueRange
+  commentId: T:TinyGiantStudio.Text.Slider.ValueRange
+  href: TinyGiantStudio.Text.Slider.html
+  name: Slider.ValueRange
+  nameWithType: Slider.ValueRange
+  fullName: TinyGiantStudio.Text.Slider.ValueRange
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.Slider
+    name: Slider
+    href: TinyGiantStudio.Text.Slider.html
+  - name: .
+  - uid: TinyGiantStudio.Text.Slider.ValueRange
+    name: ValueRange
+    href: TinyGiantStudio.Text.Slider.ValueRange.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.Slider
+    name: Slider
+    href: TinyGiantStudio.Text.Slider.html
+  - name: .
+  - uid: TinyGiantStudio.Text.Slider.ValueRange
+    name: ValueRange
+    href: TinyGiantStudio.Text.Slider.ValueRange.html
+- uid: TinyGiantStudio.Text.StaticMethods
+  commentId: T:TinyGiantStudio.Text.StaticMethods
+  href: TinyGiantStudio.Text.StaticMethods.html
+  name: StaticMethods
+  nameWithType: StaticMethods
+  fullName: TinyGiantStudio.Text.StaticMethods
+- uid: TinyGiantStudio.Text.UIState
+  commentId: T:TinyGiantStudio.Text.UIState
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.UIState.html
+  name: UIState
+  nameWithType: UIState
+  fullName: TinyGiantStudio.Text.UIState
+- uid: TinyGiantStudio.Text.UIState.StateEnum
+  commentId: T:TinyGiantStudio.Text.UIState.StateEnum
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.UIState.html
+  name: UIState.StateEnum
+  nameWithType: UIState.StateEnum
+  fullName: TinyGiantStudio.Text.UIState.StateEnum
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.UIState
+    name: UIState
+    href: TinyGiantStudio.Text.UIState.html
+  - name: .
+  - uid: TinyGiantStudio.Text.UIState.StateEnum
+    name: StateEnum
+    href: TinyGiantStudio.Text.UIState.StateEnum.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.UIState
+    name: UIState
+    href: TinyGiantStudio.Text.UIState.html
+  - name: .
+  - uid: TinyGiantStudio.Text.UIState.StateEnum
+    name: StateEnum
+    href: TinyGiantStudio.Text.UIState.StateEnum.html
+- uid: TinyGiantStudio.Text.TextUpdater
+  commentId: T:TinyGiantStudio.Text.TextUpdater
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.TextUpdater.html
+  name: TextUpdater
+  nameWithType: TextUpdater
+  fullName: TinyGiantStudio.Text.TextUpdater
+- uid: TinyGiantStudio.Text.SliderHandle
+  commentId: T:TinyGiantStudio.Text.SliderHandle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.SliderHandle.html
+  name: SliderHandle
+  nameWithType: SliderHandle
+  fullName: TinyGiantStudio.Text.SliderHandle
+- uid: TinyGiantStudio.Text.List
+  commentId: T:TinyGiantStudio.Text.List
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.List.html
+  name: List
+  nameWithType: List
+  fullName: TinyGiantStudio.Text.List
+- uid: TinyGiantStudio.Text.HorizontalSelector
+  commentId: T:TinyGiantStudio.Text.HorizontalSelector
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.HorizontalSelector.html
+  name: HorizontalSelector
+  nameWithType: HorizontalSelector
+  fullName: TinyGiantStudio.Text.HorizontalSelector
+- uid: TinyGiantStudio.Text.Toggle
+  commentId: T:TinyGiantStudio.Text.Toggle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Toggle.html
+  name: Toggle
+  nameWithType: Toggle
+  fullName: TinyGiantStudio.Text.Toggle
+- uid: TinyGiantStudio.Text.ButtonInputProcessor
+  commentId: T:TinyGiantStudio.Text.ButtonInputProcessor
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  name: ButtonInputProcessor
+  nameWithType: ButtonInputProcessor
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor
+- uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  commentId: T:TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  name: ButtonInputProcessor.StandardInput
+  nameWithType: ButtonInputProcessor.StandardInput
+  fullName: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor
+    name: ButtonInputProcessor
+    href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+    name: StandardInput
+    href: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor
+    name: ButtonInputProcessor
+    href: TinyGiantStudio.Text.ButtonInputProcessor.html
+  - name: .
+  - uid: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput
+    name: StandardInput
+    href: TinyGiantStudio.Text.ButtonInputProcessor.StandardInput.html
+- uid: TinyGiantStudio.Text.RaycastInputProcessor
+  commentId: T:TinyGiantStudio.Text.RaycastInputProcessor
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.RaycastInputProcessor.html
+  name: RaycastInputProcessor
+  nameWithType: RaycastInputProcessor
+  fullName: TinyGiantStudio.Text.RaycastInputProcessor
+- uid: TinyGiantStudio.Text.GetCharacterObject
+  commentId: T:TinyGiantStudio.Text.GetCharacterObject
+  href: TinyGiantStudio.Text.GetCharacterObject.html
+  name: GetCharacterObject
+  nameWithType: GetCharacterObject
+  fullName: TinyGiantStudio.Text.GetCharacterObject
+- uid: TinyGiantStudio.Text.DelayCallCharacterCleanUp
+  commentId: T:TinyGiantStudio.Text.DelayCallCharacterCleanUp
+  href: TinyGiantStudio.Text.DelayCallCharacterCleanUp.html
+  name: DelayCallCharacterCleanUp
+  nameWithType: DelayCallCharacterCleanUp
+  fullName: TinyGiantStudio.Text.DelayCallCharacterCleanUp
+- uid: TinyGiantStudio.Text.Button
+  commentId: T:TinyGiantStudio.Text.Button
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Button.html
+  name: Button
+  nameWithType: Button
+  fullName: TinyGiantStudio.Text.Button
+- uid: TinyGiantStudio.Text.AssetSettings
+  commentId: T:TinyGiantStudio.Text.AssetSettings
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings
+  nameWithType: AssetSettings
+  fullName: TinyGiantStudio.Text.AssetSettings
+- uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  commentId: T:TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings.MeshExportStyle
+  nameWithType: AssetSettings.MeshExportStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+    name: MeshExportStyle
+    href: TinyGiantStudio.Text.AssetSettings.MeshExportStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+    name: MeshExportStyle
+    href: TinyGiantStudio.Text.AssetSettings.MeshExportStyle.html
+- uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  commentId: T:TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings.CharInputStyle
+  nameWithType: AssetSettings.CharInputStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+    name: CharInputStyle
+    href: TinyGiantStudio.Text.AssetSettings.CharInputStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+    name: CharInputStyle
+    href: TinyGiantStudio.Text.AssetSettings.CharInputStyle.html
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html

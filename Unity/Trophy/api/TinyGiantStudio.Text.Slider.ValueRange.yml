@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.Slider.ValueRange
+  commentId: T:TinyGiantStudio.Text.Slider.ValueRange
+  id: Slider.ValueRange
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.Slider.ValueRange.icon
+  - TinyGiantStudio.Text.Slider.ValueRange.max
+  - TinyGiantStudio.Text.Slider.ValueRange.min
+  - TinyGiantStudio.Text.Slider.ValueRange.oneTimeEvents
+  - TinyGiantStudio.Text.Slider.ValueRange.repeatEvents
+  - TinyGiantStudio.Text.Slider.ValueRange.triggeredAlready
+  langs:
+  - csharp
+  - vb
+  name: Slider.ValueRange
+  nameWithType: Slider.ValueRange
+  fullName: TinyGiantStudio.Text.Slider.ValueRange
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ValueRange
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 84
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Slider.ValueRange
+    content.vb: >-
+      <Serializable>
+
+      Public Class Slider.ValueRange
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.Slider.ValueRange.min
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.min
+  id: min
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: min
+  nameWithType: Slider.ValueRange.min
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.min
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: min
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 87
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float min
+    return:
+      type: System.Single
+    content.vb: Public min As Single
+- uid: TinyGiantStudio.Text.Slider.ValueRange.max
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.max
+  id: max
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: max
+  nameWithType: Slider.ValueRange.max
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.max
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: max
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 88
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float max
+    return:
+      type: System.Single
+    content.vb: Public max As Single
+- uid: TinyGiantStudio.Text.Slider.ValueRange.icon
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.icon
+  id: icon
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: icon
+  nameWithType: Slider.ValueRange.icon
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.icon
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: icon
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Enabled and disabled when within range
+  example: []
+  syntax:
+    content: public GameObject icon
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public icon As GameObject
+- uid: TinyGiantStudio.Text.Slider.ValueRange.triggeredAlready
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.triggeredAlready
+  id: triggeredAlready
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: triggeredAlready
+  nameWithType: Slider.ValueRange.triggeredAlready
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.triggeredAlready
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: triggeredAlready
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 93
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool triggeredAlready
+    return:
+      type: System.Boolean
+    content.vb: Public triggeredAlready As Boolean
+- uid: TinyGiantStudio.Text.Slider.ValueRange.oneTimeEvents
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.oneTimeEvents
+  id: oneTimeEvents
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: oneTimeEvents
+  nameWithType: Slider.ValueRange.oneTimeEvents
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.oneTimeEvents
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: oneTimeEvents
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 94
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent oneTimeEvents
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public oneTimeEvents As UnityEvent
+- uid: TinyGiantStudio.Text.Slider.ValueRange.repeatEvents
+  commentId: F:TinyGiantStudio.Text.Slider.ValueRange.repeatEvents
+  id: repeatEvents
+  parent: TinyGiantStudio.Text.Slider.ValueRange
+  langs:
+  - csharp
+  - vb
+  name: repeatEvents
+  nameWithType: Slider.ValueRange.repeatEvents
+  fullName: TinyGiantStudio.Text.Slider.ValueRange.repeatEvents
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: repeatEvents
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Slider.cs
+    startLine: 95
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public UnityEvent repeatEvents
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public repeatEvents As UnityEvent
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true

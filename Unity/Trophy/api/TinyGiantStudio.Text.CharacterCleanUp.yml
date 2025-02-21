@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.CharacterCleanUp
+  commentId: T:TinyGiantStudio.Text.CharacterCleanUp
+  id: CharacterCleanUp
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.CharacterCleanUp.#ctor(TinyGiantStudio.Text.Modular3DText)
+  langs:
+  - csharp
+  - vb
+  name: CharacterCleanUp
+  nameWithType: CharacterCleanUp
+  fullName: TinyGiantStudio.Text.CharacterCleanUp
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/CharacterCleanUp.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CharacterCleanUp
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/CharacterCleanUp.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Under construction. This will handle all the destroy object calls for modular 3d text in the future
+
+    To-do: destroy calls on OnDestroy should be re factored to use this class
+  example: []
+  syntax:
+    content: public class CharacterCleanUp
+    content.vb: Public Class CharacterCleanUp
+  inheritance:
+  - System.Object
+- uid: TinyGiantStudio.Text.CharacterCleanUp.#ctor(TinyGiantStudio.Text.Modular3DText)
+  commentId: M:TinyGiantStudio.Text.CharacterCleanUp.#ctor(TinyGiantStudio.Text.Modular3DText)
+  id: '#ctor(TinyGiantStudio.Text.Modular3DText)'
+  parent: TinyGiantStudio.Text.CharacterCleanUp
+  langs:
+  - csharp
+  - vb
+  name: CharacterCleanUp(Modular3DText)
+  nameWithType: CharacterCleanUp.CharacterCleanUp(Modular3DText)
+  fullName: TinyGiantStudio.Text.CharacterCleanUp.CharacterCleanUp(TinyGiantStudio.Text.Modular3DText)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/CharacterCleanUp.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Core Text/CharacterCleanUp.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public CharacterCleanUp(Modular3DText myText)
+    parameters:
+    - id: myText
+      type: TinyGiantStudio.Text.Modular3DText
+    content.vb: Public Sub New(myText As Modular3DText)
+  overload: TinyGiantStudio.Text.CharacterCleanUp.#ctor*
+  nameWithType.vb: CharacterCleanUp.New(Modular3DText)
+  fullName.vb: TinyGiantStudio.Text.CharacterCleanUp.New(TinyGiantStudio.Text.Modular3DText)
+  name.vb: New(Modular3DText)
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Text.CharacterCleanUp.#ctor*
+  commentId: Overload:TinyGiantStudio.Text.CharacterCleanUp.#ctor
+  href: TinyGiantStudio.Text.CharacterCleanUp.html#TinyGiantStudio_Text_CharacterCleanUp__ctor_TinyGiantStudio_Text_Modular3DText_
+  name: CharacterCleanUp
+  nameWithType: CharacterCleanUp.CharacterCleanUp
+  fullName: TinyGiantStudio.Text.CharacterCleanUp.CharacterCleanUp
+  nameWithType.vb: CharacterCleanUp.New
+  fullName.vb: TinyGiantStudio.Text.CharacterCleanUp.New
+  name.vb: New
+- uid: TinyGiantStudio.Text.Modular3DText
+  commentId: T:TinyGiantStudio.Text.Modular3DText
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Modular3DText.html
+  name: Modular3DText
+  nameWithType: Modular3DText
+  fullName: TinyGiantStudio.Text.Modular3DText

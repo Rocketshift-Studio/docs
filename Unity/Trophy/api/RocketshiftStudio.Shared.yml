@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Shared
+  commentId: N:RocketshiftStudio.Shared
+  id: RocketshiftStudio.Shared
+  children:
+  - RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: RocketshiftStudio.Shared
+  nameWithType: RocketshiftStudio.Shared
+  fullName: RocketshiftStudio.Shared
+  type: Namespace
+  assemblies:
+  - RocketshiftStudio.Shared
+references:
+- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  commentId: T:RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+  name: SingletonMonoBehaviour<T>
+  nameWithType: SingletonMonoBehaviour<T>
+  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>
+  nameWithType.vb: SingletonMonoBehaviour(Of T)
+  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T)
+  name.vb: SingletonMonoBehaviour(Of T)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour
+    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour
+    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

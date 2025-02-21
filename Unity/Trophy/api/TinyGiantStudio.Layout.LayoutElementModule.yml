@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.LayoutElementModule
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModule
+  id: LayoutElementModule
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  - TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  langs:
+  - csharp
+  - vb
+  name: LayoutElementModule
+  nameWithType: LayoutElementModule
+  fullName: TinyGiantStudio.Layout.LayoutElementModule
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LayoutElementModule
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: 'public abstract class LayoutElementModule : ModuleCore'
+    content.vb: Public MustInherit Class LayoutElementModule Inherits ModuleCore
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - TinyGiantStudio.Modules.ModuleCore
+  derivedClasses:
+  - TinyGiantStudio.Layout.AnimatedElementUpdater
+  - TinyGiantStudio.Layout.BaseLayoutElementUpdater
+  - TinyGiantStudio.Layout.NavMeshElementUpdater
+  - TinyGiantStudio.Layout.PhysicsElementUpdater
+  inheritedMembers:
+  - TinyGiantStudio.Modules.ModuleCore.variableHolders
+  - TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  - TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  id: UpdateLocalTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateLocalTransform(Transform, VariableHolder[], Vector3, Quaternion)
+  nameWithType: LayoutElementModule.UpdateLocalTransform(Transform, VariableHolder[], Vector3, Quaternion)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Vector3, UnityEngine.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateLocalTransform
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateLocalTransform(Transform target, VariableHolder[] variableHolders, Vector3 localPosition, Quaternion localRotation)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: localPosition
+      type: UnityEngine.Vector3
+    - id: localRotation
+      type: UnityEngine.Quaternion
+    content.vb: Public MustOverride Sub UpdateLocalTransform(target As Transform, variableHolders As VariableHolder(), localPosition As Vector3, localRotation As Quaternion)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform*
+  nameWithType.vb: LayoutElementModule.UpdateLocalTransform(Transform, VariableHolder(), Vector3, Quaternion)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Vector3, UnityEngine.Quaternion)
+  name.vb: UpdateLocalTransform(Transform, VariableHolder(), Vector3, Quaternion)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  id: UpdateWorldTransform(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3,UnityEngine.Quaternion)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateWorldTransform(Transform, VariableHolder[], Vector3, Quaternion)
+  nameWithType: LayoutElementModule.UpdateWorldTransform(Transform, VariableHolder[], Vector3, Quaternion)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Vector3, UnityEngine.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateWorldTransform
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateWorldTransform(Transform target, VariableHolder[] variableHolders, Vector3 position, Quaternion rotation)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: position
+      type: UnityEngine.Vector3
+    - id: rotation
+      type: UnityEngine.Quaternion
+    content.vb: Public MustOverride Sub UpdateWorldTransform(target As Transform, variableHolders As VariableHolder(), position As Vector3, rotation As Quaternion)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform*
+  nameWithType.vb: LayoutElementModule.UpdateWorldTransform(Transform, VariableHolder(), Vector3, Quaternion)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Vector3, UnityEngine.Quaternion)
+  name.vb: UpdateWorldTransform(Transform, VariableHolder(), Vector3, Quaternion)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  id: UpdateLocalPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateLocalPosition(Transform, VariableHolder[], Vector3)
+  nameWithType: LayoutElementModule.UpdateLocalPosition(Transform, VariableHolder[], Vector3)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateLocalPosition
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateLocalPosition(Transform target, VariableHolder[] variableHolders, Vector3 localPosition)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: localPosition
+      type: UnityEngine.Vector3
+    content.vb: Public MustOverride Sub UpdateLocalPosition(target As Transform, variableHolders As VariableHolder(), localPosition As Vector3)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition*
+  nameWithType.vb: LayoutElementModule.UpdateLocalPosition(Transform, VariableHolder(), Vector3)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Vector3)
+  name.vb: UpdateLocalPosition(Transform, VariableHolder(), Vector3)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  id: UpdateWorldPosition(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Vector3)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateWorldPosition(Transform, VariableHolder[], Vector3)
+  nameWithType: LayoutElementModule.UpdateWorldPosition(Transform, VariableHolder[], Vector3)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateWorldPosition
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateWorldPosition(Transform target, VariableHolder[] variableHolders, Vector3 position)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: position
+      type: UnityEngine.Vector3
+    content.vb: Public MustOverride Sub UpdateWorldPosition(target As Transform, variableHolders As VariableHolder(), position As Vector3)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition*
+  nameWithType.vb: LayoutElementModule.UpdateWorldPosition(Transform, VariableHolder(), Vector3)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Vector3)
+  name.vb: UpdateWorldPosition(Transform, VariableHolder(), Vector3)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  id: UpdateLocalRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateLocalRotation(Transform, VariableHolder[], Quaternion)
+  nameWithType: LayoutElementModule.UpdateLocalRotation(Transform, VariableHolder[], Quaternion)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateLocalRotation
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateLocalRotation(Transform target, VariableHolder[] variableHolders, Quaternion localRotation)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: localRotation
+      type: UnityEngine.Quaternion
+    content.vb: Public MustOverride Sub UpdateLocalRotation(target As Transform, variableHolders As VariableHolder(), localRotation As Quaternion)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation*
+  nameWithType.vb: LayoutElementModule.UpdateLocalRotation(Transform, VariableHolder(), Quaternion)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Quaternion)
+  name.vb: UpdateLocalRotation(Transform, VariableHolder(), Quaternion)
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  commentId: M:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  id: UpdateWorldRotation(UnityEngine.Transform,TinyGiantStudio.Modules.VariableHolder[],UnityEngine.Quaternion)
+  parent: TinyGiantStudio.Layout.LayoutElementModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateWorldRotation(Transform, VariableHolder[], Quaternion)
+  nameWithType: LayoutElementModule.UpdateWorldRotation(Transform, VariableHolder[], Quaternion)
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder[], UnityEngine.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateWorldRotation
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModule.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public abstract void UpdateWorldRotation(Transform target, VariableHolder[] variableHolders, Quaternion rotation)
+    parameters:
+    - id: target
+      type: UnityEngine.Transform
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    - id: rotation
+      type: UnityEngine.Quaternion
+    content.vb: Public MustOverride Sub UpdateWorldRotation(target As Transform, variableHolders As VariableHolder(), rotation As Quaternion)
+  overload: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation*
+  nameWithType.vb: LayoutElementModule.UpdateWorldRotation(Transform, VariableHolder(), Quaternion)
+  fullName.vb: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation(UnityEngine.Transform, TinyGiantStudio.Modules.VariableHolder(), UnityEngine.Quaternion)
+  name.vb: UpdateWorldRotation(Transform, VariableHolder(), Quaternion)
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: TinyGiantStudio.Modules.ModuleCore
+  commentId: T:TinyGiantStudio.Modules.ModuleCore
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.ModuleCore.html
+  name: ModuleCore
+  nameWithType: ModuleCore
+  fullName: TinyGiantStudio.Modules.ModuleCore
+- uid: TinyGiantStudio.Modules.ModuleCore.variableHolders
+  commentId: F:TinyGiantStudio.Modules.ModuleCore.variableHolders
+  parent: TinyGiantStudio.Modules.ModuleCore
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_variableHolders
+  name: variableHolders
+  nameWithType: ModuleCore.variableHolders
+  fullName: TinyGiantStudio.Modules.ModuleCore.variableHolders
+- uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  commentId: M:TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  parent: TinyGiantStudio.Modules.ModuleCore
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  name: VariableWarnings(VariableHolder[])
+  nameWithType: ModuleCore.VariableWarnings(VariableHolder[])
+  fullName: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  nameWithType.vb: ModuleCore.VariableWarnings(VariableHolder())
+  fullName.vb: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder())
+  name.vb: VariableWarnings(VariableHolder())
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+    name: VariableWarnings
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+    name: VariableWarnings
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+  commentId: M:TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+  parent: TinyGiantStudio.Modules.ModuleCore
+  isExternal: true
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  name: AddWarning(string, string)
+  nameWithType: ModuleCore.AddWarning(string, string)
+  fullName: TinyGiantStudio.Modules.ModuleCore.AddWarning(string, string)
+  nameWithType.vb: ModuleCore.AddWarning(String, String)
+  fullName.vb: TinyGiantStudio.Modules.ModuleCore.AddWarning(String, String)
+  name.vb: AddWarning(String, String)
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+    name: AddWarning
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+    name: AddWarning
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateLocalTransform_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Vector3_UnityEngine_Quaternion_
+  name: UpdateLocalTransform
+  nameWithType: LayoutElementModule.UpdateLocalTransform
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalTransform
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: TinyGiantStudio.Modules.VariableHolder[]
+  isExternal: true
+  href: TinyGiantStudio.Modules.VariableHolder.html
+  name: VariableHolder[]
+  nameWithType: VariableHolder[]
+  fullName: TinyGiantStudio.Modules.VariableHolder[]
+  nameWithType.vb: VariableHolder()
+  fullName.vb: TinyGiantStudio.Modules.VariableHolder()
+  name.vb: VariableHolder()
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.Quaternion
+  commentId: T:UnityEngine.Quaternion
+  parent: UnityEngine
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: UnityEngine.Quaternion
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateWorldTransform_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Vector3_UnityEngine_Quaternion_
+  name: UpdateWorldTransform
+  nameWithType: LayoutElementModule.UpdateWorldTransform
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldTransform
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateLocalPosition_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Vector3_
+  name: UpdateLocalPosition
+  nameWithType: LayoutElementModule.UpdateLocalPosition
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalPosition
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateWorldPosition_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Vector3_
+  name: UpdateWorldPosition
+  nameWithType: LayoutElementModule.UpdateWorldPosition
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldPosition
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateLocalRotation_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Quaternion_
+  name: UpdateLocalRotation
+  nameWithType: LayoutElementModule.UpdateLocalRotation
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateLocalRotation
+- uid: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation*
+  commentId: Overload:TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation
+  href: TinyGiantStudio.Layout.LayoutElementModule.html#TinyGiantStudio_Layout_LayoutElementModule_UpdateWorldRotation_UnityEngine_Transform_TinyGiantStudio_Modules_VariableHolder___UnityEngine_Quaternion_
+  name: UpdateWorldRotation
+  nameWithType: LayoutElementModule.UpdateWorldRotation
+  fullName: TinyGiantStudio.Layout.LayoutElementModule.UpdateWorldRotation

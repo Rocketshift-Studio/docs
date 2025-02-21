@@ -1,0 +1,1942 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.AssetSettings
+  commentId: T:TinyGiantStudio.Text.AssetSettings
+  id: AssetSettings
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings
+  - TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings
+  - TinyGiantStudio.Text.AssetSettings.autoCreateSceneInputSystem
+  - TinyGiantStudio.Text.AssetSettings.charInputStyle
+  - TinyGiantStudio.Text.AssetSettings.customCharacters
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonNormalBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonPressedBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultFont
+  - TinyGiantStudio.Text.AssetSettings.defaultListDisabledBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultListNormalBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListNormalTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListNormalTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultListPressedBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListPressedTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListPressedTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultListSelectedBackgroundMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextSize
+  - TinyGiantStudio.Text.AssetSettings.defaultTextMaterial
+  - TinyGiantStudio.Text.AssetSettings.defaultTextSize
+  - TinyGiantStudio.Text.AssetSettings.dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  - TinyGiantStudio.Text.AssetSettings.endChar
+  - TinyGiantStudio.Text.AssetSettings.endUnicode
+  - TinyGiantStudio.Text.AssetSettings.extraLargeHorizontalFieldSize
+  - TinyGiantStudio.Text.AssetSettings.gridItemColor
+  - TinyGiantStudio.Text.AssetSettings.importantLabelColor_darkSkin
+  - TinyGiantStudio.Text.AssetSettings.importantLabelColor_lightSkin
+  - TinyGiantStudio.Text.AssetSettings.largeHorizontalFieldSize
+  - TinyGiantStudio.Text.AssetSettings.meshExportStyle
+  - TinyGiantStudio.Text.AssetSettings.normalHorizontalFieldSize
+  - TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_darkSkin
+  - TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_lightSkin
+  - TinyGiantStudio.Text.AssetSettings.previewAmount
+  - TinyGiantStudio.Text.AssetSettings.selectedTab
+  - TinyGiantStudio.Text.AssetSettings.sizeXY
+  - TinyGiantStudio.Text.AssetSettings.sizeZ
+  - TinyGiantStudio.Text.AssetSettings.smallHorizontalFieldSize
+  - TinyGiantStudio.Text.AssetSettings.smoothingAngle
+  - TinyGiantStudio.Text.AssetSettings.startChar
+  - TinyGiantStudio.Text.AssetSettings.startUnicode
+  - TinyGiantStudio.Text.AssetSettings.tabSelectedColor
+  - TinyGiantStudio.Text.AssetSettings.tabUnselectedColor
+  - TinyGiantStudio.Text.AssetSettings.unicodeSequence
+  - TinyGiantStudio.Text.AssetSettings.vertexDensity
+  langs:
+  - csharp
+  - vb
+  name: AssetSettings
+  nameWithType: AssetSettings
+  fullName: TinyGiantStudio.Text.AssetSettings
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: AssetSettings
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    This is used by the asset to store default settings shared by different scripts
+
+    Default File location: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Utility/M3D Editor Settings.asset
+  example: []
+  syntax:
+    content: 'public class AssetSettings : ScriptableObject'
+    content.vb: Public Class AssetSettings Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+- uid: TinyGiantStudio.Text.AssetSettings.selectedTab
+  commentId: F:TinyGiantStudio.Text.AssetSettings.selectedTab
+  id: selectedTab
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: selectedTab
+  nameWithType: AssetSettings.selectedTab
+  fullName: TinyGiantStudio.Text.AssetSettings.selectedTab
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedTab
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string selectedTab
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public selectedTab As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.tabSelectedColor
+  commentId: F:TinyGiantStudio.Text.AssetSettings.tabSelectedColor
+  id: tabSelectedColor
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: tabSelectedColor
+  nameWithType: AssetSettings.tabSelectedColor
+  fullName: TinyGiantStudio.Text.AssetSettings.tabSelectedColor
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: tabSelectedColor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color tabSelectedColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public tabSelectedColor As Color
+- uid: TinyGiantStudio.Text.AssetSettings.tabUnselectedColor
+  commentId: F:TinyGiantStudio.Text.AssetSettings.tabUnselectedColor
+  id: tabUnselectedColor
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: tabUnselectedColor
+  nameWithType: AssetSettings.tabUnselectedColor
+  fullName: TinyGiantStudio.Text.AssetSettings.tabUnselectedColor
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: tabUnselectedColor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color tabUnselectedColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public tabUnselectedColor As Color
+- uid: TinyGiantStudio.Text.AssetSettings.gridItemColor
+  commentId: F:TinyGiantStudio.Text.AssetSettings.gridItemColor
+  id: gridItemColor
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: gridItemColor
+  nameWithType: AssetSettings.gridItemColor
+  fullName: TinyGiantStudio.Text.AssetSettings.gridItemColor
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: gridItemColor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Space]
+
+      public Color gridItemColor
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <Space>
+
+      Public gridItemColor As Color
+  attributes:
+  - type: UnityEngine.SpaceAttribute
+    ctor: UnityEngine.SpaceAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.importantLabelColor_darkSkin
+  commentId: F:TinyGiantStudio.Text.AssetSettings.importantLabelColor_darkSkin
+  id: importantLabelColor_darkSkin
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: importantLabelColor_darkSkin
+  nameWithType: AssetSettings.importantLabelColor_darkSkin
+  fullName: TinyGiantStudio.Text.AssetSettings.importantLabelColor_darkSkin
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: importantLabelColor_darkSkin
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color importantLabelColor_darkSkin
+    return:
+      type: UnityEngine.Color
+    content.vb: Public importantLabelColor_darkSkin As Color
+- uid: TinyGiantStudio.Text.AssetSettings.importantLabelColor_lightSkin
+  commentId: F:TinyGiantStudio.Text.AssetSettings.importantLabelColor_lightSkin
+  id: importantLabelColor_lightSkin
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: importantLabelColor_lightSkin
+  nameWithType: AssetSettings.importantLabelColor_lightSkin
+  fullName: TinyGiantStudio.Text.AssetSettings.importantLabelColor_lightSkin
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: importantLabelColor_lightSkin
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color importantLabelColor_lightSkin
+    return:
+      type: UnityEngine.Color
+    content.vb: Public importantLabelColor_lightSkin As Color
+- uid: TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_darkSkin
+  commentId: F:TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_darkSkin
+  id: openedFoldoutTitleColor_darkSkin
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: openedFoldoutTitleColor_darkSkin
+  nameWithType: AssetSettings.openedFoldoutTitleColor_darkSkin
+  fullName: TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_darkSkin
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: openedFoldoutTitleColor_darkSkin
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color openedFoldoutTitleColor_darkSkin
+    return:
+      type: UnityEngine.Color
+    content.vb: Public openedFoldoutTitleColor_darkSkin As Color
+- uid: TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_lightSkin
+  commentId: F:TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_lightSkin
+  id: openedFoldoutTitleColor_lightSkin
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: openedFoldoutTitleColor_lightSkin
+  nameWithType: AssetSettings.openedFoldoutTitleColor_lightSkin
+  fullName: TinyGiantStudio.Text.AssetSettings.openedFoldoutTitleColor_lightSkin
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: openedFoldoutTitleColor_lightSkin
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Color openedFoldoutTitleColor_lightSkin
+    return:
+      type: UnityEngine.Color
+    content.vb: Public openedFoldoutTitleColor_lightSkin As Color
+- uid: TinyGiantStudio.Text.AssetSettings.defaultFont
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultFont
+  id: defaultFont
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultFont
+  nameWithType: AssetSettings.defaultFont
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultFont
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultFont
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Font defaultFont
+    return:
+      type: TinyGiantStudio.Text.Font
+    content.vb: Public defaultFont As Font
+- uid: TinyGiantStudio.Text.AssetSettings.defaultTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultTextSize
+  id: defaultTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultTextSize
+  nameWithType: AssetSettings.defaultTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultTextMaterial
+  id: defaultTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultTextMaterial
+  nameWithType: AssetSettings.defaultTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextSize
+  id: defaultButtonNormalTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonNormalTextSize
+  nameWithType: AssetSettings.defaultButtonNormalTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonNormalTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultButtonNormalTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultButtonNormalTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextMaterial
+  id: defaultButtonNormalTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonNormalTextMaterial
+  nameWithType: AssetSettings.defaultButtonNormalTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonNormalTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonNormalTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonNormalTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonNormalBackgroundMaterial
+  id: defaultButtonNormalBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonNormalBackgroundMaterial
+  nameWithType: AssetSettings.defaultButtonNormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonNormalBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonNormalBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 40
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonNormalBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonNormalBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextSize
+  id: defaultButtonSelectedTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonSelectedTextSize
+  nameWithType: AssetSettings.defaultButtonSelectedTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonSelectedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 42
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultButtonSelectedTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultButtonSelectedTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextMaterial
+  id: defaultButtonSelectedTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonSelectedTextMaterial
+  nameWithType: AssetSettings.defaultButtonSelectedTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonSelectedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonSelectedTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonSelectedTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedBackgroundMaterial
+  id: defaultButtonSelectedBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonSelectedBackgroundMaterial
+  nameWithType: AssetSettings.defaultButtonSelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonSelectedBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonSelectedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonSelectedBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonSelectedBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextSize
+  id: defaultButtonPressedTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonPressedTextSize
+  nameWithType: AssetSettings.defaultButtonPressedTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonPressedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultButtonPressedTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultButtonPressedTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextMaterial
+  id: defaultButtonPressedTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonPressedTextMaterial
+  nameWithType: AssetSettings.defaultButtonPressedTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonPressedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonPressedTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonPressedTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonPressedBackgroundMaterial
+  id: defaultButtonPressedBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonPressedBackgroundMaterial
+  nameWithType: AssetSettings.defaultButtonPressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonPressedBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonPressedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 48
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonPressedBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonPressedBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextSize
+  id: defaultButtonDisabledTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonDisabledTextSize
+  nameWithType: AssetSettings.defaultButtonDisabledTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonDisabledTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultButtonDisabledTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultButtonDisabledTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextMaterial
+  id: defaultButtonDisabledTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonDisabledTextMaterial
+  nameWithType: AssetSettings.defaultButtonDisabledTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonDisabledTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonDisabledTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonDisabledTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledBackgroundMaterial
+  id: defaultButtonDisabledBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonDisabledBackgroundMaterial
+  nameWithType: AssetSettings.defaultButtonDisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultButtonDisabledBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultButtonDisabledBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultButtonDisabledBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultButtonDisabledBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListNormalTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListNormalTextSize
+  id: defaultListNormalTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListNormalTextSize
+  nameWithType: AssetSettings.defaultListNormalTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListNormalTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListNormalTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 55
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultListNormalTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultListNormalTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListNormalTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListNormalTextMaterial
+  id: defaultListNormalTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListNormalTextMaterial
+  nameWithType: AssetSettings.defaultListNormalTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListNormalTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListNormalTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListNormalTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListNormalTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListNormalBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListNormalBackgroundMaterial
+  id: defaultListNormalBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListNormalBackgroundMaterial
+  nameWithType: AssetSettings.defaultListNormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListNormalBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListNormalBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 57
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListNormalBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListNormalBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextSize
+  id: defaultListSelectedTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListSelectedTextSize
+  nameWithType: AssetSettings.defaultListSelectedTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListSelectedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 59
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultListSelectedTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultListSelectedTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextMaterial
+  id: defaultListSelectedTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListSelectedTextMaterial
+  nameWithType: AssetSettings.defaultListSelectedTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListSelectedTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListSelectedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListSelectedTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListSelectedTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListSelectedBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListSelectedBackgroundMaterial
+  id: defaultListSelectedBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListSelectedBackgroundMaterial
+  nameWithType: AssetSettings.defaultListSelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListSelectedBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListSelectedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 61
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListSelectedBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListSelectedBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListPressedTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListPressedTextSize
+  id: defaultListPressedTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListPressedTextSize
+  nameWithType: AssetSettings.defaultListPressedTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListPressedTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListPressedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 63
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultListPressedTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultListPressedTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListPressedTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListPressedTextMaterial
+  id: defaultListPressedTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListPressedTextMaterial
+  nameWithType: AssetSettings.defaultListPressedTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListPressedTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListPressedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 64
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListPressedTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListPressedTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListPressedBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListPressedBackgroundMaterial
+  id: defaultListPressedBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListPressedBackgroundMaterial
+  nameWithType: AssetSettings.defaultListPressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListPressedBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListPressedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 65
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListPressedBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListPressedBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextSize
+  id: defaultListDisabledTextSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListDisabledTextSize
+  nameWithType: AssetSettings.defaultListDisabledTextSize
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListDisabledTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 67
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 defaultListDisabledTextSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public defaultListDisabledTextSize As Vector3
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextMaterial
+  id: defaultListDisabledTextMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListDisabledTextMaterial
+  nameWithType: AssetSettings.defaultListDisabledTextMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListDisabledTextMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListDisabledTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 68
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListDisabledTextMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListDisabledTextMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.defaultListDisabledBackgroundMaterial
+  commentId: F:TinyGiantStudio.Text.AssetSettings.defaultListDisabledBackgroundMaterial
+  id: defaultListDisabledBackgroundMaterial
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: defaultListDisabledBackgroundMaterial
+  nameWithType: AssetSettings.defaultListDisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.AssetSettings.defaultListDisabledBackgroundMaterial
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: defaultListDisabledBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 69
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material defaultListDisabledBackgroundMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public defaultListDisabledBackgroundMaterial As Material
+- uid: TinyGiantStudio.Text.AssetSettings.smallHorizontalFieldSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.smallHorizontalFieldSize
+  id: smallHorizontalFieldSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: smallHorizontalFieldSize
+  nameWithType: AssetSettings.smallHorizontalFieldSize
+  fullName: TinyGiantStudio.Text.AssetSettings.smallHorizontalFieldSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: smallHorizontalFieldSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 76
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Header("Inspector field size")]
+
+      public float smallHorizontalFieldSize
+    return:
+      type: System.Single
+    content.vb: >-
+      <Header("Inspector field size")>
+
+      Public smallHorizontalFieldSize As Single
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Inspector field size
+- uid: TinyGiantStudio.Text.AssetSettings.normalHorizontalFieldSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.normalHorizontalFieldSize
+  id: normalHorizontalFieldSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: normalHorizontalFieldSize
+  nameWithType: AssetSettings.normalHorizontalFieldSize
+  fullName: TinyGiantStudio.Text.AssetSettings.normalHorizontalFieldSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: normalHorizontalFieldSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 77
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float normalHorizontalFieldSize
+    return:
+      type: System.Single
+    content.vb: Public normalHorizontalFieldSize As Single
+- uid: TinyGiantStudio.Text.AssetSettings.largeHorizontalFieldSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.largeHorizontalFieldSize
+  id: largeHorizontalFieldSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: largeHorizontalFieldSize
+  nameWithType: AssetSettings.largeHorizontalFieldSize
+  fullName: TinyGiantStudio.Text.AssetSettings.largeHorizontalFieldSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: largeHorizontalFieldSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 78
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float largeHorizontalFieldSize
+    return:
+      type: System.Single
+    content.vb: Public largeHorizontalFieldSize As Single
+- uid: TinyGiantStudio.Text.AssetSettings.extraLargeHorizontalFieldSize
+  commentId: F:TinyGiantStudio.Text.AssetSettings.extraLargeHorizontalFieldSize
+  id: extraLargeHorizontalFieldSize
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: extraLargeHorizontalFieldSize
+  nameWithType: AssetSettings.extraLargeHorizontalFieldSize
+  fullName: TinyGiantStudio.Text.AssetSettings.extraLargeHorizontalFieldSize
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: extraLargeHorizontalFieldSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 79
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float extraLargeHorizontalFieldSize
+    return:
+      type: System.Single
+    content.vb: Public extraLargeHorizontalFieldSize As Single
+- uid: TinyGiantStudio.Text.AssetSettings.autoCreateSceneInputSystem
+  commentId: F:TinyGiantStudio.Text.AssetSettings.autoCreateSceneInputSystem
+  id: autoCreateSceneInputSystem
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: autoCreateSceneInputSystem
+  nameWithType: AssetSettings.autoCreateSceneInputSystem
+  fullName: TinyGiantStudio.Text.AssetSettings.autoCreateSceneInputSystem
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: autoCreateSceneInputSystem
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 91
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool autoCreateSceneInputSystem
+    return:
+      type: System.Boolean
+    content.vb: Public autoCreateSceneInputSystem As Boolean
+- uid: TinyGiantStudio.Text.AssetSettings.dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  commentId: F:TinyGiantStudio.Text.AssetSettings.dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  id: dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  nameWithType: AssetSettings.dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  fullName: TinyGiantStudio.Text.AssetSettings.dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool dontAutoCreateRaycasterOrButtonIfVRtoolkitExists
+    return:
+      type: System.Boolean
+    content.vb: Public dontAutoCreateRaycasterOrButtonIfVRtoolkitExists As Boolean
+- uid: TinyGiantStudio.Text.AssetSettings.charInputStyle
+  commentId: F:TinyGiantStudio.Text.AssetSettings.charInputStyle
+  id: charInputStyle
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: charInputStyle
+  nameWithType: AssetSettings.charInputStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.charInputStyle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: charInputStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 113
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public AssetSettings.CharInputStyle charInputStyle
+    return:
+      type: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+    content.vb: Public charInputStyle As AssetSettings.CharInputStyle
+- uid: TinyGiantStudio.Text.AssetSettings.startChar
+  commentId: F:TinyGiantStudio.Text.AssetSettings.startChar
+  id: startChar
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: startChar
+  nameWithType: AssetSettings.startChar
+  fullName: TinyGiantStudio.Text.AssetSettings.startChar
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: startChar
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 115
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public char startChar
+    return:
+      type: System.Char
+    content.vb: Public startChar As Char
+- uid: TinyGiantStudio.Text.AssetSettings.endChar
+  commentId: F:TinyGiantStudio.Text.AssetSettings.endChar
+  id: endChar
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: endChar
+  nameWithType: AssetSettings.endChar
+  fullName: TinyGiantStudio.Text.AssetSettings.endChar
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: endChar
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 116
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public char endChar
+    return:
+      type: System.Char
+    content.vb: Public endChar As Char
+- uid: TinyGiantStudio.Text.AssetSettings.startUnicode
+  commentId: F:TinyGiantStudio.Text.AssetSettings.startUnicode
+  id: startUnicode
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: startUnicode
+  nameWithType: AssetSettings.startUnicode
+  fullName: TinyGiantStudio.Text.AssetSettings.startUnicode
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: startUnicode
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 117
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public string startUnicode
+    return:
+      type: System.String
+    content.vb: Public startUnicode As String
+- uid: TinyGiantStudio.Text.AssetSettings.endUnicode
+  commentId: F:TinyGiantStudio.Text.AssetSettings.endUnicode
+  id: endUnicode
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: endUnicode
+  nameWithType: AssetSettings.endUnicode
+  fullName: TinyGiantStudio.Text.AssetSettings.endUnicode
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: endUnicode
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 118
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public string endUnicode
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      Public endUnicode As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.customCharacters
+  commentId: F:TinyGiantStudio.Text.AssetSettings.customCharacters
+  id: customCharacters
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: customCharacters
+  nameWithType: AssetSettings.customCharacters
+  fullName: TinyGiantStudio.Text.AssetSettings.customCharacters
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: customCharacters
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 122
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [TextArea(10, 99)]
+
+      public string customCharacters
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      <TextArea(10, 99)>
+
+      Public customCharacters As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TextAreaAttribute
+    ctor: UnityEngine.TextAreaAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 10
+    - type: System.Int32
+      value: 99
+- uid: TinyGiantStudio.Text.AssetSettings.unicodeSequence
+  commentId: F:TinyGiantStudio.Text.AssetSettings.unicodeSequence
+  id: unicodeSequence
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: unicodeSequence
+  nameWithType: AssetSettings.unicodeSequence
+  fullName: TinyGiantStudio.Text.AssetSettings.unicodeSequence
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: unicodeSequence
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 126
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      [TextArea(10, 99)]
+
+      public string unicodeSequence
+    return:
+      type: System.String
+    content.vb: >-
+      <HideInInspector>
+
+      <TextArea(10, 99)>
+
+      Public unicodeSequence As String
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  - type: UnityEngine.TextAreaAttribute
+    ctor: UnityEngine.TextAreaAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 10
+    - type: System.Int32
+      value: 99
+- uid: TinyGiantStudio.Text.AssetSettings.vertexDensity
+  commentId: F:TinyGiantStudio.Text.AssetSettings.vertexDensity
+  id: vertexDensity
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: vertexDensity
+  nameWithType: AssetSettings.vertexDensity
+  fullName: TinyGiantStudio.Text.AssetSettings.vertexDensity
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: vertexDensity
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 129
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int vertexDensity
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public vertexDensity As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.sizeXY
+  commentId: F:TinyGiantStudio.Text.AssetSettings.sizeXY
+  id: sizeXY
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: sizeXY
+  nameWithType: AssetSettings.sizeXY
+  fullName: TinyGiantStudio.Text.AssetSettings.sizeXY
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: sizeXY
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 130
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public float sizeXY
+    return:
+      type: System.Single
+    content.vb: >-
+      <HideInInspector>
+
+      Public sizeXY As Single
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.sizeZ
+  commentId: F:TinyGiantStudio.Text.AssetSettings.sizeZ
+  id: sizeZ
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: sizeZ
+  nameWithType: AssetSettings.sizeZ
+  fullName: TinyGiantStudio.Text.AssetSettings.sizeZ
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: sizeZ
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 131
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public float sizeZ
+    return:
+      type: System.Single
+    content.vb: >-
+      <HideInInspector>
+
+      Public sizeZ As Single
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.smoothingAngle
+  commentId: F:TinyGiantStudio.Text.AssetSettings.smoothingAngle
+  id: smoothingAngle
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: smoothingAngle
+  nameWithType: AssetSettings.smoothingAngle
+  fullName: TinyGiantStudio.Text.AssetSettings.smoothingAngle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: smoothingAngle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 132
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int smoothingAngle
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public smoothingAngle As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.meshExportStyle
+  commentId: F:TinyGiantStudio.Text.AssetSettings.meshExportStyle
+  id: meshExportStyle
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: meshExportStyle
+  nameWithType: AssetSettings.meshExportStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.meshExportStyle
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: meshExportStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 134
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public AssetSettings.MeshExportStyle meshExportStyle
+    return:
+      type: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+    content.vb: >-
+      <HideInInspector>
+
+      Public meshExportStyle As AssetSettings.MeshExportStyle
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.previewAmount
+  commentId: F:TinyGiantStudio.Text.AssetSettings.previewAmount
+  id: previewAmount
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: previewAmount
+  nameWithType: AssetSettings.previewAmount
+  fullName: TinyGiantStudio.Text.AssetSettings.previewAmount
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: previewAmount
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 136
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int previewAmount
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public previewAmount As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings
+  commentId: M:TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings
+  id: ResetFontCreationMeshSettings
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: ResetFontCreationMeshSettings()
+  nameWithType: AssetSettings.ResetFontCreationMeshSettings()
+  fullName: TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ResetFontCreationMeshSettings
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 179
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ResetFontCreationMeshSettings()
+    content.vb: Public Sub ResetFontCreationMeshSettings()
+  overload: TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings*
+- uid: TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings
+  commentId: M:TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings
+  id: ResetFontCreationPrebuiltSettings
+  parent: TinyGiantStudio.Text.AssetSettings
+  langs:
+  - csharp
+  - vb
+  name: ResetFontCreationPrebuiltSettings()
+  nameWithType: AssetSettings.ResetFontCreationPrebuiltSettings()
+  fullName: TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ResetFontCreationPrebuiltSettings
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Utilities/AssetSettings.cs
+    startLine: 191
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ResetFontCreationPrebuiltSettings()
+    content.vb: Public Sub ResetFontCreationPrebuiltSettings()
+  overload: TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings*
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: TinyGiantStudio.Text.Font
+  commentId: T:TinyGiantStudio.Text.Font
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: TinyGiantStudio.Text.Font
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  commentId: T:TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings.CharInputStyle
+  nameWithType: AssetSettings.CharInputStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+    name: CharInputStyle
+    href: TinyGiantStudio.Text.AssetSettings.CharInputStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.CharInputStyle
+    name: CharInputStyle
+    href: TinyGiantStudio.Text.AssetSettings.CharInputStyle.html
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  commentId: T:TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings.MeshExportStyle
+  nameWithType: AssetSettings.MeshExportStyle
+  fullName: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+  spec.csharp:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+    name: MeshExportStyle
+    href: TinyGiantStudio.Text.AssetSettings.MeshExportStyle.html
+  spec.vb:
+  - uid: TinyGiantStudio.Text.AssetSettings
+    name: AssetSettings
+    href: TinyGiantStudio.Text.AssetSettings.html
+  - name: .
+  - uid: TinyGiantStudio.Text.AssetSettings.MeshExportStyle
+    name: MeshExportStyle
+    href: TinyGiantStudio.Text.AssetSettings.MeshExportStyle.html
+- uid: TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings*
+  commentId: Overload:TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings
+  href: TinyGiantStudio.Text.AssetSettings.html#TinyGiantStudio_Text_AssetSettings_ResetFontCreationMeshSettings
+  name: ResetFontCreationMeshSettings
+  nameWithType: AssetSettings.ResetFontCreationMeshSettings
+  fullName: TinyGiantStudio.Text.AssetSettings.ResetFontCreationMeshSettings
+- uid: TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings*
+  commentId: Overload:TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings
+  href: TinyGiantStudio.Text.AssetSettings.html#TinyGiantStudio_Text_AssetSettings_ResetFontCreationPrebuiltSettings
+  name: ResetFontCreationPrebuiltSettings
+  nameWithType: AssetSettings.ResetFontCreationPrebuiltSettings
+  fullName: TinyGiantStudio.Text.AssetSettings.ResetFontCreationPrebuiltSettings

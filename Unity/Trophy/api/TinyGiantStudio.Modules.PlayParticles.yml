@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Modules.PlayParticles
+  commentId: T:TinyGiantStudio.Modules.PlayParticles
+  id: PlayParticles
+  parent: TinyGiantStudio.Modules
+  children:
+  - TinyGiantStudio.Modules.PlayParticles.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  - TinyGiantStudio.Modules.PlayParticles.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  langs:
+  - csharp
+  - vb
+  name: PlayParticles
+  nameWithType: PlayParticles
+  fullName: TinyGiantStudio.Modules.PlayParticles
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PlayParticles
+    path: ../Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Modules
+  summary: >-
+    Variable holders:
+
+    Index 0: Delay - Float
+
+    Index 1: Particle Prefab - GameObject
+
+    Index 2: Dont Auto Destroy Particle - Bool
+
+    Index 3: Destroy Particle After - Float
+  example: []
+  syntax:
+    content: >-
+      [CreateAssetMenu(menuName = "Tiny Giant Studio/Modular 3D Text/Modules/Play Particle")]
+
+      public class PlayParticles : Module
+    content.vb: >-
+      <CreateAssetMenu(menuName:="Tiny Giant Studio/Modular 3D Text/Modules/Play Particle")>
+
+      Public Class PlayParticles Inherits Module
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - TinyGiantStudio.Modules.ModuleCore
+  - TinyGiantStudio.Modules.Module
+  inheritedMembers:
+  - TinyGiantStudio.Modules.ModuleCore.variableHolders
+  - TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: menuName
+      type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/Modules/Play Particle
+- uid: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  commentId: M:TinyGiantStudio.Modules.PlayParticles.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  id: ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  parent: TinyGiantStudio.Modules.PlayParticles
+  langs:
+  - csharp
+  - vb
+  name: ModuleRoutine(GameObject, VariableHolder[])
+  nameWithType: PlayParticles.ModuleRoutine(GameObject, VariableHolder[])
+  fullName: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine(UnityEngine.GameObject, TinyGiantStudio.Modules.VariableHolder[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ModuleRoutine
+    path: ../Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Modules
+  example: []
+  syntax:
+    content: public override IEnumerator ModuleRoutine(GameObject obj, VariableHolder[] variableHolders)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function ModuleRoutine(obj As GameObject, variableHolders As VariableHolder()) As IEnumerator
+  overridden: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  overload: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine*
+  nameWithType.vb: PlayParticles.ModuleRoutine(GameObject, VariableHolder())
+  fullName.vb: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine(UnityEngine.GameObject, TinyGiantStudio.Modules.VariableHolder())
+  name.vb: ModuleRoutine(GameObject, VariableHolder())
+- uid: TinyGiantStudio.Modules.PlayParticles.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  commentId: M:TinyGiantStudio.Modules.PlayParticles.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  id: VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  parent: TinyGiantStudio.Modules.PlayParticles
+  langs:
+  - csharp
+  - vb
+  name: VariableWarnings(VariableHolder[])
+  nameWithType: PlayParticles.VariableWarnings(VariableHolder[])
+  fullName: TinyGiantStudio.Modules.PlayParticles.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: VariableWarnings
+    path: ../Assets/Plugins/Tiny Giant Studio/Modules/Scripts/PlayParticles.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Modules
+  summary: The return of this string is shown as warning. Used to show warnings incase of faulty settings
+  example: []
+  syntax:
+    content: public override string VariableWarnings(VariableHolder[] variableHolders)
+    parameters:
+    - id: variableHolders
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Overrides Function VariableWarnings(variableHolders As VariableHolder()) As String
+  overridden: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  overload: TinyGiantStudio.Modules.PlayParticles.VariableWarnings*
+  nameWithType.vb: PlayParticles.VariableWarnings(VariableHolder())
+  fullName.vb: TinyGiantStudio.Modules.PlayParticles.VariableWarnings(TinyGiantStudio.Modules.VariableHolder())
+  name.vb: VariableWarnings(VariableHolder())
+references:
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: TinyGiantStudio.Modules.ModuleCore
+  commentId: T:TinyGiantStudio.Modules.ModuleCore
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.ModuleCore.html
+  name: ModuleCore
+  nameWithType: ModuleCore
+  fullName: TinyGiantStudio.Modules.ModuleCore
+- uid: TinyGiantStudio.Modules.Module
+  commentId: T:TinyGiantStudio.Modules.Module
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.Module.html
+  name: Module
+  nameWithType: Module
+  fullName: TinyGiantStudio.Modules.Module
+- uid: TinyGiantStudio.Modules.ModuleCore.variableHolders
+  commentId: F:TinyGiantStudio.Modules.ModuleCore.variableHolders
+  parent: TinyGiantStudio.Modules.ModuleCore
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_variableHolders
+  name: variableHolders
+  nameWithType: ModuleCore.variableHolders
+  fullName: TinyGiantStudio.Modules.ModuleCore.variableHolders
+- uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+  commentId: M:TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+  parent: TinyGiantStudio.Modules.ModuleCore
+  isExternal: true
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  name: AddWarning(string, string)
+  nameWithType: ModuleCore.AddWarning(string, string)
+  fullName: TinyGiantStudio.Modules.ModuleCore.AddWarning(string, string)
+  nameWithType.vb: ModuleCore.AddWarning(String, String)
+  fullName.vb: TinyGiantStudio.Modules.ModuleCore.AddWarning(String, String)
+  name.vb: AddWarning(String, String)
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+    name: AddWarning
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.ModuleCore.AddWarning(System.String,System.String)
+    name: AddWarning
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_AddWarning_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  commentId: M:TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+  parent: TinyGiantStudio.Modules.Module
+  isExternal: true
+  href: TinyGiantStudio.Modules.Module.html#TinyGiantStudio_Modules_Module_ModuleRoutine_UnityEngine_GameObject_TinyGiantStudio_Modules_VariableHolder___
+  name: ModuleRoutine(GameObject, VariableHolder[])
+  nameWithType: Module.ModuleRoutine(GameObject, VariableHolder[])
+  fullName: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject, TinyGiantStudio.Modules.VariableHolder[])
+  nameWithType.vb: Module.ModuleRoutine(GameObject, VariableHolder())
+  fullName.vb: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject, TinyGiantStudio.Modules.VariableHolder())
+  name.vb: ModuleRoutine(GameObject, VariableHolder())
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+    name: ModuleRoutine
+    href: TinyGiantStudio.Modules.Module.html#TinyGiantStudio_Modules_Module_ModuleRoutine_UnityEngine_GameObject_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.Module.ModuleRoutine(UnityEngine.GameObject,TinyGiantStudio.Modules.VariableHolder[])
+    name: ModuleRoutine
+    href: TinyGiantStudio.Modules.Module.html#TinyGiantStudio_Modules_Module_ModuleRoutine_UnityEngine_GameObject_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine*
+  commentId: Overload:TinyGiantStudio.Modules.PlayParticles.ModuleRoutine
+  href: TinyGiantStudio.Modules.PlayParticles.html#TinyGiantStudio_Modules_PlayParticles_ModuleRoutine_UnityEngine_GameObject_TinyGiantStudio_Modules_VariableHolder___
+  name: ModuleRoutine
+  nameWithType: PlayParticles.ModuleRoutine
+  fullName: TinyGiantStudio.Modules.PlayParticles.ModuleRoutine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: TinyGiantStudio.Modules.VariableHolder[]
+  isExternal: true
+  href: TinyGiantStudio.Modules.VariableHolder.html
+  name: VariableHolder[]
+  nameWithType: VariableHolder[]
+  fullName: TinyGiantStudio.Modules.VariableHolder[]
+  nameWithType.vb: VariableHolder()
+  fullName.vb: TinyGiantStudio.Modules.VariableHolder()
+  name.vb: VariableHolder()
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+- uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  commentId: M:TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  parent: TinyGiantStudio.Modules.ModuleCore
+  href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  name: VariableWarnings(VariableHolder[])
+  nameWithType: ModuleCore.VariableWarnings(VariableHolder[])
+  fullName: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+  nameWithType.vb: ModuleCore.VariableWarnings(VariableHolder())
+  fullName.vb: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder())
+  name.vb: VariableWarnings(VariableHolder())
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+    name: VariableWarnings
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.ModuleCore.VariableWarnings(TinyGiantStudio.Modules.VariableHolder[])
+    name: VariableWarnings
+    href: TinyGiantStudio.Modules.ModuleCore.html#TinyGiantStudio_Modules_ModuleCore_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  - name: (
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: TinyGiantStudio.Modules.PlayParticles.VariableWarnings*
+  commentId: Overload:TinyGiantStudio.Modules.PlayParticles.VariableWarnings
+  href: TinyGiantStudio.Modules.PlayParticles.html#TinyGiantStudio_Modules_PlayParticles_VariableWarnings_TinyGiantStudio_Modules_VariableHolder___
+  name: VariableWarnings
+  nameWithType: PlayParticles.VariableWarnings
+  fullName: TinyGiantStudio.Modules.PlayParticles.VariableWarnings
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

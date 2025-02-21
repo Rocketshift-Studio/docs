@@ -1,0 +1,2675 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Text.Button
+  commentId: T:TinyGiantStudio.Text.Button
+  id: Button
+  parent: TinyGiantStudio.Text
+  children:
+  - TinyGiantStudio.Text.Button.ApplyDisabledStyle
+  - TinyGiantStudio.Text.Button.ApplyNormalStyle
+  - TinyGiantStudio.Text.Button.ApplyOnClickModule
+  - TinyGiantStudio.Text.Button.ApplyOnPresstModule
+  - TinyGiantStudio.Text.Button.ApplyOnSelectModule
+  - TinyGiantStudio.Text.Button.ApplyOnSelectStyle
+  - TinyGiantStudio.Text.Button.ApplyPressedStyle
+  - TinyGiantStudio.Text.Button.ApplyUnSelectModule
+  - TinyGiantStudio.Text.Button.Background
+  - TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate
+  - TinyGiantStudio.Text.Button.ButtonBeingPressed
+  - TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+  - TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate
+  - TinyGiantStudio.Text.Button.DisabledTextMaterial
+  - TinyGiantStudio.Text.Button.DisabledTextSize
+  - TinyGiantStudio.Text.Button.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer},TinyGiantStudio.Modules.Module)
+  - TinyGiantStudio.Text.Button.Interactable
+  - TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+  - TinyGiantStudio.Text.Button.NormalTextMaterial
+  - TinyGiantStudio.Text.Button.NormalTextSize
+  - TinyGiantStudio.Text.Button.PressButton
+  - TinyGiantStudio.Text.Button.PressButtonDontCallList
+  - TinyGiantStudio.Text.Button.PressButtonVisualUpdate
+  - TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate
+  - TinyGiantStudio.Text.Button.PressCompleted
+  - TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+  - TinyGiantStudio.Text.Button.PressedTextMaterial
+  - TinyGiantStudio.Text.Button.PressedTextSize
+  - TinyGiantStudio.Text.Button.SelectButton
+  - TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+  - TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate
+  - TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate
+  - TinyGiantStudio.Text.Button.SelectedTextMaterial
+  - TinyGiantStudio.Text.Button.SelectedTextSize
+  - TinyGiantStudio.Text.Button.Text
+  - TinyGiantStudio.Text.Button.Uninteractable
+  - TinyGiantStudio.Text.Button.UnselectButton
+  - TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate
+  - TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate
+  - TinyGiantStudio.Text.Button.UpdateStyle
+  - TinyGiantStudio.Text.Button.UseDisabledVisual
+  - TinyGiantStudio.Text.Button.applyBeingPressedModuleContainers
+  - TinyGiantStudio.Text.Button.applyPressCompleteModuleContainers
+  - TinyGiantStudio.Text.Button.applySelectModuleContainers
+  - TinyGiantStudio.Text.Button.applyUnSelectedModuleContainers
+  - TinyGiantStudio.Text.Button.beingPressedEvent
+  - TinyGiantStudio.Text.Button.beingPressedModuleContainers
+  - TinyGiantStudio.Text.Button.holdPressedVisualFor
+  - TinyGiantStudio.Text.Button.interactable
+  - TinyGiantStudio.Text.Button.interactableByMouse
+  - TinyGiantStudio.Text.Button.isSelected
+  - TinyGiantStudio.Text.Button.pressCompleteEvent
+  - TinyGiantStudio.Text.Button.pressCompleteModuleContainers
+  - TinyGiantStudio.Text.Button.selectedEvent
+  - TinyGiantStudio.Text.Button.selectedModuleContainers
+  - TinyGiantStudio.Text.Button.settings
+  - TinyGiantStudio.Text.Button.unSelectedModuleContainers
+  - TinyGiantStudio.Text.Button.unselectEvent
+  - TinyGiantStudio.Text.Button.useModules
+  - TinyGiantStudio.Text.Button.usePressedVisual
+  - TinyGiantStudio.Text.Button.useSelectedVisual
+  - TinyGiantStudio.Text.Button.useStyles
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: Button
+  fullName: TinyGiantStudio.Text.Button
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Button
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: The component for 3D buttons.
+  example: []
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      [AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Button", 20002)]
+
+      [HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/button")]
+
+      public class Button : MonoBehaviour
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      <AddComponentMenu("Tiny Giant Studio/Modular 3D Text/Button", 20002)>
+
+      <HelpURL("https://ferdowsur.gitbook.io/modular-3d-text/ui/button")>
+
+      Public Class Button Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Tiny Giant Studio/Modular 3D Text/Button
+    - type: System.Int32
+      value: 20002
+  - type: UnityEngine.HelpURLAttribute
+    ctor: UnityEngine.HelpURLAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: https://ferdowsur.gitbook.io/modular-3d-text/ui/button
+- uid: TinyGiantStudio.Text.Button.settings
+  commentId: F:TinyGiantStudio.Text.Button.settings
+  id: settings
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: settings
+  nameWithType: Button.settings
+  fullName: TinyGiantStudio.Text.Button.settings
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: settings
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Used to load default values.
+  example: []
+  syntax:
+    content: public AssetSettings settings
+    return:
+      type: TinyGiantStudio.Text.AssetSettings
+    content.vb: Public settings As AssetSettings
+- uid: TinyGiantStudio.Text.Button.unselectEvent
+  commentId: F:TinyGiantStudio.Text.Button.unselectEvent
+  id: unselectEvent
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: unselectEvent
+  nameWithType: Button.unselectEvent
+  fullName: TinyGiantStudio.Text.Button.unselectEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: unselectEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    This is the state that appears when a UI element enters the normal state from selected. 
+
+    This is used instead of normal because a UI element can be "normal" state by default when the game starts.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onUnselect")]
+
+      public UnityEvent unselectEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: >-
+      <FormerlySerializedAs("onUnselect")>
+
+      Public unselectEvent As UnityEvent
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onUnselect
+- uid: TinyGiantStudio.Text.Button.selectedEvent
+  commentId: F:TinyGiantStudio.Text.Button.selectedEvent
+  id: selectedEvent
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: selectedEvent
+  nameWithType: Button.selectedEvent
+  fullName: TinyGiantStudio.Text.Button.selectedEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Mouse hover on the item or selected item via keyboard/controller in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onSelect")]
+
+      public UnityEvent selectedEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: >-
+      <FormerlySerializedAs("onSelect")>
+
+      Public selectedEvent As UnityEvent
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onSelect
+- uid: TinyGiantStudio.Text.Button.beingPressedEvent
+  commentId: F:TinyGiantStudio.Text.Button.beingPressedEvent
+  id: beingPressedEvent
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: beingPressedEvent
+  nameWithType: Button.beingPressedEvent
+  fullName: TinyGiantStudio.Text.Button.beingPressedEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: beingPressedEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 42
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: While the mouse/keyboard/controller button is pressed down or touch held down, the module or event is constantly called.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("whileBeingClicked")]
+
+      public UnityEvent beingPressedEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: >-
+      <FormerlySerializedAs("whileBeingClicked")>
+
+      Public beingPressedEvent As UnityEvent
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: whileBeingClicked
+- uid: TinyGiantStudio.Text.Button.pressCompleteEvent
+  commentId: F:TinyGiantStudio.Text.Button.pressCompleteEvent
+  id: pressCompleteEvent
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: pressCompleteEvent
+  nameWithType: Button.pressCompleteEvent
+  fullName: TinyGiantStudio.Text.Button.pressCompleteEvent
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: pressCompleteEvent
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key. In other words, the frame when the button/key or touch being pressed is complete.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onClick")]
+
+      public UnityEvent pressCompleteEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: >-
+      <FormerlySerializedAs("onClick")>
+
+      Public pressCompleteEvent As UnityEvent
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onClick
+- uid: TinyGiantStudio.Text.Button.interactable
+  commentId: F:TinyGiantStudio.Text.Button.interactable
+  id: interactable
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: interactable
+  nameWithType: Button.interactable
+  fullName: TinyGiantStudio.Text.Button.interactable
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: interactable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool interactable
+    return:
+      type: System.Boolean
+    content.vb: Public interactable As Boolean
+- uid: TinyGiantStudio.Text.Button.interactableByMouse
+  commentId: F:TinyGiantStudio.Text.Button.interactableByMouse
+  id: interactableByMouse
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: interactableByMouse
+  nameWithType: Button.interactableByMouse
+  fullName: TinyGiantStudio.Text.Button.interactableByMouse
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: interactableByMouse
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [Tooltip("Mouse or touch can select this")]
+
+      public bool interactableByMouse
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("Mouse or touch can select this")>
+
+      Public interactableByMouse As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Mouse or touch can select this
+- uid: TinyGiantStudio.Text.Button.Text
+  commentId: P:TinyGiantStudio.Text.Button.Text
+  id: Text
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: Button.Text
+  fullName: TinyGiantStudio.Text.Button.Text
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Text
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 54
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Modular3DText Text { get; set; }
+    parameters: []
+    return:
+      type: TinyGiantStudio.Text.Modular3DText
+    content.vb: Public Property Text As Modular3DText
+  overload: TinyGiantStudio.Text.Button.Text*
+- uid: TinyGiantStudio.Text.Button.Background
+  commentId: P:TinyGiantStudio.Text.Button.Background
+  id: Background
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: Button.Background
+  fullName: TinyGiantStudio.Text.Button.Background
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Background
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 75
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: The background is assigned to the button. The button can change material depending on Style.
+  example: []
+  syntax:
+    content: public Renderer Background { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Renderer
+    content.vb: Public Property Background As Renderer
+  overload: TinyGiantStudio.Text.Button.Background*
+- uid: TinyGiantStudio.Text.Button.useModules
+  commentId: F:TinyGiantStudio.Text.Button.useModules
+  id: useModules
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: useModules
+  nameWithType: Button.useModules
+  fullName: TinyGiantStudio.Text.Button.useModules
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: useModules
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 95
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: If set to false, disables all modules from this button. Modules are called when entering a style for the first time.
+  example: []
+  syntax:
+    content: public bool useModules
+    return:
+      type: System.Boolean
+    content.vb: Public useModules As Boolean
+- uid: TinyGiantStudio.Text.Button.unSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.unSelectedModuleContainers
+  id: unSelectedModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: unSelectedModuleContainers
+  nameWithType: Button.unSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.Button.unSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: unSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 101
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Unselect is the state that appears when a UI element enters the normal state from selected.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("unSelectModuleContainers ")]
+
+      public List<ModuleContainer> unSelectedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("unSelectModuleContainers ")>
+
+      Public unSelectedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'unSelectModuleContainers '
+- uid: TinyGiantStudio.Text.Button.applyUnSelectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.applyUnSelectedModuleContainers
+  id: applyUnSelectedModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: applyUnSelectedModuleContainers
+  nameWithType: Button.applyUnSelectedModuleContainers
+  fullName: TinyGiantStudio.Text.Button.applyUnSelectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyUnSelectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 106
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Unselect is the state that appears when a UI element enters the normal state from selected.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyUnSelectModuleContainers")]
+
+      public bool applyUnSelectedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyUnSelectModuleContainers")>
+
+      Public applyUnSelectedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyUnSelectModuleContainers
+- uid: TinyGiantStudio.Text.Button.selectedModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.selectedModuleContainers
+  id: selectedModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: selectedModuleContainers
+  nameWithType: Button.selectedModuleContainers
+  fullName: TinyGiantStudio.Text.Button.selectedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: selectedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 112
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Selected is the state when Mouse hovers on a UI item or it is selected via keyboard/controller by scrolling in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onSelectModuleContainers")]
+
+      public List<ModuleContainer> selectedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onSelectModuleContainers")>
+
+      Public selectedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onSelectModuleContainers
+- uid: TinyGiantStudio.Text.Button.applySelectModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.applySelectModuleContainers
+  id: applySelectModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: applySelectModuleContainers
+  nameWithType: Button.applySelectModuleContainers
+  fullName: TinyGiantStudio.Text.Button.applySelectModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applySelectModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 117
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Selected is the state when Mouse hovers on a UI item or it is selected via keyboard/controller by scrolling in a list.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnSelectModuleContainers")]
+
+      public bool applySelectModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnSelectModuleContainers")>
+
+      Public applySelectModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnSelectModuleContainers
+- uid: TinyGiantStudio.Text.Button.beingPressedModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.beingPressedModuleContainers
+  id: beingPressedModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: beingPressedModuleContainers
+  nameWithType: Button.beingPressedModuleContainers
+  fullName: TinyGiantStudio.Text.Button.beingPressedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: beingPressedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 123
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Being pressed is while the mouse click or touch is held down, the module or event is constantly called.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onPressModuleContainers")]
+
+      public List<ModuleContainer> beingPressedModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onPressModuleContainers")>
+
+      Public beingPressedModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onPressModuleContainers
+- uid: TinyGiantStudio.Text.Button.applyBeingPressedModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.applyBeingPressedModuleContainers
+  id: applyBeingPressedModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: applyBeingPressedModuleContainers
+  nameWithType: Button.applyBeingPressedModuleContainers
+  fullName: TinyGiantStudio.Text.Button.applyBeingPressedModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyBeingPressedModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 127
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnPressModuleContainers")]
+
+      public bool applyBeingPressedModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnPressModuleContainers")>
+
+      Public applyBeingPressedModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnPressModuleContainers
+- uid: TinyGiantStudio.Text.Button.pressCompleteModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.pressCompleteModuleContainers
+  id: pressCompleteModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: pressCompleteModuleContainers
+  nameWithType: Button.pressCompleteModuleContainers
+  fullName: TinyGiantStudio.Text.Button.pressCompleteModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: pressCompleteModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 133
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("onClickModuleContainers")]
+
+      public List<ModuleContainer> pressCompleteModuleContainers
+    return:
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    content.vb: >-
+      <FormerlySerializedAs("onClickModuleContainers")>
+
+      Public pressCompleteModuleContainers As List(Of ModuleContainer)
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: onClickModuleContainers
+- uid: TinyGiantStudio.Text.Button.applyPressCompleteModuleContainers
+  commentId: F:TinyGiantStudio.Text.Button.applyPressCompleteModuleContainers
+  id: applyPressCompleteModuleContainers
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: applyPressCompleteModuleContainers
+  nameWithType: Button.applyPressCompleteModuleContainers
+  fullName: TinyGiantStudio.Text.Button.applyPressCompleteModuleContainers
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: applyPressCompleteModuleContainers
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 138
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: When the user releases the key.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("applyOnClickModuleContainers")]
+
+      public bool applyPressCompleteModuleContainers
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <FormerlySerializedAs("applyOnClickModuleContainers")>
+
+      Public applyPressCompleteModuleContainers As Boolean
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: applyOnClickModuleContainers
+- uid: TinyGiantStudio.Text.Button.useStyles
+  commentId: F:TinyGiantStudio.Text.Button.useStyles
+  id: useStyles
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: useStyles
+  nameWithType: Button.useStyles
+  fullName: TinyGiantStudio.Text.Button.useStyles
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: useStyles
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 143
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool useStyles
+    return:
+      type: System.Boolean
+    content.vb: Public useStyles As Boolean
+- uid: TinyGiantStudio.Text.Button.NormalTextSize
+  commentId: P:TinyGiantStudio.Text.Button.NormalTextSize
+  id: NormalTextSize
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: NormalTextSize
+  nameWithType: Button.NormalTextSize
+  fullName: TinyGiantStudio.Text.Button.NormalTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 146
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 NormalTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property NormalTextSize As Vector3
+  overload: TinyGiantStudio.Text.Button.NormalTextSize*
+- uid: TinyGiantStudio.Text.Button.NormalTextMaterial
+  commentId: P:TinyGiantStudio.Text.Button.NormalTextMaterial
+  id: NormalTextMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: NormalTextMaterial
+  nameWithType: Button.NormalTextMaterial
+  fullName: TinyGiantStudio.Text.Button.NormalTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 163
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material NormalTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property NormalTextMaterial As Material
+  overload: TinyGiantStudio.Text.Button.NormalTextMaterial*
+- uid: TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+  id: NormalBackgroundMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: NormalBackgroundMaterial
+  nameWithType: Button.NormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: NormalBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 180
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material NormalBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property NormalBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.Button.NormalBackgroundMaterial*
+- uid: TinyGiantStudio.Text.Button.useSelectedVisual
+  commentId: F:TinyGiantStudio.Text.Button.useSelectedVisual
+  id: useSelectedVisual
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: useSelectedVisual
+  nameWithType: Button.useSelectedVisual
+  fullName: TinyGiantStudio.Text.Button.useSelectedVisual
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: useSelectedVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 196
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool useSelectedVisual
+    return:
+      type: System.Boolean
+    content.vb: Public useSelectedVisual As Boolean
+- uid: TinyGiantStudio.Text.Button.SelectedTextSize
+  commentId: P:TinyGiantStudio.Text.Button.SelectedTextSize
+  id: SelectedTextSize
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectedTextSize
+  nameWithType: Button.SelectedTextSize
+  fullName: TinyGiantStudio.Text.Button.SelectedTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 199
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 SelectedTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property SelectedTextSize As Vector3
+  overload: TinyGiantStudio.Text.Button.SelectedTextSize*
+- uid: TinyGiantStudio.Text.Button.SelectedTextMaterial
+  commentId: P:TinyGiantStudio.Text.Button.SelectedTextMaterial
+  id: SelectedTextMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectedTextMaterial
+  nameWithType: Button.SelectedTextMaterial
+  fullName: TinyGiantStudio.Text.Button.SelectedTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 216
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material SelectedTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property SelectedTextMaterial As Material
+  overload: TinyGiantStudio.Text.Button.SelectedTextMaterial*
+- uid: TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+  id: SelectedBackgroundMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectedBackgroundMaterial
+  nameWithType: Button.SelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 233
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material SelectedBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property SelectedBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.Button.SelectedBackgroundMaterial*
+- uid: TinyGiantStudio.Text.Button.usePressedVisual
+  commentId: F:TinyGiantStudio.Text.Button.usePressedVisual
+  id: usePressedVisual
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: usePressedVisual
+  nameWithType: Button.usePressedVisual
+  fullName: TinyGiantStudio.Text.Button.usePressedVisual
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: usePressedVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 250
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool usePressedVisual
+    return:
+      type: System.Boolean
+    content.vb: Public usePressedVisual As Boolean
+- uid: TinyGiantStudio.Text.Button.PressedTextSize
+  commentId: P:TinyGiantStudio.Text.Button.PressedTextSize
+  id: PressedTextSize
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressedTextSize
+  nameWithType: Button.PressedTextSize
+  fullName: TinyGiantStudio.Text.Button.PressedTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 253
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 PressedTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property PressedTextSize As Vector3
+  overload: TinyGiantStudio.Text.Button.PressedTextSize*
+- uid: TinyGiantStudio.Text.Button.PressedTextMaterial
+  commentId: P:TinyGiantStudio.Text.Button.PressedTextMaterial
+  id: PressedTextMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressedTextMaterial
+  nameWithType: Button.PressedTextMaterial
+  fullName: TinyGiantStudio.Text.Button.PressedTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 270
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material PressedTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property PressedTextMaterial As Material
+  overload: TinyGiantStudio.Text.Button.PressedTextMaterial*
+- uid: TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+  id: PressedBackgroundMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressedBackgroundMaterial
+  nameWithType: Button.PressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressedBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 288
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material PressedBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property PressedBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.Button.PressedBackgroundMaterial*
+- uid: TinyGiantStudio.Text.Button.holdPressedVisualFor
+  commentId: F:TinyGiantStudio.Text.Button.holdPressedVisualFor
+  id: holdPressedVisualFor
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: holdPressedVisualFor
+  nameWithType: Button.holdPressedVisualFor
+  fullName: TinyGiantStudio.Text.Button.holdPressedVisualFor
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: holdPressedVisualFor
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 303
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public float holdPressedVisualFor
+    return:
+      type: System.Single
+    content.vb: Public holdPressedVisualFor As Single
+- uid: TinyGiantStudio.Text.Button.UseDisabledVisual
+  commentId: P:TinyGiantStudio.Text.Button.UseDisabledVisual
+  id: UseDisabledVisual
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: UseDisabledVisual
+  nameWithType: Button.UseDisabledVisual
+  fullName: TinyGiantStudio.Text.Button.UseDisabledVisual
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UseDisabledVisual
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 309
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool UseDisabledVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseDisabledVisual As Boolean
+  overload: TinyGiantStudio.Text.Button.UseDisabledVisual*
+- uid: TinyGiantStudio.Text.Button.DisabledTextSize
+  commentId: P:TinyGiantStudio.Text.Button.DisabledTextSize
+  id: DisabledTextSize
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: DisabledTextSize
+  nameWithType: Button.DisabledTextSize
+  fullName: TinyGiantStudio.Text.Button.DisabledTextSize
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledTextSize
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 316
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Vector3 DisabledTextSize { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property DisabledTextSize As Vector3
+  overload: TinyGiantStudio.Text.Button.DisabledTextSize*
+- uid: TinyGiantStudio.Text.Button.DisabledTextMaterial
+  commentId: P:TinyGiantStudio.Text.Button.DisabledTextMaterial
+  id: DisabledTextMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: DisabledTextMaterial
+  nameWithType: Button.DisabledTextMaterial
+  fullName: TinyGiantStudio.Text.Button.DisabledTextMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledTextMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 323
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material DisabledTextMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property DisabledTextMaterial As Material
+  overload: TinyGiantStudio.Text.Button.DisabledTextMaterial*
+- uid: TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+  commentId: P:TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+  id: DisabledBackgroundMaterial
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: DisabledBackgroundMaterial
+  nameWithType: Button.DisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledBackgroundMaterial
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 330
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public Material DisabledBackgroundMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property DisabledBackgroundMaterial As Material
+  overload: TinyGiantStudio.Text.Button.DisabledBackgroundMaterial*
+- uid: TinyGiantStudio.Text.Button.isSelected
+  commentId: F:TinyGiantStudio.Text.Button.isSelected
+  id: isSelected
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: isSelected
+  nameWithType: Button.isSelected
+  fullName: TinyGiantStudio.Text.Button.isSelected
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: isSelected
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 338
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public bool isSelected
+    return:
+      type: System.Boolean
+    content.vb: Public isSelected As Boolean
+- uid: TinyGiantStudio.Text.Button.UpdateStyle
+  commentId: M:TinyGiantStudio.Text.Button.UpdateStyle
+  id: UpdateStyle
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: UpdateStyle()
+  nameWithType: Button.UpdateStyle()
+  fullName: TinyGiantStudio.Text.Button.UpdateStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UpdateStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 362
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UpdateStyle()
+    content.vb: Public Sub UpdateStyle()
+  overload: TinyGiantStudio.Text.Button.UpdateStyle*
+- uid: TinyGiantStudio.Text.Button.SelectButton
+  commentId: M:TinyGiantStudio.Text.Button.SelectButton
+  id: SelectButton
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectButton()
+  nameWithType: Button.SelectButton()
+  fullName: TinyGiantStudio.Text.Button.SelectButton()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectButton
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 375
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Call this to select this button
+  example: []
+  syntax:
+    content: public void SelectButton()
+    content.vb: Public Sub SelectButton()
+  overload: TinyGiantStudio.Text.Button.SelectButton*
+- uid: TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate
+  commentId: M:TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate
+  id: SelectedButtonVisualUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectedButtonVisualUpdate()
+  nameWithType: Button.SelectedButtonVisualUpdate()
+  fullName: TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedButtonVisualUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 390
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void SelectedButtonVisualUpdate()
+    content.vb: Public Sub SelectedButtonVisualUpdate()
+  overload: TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate*
+- uid: TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate
+  commentId: M:TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate
+  id: SelectedButtonModuleUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: SelectedButtonModuleUpdate()
+  nameWithType: Button.SelectedButtonModuleUpdate()
+  fullName: TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SelectedButtonModuleUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 404
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void SelectedButtonModuleUpdate()
+    content.vb: Public Sub SelectedButtonModuleUpdate()
+  overload: TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate*
+- uid: TinyGiantStudio.Text.Button.UnselectButton
+  commentId: M:TinyGiantStudio.Text.Button.UnselectButton
+  id: UnselectButton
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: UnselectButton()
+  nameWithType: Button.UnselectButton()
+  fullName: TinyGiantStudio.Text.Button.UnselectButton()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectButton
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 419
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Call this to unselect a button
+  example: []
+  syntax:
+    content: public void UnselectButton()
+    content.vb: Public Sub UnselectButton()
+  overload: TinyGiantStudio.Text.Button.UnselectButton*
+- uid: TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate
+  commentId: M:TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate
+  id: UnselectedButtonVisualUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: UnselectedButtonVisualUpdate()
+  nameWithType: Button.UnselectedButtonVisualUpdate()
+  fullName: TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectedButtonVisualUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 429
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UnselectedButtonVisualUpdate()
+    content.vb: Public Sub UnselectedButtonVisualUpdate()
+  overload: TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate*
+- uid: TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate
+  commentId: M:TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate
+  id: UnselectButtonModuleUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: UnselectButtonModuleUpdate()
+  nameWithType: Button.UnselectButtonModuleUpdate()
+  fullName: TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: UnselectButtonModuleUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 444
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void UnselectButtonModuleUpdate()
+    content.vb: Public Sub UnselectButtonModuleUpdate()
+  overload: TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate*
+- uid: TinyGiantStudio.Text.Button.PressButton
+  commentId: M:TinyGiantStudio.Text.Button.PressButton
+  id: PressButton
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressButton()
+  nameWithType: Button.PressButton()
+  fullName: TinyGiantStudio.Text.Button.PressButton()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressButton
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 459
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Used everywhere except list
+  example: []
+  syntax:
+    content: public void PressButton()
+    content.vb: Public Sub PressButton()
+  overload: TinyGiantStudio.Text.Button.PressButton*
+- uid: TinyGiantStudio.Text.Button.PressButtonDontCallList
+  commentId: M:TinyGiantStudio.Text.Button.PressButtonDontCallList
+  id: PressButtonDontCallList
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressButtonDontCallList()
+  nameWithType: Button.PressButtonDontCallList()
+  fullName: TinyGiantStudio.Text.Button.PressButtonDontCallList()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressButtonDontCallList
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 489
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: This is called from list. This avoids recursion.
+  example: []
+  syntax:
+    content: public void PressButtonDontCallList()
+    content.vb: Public Sub PressButtonDontCallList()
+  overload: TinyGiantStudio.Text.Button.PressButtonDontCallList*
+- uid: TinyGiantStudio.Text.Button.PressButtonVisualUpdate
+  commentId: M:TinyGiantStudio.Text.Button.PressButtonVisualUpdate
+  id: PressButtonVisualUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressButtonVisualUpdate()
+  nameWithType: Button.PressButtonVisualUpdate()
+  fullName: TinyGiantStudio.Text.Button.PressButtonVisualUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressButtonVisualUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 498
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressButtonVisualUpdate()
+    content.vb: Public Sub PressButtonVisualUpdate()
+  overload: TinyGiantStudio.Text.Button.PressButtonVisualUpdate*
+- uid: TinyGiantStudio.Text.Button.ButtonBeingPressed
+  commentId: M:TinyGiantStudio.Text.Button.ButtonBeingPressed
+  id: ButtonBeingPressed
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ButtonBeingPressed()
+  nameWithType: Button.ButtonBeingPressed()
+  fullName: TinyGiantStudio.Text.Button.ButtonBeingPressed()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ButtonBeingPressed
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 514
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void ButtonBeingPressed()
+    content.vb: Public Sub ButtonBeingPressed()
+  overload: TinyGiantStudio.Text.Button.ButtonBeingPressed*
+- uid: TinyGiantStudio.Text.Button.PressCompleted
+  commentId: M:TinyGiantStudio.Text.Button.PressCompleted
+  id: PressCompleted
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressCompleted()
+  nameWithType: Button.PressCompleted()
+  fullName: TinyGiantStudio.Text.Button.PressCompleted()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressCompleted
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 519
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressCompleted()
+    content.vb: Public Sub PressCompleted()
+  overload: TinyGiantStudio.Text.Button.PressCompleted*
+- uid: TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate
+  commentId: M:TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate
+  id: PressCompleteButtonModuleUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: PressCompleteButtonModuleUpdate()
+  nameWithType: Button.PressCompleteButtonModuleUpdate()
+  fullName: TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: PressCompleteButtonModuleUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 533
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void PressCompleteButtonModuleUpdate()
+    content.vb: Public Sub PressCompleteButtonModuleUpdate()
+  overload: TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate*
+- uid: TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate
+  commentId: M:TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate
+  id: BeingPressedButtonModuleUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: BeingPressedButtonModuleUpdate()
+  nameWithType: Button.BeingPressedButtonModuleUpdate()
+  fullName: TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: BeingPressedButtonModuleUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 544
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void BeingPressedButtonModuleUpdate()
+    content.vb: Public Sub BeingPressedButtonModuleUpdate()
+  overload: TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate*
+- uid: TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate
+  commentId: M:TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate
+  id: DisabledButtonVisualUpdate
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: DisabledButtonVisualUpdate()
+  nameWithType: Button.DisabledButtonVisualUpdate()
+  fullName: TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DisabledButtonVisualUpdate
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 556
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void DisabledButtonVisualUpdate()
+    content.vb: Public Sub DisabledButtonVisualUpdate()
+  overload: TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate*
+- uid: TinyGiantStudio.Text.Button.Uninteractable
+  commentId: M:TinyGiantStudio.Text.Button.Uninteractable
+  id: Uninteractable
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: Uninteractable()
+  nameWithType: Button.Uninteractable()
+  fullName: TinyGiantStudio.Text.Button.Uninteractable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Uninteractable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 597
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Call this to set the button as Uninteractable
+  example: []
+  syntax:
+    content: public void Uninteractable()
+    content.vb: Public Sub Uninteractable()
+  overload: TinyGiantStudio.Text.Button.Uninteractable*
+- uid: TinyGiantStudio.Text.Button.Interactable
+  commentId: M:TinyGiantStudio.Text.Button.Interactable
+  id: Interactable
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: Interactable()
+  nameWithType: Button.Interactable()
+  fullName: TinyGiantStudio.Text.Button.Interactable()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Interactable
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 605
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: Call this to set the button as Interactable
+  example: []
+  syntax:
+    content: public void Interactable()
+    content.vb: Public Sub Interactable()
+  overload: TinyGiantStudio.Text.Button.Interactable*
+- uid: TinyGiantStudio.Text.Button.ApplyNormalStyle
+  commentId: M:TinyGiantStudio.Text.Button.ApplyNormalStyle
+  id: ApplyNormalStyle
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyNormalStyle()
+  nameWithType: Button.ApplyNormalStyle()
+  fullName: TinyGiantStudio.Text.Button.ApplyNormalStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyNormalStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 617
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool) ApplyNormalStyle()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean}
+    content.vb: Public Function ApplyNormalStyle() As (Boolean, Boolean)
+  overload: TinyGiantStudio.Text.Button.ApplyNormalStyle*
+- uid: TinyGiantStudio.Text.Button.ApplyOnSelectStyle
+  commentId: M:TinyGiantStudio.Text.Button.ApplyOnSelectStyle
+  id: ApplyOnSelectStyle
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyOnSelectStyle()
+  nameWithType: Button.ApplyOnSelectStyle()
+  fullName: TinyGiantStudio.Text.Button.ApplyOnSelectStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyOnSelectStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 638
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: ''
+  example: []
+  syntax:
+    content: public (bool, bool, List) ApplyOnSelectStyle()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+      description: Apply from perent, apply from self, list
+    content.vb: Public Function ApplyOnSelectStyle() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyOnSelectStyle*
+- uid: TinyGiantStudio.Text.Button.ApplyPressedStyle
+  commentId: M:TinyGiantStudio.Text.Button.ApplyPressedStyle
+  id: ApplyPressedStyle
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyPressedStyle()
+  nameWithType: Button.ApplyPressedStyle()
+  fullName: TinyGiantStudio.Text.Button.ApplyPressedStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyPressedStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 657
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool, List) ApplyPressedStyle()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyPressedStyle() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyPressedStyle*
+- uid: TinyGiantStudio.Text.Button.ApplyDisabledStyle
+  commentId: M:TinyGiantStudio.Text.Button.ApplyDisabledStyle
+  id: ApplyDisabledStyle
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyDisabledStyle()
+  nameWithType: Button.ApplyDisabledStyle()
+  fullName: TinyGiantStudio.Text.Button.ApplyDisabledStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyDisabledStyle
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 679
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  summary: >-
+    Item 1 = apply from parent
+
+    Item 2 = apply from self
+  example: []
+  syntax:
+    content: public (bool, bool, List) ApplyDisabledStyle()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+      description: ''
+    content.vb: Public Function ApplyDisabledStyle() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyDisabledStyle*
+- uid: TinyGiantStudio.Text.Button.ApplyUnSelectModule
+  commentId: M:TinyGiantStudio.Text.Button.ApplyUnSelectModule
+  id: ApplyUnSelectModule
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyUnSelectModule()
+  nameWithType: Button.ApplyUnSelectModule()
+  fullName: TinyGiantStudio.Text.Button.ApplyUnSelectModule()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyUnSelectModule
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 712
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool, List) ApplyUnSelectModule()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyUnSelectModule() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyUnSelectModule*
+- uid: TinyGiantStudio.Text.Button.ApplyOnPresstModule
+  commentId: M:TinyGiantStudio.Text.Button.ApplyOnPresstModule
+  id: ApplyOnPresstModule
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyOnPresstModule()
+  nameWithType: Button.ApplyOnPresstModule()
+  fullName: TinyGiantStudio.Text.Button.ApplyOnPresstModule()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyOnPresstModule
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 730
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool, List) ApplyOnPresstModule()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyOnPresstModule() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyOnPresstModule*
+- uid: TinyGiantStudio.Text.Button.ApplyOnClickModule
+  commentId: M:TinyGiantStudio.Text.Button.ApplyOnClickModule
+  id: ApplyOnClickModule
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyOnClickModule()
+  nameWithType: Button.ApplyOnClickModule()
+  fullName: TinyGiantStudio.Text.Button.ApplyOnClickModule()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyOnClickModule
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 747
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool, List) ApplyOnClickModule()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyOnClickModule() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyOnClickModule*
+- uid: TinyGiantStudio.Text.Button.ApplyOnSelectModule
+  commentId: M:TinyGiantStudio.Text.Button.ApplyOnSelectModule
+  id: ApplyOnSelectModule
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: ApplyOnSelectModule()
+  nameWithType: Button.ApplyOnSelectModule()
+  fullName: TinyGiantStudio.Text.Button.ApplyOnSelectModule()
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ApplyOnSelectModule
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 764
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public (bool, bool, List) ApplyOnSelectModule()
+    return:
+      type: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+    content.vb: Public Function ApplyOnSelectModule() As (Boolean, Boolean, List)
+  overload: TinyGiantStudio.Text.Button.ApplyOnSelectModule*
+- uid: TinyGiantStudio.Text.Button.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer},TinyGiantStudio.Modules.Module)
+  commentId: M:TinyGiantStudio.Text.Button.EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer},TinyGiantStudio.Modules.Module)
+  id: EmptyEffect(System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer},TinyGiantStudio.Modules.Module)
+  parent: TinyGiantStudio.Text.Button
+  langs:
+  - csharp
+  - vb
+  name: EmptyEffect(List<ModuleContainer>, Module)
+  nameWithType: Button.EmptyEffect(List<ModuleContainer>, Module)
+  fullName: TinyGiantStudio.Text.Button.EmptyEffect(System.Collections.Generic.List<TinyGiantStudio.Modules.ModuleContainer>, TinyGiantStudio.Modules.Module)
+  type: Method
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: EmptyEffect
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Text/Scripts/Button.cs
+    startLine: 784
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Text
+  syntax:
+    content: public void EmptyEffect(List<ModuleContainer> moduleList, Module module = null)
+    parameters:
+    - id: moduleList
+      type: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+    - id: module
+      type: TinyGiantStudio.Modules.Module
+    content.vb: Public Sub EmptyEffect(moduleList As List(Of ModuleContainer), [module] As [Module] = Nothing)
+  overload: TinyGiantStudio.Text.Button.EmptyEffect*
+  nameWithType.vb: Button.EmptyEffect(List(Of ModuleContainer), Module)
+  fullName.vb: TinyGiantStudio.Text.Button.EmptyEffect(System.Collections.Generic.List(Of TinyGiantStudio.Modules.ModuleContainer), TinyGiantStudio.Modules.Module)
+  name.vb: EmptyEffect(List(Of ModuleContainer), Module)
+references:
+- uid: TinyGiantStudio.Text
+  commentId: N:TinyGiantStudio.Text
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Text
+  nameWithType: TinyGiantStudio.Text
+  fullName: TinyGiantStudio.Text
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Text
+    name: Text
+    href: TinyGiantStudio.Text.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: TinyGiantStudio.Text.AssetSettings
+  commentId: T:TinyGiantStudio.Text.AssetSettings
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.AssetSettings.html
+  name: AssetSettings
+  nameWithType: AssetSettings
+  fullName: TinyGiantStudio.Text.AssetSettings
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TinyGiantStudio.Text.Button.Text*
+  commentId: Overload:TinyGiantStudio.Text.Button.Text
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_Text
+  name: Text
+  nameWithType: Button.Text
+  fullName: TinyGiantStudio.Text.Button.Text
+- uid: TinyGiantStudio.Text.Modular3DText
+  commentId: T:TinyGiantStudio.Text.Modular3DText
+  parent: TinyGiantStudio.Text
+  href: TinyGiantStudio.Text.Modular3DText.html
+  name: Modular3DText
+  nameWithType: Modular3DText
+  fullName: TinyGiantStudio.Text.Modular3DText
+- uid: TinyGiantStudio.Text.Button.Background*
+  commentId: Overload:TinyGiantStudio.Text.Button.Background
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_Background
+  name: Background
+  nameWithType: Button.Background
+  fullName: TinyGiantStudio.Text.Button.Background
+- uid: UnityEngine.Renderer
+  commentId: T:UnityEngine.Renderer
+  parent: UnityEngine
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: UnityEngine.Renderer
+- uid: System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+  commentId: T:System.Collections.Generic.List{TinyGiantStudio.Modules.ModuleContainer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: TinyGiantStudio.Modules.ModuleContainer.html
+  name: List<ModuleContainer>
+  nameWithType: List<ModuleContainer>
+  fullName: System.Collections.Generic.List<TinyGiantStudio.Modules.ModuleContainer>
+  nameWithType.vb: List(Of ModuleContainer)
+  fullName.vb: System.Collections.Generic.List(Of TinyGiantStudio.Modules.ModuleContainer)
+  name.vb: List(Of ModuleContainer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: TinyGiantStudio.Modules.ModuleContainer
+    name: ModuleContainer
+    href: TinyGiantStudio.Modules.ModuleContainer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TinyGiantStudio.Modules.ModuleContainer
+    name: ModuleContainer
+    href: TinyGiantStudio.Modules.ModuleContainer.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: TinyGiantStudio.Text.Button.NormalTextSize*
+  commentId: Overload:TinyGiantStudio.Text.Button.NormalTextSize
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_NormalTextSize
+  name: NormalTextSize
+  nameWithType: Button.NormalTextSize
+  fullName: TinyGiantStudio.Text.Button.NormalTextSize
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: TinyGiantStudio.Text.Button.NormalTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.NormalTextMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_NormalTextMaterial
+  name: NormalTextMaterial
+  nameWithType: Button.NormalTextMaterial
+  fullName: TinyGiantStudio.Text.Button.NormalTextMaterial
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: TinyGiantStudio.Text.Button.NormalBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_NormalBackgroundMaterial
+  name: NormalBackgroundMaterial
+  nameWithType: Button.NormalBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.NormalBackgroundMaterial
+- uid: TinyGiantStudio.Text.Button.SelectedTextSize*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectedTextSize
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectedTextSize
+  name: SelectedTextSize
+  nameWithType: Button.SelectedTextSize
+  fullName: TinyGiantStudio.Text.Button.SelectedTextSize
+- uid: TinyGiantStudio.Text.Button.SelectedTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectedTextMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectedTextMaterial
+  name: SelectedTextMaterial
+  nameWithType: Button.SelectedTextMaterial
+  fullName: TinyGiantStudio.Text.Button.SelectedTextMaterial
+- uid: TinyGiantStudio.Text.Button.SelectedBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectedBackgroundMaterial
+  name: SelectedBackgroundMaterial
+  nameWithType: Button.SelectedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.SelectedBackgroundMaterial
+- uid: TinyGiantStudio.Text.Button.PressedTextSize*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressedTextSize
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressedTextSize
+  name: PressedTextSize
+  nameWithType: Button.PressedTextSize
+  fullName: TinyGiantStudio.Text.Button.PressedTextSize
+- uid: TinyGiantStudio.Text.Button.PressedTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressedTextMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressedTextMaterial
+  name: PressedTextMaterial
+  nameWithType: Button.PressedTextMaterial
+  fullName: TinyGiantStudio.Text.Button.PressedTextMaterial
+- uid: TinyGiantStudio.Text.Button.PressedBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressedBackgroundMaterial
+  name: PressedBackgroundMaterial
+  nameWithType: Button.PressedBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.PressedBackgroundMaterial
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: TinyGiantStudio.Text.Button.UseDisabledVisual*
+  commentId: Overload:TinyGiantStudio.Text.Button.UseDisabledVisual
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_UseDisabledVisual
+  name: UseDisabledVisual
+  nameWithType: Button.UseDisabledVisual
+  fullName: TinyGiantStudio.Text.Button.UseDisabledVisual
+- uid: TinyGiantStudio.Text.Button.DisabledTextSize*
+  commentId: Overload:TinyGiantStudio.Text.Button.DisabledTextSize
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_DisabledTextSize
+  name: DisabledTextSize
+  nameWithType: Button.DisabledTextSize
+  fullName: TinyGiantStudio.Text.Button.DisabledTextSize
+- uid: TinyGiantStudio.Text.Button.DisabledTextMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.DisabledTextMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_DisabledTextMaterial
+  name: DisabledTextMaterial
+  nameWithType: Button.DisabledTextMaterial
+  fullName: TinyGiantStudio.Text.Button.DisabledTextMaterial
+- uid: TinyGiantStudio.Text.Button.DisabledBackgroundMaterial*
+  commentId: Overload:TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_DisabledBackgroundMaterial
+  name: DisabledBackgroundMaterial
+  nameWithType: Button.DisabledBackgroundMaterial
+  fullName: TinyGiantStudio.Text.Button.DisabledBackgroundMaterial
+- uid: TinyGiantStudio.Text.Button.UpdateStyle*
+  commentId: Overload:TinyGiantStudio.Text.Button.UpdateStyle
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_UpdateStyle
+  name: UpdateStyle
+  nameWithType: Button.UpdateStyle
+  fullName: TinyGiantStudio.Text.Button.UpdateStyle
+- uid: TinyGiantStudio.Text.Button.SelectButton*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectButton
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectButton
+  name: SelectButton
+  nameWithType: Button.SelectButton
+  fullName: TinyGiantStudio.Text.Button.SelectButton
+- uid: TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectedButtonVisualUpdate
+  name: SelectedButtonVisualUpdate
+  nameWithType: Button.SelectedButtonVisualUpdate
+  fullName: TinyGiantStudio.Text.Button.SelectedButtonVisualUpdate
+- uid: TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_SelectedButtonModuleUpdate
+  name: SelectedButtonModuleUpdate
+  nameWithType: Button.SelectedButtonModuleUpdate
+  fullName: TinyGiantStudio.Text.Button.SelectedButtonModuleUpdate
+- uid: TinyGiantStudio.Text.Button.UnselectButton*
+  commentId: Overload:TinyGiantStudio.Text.Button.UnselectButton
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_UnselectButton
+  name: UnselectButton
+  nameWithType: Button.UnselectButton
+  fullName: TinyGiantStudio.Text.Button.UnselectButton
+- uid: TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_UnselectedButtonVisualUpdate
+  name: UnselectedButtonVisualUpdate
+  nameWithType: Button.UnselectedButtonVisualUpdate
+  fullName: TinyGiantStudio.Text.Button.UnselectedButtonVisualUpdate
+- uid: TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_UnselectButtonModuleUpdate
+  name: UnselectButtonModuleUpdate
+  nameWithType: Button.UnselectButtonModuleUpdate
+  fullName: TinyGiantStudio.Text.Button.UnselectButtonModuleUpdate
+- uid: TinyGiantStudio.Text.Button.PressButton*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressButton
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressButton
+  name: PressButton
+  nameWithType: Button.PressButton
+  fullName: TinyGiantStudio.Text.Button.PressButton
+- uid: TinyGiantStudio.Text.Button.PressButtonDontCallList*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressButtonDontCallList
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressButtonDontCallList
+  name: PressButtonDontCallList
+  nameWithType: Button.PressButtonDontCallList
+  fullName: TinyGiantStudio.Text.Button.PressButtonDontCallList
+- uid: TinyGiantStudio.Text.Button.PressButtonVisualUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressButtonVisualUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressButtonVisualUpdate
+  name: PressButtonVisualUpdate
+  nameWithType: Button.PressButtonVisualUpdate
+  fullName: TinyGiantStudio.Text.Button.PressButtonVisualUpdate
+- uid: TinyGiantStudio.Text.Button.ButtonBeingPressed*
+  commentId: Overload:TinyGiantStudio.Text.Button.ButtonBeingPressed
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ButtonBeingPressed
+  name: ButtonBeingPressed
+  nameWithType: Button.ButtonBeingPressed
+  fullName: TinyGiantStudio.Text.Button.ButtonBeingPressed
+- uid: TinyGiantStudio.Text.Button.PressCompleted*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressCompleted
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressCompleted
+  name: PressCompleted
+  nameWithType: Button.PressCompleted
+  fullName: TinyGiantStudio.Text.Button.PressCompleted
+- uid: TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_PressCompleteButtonModuleUpdate
+  name: PressCompleteButtonModuleUpdate
+  nameWithType: Button.PressCompleteButtonModuleUpdate
+  fullName: TinyGiantStudio.Text.Button.PressCompleteButtonModuleUpdate
+- uid: TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_BeingPressedButtonModuleUpdate
+  name: BeingPressedButtonModuleUpdate
+  nameWithType: Button.BeingPressedButtonModuleUpdate
+  fullName: TinyGiantStudio.Text.Button.BeingPressedButtonModuleUpdate
+- uid: TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate*
+  commentId: Overload:TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_DisabledButtonVisualUpdate
+  name: DisabledButtonVisualUpdate
+  nameWithType: Button.DisabledButtonVisualUpdate
+  fullName: TinyGiantStudio.Text.Button.DisabledButtonVisualUpdate
+- uid: TinyGiantStudio.Text.Button.Uninteractable*
+  commentId: Overload:TinyGiantStudio.Text.Button.Uninteractable
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_Uninteractable
+  name: Uninteractable
+  nameWithType: Button.Uninteractable
+  fullName: TinyGiantStudio.Text.Button.Uninteractable
+- uid: TinyGiantStudio.Text.Button.Interactable*
+  commentId: Overload:TinyGiantStudio.Text.Button.Interactable
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_Interactable
+  name: Interactable
+  nameWithType: Button.Interactable
+  fullName: TinyGiantStudio.Text.Button.Interactable
+- uid: TinyGiantStudio.Text.Button.ApplyNormalStyle*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyNormalStyle
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyNormalStyle
+  name: ApplyNormalStyle
+  nameWithType: Button.ApplyNormalStyle
+  fullName: TinyGiantStudio.Text.Button.ApplyNormalStyle
+- uid: System.ValueTuple{System.Boolean,System.Boolean}
+  commentId: T:System.ValueTuple{System.Boolean,System.Boolean}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (bool, bool)
+  nameWithType: (bool, bool)
+  fullName: (bool, bool)
+  nameWithType.vb: (Boolean, Boolean)
+  fullName.vb: (Boolean, Boolean)
+  name.vb: (Boolean, Boolean)
+  spec.csharp:
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: TinyGiantStudio.Text.Button.ApplyOnSelectStyle*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyOnSelectStyle
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyOnSelectStyle
+  name: ApplyOnSelectStyle
+  nameWithType: Button.ApplyOnSelectStyle
+  fullName: TinyGiantStudio.Text.Button.ApplyOnSelectStyle
+- uid: System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+  commentId: T:System.ValueTuple{System.Boolean,System.Boolean,TinyGiantStudio.Text.List}
+  parent: System
+  definition: System.ValueTuple`3
+  href: TinyGiantStudio.Text.List.html
+  name: (bool, bool, List)
+  nameWithType: (bool, bool, List)
+  fullName: (bool, bool, TinyGiantStudio.Text.List)
+  nameWithType.vb: (Boolean, Boolean, List)
+  fullName.vb: (Boolean, Boolean, TinyGiantStudio.Text.List)
+  name.vb: (Boolean, Boolean, List)
+  spec.csharp:
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Text.List
+    name: List
+    href: TinyGiantStudio.Text.List.html
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: TinyGiantStudio.Text.List
+    name: List
+    href: TinyGiantStudio.Text.List.html
+  - name: )
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: TinyGiantStudio.Text.Button.ApplyPressedStyle*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyPressedStyle
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyPressedStyle
+  name: ApplyPressedStyle
+  nameWithType: Button.ApplyPressedStyle
+  fullName: TinyGiantStudio.Text.Button.ApplyPressedStyle
+- uid: TinyGiantStudio.Text.Button.ApplyDisabledStyle*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyDisabledStyle
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyDisabledStyle
+  name: ApplyDisabledStyle
+  nameWithType: Button.ApplyDisabledStyle
+  fullName: TinyGiantStudio.Text.Button.ApplyDisabledStyle
+- uid: TinyGiantStudio.Text.Button.ApplyUnSelectModule*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyUnSelectModule
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyUnSelectModule
+  name: ApplyUnSelectModule
+  nameWithType: Button.ApplyUnSelectModule
+  fullName: TinyGiantStudio.Text.Button.ApplyUnSelectModule
+- uid: TinyGiantStudio.Text.Button.ApplyOnPresstModule*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyOnPresstModule
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyOnPresstModule
+  name: ApplyOnPresstModule
+  nameWithType: Button.ApplyOnPresstModule
+  fullName: TinyGiantStudio.Text.Button.ApplyOnPresstModule
+- uid: TinyGiantStudio.Text.Button.ApplyOnClickModule*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyOnClickModule
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyOnClickModule
+  name: ApplyOnClickModule
+  nameWithType: Button.ApplyOnClickModule
+  fullName: TinyGiantStudio.Text.Button.ApplyOnClickModule
+- uid: TinyGiantStudio.Text.Button.ApplyOnSelectModule*
+  commentId: Overload:TinyGiantStudio.Text.Button.ApplyOnSelectModule
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_ApplyOnSelectModule
+  name: ApplyOnSelectModule
+  nameWithType: Button.ApplyOnSelectModule
+  fullName: TinyGiantStudio.Text.Button.ApplyOnSelectModule
+- uid: TinyGiantStudio.Text.Button.EmptyEffect*
+  commentId: Overload:TinyGiantStudio.Text.Button.EmptyEffect
+  href: TinyGiantStudio.Text.Button.html#TinyGiantStudio_Text_Button_EmptyEffect_System_Collections_Generic_List_TinyGiantStudio_Modules_ModuleContainer__TinyGiantStudio_Modules_Module_
+  name: EmptyEffect
+  nameWithType: Button.EmptyEffect
+  fullName: TinyGiantStudio.Text.Button.EmptyEffect
+- uid: TinyGiantStudio.Modules.Module
+  commentId: T:TinyGiantStudio.Modules.Module
+  parent: TinyGiantStudio.Modules
+  href: TinyGiantStudio.Modules.Module.html
+  name: Module
+  nameWithType: Module
+  fullName: TinyGiantStudio.Modules.Module
+- uid: TinyGiantStudio.Modules
+  commentId: N:TinyGiantStudio.Modules
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Modules
+  nameWithType: TinyGiantStudio.Modules
+  fullName: TinyGiantStudio.Modules
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Modules
+    name: Modules
+    href: TinyGiantStudio.Modules.html

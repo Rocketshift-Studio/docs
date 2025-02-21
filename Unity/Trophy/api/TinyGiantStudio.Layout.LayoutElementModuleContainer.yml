@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModuleContainer
+  id: LayoutElementModuleContainer
+  parent: TinyGiantStudio.Layout
+  children:
+  - TinyGiantStudio.Layout.LayoutElementModuleContainer.module
+  - TinyGiantStudio.Layout.LayoutElementModuleContainer.variableHolders
+  langs:
+  - csharp
+  - vb
+  name: LayoutElementModuleContainer
+  nameWithType: LayoutElementModuleContainer
+  fullName: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  type: Class
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LayoutElementModuleContainer
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LayoutElementModuleContainer
+    content.vb: >-
+      <Serializable>
+
+      Public Class LayoutElementModuleContainer
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: TinyGiantStudio.Layout.LayoutElementModuleContainer.module
+  commentId: F:TinyGiantStudio.Layout.LayoutElementModuleContainer.module
+  id: module
+  parent: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  langs:
+  - csharp
+  - vb
+  name: module
+  nameWithType: LayoutElementModuleContainer.module
+  fullName: TinyGiantStudio.Layout.LayoutElementModuleContainer.module
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: module
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public LayoutElementModule module
+    return:
+      type: TinyGiantStudio.Layout.LayoutElementModule
+    content.vb: Public [module] As LayoutElementModule
+- uid: TinyGiantStudio.Layout.LayoutElementModuleContainer.variableHolders
+  commentId: F:TinyGiantStudio.Layout.LayoutElementModuleContainer.variableHolders
+  id: variableHolders
+  parent: TinyGiantStudio.Layout.LayoutElementModuleContainer
+  langs:
+  - csharp
+  - vb
+  name: variableHolders
+  nameWithType: LayoutElementModuleContainer.variableHolders
+  fullName: TinyGiantStudio.Layout.LayoutElementModuleContainer.variableHolders
+  type: Field
+  source:
+    remote:
+      path: Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: variableHolders
+    path: ../Assets/Plugins/Tiny Giant Studio/Modular 3D Layouts/Scripts/ElementUpdaters/LayoutElementModuleContainer.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp-firstpass
+  namespace: TinyGiantStudio.Layout
+  syntax:
+    content: public VariableHolder[] variableHolders
+    return:
+      type: TinyGiantStudio.Modules.VariableHolder[]
+    content.vb: Public variableHolders As VariableHolder()
+references:
+- uid: TinyGiantStudio.Layout
+  commentId: N:TinyGiantStudio.Layout
+  href: TinyGiantStudio.html
+  name: TinyGiantStudio.Layout
+  nameWithType: TinyGiantStudio.Layout
+  fullName: TinyGiantStudio.Layout
+  spec.csharp:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+  spec.vb:
+  - uid: TinyGiantStudio
+    name: TinyGiantStudio
+    href: TinyGiantStudio.html
+  - name: .
+  - uid: TinyGiantStudio.Layout
+    name: Layout
+    href: TinyGiantStudio.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyGiantStudio.Layout.LayoutElementModule
+  commentId: T:TinyGiantStudio.Layout.LayoutElementModule
+  parent: TinyGiantStudio.Layout
+  href: TinyGiantStudio.Layout.LayoutElementModule.html
+  name: LayoutElementModule
+  nameWithType: LayoutElementModule
+  fullName: TinyGiantStudio.Layout.LayoutElementModule
+- uid: TinyGiantStudio.Modules.VariableHolder[]
+  isExternal: true
+  href: TinyGiantStudio.Modules.VariableHolder.html
+  name: VariableHolder[]
+  nameWithType: VariableHolder[]
+  fullName: TinyGiantStudio.Modules.VariableHolder[]
+  nameWithType.vb: VariableHolder()
+  fullName.vb: TinyGiantStudio.Modules.VariableHolder()
+  name.vb: VariableHolder()
+  spec.csharp:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TinyGiantStudio.Modules.VariableHolder
+    name: VariableHolder
+    href: TinyGiantStudio.Modules.VariableHolder.html
+  - name: (
+  - name: )

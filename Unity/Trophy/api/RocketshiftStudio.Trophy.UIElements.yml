@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.UIElements
+  commentId: N:RocketshiftStudio.Trophy.UIElements
+  id: RocketshiftStudio.Trophy.UIElements
+  children:
+  - RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  - RocketshiftStudio.Trophy.UIElements.ScoreLabel
+  langs:
+  - csharp
+  - vb
+  name: RocketshiftStudio.Trophy.UIElements
+  nameWithType: RocketshiftStudio.Trophy.UIElements
+  fullName: RocketshiftStudio.Trophy.UIElements
+  type: Namespace
+  assemblies:
+  - RocketshiftStudio.Trophy
+references:
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  commentId: T:RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  href: RocketshiftStudio.Trophy.UIElements.ScoreIcon.html
+  name: ScoreIcon
+  nameWithType: ScoreIcon
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreLabel
+  commentId: T:RocketshiftStudio.Trophy.UIElements.ScoreLabel
+  href: RocketshiftStudio.Trophy.UIElements.ScoreLabel.html
+  name: ScoreLabel
+  nameWithType: ScoreLabel
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreLabel

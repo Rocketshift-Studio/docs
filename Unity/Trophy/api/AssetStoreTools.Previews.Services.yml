@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: AssetStoreTools.Previews.Services
+  commentId: N:AssetStoreTools.Previews.Services
+  id: AssetStoreTools.Previews.Services
+  children:
+  - AssetStoreTools.Previews.Services.IPreviewService
+  langs:
+  - csharp
+  - vb
+  name: AssetStoreTools.Previews.Services
+  nameWithType: AssetStoreTools.Previews.Services
+  fullName: AssetStoreTools.Previews.Services
+  type: Namespace
+  assemblies:
+  - asset-store-tools-editor
+references:
+- uid: AssetStoreTools.Previews.Services.IPreviewService
+  commentId: T:AssetStoreTools.Previews.Services.IPreviewService
+  href: AssetStoreTools.Previews.Services.IPreviewService.html
+  name: IPreviewService
+  nameWithType: IPreviewService
+  fullName: AssetStoreTools.Previews.Services.IPreviewService
