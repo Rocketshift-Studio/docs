@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write 
+  contents: write  # This grants write permission to GITHUB_TOKEN
 
 jobs:
   build-and-deploy:
@@ -42,3 +42,8 @@ jobs:
           branch: documentation
           folder: _site
           clean: true
+
+      - name: Output Deployed URL
+        run: |
+          echo "Deployment complete! 🚀"
+          echo "You can view your site at: https://<YOUR-GITHUB-USERNAME>.github.io/<YOUR-REPO-NAME>/${project_name}/"
