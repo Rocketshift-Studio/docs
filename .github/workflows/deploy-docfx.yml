@@ -27,8 +27,6 @@ jobs:
             echo "Building documentation for $project"
             docfx $project/docfx.json
             echo "Deploying documentation for $project"
-            project_name=$(basename $project)
-            mv $project/_site "_site/$project_name"
           done
 
       - name: Deploy to GitHub Pages
