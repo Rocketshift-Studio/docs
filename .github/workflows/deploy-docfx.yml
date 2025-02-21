@@ -32,18 +32,12 @@ jobs:
             docfx $project/docfx.json
             echo "Moving documentation for $project"
             project_name=$(basename $project)
-            mkdir -p _site/$project_name
-            mv $project/_site/* _site/$project_name/
+            mv $project/_site/* .
           done
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: documentation
-          folder: _site
+          folder: .
           clean: true
-
-      - name: Output Deployed URL
-        run: |
-          echo "Deployment complete! 🚀"
-          echo "You can view your site at: https://<YOUR-GITHUB-USERNAME>.github.io/<YOUR-REPO-NAME>/${project_name}/"
