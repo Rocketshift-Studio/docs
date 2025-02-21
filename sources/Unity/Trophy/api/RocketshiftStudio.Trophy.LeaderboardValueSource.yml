@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.LeaderboardValueSource
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardValueSource
+  id: LeaderboardValueSource
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.LeaderboardValueSource.Best
+  - RocketshiftStudio.Trophy.LeaderboardValueSource.Latest
+  langs:
+  - csharp
+  - vb
+  name: LeaderboardValueSource
+  nameWithType: LeaderboardValueSource
+  fullName: RocketshiftStudio.Trophy.LeaderboardValueSource
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeaderboardValueSource
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines the source of value for leaderboard post request
+  example: []
+  syntax:
+    content: public enum LeaderboardValueSource
+    content.vb: Public Enum LeaderboardValueSource
+- uid: RocketshiftStudio.Trophy.LeaderboardValueSource.Best
+  commentId: F:RocketshiftStudio.Trophy.LeaderboardValueSource.Best
+  id: Best
+  parent: RocketshiftStudio.Trophy.LeaderboardValueSource
+  langs:
+  - csharp
+  - vb
+  name: Best
+  nameWithType: LeaderboardValueSource.Best
+  fullName: RocketshiftStudio.Trophy.LeaderboardValueSource.Best
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Best
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Will use the best value when posting
+  example: []
+  syntax:
+    content: Best = 0
+    return:
+      type: RocketshiftStudio.Trophy.LeaderboardValueSource
+- uid: RocketshiftStudio.Trophy.LeaderboardValueSource.Latest
+  commentId: F:RocketshiftStudio.Trophy.LeaderboardValueSource.Latest
+  id: Latest
+  parent: RocketshiftStudio.Trophy.LeaderboardValueSource
+  langs:
+  - csharp
+  - vb
+  name: Latest
+  nameWithType: LeaderboardValueSource.Latest
+  fullName: RocketshiftStudio.Trophy.LeaderboardValueSource.Latest
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Latest
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Will use the latest value when posting
+  example: []
+  syntax:
+    content: Latest = 1
+    return:
+      type: RocketshiftStudio.Trophy.LeaderboardValueSource
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.LeaderboardValueSource
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardValueSource
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.LeaderboardValueSource.html
+  name: LeaderboardValueSource
+  nameWithType: LeaderboardValueSource
+  fullName: RocketshiftStudio.Trophy.LeaderboardValueSource

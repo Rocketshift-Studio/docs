@@ -1,0 +1,6 @@
+pdf: false
+items:
+- name: Manual
+  href: manual/
+- name: Scripting API
+  href: api/

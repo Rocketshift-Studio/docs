@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  id: ISpecialPermissionExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  langs:
+  - csharp
+  - vb
+  name: ISpecialPermissionExtension
+  nameWithType: ISpecialPermissionExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  type: Interface
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/ISpecialPermissionExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ISpecialPermissionExtension
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/ISpecialPermissionExtension.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To extensions to perform actions based on authorization
+  example: []
+  syntax:
+    content: 'public interface ISpecialPermissionExtension : IExtension'
+    content.vb: Public Interface ISpecialPermissionExtension Inherits IExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  commentId: M:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  id: IsAuthorized
+  parent: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  langs:
+  - csharp
+  - vb
+  name: IsAuthorized()
+  nameWithType: ISpecialPermissionExtension.IsAuthorized()
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized()
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/ISpecialPermissionExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IsAuthorized
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/ISpecialPermissionExtension.cs
+    startLine: 11
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: Used by <xref href="RocketshiftStudio.Trophy.Trophy" data-throw-if-not-resolved="false"></xref> to check for database authorization
+  example: []
+  syntax:
+    content: bool IsAuthorized()
+    return:
+      type: System.Boolean
+      description: Authorization status
+    content.vb: Function IsAuthorized() As Boolean
+  overload: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized*
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: RocketshiftStudio.Trophy.Trophy
+  commentId: T:RocketshiftStudio.Trophy.Trophy
+  href: RocketshiftStudio.Trophy.Trophy.html
+  name: Trophy
+  nameWithType: Trophy
+  fullName: RocketshiftStudio.Trophy.Trophy
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+  href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html#RocketshiftStudio_Trophy_Extensions_ISpecialPermissionExtension_IsAuthorized
+  name: IsAuthorized
+  nameWithType: ISpecialPermissionExtension.IsAuthorized
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.IsAuthorized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
