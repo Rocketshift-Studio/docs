@@ -33,7 +33,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref> is a collection of arguments which determines how a score will act
+  summary: Defines how a score will be managed
   example: []
   syntax:
     content: >-
@@ -119,10 +119,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Metadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Additional information about score
+  example: []
   syntax:
     content: public ScoreMetadata Metadata { get; }
     parameters: []
@@ -148,7 +150,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: WholeValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 26
+    startLine: 29
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -179,7 +181,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: AbsoluteValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 33
+    startLine: 36
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -210,11 +212,11 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LimitFlags
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 40
+    startLine: 43
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Define the limit of the score
+  summary: Define the limit of score values
   example: []
   syntax:
     content: public LimitFlags LimitFlags { get; }
@@ -241,10 +243,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Minimum
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 44
+    startLine: 50
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: The minimum value limit
+  example: []
   syntax:
     content: public double Minimum { get; }
     parameters: []
@@ -270,10 +274,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Maximum
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 48
+    startLine: 57
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: The maximum value limit
+  example: []
   syntax:
     content: public double Maximum { get; }
     parameters: []
@@ -299,10 +305,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: FlowRestriction
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 52
+    startLine: 64
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Defines the restriction of value direction
+  example: []
   syntax:
     content: public FlowRestriction FlowRestriction { get; }
     parameters: []
@@ -328,10 +336,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: BestCalculationType
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 56
+    startLine: 71
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Defines how best value will be calculated
+  example: []
   syntax:
     content: public BestCalculationType BestCalculationType { get; }
     parameters: []
@@ -357,10 +367,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: StorageFlags
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
-    startLine: 60
+    startLine: 78
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Defines how the score values will be saved or loaded
+  example: []
   syntax:
     content: public StorageFlags StorageFlags { get; }
     parameters: []
@@ -369,13 +381,6 @@ items:
     content.vb: Public ReadOnly Property StorageFlags As StorageFlags
   overload: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags*
 references:
-- uid: RocketshiftStudio.Trophy.ScoreDefinition
-  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreDefinition.html
-  name: ScoreDefinition
-  nameWithType: ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.ScoreDefinition
 - uid: RocketshiftStudio.Trophy
   commentId: N:RocketshiftStudio.Trophy
   href: RocketshiftStudio.html

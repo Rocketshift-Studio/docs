@@ -5,7 +5,7 @@ items:
   id: RocketshiftStudio.Trophy.UIElements
   children:
   - RocketshiftStudio.Trophy.UIElements.ScoreIcon
-  - RocketshiftStudio.Trophy.UIElements.ScoreLabel
+  - RocketshiftStudio.Trophy.UIElements.ScoreText
   langs:
   - csharp
   - vb
@@ -22,9 +22,9 @@ references:
   name: ScoreIcon
   nameWithType: ScoreIcon
   fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon
-- uid: RocketshiftStudio.Trophy.UIElements.ScoreLabel
-  commentId: T:RocketshiftStudio.Trophy.UIElements.ScoreLabel
-  href: RocketshiftStudio.Trophy.UIElements.ScoreLabel.html
-  name: ScoreLabel
-  nameWithType: ScoreLabel
-  fullName: RocketshiftStudio.Trophy.UIElements.ScoreLabel
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreText
+  commentId: T:RocketshiftStudio.Trophy.UIElements.ScoreText
+  href: RocketshiftStudio.Trophy.UIElements.ScoreText.html
+  name: ScoreText
+  nameWithType: ScoreText
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreText

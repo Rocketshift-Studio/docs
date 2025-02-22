@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ScoreMetadata | Trophy - Ultimate Score System Documentation </title>
+      <title>Class ScoreText | Trophy - Ultimate Score System Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ScoreMetadata | Trophy - Ultimate Score System Documentation ">
+      <meta name="title" content="Class ScoreText | Trophy - Ultimate Score System Documentation ">
     
-    <meta name="description" content="Additional information about score">
+    <meta name="description" content="In order to show score text in IMGUI">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -79,35 +79,152 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.ScoreMetadata">
+            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText">
 
 
 
-  <h1 id="RocketshiftStudio_Trophy_ScoreMetadata" data-uid="RocketshiftStudio.Trophy.ScoreMetadata" class="text-break">Class ScoreMetadata</h1>
-  <div class="markdown level0 summary"><p>Additional information about score</p>
+  <h1 id="RocketshiftStudio_Trophy_IMGUI_ScoreText" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText" class="text-break">Class ScoreText</h1>
+  <div class="markdown level0 summary"><p>In order to show score text in IMGUI</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">ScoreMetadata</span></div>
+    <div class="level1"><span class="xref">ScoreText</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a>.<a class="xref" href="RocketshiftStudio.Trophy.IMGUI.html">IMGUI</a></h6>
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
-  <h5 id="RocketshiftStudio_Trophy_ScoreMetadata_syntax">Syntax</h5>
+  <h5 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public sealed class ScoreMetadata</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ScoreText</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h5 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-csharp">using UnityEngine;
+using RocketshiftStudio.Trophy.IMGUI;
+
+public class ScoreTextIMGUIExample : MonoBehaviour
+{
+    private const string KEY = "KEY_HERE";
+    private ScoreText scoreText;
+
+    private void Start()
+    {
+        scoreText = new ScoreText(KEY);
+
+        //or 
+
+        scoreText = new ScoreText(KEY, ScoreType.Current);
+
+        //or 
+
+        scoreText = new ScoreText(KEY, ScoreType.Best, "{0} {2}:{1:000}");
+    }
+
+    private void OnGUI()
+    {
+        GUILayout.Label(scoreText.text);
+    }
+}</code></pre>
+<p>The {0} {2}:{1:000} format will be shown as Name Best: 000. The name can be set from the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_Metadata">Metadata</a> of <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+
+  <h3 id="constructors">Constructors
 </h3>
-  <a id="RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat_" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat">DefaultFormat</h4>
+  <a id="RocketshiftStudio_Trophy_IMGUI_ScoreText__ctor_" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor*"></a>
+  <h4 id="RocketshiftStudio_Trophy_IMGUI_ScoreText__ctor_System_String_RocketshiftStudio_Trophy_ScoreType_System_String_" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor(System.String,RocketshiftStudio.Trophy.ScoreType,System.String)">ScoreText(string, ScoreType, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DefaultFormat { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ScoreText(string key, ScoreType type = ScoreType.Current, string format = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Identification key of the score</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreType.html">ScoreType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Target score type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>Override the format of <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a>'s metadata's <a class="xref" href="RocketshiftStudio.Trophy.ScoreMetadata.html#RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat">DefaultFormat</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <h4 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_key" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.key">key</h4>
+  <div class="markdown level1 summary"><p>Identification key of the score</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly string key</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_type" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.type">type</h4>
+  <div class="markdown level1 summary"><p>Target score type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ScoreType type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreType.html">ScoreType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="RocketshiftStudio_Trophy_IMGUI_ScoreText_Format_" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.Format*"></a>
+  <h4 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_Format" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.Format">Format</h4>
+  <div class="markdown level1 summary"><p>Override the format of <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a>'s metadata's <a class="xref" href="RocketshiftStudio.Trophy.ScoreMetadata.html#RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat">DefaultFormat</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Format { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -124,59 +241,14 @@ public sealed class ScoreMetadata</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreMetadata_FormatAsTime_" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.FormatAsTime*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreMetadata_FormatAsTime" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.FormatAsTime">FormatAsTime</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="RocketshiftStudio_Trophy_IMGUI_ScoreText_text_" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.text*"></a>
+  <h4 id="RocketshiftStudio_Trophy_IMGUI_ScoreText_text" data-uid="RocketshiftStudio.Trophy.IMGUI.ScoreText.text">text</h4>
+  <div class="markdown level1 summary"><p>Formatted score text</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool FormatAsTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">bool</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="RocketshiftStudio_Trophy_ScoreMetadata_Icon_" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.Icon*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreMetadata_Icon" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.Icon">Icon</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite Icon { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="RocketshiftStudio_Trophy_ScoreMetadata_Name_" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.Name*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreMetadata_Name" data-uid="RocketshiftStudio.Trophy.ScoreMetadata.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string text { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">

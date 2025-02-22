@@ -24,8 +24,6 @@ items:
   - RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
   - RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   - RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
-  - RocketshiftStudio.Trophy.TrophyIconDisplay
-  - RocketshiftStudio.Trophy.TrophyScoreDisplay
   - RocketshiftStudio.Trophy.TrophySettings
   langs:
   - csharp
@@ -70,12 +68,6 @@ references:
   name: ScoreStatusFlags
   nameWithType: ScoreStatusFlags
   fullName: RocketshiftStudio.Trophy.ScoreStatusFlags
-- uid: RocketshiftStudio.Trophy.TrophyIconDisplay
-  commentId: T:RocketshiftStudio.Trophy.TrophyIconDisplay
-  href: RocketshiftStudio.Trophy.TrophyIconDisplay.html
-  name: TrophyIconDisplay
-  nameWithType: TrophyIconDisplay
-  fullName: RocketshiftStudio.Trophy.TrophyIconDisplay
 - uid: RocketshiftStudio.Trophy.LeaderboardData
   commentId: T:RocketshiftStudio.Trophy.LeaderboardData
   href: RocketshiftStudio.Trophy.LeaderboardData.html
@@ -204,12 +196,6 @@ references:
   name: FlowRestriction
   nameWithType: FlowRestriction
   fullName: RocketshiftStudio.Trophy.FlowRestriction
-- uid: RocketshiftStudio.Trophy.TrophyScoreDisplay
-  commentId: T:RocketshiftStudio.Trophy.TrophyScoreDisplay
-  href: RocketshiftStudio.Trophy.TrophyScoreDisplay.html
-  name: TrophyScoreDisplay
-  nameWithType: TrophyScoreDisplay
-  fullName: RocketshiftStudio.Trophy.TrophyScoreDisplay
 - uid: RocketshiftStudio.Trophy.LeaderboardRequest
   commentId: T:RocketshiftStudio.Trophy.LeaderboardRequest
   href: RocketshiftStudio.Trophy.LeaderboardRequest.html

@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  commentId: T:RocketshiftStudio.Trophy.IMGUI.ScoreText
+  id: ScoreText
+  parent: RocketshiftStudio.Trophy.IMGUI
+  children:
+  - RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor(System.String,RocketshiftStudio.Trophy.ScoreType,System.String)
+  - RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+  - RocketshiftStudio.Trophy.IMGUI.ScoreText.key
+  - RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+  - RocketshiftStudio.Trophy.IMGUI.ScoreText.type
+  langs:
+  - csharp
+  - vb
+  name: ScoreText
+  nameWithType: ScoreText
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreText
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 39
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: In order to show score text in IMGUI
+  example:
+  - >-
+    <pre><code class="lang-csharp">using UnityEngine;
+
+    using RocketshiftStudio.Trophy.IMGUI;
+
+
+    public class ScoreTextIMGUIExample : MonoBehaviour
+
+    {
+        private const string KEY = "KEY_HERE";
+        private ScoreText scoreText;
+
+        private void Start()
+        {
+            scoreText = new ScoreText(KEY);
+
+            //or 
+
+            scoreText = new ScoreText(KEY, ScoreType.Current);
+
+            //or 
+
+            scoreText = new ScoreText(KEY, ScoreType.Best, "{0} {2}:{1:000}");
+        }
+
+        private void OnGUI()
+        {
+            GUILayout.Label(scoreText.text);
+        }
+    }</code></pre>
+
+    The {0} {2}:{1:000} format will be shown as Name Best: 000. The name can be set from the <xref href="RocketshiftStudio.Trophy.ScoreDefinition.Metadata" data-throw-if-not-resolved="false"></xref> of <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref>
+  syntax:
+    content: public sealed class ScoreText
+    content.vb: Public NotInheritable Class ScoreText
+  inheritance:
+  - System.Object
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.key
+  commentId: F:RocketshiftStudio.Trophy.IMGUI.ScoreText.key
+  id: key
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: ScoreText.key
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.key
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 44
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: Identification key of the score
+  example: []
+  syntax:
+    content: public readonly string key
+    return:
+      type: System.String
+    content.vb: Public ReadOnly key As String
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.type
+  commentId: F:RocketshiftStudio.Trophy.IMGUI.ScoreText.type
+  id: type
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ScoreText.type
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.type
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: type
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 49
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: Target score type
+  example: []
+  syntax:
+    content: public readonly ScoreType type
+    return:
+      type: RocketshiftStudio.Trophy.ScoreType
+    content.vb: Public ReadOnly type As ScoreType
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+  commentId: P:RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+  id: Format
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: ScoreText.Format
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Format
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 54
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: Override the format of <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref>'s metadata's <xref href="RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: RocketshiftStudio.Trophy.IMGUI.ScoreText.Format*
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+  commentId: P:RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+  id: text
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: ScoreText.text
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: text
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 59
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: Formatted score text
+  example: []
+  syntax:
+    content: public string text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property text As String
+  overload: RocketshiftStudio.Trophy.IMGUI.ScoreText.text*
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor(System.String,RocketshiftStudio.Trophy.ScoreType,System.String)
+  commentId: M:RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor(System.String,RocketshiftStudio.Trophy.ScoreType,System.String)
+  id: '#ctor(System.String,RocketshiftStudio.Trophy.ScoreType,System.String)'
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: ScoreText(string, ScoreType, string)
+  nameWithType: ScoreText.ScoreText(string, ScoreType, string)
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.ScoreText(string, RocketshiftStudio.Trophy.ScoreType, string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
+    startLine: 64
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  example: []
+  syntax:
+    content: public ScoreText(string key, ScoreType type = ScoreType.Current, string format = "")
+    parameters:
+    - id: key
+      type: System.String
+      description: Identification key of the score
+    - id: type
+      type: RocketshiftStudio.Trophy.ScoreType
+      description: Target score type
+    - id: format
+      type: System.String
+      description: Override the format of <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref>'s metadata's <xref href="RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub New(key As String, type As ScoreType = ScoreType.Current, format As String = "")
+  overload: RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor*
+  nameWithType.vb: ScoreText.New(String, ScoreType, String)
+  fullName.vb: RocketshiftStudio.Trophy.IMGUI.ScoreText.New(String, RocketshiftStudio.Trophy.ScoreType, String)
+  name.vb: New(String, ScoreType, String)
+references:
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_Metadata
+  name: Metadata
+  nameWithType: ScoreDefinition.Metadata
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+- uid: RocketshiftStudio.Trophy.ScoreDefinition
+  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  name: ScoreDefinition
+  nameWithType: ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.IMGUI
+  commentId: N:RocketshiftStudio.Trophy.IMGUI
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.IMGUI
+  nameWithType: RocketshiftStudio.Trophy.IMGUI
+  fullName: RocketshiftStudio.Trophy.IMGUI
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.IMGUI
+    name: IMGUI
+    href: RocketshiftStudio.Trophy.IMGUI.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.IMGUI
+    name: IMGUI
+    href: RocketshiftStudio.Trophy.IMGUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.ScoreType
+  commentId: T:RocketshiftStudio.Trophy.ScoreType
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreType.html
+  name: ScoreType
+  nameWithType: ScoreType
+  fullName: RocketshiftStudio.Trophy.ScoreType
+- uid: RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat
+  commentId: P:RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat
+  href: RocketshiftStudio.Trophy.ScoreMetadata.html#RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat
+  name: DefaultFormat
+  nameWithType: ScoreMetadata.DefaultFormat
+  fullName: RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.Format*
+  commentId: Overload:RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreText.html#RocketshiftStudio_Trophy_IMGUI_ScoreText_Format
+  name: Format
+  nameWithType: ScoreText.Format
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.Format
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.text*
+  commentId: Overload:RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreText.html#RocketshiftStudio_Trophy_IMGUI_ScoreText_text
+  name: text
+  nameWithType: ScoreText.text
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.text
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor*
+  commentId: Overload:RocketshiftStudio.Trophy.IMGUI.ScoreText.#ctor
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreText.html#RocketshiftStudio_Trophy_IMGUI_ScoreText__ctor_System_String_RocketshiftStudio_Trophy_ScoreType_System_String_
+  name: ScoreText
+  nameWithType: ScoreText.ScoreText
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText.ScoreText
+  nameWithType.vb: ScoreText.New
+  fullName.vb: RocketshiftStudio.Trophy.IMGUI.ScoreText.New
+  name.vb: New

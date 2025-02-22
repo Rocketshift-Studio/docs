@@ -19,10 +19,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/IExtension.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Extensions
+  summary: Used to create extensions
+  example: []
   syntax:
     content: public interface IExtension
     content.vb: Public Interface IExtension

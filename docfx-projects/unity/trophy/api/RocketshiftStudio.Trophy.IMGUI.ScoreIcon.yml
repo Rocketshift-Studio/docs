@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  commentId: T:RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  id: ScoreIcon
+  parent: RocketshiftStudio.Trophy.IMGUI
+  children:
+  - RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor(System.String)
+  - RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+  - RocketshiftStudio.Trophy.IMGUI.ScoreIcon.key
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon
+  nameWithType: ScoreIcon
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreIcon
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+    startLine: 30
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: In order to show score icon in IMGUI
+  example:
+  - >-
+    <pre><code class="lang-csharp">using UnityEngine;
+
+    using RocketshiftStudio.Trophy.IMGUI;
+
+
+    public class ScoreIconIMGUIExample : MonoBehaviour
+
+    {
+        private const string KEY = "KEY_HERE";
+        private ScoreIcon scoreIcon;
+
+        private void Start()
+        {
+            scoreIcon = new ScoreIcon(KEY);
+        }
+
+        private void OnGUI()
+        {
+            Rect rect = new Rect(0, 0, 500, 500);
+            GUI.DrawTexture(rect, scoreIcon.Texture);
+        }
+    }</code></pre>
+  syntax:
+    content: public sealed class ScoreIcon
+    content.vb: Public NotInheritable Class ScoreIcon
+  inheritance:
+  - System.Object
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.key
+  commentId: F:RocketshiftStudio.Trophy.IMGUI.ScoreIcon.key
+  id: key
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: ScoreIcon.key
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.key
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+    startLine: 35
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: Identification key of the definition
+  example: []
+  syntax:
+    content: public readonly string key
+    return:
+      type: System.String
+    content.vb: Public ReadOnly key As String
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+  commentId: P:RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+  id: Texture
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: ScoreIcon.Texture
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Texture
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+    startLine: 40
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  summary: The icon texture assigned with the declared key
+  example: []
+  syntax:
+    content: public Texture2D Texture { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public ReadOnly Property Texture As Texture2D
+  overload: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture*
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor(System.String)
+  commentId: M:RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon(string)
+  nameWithType: ScoreIcon.ScoreIcon(string)
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.ScoreIcon(string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
+    startLine: 43
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.IMGUI
+  example: []
+  syntax:
+    content: public ScoreIcon(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Identification key of the definition
+    content.vb: Public Sub New(key As String)
+  overload: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor*
+  nameWithType.vb: ScoreIcon.New(String)
+  fullName.vb: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.New(String)
+  name.vb: New(String)
+references:
+- uid: RocketshiftStudio.Trophy.IMGUI
+  commentId: N:RocketshiftStudio.Trophy.IMGUI
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.IMGUI
+  nameWithType: RocketshiftStudio.Trophy.IMGUI
+  fullName: RocketshiftStudio.Trophy.IMGUI
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.IMGUI
+    name: IMGUI
+    href: RocketshiftStudio.Trophy.IMGUI.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.IMGUI
+    name: IMGUI
+    href: RocketshiftStudio.Trophy.IMGUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture*
+  commentId: Overload:RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.html#RocketshiftStudio_Trophy_IMGUI_ScoreIcon_Texture
+  name: Texture
+  nameWithType: ScoreIcon.Texture
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.Texture
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor*
+  commentId: Overload:RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.html#RocketshiftStudio_Trophy_IMGUI_ScoreIcon__ctor_System_String_
+  name: ScoreIcon
+  nameWithType: ScoreIcon.ScoreIcon
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.ScoreIcon
+  nameWithType.vb: ScoreIcon.New
+  fullName.vb: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.New
+  name.vb: New

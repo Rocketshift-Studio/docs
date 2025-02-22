@@ -91,7 +91,7 @@
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
   <h5 id="RocketshiftStudio_Trophy_Trophy_ValueChangedCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void Trophy.ValueChangedCallback(string key, double previous, double current, ScoreType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void Trophy.ValueChangedCallback(string key, double value, ScoreType type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -111,14 +111,8 @@
       </tr>
       <tr>
         <td><span class="xref">double</span></td>
-        <td><span class="parametername">previous</span></td>
-        <td><p>The value before change</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">double</span></td>
-        <td><span class="parametername">current</span></td>
-        <td><p>The value after change</p>
+        <td><span class="parametername">value</span></td>
+        <td><p>The current value</p>
 </td>
       </tr>
       <tr>

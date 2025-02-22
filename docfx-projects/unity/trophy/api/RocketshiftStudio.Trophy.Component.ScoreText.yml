@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Component.ScoreText
+  commentId: T:RocketshiftStudio.Trophy.Component.ScoreText
+  id: ScoreText
+  parent: RocketshiftStudio.Trophy.Component
+  children:
+  - RocketshiftStudio.Trophy.Component.ScoreText.Extension
+  langs:
+  - csharp
+  - vb
+  name: ScoreText
+  nameWithType: ScoreText
+  fullName: RocketshiftStudio.Trophy.Component.ScoreText
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreText
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  summary: In order to show score in game world or UGUI
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Rocketshift Studio/Trophy/Score Text")]
+
+      [ExecuteAlways]
+
+      [DisallowMultipleComponent]
+
+      public sealed class ScoreText : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Rocketshift Studio/Trophy/Score Text")>
+
+      <ExecuteAlways>
+
+      <DisallowMultipleComponent>
+
+      Public NotInheritable Class ScoreText Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Rocketshift Studio/Trophy/Score Text
+  - type: UnityEngine.ExecuteAlways
+    ctor: UnityEngine.ExecuteAlways.#ctor
+    arguments: []
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.Component.ScoreText.Extension
+  commentId: P:RocketshiftStudio.Trophy.Component.ScoreText.Extension
+  id: Extension
+  parent: RocketshiftStudio.Trophy.Component.ScoreText
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: ScoreText.Extension
+  fullName: RocketshiftStudio.Trophy.Component.ScoreText.Extension
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Extension
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
+    startLine: 17
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  syntax:
+    content: public IScoreTextExtension Extension { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+    content.vb: Public ReadOnly Property Extension As IScoreTextExtension
+  overload: RocketshiftStudio.Trophy.Component.ScoreText.Extension*
+references:
+- uid: RocketshiftStudio.Trophy.Component
+  commentId: N:RocketshiftStudio.Trophy.Component
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Component
+  nameWithType: RocketshiftStudio.Trophy.Component
+  fullName: RocketshiftStudio.Trophy.Component
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Component
+    name: Component
+    href: RocketshiftStudio.Trophy.Component.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Component
+    name: Component
+    href: RocketshiftStudio.Trophy.Component.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.Component.ScoreText.Extension*
+  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreText.Extension
+  href: RocketshiftStudio.Trophy.Component.ScoreText.html#RocketshiftStudio_Trophy_Component_ScoreText_Extension
+  name: Extension
+  nameWithType: ScoreText.Extension
+  fullName: RocketshiftStudio.Trophy.Component.ScoreText.Extension
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension.html
+  name: IScoreTextExtension
+  nameWithType: IScoreTextExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html

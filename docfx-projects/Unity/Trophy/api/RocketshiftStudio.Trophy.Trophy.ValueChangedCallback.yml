@@ -19,28 +19,25 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ValueChangedCallback
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 51
+    startLine: 50
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   summary: Invoked per value change.
   example: []
   syntax:
-    content: public delegate void Trophy.ValueChangedCallback(string key, double previous, double current, ScoreType type)
+    content: public delegate void Trophy.ValueChangedCallback(string key, double value, ScoreType type)
     parameters:
     - id: key
       type: System.String
       description: The key of the effected score
-    - id: previous
+    - id: value
       type: System.Double
-      description: The value before change
-    - id: current
-      type: System.Double
-      description: The value after change
+      description: The current value
     - id: type
       type: RocketshiftStudio.Trophy.ScoreType
       description: The change value type
-    content.vb: Public Delegate Sub Trophy.ValueChangedCallback(key As String, previous As Double, current As Double, type As ScoreType)
+    content.vb: Public Delegate Sub Trophy.ValueChangedCallback(key As String, value As Double, type As ScoreType)
 references:
 - uid: RocketshiftStudio.Trophy
   commentId: N:RocketshiftStudio.Trophy

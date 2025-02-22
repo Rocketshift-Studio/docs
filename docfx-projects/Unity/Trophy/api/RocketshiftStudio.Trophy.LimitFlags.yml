@@ -27,7 +27,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Define the limit of a score
+  summary: Define the limit of score values
   example: []
   syntax:
     content: >-

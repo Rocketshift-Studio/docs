@@ -27,7 +27,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Additional information about scores
+  summary: Additional information about score
   example: []
   syntax:
     content: >-

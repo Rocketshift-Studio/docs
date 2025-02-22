@@ -5,7 +5,7 @@ items:
   id: IScoreDisplayExtension`1
   parent: RocketshiftStudio.Trophy.Extensions
   children:
-  - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition
+  - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key
   - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated(`0)
   langs:
   - csharp
@@ -33,39 +33,39 @@ items:
   nameWithType.vb: IScoreDisplayExtension(Of TValue)
   fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue)
   name.vb: IScoreDisplayExtension(Of TValue)
-- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition
-  commentId: P:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition
-  id: Definition
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key
+  commentId: P:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key
+  id: Key
   parent: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
   langs:
   - csharp
   - vb
-  name: Definition
-  nameWithType: IScoreDisplayExtension<TValue>.Definition
-  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>.Definition
+  name: Key
+  nameWithType: IScoreDisplayExtension<TValue>.Key
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>.Key
   type: Property
   source:
     remote:
       path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Display/IScoreDisplayExtension.cs
       branch: main
       repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: Definition
+    id: Key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Display/IScoreDisplayExtension.cs
     startLine: 7
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Extensions
-  summary: Target score definition
+  summary: Identification key of the score
   example: []
   syntax:
-    content: ScoreDefinition Definition { get; }
+    content: string Key { get; }
     parameters: []
     return:
-      type: RocketshiftStudio.Trophy.ScoreDefinition
-    content.vb: ReadOnly Property Definition As ScoreDefinition
-  overload: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition*
-  nameWithType.vb: IScoreDisplayExtension(Of TValue).Definition
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue).Definition
+      type: System.String
+    content.vb: ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key*
+  nameWithType.vb: IScoreDisplayExtension(Of TValue).Key
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue).Key
 - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated(`0)
   commentId: M:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated(`0)
   id: Updated(`0)
@@ -131,43 +131,30 @@ references:
   - uid: RocketshiftStudio.Trophy.Extensions
     name: Extensions
     href: RocketshiftStudio.Trophy.Extensions.html
-- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition*
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Definition
-  href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html#RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Definition
-  name: Definition
-  nameWithType: IScoreDisplayExtension<TValue>.Definition
-  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>.Definition
-  nameWithType.vb: IScoreDisplayExtension(Of TValue).Definition
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue).Definition
-- uid: RocketshiftStudio.Trophy.ScoreDefinition
-  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreDefinition.html
-  name: ScoreDefinition
-  nameWithType: ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.ScoreDefinition
-- uid: RocketshiftStudio.Trophy
-  commentId: N:RocketshiftStudio.Trophy
-  href: RocketshiftStudio.html
-  name: RocketshiftStudio.Trophy
-  nameWithType: RocketshiftStudio.Trophy
-  fullName: RocketshiftStudio.Trophy
-  spec.csharp:
-  - uid: RocketshiftStudio
-    name: RocketshiftStudio
-    href: RocketshiftStudio.html
-  - name: .
-  - uid: RocketshiftStudio.Trophy
-    name: Trophy
-    href: RocketshiftStudio.Trophy.html
-  spec.vb:
-  - uid: RocketshiftStudio
-    name: RocketshiftStudio
-    href: RocketshiftStudio.html
-  - name: .
-  - uid: RocketshiftStudio.Trophy
-    name: Trophy
-    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key
+  href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html#RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Key
+  name: Key
+  nameWithType: IScoreDisplayExtension<TValue>.Key
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension<TValue>.Key
+  nameWithType.vb: IScoreDisplayExtension(Of TValue).Key
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension(Of TValue).Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated*
   commentId: Overload:RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated
   href: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html#RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Updated__0_

@@ -6,15 +6,15 @@ items:
   children:
   - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
   - RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
-  - RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-  - RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
+  - RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+  - RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
   - RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
   - RocketshiftStudio.Trophy.Extensions.IExtension
   - RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
   - RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
-  - RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension
-  - RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
+  - RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+  - RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
   - RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
   - RocketshiftStudio.Trophy.Extensions.IStorageExtension
   langs:
@@ -52,31 +52,6 @@ references:
   - name: " "
   - name: TValue
   - name: )
-- uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
-  commentId: T:RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
-  href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.html
-  name: ComponentScoreIconDisplayExtension<TComponent>
-  nameWithType: ComponentScoreIconDisplayExtension<TComponent>
-  fullName: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension<TComponent>
-  nameWithType.vb: ComponentScoreIconDisplayExtension(Of TComponent)
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension(Of TComponent)
-  name.vb: ComponentScoreIconDisplayExtension(Of TComponent)
-  spec.csharp:
-  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
-    name: ComponentScoreIconDisplayExtension
-    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.html
-  - name: <
-  - name: TComponent
-  - name: '>'
-  spec.vb:
-  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
-    name: ComponentScoreIconDisplayExtension
-    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TComponent
-  - name: )
 - uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -84,13 +59,38 @@ references:
   name: ILocalStorageExtension
   nameWithType: ILocalStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension
-  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
   parent: RocketshiftStudio.Trophy.Extensions
-  href: RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension.html
-  name: IScoreIconDisplayExtension
-  nameWithType: IScoreIconDisplayExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension
+  href: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension.html
+  name: IScoreIconExtension
+  nameWithType: IScoreIconExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
+  href: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension-1.html
+  name: ComponentScoreTextExtension<TComponent>
+  nameWithType: ComponentScoreTextExtension<TComponent>
+  fullName: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension<TComponent>
+  nameWithType.vb: ComponentScoreTextExtension(Of TComponent)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension(Of TComponent)
+  name.vb: ComponentScoreTextExtension(Of TComponent)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
+    name: ComponentScoreTextExtension
+    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension-1.html
+  - name: <
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
+    name: ComponentScoreTextExtension
+    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TComponent
+  - name: )
 - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -98,31 +98,6 @@ references:
   name: ISpecialPermissionExtension
   nameWithType: ISpecialPermissionExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
-- uid: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-  commentId: T:RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-  href: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.html
-  name: CompnentScoreTextDisplayExtension<TComponent>
-  nameWithType: CompnentScoreTextDisplayExtension<TComponent>
-  fullName: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension<TComponent>
-  nameWithType.vb: CompnentScoreTextDisplayExtension(Of TComponent)
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension(Of TComponent)
-  name.vb: CompnentScoreTextDisplayExtension(Of TComponent)
-  spec.csharp:
-  - uid: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-    name: CompnentScoreTextDisplayExtension
-    href: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.html
-  - name: <
-  - name: TComponent
-  - name: '>'
-  spec.vb:
-  - uid: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-    name: CompnentScoreTextDisplayExtension
-    href: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TComponent
-  - name: )
 - uid: RocketshiftStudio.Trophy.Extensions.IExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -137,6 +112,13 @@ references:
   name: ICloudStorageExtension
   nameWithType: ICloudStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension.html
+  name: IScoreTextExtension
+  nameWithType: IScoreTextExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
 - uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -144,6 +126,31 @@ references:
   name: ILeaderboardExtension
   nameWithType: ILeaderboardExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+  href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension-1.html
+  name: ComponentScoreIconExtension<TComponent>
+  nameWithType: ComponentScoreIconExtension<TComponent>
+  fullName: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension<TComponent>
+  nameWithType.vb: ComponentScoreIconExtension(Of TComponent)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension(Of TComponent)
+  name.vb: ComponentScoreIconExtension(Of TComponent)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+    name: ComponentScoreIconExtension
+    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension-1.html
+  - name: <
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+    name: ComponentScoreIconExtension
+    href: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TComponent
+  - name: )
 - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -163,13 +170,6 @@ references:
   name: BaseCloudStorageExtension
   nameWithType: BaseCloudStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
-  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
-  parent: RocketshiftStudio.Trophy.Extensions
-  href: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension.html
-  name: IScoreTextDisplayExtension
-  nameWithType: IScoreTextDisplayExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
 - uid: RocketshiftStudio.Trophy.Extensions
   commentId: N:RocketshiftStudio.Trophy.Extensions
   href: RocketshiftStudio.html

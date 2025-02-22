@@ -19,25 +19,22 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: StatusChangedCallback
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 59
+    startLine: 57
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   summary: Invoked per status change.
   example: []
   syntax:
-    content: public delegate void Trophy.StatusChangedCallback(string key, ScoreStatusFlags previous, ScoreStatusFlags current)
+    content: public delegate void Trophy.StatusChangedCallback(string key, ScoreStatusFlags status)
     parameters:
     - id: key
       type: System.String
       description: The key of the effected score
-    - id: previous
+    - id: status
       type: RocketshiftStudio.Trophy.ScoreStatusFlags
-      description: The status before change
-    - id: current
-      type: RocketshiftStudio.Trophy.ScoreStatusFlags
-      description: The status after change
-    content.vb: Public Delegate Sub Trophy.StatusChangedCallback(key As String, previous As ScoreStatusFlags, current As ScoreStatusFlags)
+      description: The current status
+    content.vb: Public Delegate Sub Trophy.StatusChangedCallback(key As String, status As ScoreStatusFlags)
 references:
 - uid: RocketshiftStudio.Trophy
   commentId: N:RocketshiftStudio.Trophy

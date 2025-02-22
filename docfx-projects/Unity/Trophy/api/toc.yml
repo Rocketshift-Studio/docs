@@ -71,14 +71,18 @@ items:
   - uid: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
     name: Trophy.ValueChangedCallback
     type: Delegate
-  - uid: RocketshiftStudio.Trophy.TrophyIconDisplay
-    name: TrophyIconDisplay
-    type: Class
-  - uid: RocketshiftStudio.Trophy.TrophyScoreDisplay
-    name: TrophyScoreDisplay
-    type: Class
   - uid: RocketshiftStudio.Trophy.TrophySettings
     name: TrophySettings
+    type: Class
+- uid: RocketshiftStudio.Trophy.Component
+  name: RocketshiftStudio.Trophy.Component
+  type: Namespace
+  items:
+  - uid: RocketshiftStudio.Trophy.Component.ScoreIcon
+    name: ScoreIcon
+    type: Class
+  - uid: RocketshiftStudio.Trophy.Component.ScoreText
+    name: ScoreText
     type: Class
 - uid: RocketshiftStudio.Trophy.Extensions
   name: RocketshiftStudio.Trophy.Extensions
@@ -90,11 +94,11 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
     name: BaseLocalStorageExtension
     type: Class
-  - uid: RocketshiftStudio.Trophy.Extensions.CompnentScoreTextDisplayExtension`1
-    name: CompnentScoreTextDisplayExtension<TComponent>
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
+    name: ComponentScoreIconExtension<TComponent>
     type: Class
-  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconDisplayExtension`1
-    name: ComponentScoreIconDisplayExtension<TComponent>
+  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
+    name: ComponentScoreTextExtension<TComponent>
     type: Class
   - uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
     name: ICloudStorageExtension
@@ -111,11 +115,11 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
     name: IScoreDisplayExtension<TValue>
     type: Interface
-  - uid: RocketshiftStudio.Trophy.Extensions.IScoreIconDisplayExtension
-    name: IScoreIconDisplayExtension
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+    name: IScoreIconExtension
     type: Interface
-  - uid: RocketshiftStudio.Trophy.Extensions.IScoreTextDisplayExtension
-    name: IScoreTextDisplayExtension
+  - uid: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
+    name: IScoreTextExtension
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
     name: ISpecialPermissionExtension
@@ -123,6 +127,16 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
     name: IStorageExtension
     type: Interface
+- uid: RocketshiftStudio.Trophy.IMGUI
+  name: RocketshiftStudio.Trophy.IMGUI
+  type: Namespace
+  items:
+  - uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+    name: ScoreIcon
+    type: Class
+  - uid: RocketshiftStudio.Trophy.IMGUI.ScoreText
+    name: ScoreText
+    type: Class
 - uid: RocketshiftStudio.Trophy.UIElements
   name: RocketshiftStudio.Trophy.UIElements
   type: Namespace
@@ -130,7 +144,7 @@ items:
   - uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon
     name: ScoreIcon
     type: Class
-  - uid: RocketshiftStudio.Trophy.UIElements.ScoreLabel
-    name: ScoreLabel
+  - uid: RocketshiftStudio.Trophy.UIElements.ScoreText
+    name: ScoreText
     type: Class
 memberLayout: SamePage

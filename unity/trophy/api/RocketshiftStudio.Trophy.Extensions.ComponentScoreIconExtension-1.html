@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Interface IScoreDisplayExtension&lt;TValue&gt; | Trophy - Ultimate Score System Documentation </title>
+      <title>Class ComponentScoreIconExtension&lt;TComponent&gt; | Trophy - Ultimate Score System Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Interface IScoreDisplayExtension&lt;TValue&gt; | Trophy - Ultimate Score System Documentation ">
+      <meta name="title" content="Class ComponentScoreIconExtension&lt;TComponent&gt; | Trophy - Ultimate Score System Documentation ">
     
-    
+    <meta name="description" content="Icon display extension base for component type target">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -79,18 +79,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1">
+            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1">
 
 
 
-  <h1 id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1" class="text-break">Interface IScoreDisplayExtension&lt;TValue&gt;</h1>
-  <div class="markdown level0 summary"></div>
+  <h1 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1" class="text-break">Class ComponentScoreIconExtension&lt;TComponent&gt;</h1>
+  <div class="markdown level0 summary"><p>Icon display extension base for component type target</p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">ComponentScoreIconExtension&lt;TComponent&gt;</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreIconExtension.html">IScoreIconExtension</a></div>
+    <div><a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html">IScoreDisplayExtension</a>&lt;<span class="xref">Sprite</span>&gt;</div>
+    <div><a class="xref" href="RocketshiftStudio.Trophy.Extensions.IExtension.html">IExtension</a></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a>.<a class="xref" href="RocketshiftStudio.Trophy.Extensions.html">Extensions</a></h6>
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
-  <h5 id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_syntax">Syntax</h5>
+  <h5 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IScoreDisplayExtension&lt;TValue&gt; : IExtension where TValue : class</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ComponentScoreIconExtension&lt;TComponent&gt; : IScoreIconExtension, IScoreDisplayExtension&lt;Sprite&gt;, IExtension where TComponent : Component</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -102,21 +114,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
+        <td><span class="parametername">TComponent</span></td>
+        <td><p>Target component type</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Key_" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Key" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Key">Key</h4>
+  <a id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Key_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Key*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Key" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Key">Key</h4>
   <div class="markdown level1 summary"><p>Identification key of the score</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Key { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -133,16 +146,39 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
-  <a id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Updated_" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Updated__0_" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1.Updated(`0)">Updated(TValue)</h4>
-  <div class="markdown level1 summary"><p>Invoked on value update</p>
+  <a id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Target_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Target*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Target" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Target">Target</h4>
+  <div class="markdown level1 summary"><p>Target component</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Updated(TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public TComponent Target { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_AssignValue_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.AssignValue*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_AssignValue_UnityEngine_Sprite_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.AssignValue(UnityEngine.Sprite)">AssignValue(Sprite)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void AssignValue(Sprite value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -155,13 +191,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TValue</span></td>
+        <td><span class="xref">Sprite</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Updated_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Updated*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_ComponentScoreIconExtension_1_Updated_UnityEngine_Sprite_" data-uid="RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1.Updated(UnityEngine.Sprite)">Updated(Sprite)</h4>
+  <div class="markdown level1 summary"><p>Invoked on value update</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Updated(Sprite value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sprite</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>New value</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreIconExtension.html">IScoreIconExtension</a>
+  </div>
+  <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html">IScoreDisplayExtension&lt;TValue&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.Extensions.IExtension.html">IExtension</a>
+  </div>
 
 </article>
           </div>

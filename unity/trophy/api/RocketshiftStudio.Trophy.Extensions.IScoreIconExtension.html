@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Delegate Trophy.StatusChangedCallback | Trophy - Ultimate Score System Documentation </title>
+      <title>Interface IScoreIconExtension | Trophy - Ultimate Score System Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Delegate Trophy.StatusChangedCallback | Trophy - Ultimate Score System Documentation ">
+      <meta name="title" content="Interface IScoreIconExtension | Trophy - Ultimate Score System Documentation ">
     
-    <meta name="description" content="Invoked per status change.">
+    
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -79,44 +79,28 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Trophy.StatusChangedCallback">
+            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreIconExtension">
 
 
 
-  <h1 id="RocketshiftStudio_Trophy_Trophy_StatusChangedCallback" data-uid="RocketshiftStudio.Trophy.Trophy.StatusChangedCallback" class="text-break">Delegate Trophy.StatusChangedCallback</h1>
-  <div class="markdown level0 summary"><p>Invoked per status change.</p>
-</div>
+  <h1 id="RocketshiftStudio_Trophy_Extensions_IScoreIconExtension" data-uid="RocketshiftStudio.Trophy.Extensions.IScoreIconExtension" class="text-break">Interface IScoreIconExtension</h1>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a></h6>
-  <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
-  <h5 id="RocketshiftStudio_Trophy_Trophy_StatusChangedCallback_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void Trophy.StatusChangedCallback(string key, ScoreStatusFlags status)</code></pre>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html#RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Key">IScoreDisplayExtension&lt;Sprite&gt;.Key</a>
+    </div>
+    <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html#RocketshiftStudio_Trophy_Extensions_IScoreDisplayExtension_1_Updated__0_">IScoreDisplayExtension&lt;Sprite&gt;.Updated(Sprite)</a>
+    </div>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key of the effected score</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreStatusFlags.html">ScoreStatusFlags</a></td>
-        <td><span class="parametername">status</span></td>
-        <td><p>The current status</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a>.<a class="xref" href="RocketshiftStudio.Trophy.Extensions.html">Extensions</a></h6>
+  <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
+  <h5 id="RocketshiftStudio_Trophy_Extensions_IScoreIconExtension_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IScoreIconExtension : IScoreDisplayExtension&lt;Sprite&gt;, IExtension</code></pre>
+  </div>
 
 </article>
           </div>
