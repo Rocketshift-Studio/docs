@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  commentId: T:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  id: SingletonMonoBehaviour`1
+  parent: RocketshiftStudio.Shared.Singleton
+  children:
+  - RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  - RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  langs:
+  - csharp
+  - vb
+  name: SingletonMonoBehaviour<TMonoBehaviour>
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SingletonMonoBehaviour
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared.Singleton
+  summary: Base class for creating mono behaviours as singleton
+  example: []
+  syntax:
+    content: >-
+      [DisallowMultipleComponent]
+
+      public abstract class SingletonMonoBehaviour<TMonoBehaviour> : MonoBehaviour where TMonoBehaviour : MonoBehaviour
+    typeParameters:
+    - id: TMonoBehaviour
+      description: ''
+    content.vb: >-
+      <DisallowMultipleComponent>
+
+      Public MustInherit Class SingletonMonoBehaviour(Of TMonoBehaviour As MonoBehaviour) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - RocketshiftStudio.Trophy.Trophy
+  attributes:
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour)
+  name.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  id: Instance
+  parent: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Instance
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+    startLine: 12
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared.Singleton
+  syntax:
+    content: public static TMonoBehaviour Instance { get; set; }
+    parameters: []
+    return:
+      type: '{TMonoBehaviour}'
+    content.vb: Public Shared Property Instance As TMonoBehaviour
+  overload: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance*
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  commentId: M:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  id: Awake
+  parent: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Awake()
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Awake()
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Awake
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Shared/Scripts/Singleton/SingletonMonoBehaviour.cs
+    startLine: 26
+  assemblies:
+  - RocketshiftStudio.Shared
+  namespace: RocketshiftStudio.Shared.Singleton
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake()
+  overload: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake*
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Awake()
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Awake()
+references:
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance*
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Instance
+  name: Instance
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+- uid: '{TMonoBehaviour}'
+  commentId: '!:TMonoBehaviour'
+  definition: TMonoBehaviour
+  name: TMonoBehaviour
+  nameWithType: TMonoBehaviour
+  fullName: TMonoBehaviour
+- uid: TMonoBehaviour
+  commentId: '!:TMonoBehaviour'
+  name: TMonoBehaviour
+  nameWithType: TMonoBehaviour
+  fullName: TMonoBehaviour
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake*
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Awake
+  name: Awake
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Awake
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Awake
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Awake
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Awake

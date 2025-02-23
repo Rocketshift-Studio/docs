@@ -1,11 +1,17 @@
 ### YamlMime:TableOfContent
 items:
-- uid: RocketshiftStudio.Shared
-  name: RocketshiftStudio.Shared
+- uid: RocketshiftStudio.Shared.Singleton
+  name: RocketshiftStudio.Shared.Singleton
   type: Namespace
   items:
-  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-    name: SingletonMonoBehaviour<T>
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+    name: ScriptableSingletonAttribute
+    type: Class
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton<TScriptableObject>
+    type: Class
+  - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour<TMonoBehaviour>
     type: Class
 - uid: RocketshiftStudio.Trophy
   name: RocketshiftStudio.Trophy

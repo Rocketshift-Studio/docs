@@ -10,7 +10,6 @@ items:
   - RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)
   - RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
   - RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)
-  - RocketshiftStudio.Trophy.TrophySettings.Instance
   - RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
   - RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
   - RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
@@ -30,56 +29,35 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TrophySettings
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 10
+    startLine: 7
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   syntax:
     content: >-
-      [ExcludeFromPreset]
+      [ScriptableSingleton("Rocketshift Studio/Systems/Trophy", null, false)]
 
-      public sealed class TrophySettings : ScriptableObject
+      public sealed class TrophySettings : ScriptableSingleton<TrophySettings>
     content.vb: >-
-      <ExcludeFromPreset>
+      <ScriptableSingleton("Rocketshift Studio/Systems/Trophy", Nothing, False)>
 
-      Public NotInheritable Class TrophySettings Inherits ScriptableObject
+      Public NotInheritable Class TrophySettings Inherits ScriptableSingleton(Of TrophySettings)
   inheritance:
   - System.Object
   - UnityEngine.Object
   - UnityEngine.ScriptableObject
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}
+  inheritedMembers:
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}.Instance
   attributes:
-  - type: UnityEngine.ExcludeFromPresetAttribute
-    ctor: UnityEngine.ExcludeFromPresetAttribute.#ctor
-    arguments: []
-- uid: RocketshiftStudio.Trophy.TrophySettings.Instance
-  commentId: P:RocketshiftStudio.Trophy.TrophySettings.Instance
-  id: Instance
-  parent: RocketshiftStudio.Trophy.TrophySettings
-  langs:
-  - csharp
-  - vb
-  name: Instance
-  nameWithType: TrophySettings.Instance
-  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
-  type: Property
-  source:
-    remote:
-      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-      branch: main
-      repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: Instance
-    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 14
-  assemblies:
-  - RocketshiftStudio.Trophy
-  namespace: RocketshiftStudio.Trophy
-  syntax:
-    content: public static TrophySettings Instance { get; }
-    parameters: []
-    return:
-      type: RocketshiftStudio.Trophy.TrophySettings
-    content.vb: Public Shared ReadOnly Property Instance As TrophySettings
-  overload: RocketshiftStudio.Trophy.TrophySettings.Instance*
+  - type: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+    ctor: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor(System.String,System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Rocketshift Studio/Systems/Trophy
+    - type: System.String
+    - type: System.Boolean
+      value: false
 - uid: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
   commentId: P:RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
   id: ScoreDefinitions
@@ -98,7 +76,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 55
+    startLine: 13
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -127,7 +105,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 59
+    startLine: 17
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -156,7 +134,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 63
+    startLine: 21
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -185,7 +163,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: AutoLoadSavedAtInit
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 67
+    startLine: 25
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -214,7 +192,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CloudSaveExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 71
+    startLine: 29
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -243,7 +221,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LocalStorageExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 75
+    startLine: 33
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -272,7 +250,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: EnableRuntimeTrophyExplorer
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 80
+    startLine: 38
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -301,7 +279,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Contains
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 83
+    startLine: 41
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -335,7 +313,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 93
+    startLine: 51
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -369,7 +347,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TryGetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 104
+    startLine: 62
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -434,6 +412,47 @@ references:
   name: ScriptableObject
   nameWithType: ScriptableObject
   fullName: UnityEngine.ScriptableObject
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}
+  parent: RocketshiftStudio.Shared.Singleton
+  definition: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  name: ScriptableSingleton<TrophySettings>
+  nameWithType: ScriptableSingleton<TrophySettings>
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<RocketshiftStudio.Trophy.TrophySettings>
+  nameWithType.vb: ScriptableSingleton(Of TrophySettings)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of RocketshiftStudio.Trophy.TrophySettings)
+  name.vb: ScriptableSingleton(Of TrophySettings)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: <
+  - uid: RocketshiftStudio.Trophy.TrophySettings
+    name: TrophySettings
+    href: RocketshiftStudio.Trophy.TrophySettings.html
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: RocketshiftStudio.Trophy.TrophySettings
+    name: TrophySettings
+    href: RocketshiftStudio.Trophy.TrophySettings.html
+  - name: )
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}.Instance
+  parent: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Trophy.TrophySettings}
+  definition: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<TrophySettings>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<RocketshiftStudio.Trophy.TrophySettings>.Instance
+  nameWithType.vb: ScriptableSingleton(Of TrophySettings).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of RocketshiftStudio.Trophy.TrophySettings).Instance
 - uid: System
   commentId: N:System
   isExternal: true
@@ -446,19 +465,69 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
-- uid: RocketshiftStudio.Trophy.TrophySettings.Instance*
-  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.Instance
-  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_Instance
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  name: ScriptableSingleton<TScriptableObject>
+  nameWithType: ScriptableSingleton<TScriptableObject>
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject)
+  name.vb: ScriptableSingleton(Of TScriptableObject)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: <
+  - name: TScriptableObject
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TScriptableObject
+  - name: )
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance
   name: Instance
-  nameWithType: TrophySettings.Instance
-  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
-- uid: RocketshiftStudio.Trophy.TrophySettings
-  commentId: T:RocketshiftStudio.Trophy.TrophySettings
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.TrophySettings.html
-  name: TrophySettings
-  nameWithType: TrophySettings
-  fullName: RocketshiftStudio.Trophy.TrophySettings
+  nameWithType: ScriptableSingleton<TScriptableObject>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>.Instance
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject).Instance
 - uid: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions*
   commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
   href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_ScoreDefinitions

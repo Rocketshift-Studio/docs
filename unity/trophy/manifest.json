@@ -1,5 +1,5 @@
 {
-  "source_base_path": "J:/Global Git Repos/Rocketshift Studio/docs/docfx-projects/unity/trophy",
+  "source_base_path": "J:/Git Repos/Rocketshift Studio/docs/docfx-projects/unity/trophy",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,62 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.yml\" sourcestartlinenumber=\"1\">Base class for creating scriptable object as singleton</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.yml\" sourcestartlinenumber=\"1\">Helper attribute for use of creating singleton scriptable object using <xref href=\"RocketshiftStudio.Shared.Singleton.ScriptableSingleton%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.yml\" sourcestartlinenumber=\"1\">Base class for creating mono behaviours as singleton</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Shared.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Shared.Singleton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Shared.Singleton",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

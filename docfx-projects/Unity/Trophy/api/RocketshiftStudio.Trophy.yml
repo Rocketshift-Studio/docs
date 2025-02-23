@@ -184,7 +184,6 @@ references:
   fullName: RocketshiftStudio.Trophy.ScoreDefinition
 - uid: RocketshiftStudio.Trophy.TrophySettings
   commentId: T:RocketshiftStudio.Trophy.TrophySettings
-  parent: RocketshiftStudio.Trophy
   href: RocketshiftStudio.Trophy.TrophySettings.html
   name: TrophySettings
   nameWithType: TrophySettings

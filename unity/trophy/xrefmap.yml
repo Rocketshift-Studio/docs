@@ -7,6 +7,124 @@ references:
   commentId: N:RocketshiftStudio.Shared
   fullName: RocketshiftStudio.Shared
   nameWithType: RocketshiftStudio.Shared
+- uid: RocketshiftStudio.Shared.Singleton
+  name: RocketshiftStudio.Shared.Singleton
+  href: api/RocketshiftStudio.Shared.Singleton.html
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  name: ScriptableSingletonAttribute
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  nameWithType: ScriptableSingletonAttribute
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor(System.String,System.String,System.Boolean)
+  name: ScriptableSingletonAttribute(string, string, bool)
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html#RocketshiftStudio_Shared_Singleton_ScriptableSingletonAttribute__ctor_System_String_System_String_System_Boolean_
+  commentId: M:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor(System.String,System.String,System.Boolean)
+  name.vb: New(String, String, Boolean)
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.ScriptableSingletonAttribute(string, string, bool)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.New(String, String, Boolean)
+  nameWithType: ScriptableSingletonAttribute.ScriptableSingletonAttribute(string, string, bool)
+  nameWithType.vb: ScriptableSingletonAttribute.New(String, String, Boolean)
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor*
+  name: ScriptableSingletonAttribute
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html#RocketshiftStudio_Shared_Singleton_ScriptableSingletonAttribute__ctor_
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.ScriptableSingletonAttribute
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.New
+  nameWithType: ScriptableSingletonAttribute.ScriptableSingletonAttribute
+  nameWithType.vb: ScriptableSingletonAttribute.New
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.editorOnly
+  name: editorOnly
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html#RocketshiftStudio_Shared_Singleton_ScriptableSingletonAttribute_editorOnly
+  commentId: F:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.editorOnly
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.editorOnly
+  nameWithType: ScriptableSingletonAttribute.editorOnly
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.fileName
+  name: fileName
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html#RocketshiftStudio_Shared_Singleton_ScriptableSingletonAttribute_fileName
+  commentId: F:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.fileName
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.fileName
+  nameWithType: ScriptableSingletonAttribute.fileName
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.folderPath
+  name: folderPath
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html#RocketshiftStudio_Shared_Singleton_ScriptableSingletonAttribute_folderPath
+  commentId: F:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.folderPath
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.folderPath
+  nameWithType: ScriptableSingletonAttribute.folderPath
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  name: ScriptableSingleton<TScriptableObject>
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  name.vb: ScriptableSingleton(Of TScriptableObject)
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject)
+  nameWithType: ScriptableSingleton<TScriptableObject>
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject)
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  name: Instance
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>.Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject).Instance
+  nameWithType: ScriptableSingleton<TScriptableObject>.Instance
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject).Instance
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance*
+  name: Instance
+  href: api/RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance_
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  isSpec: "True"
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>.Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject).Instance
+  nameWithType: ScriptableSingleton<TScriptableObject>.Instance
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject).Instance
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  name: SingletonMonoBehaviour<TMonoBehaviour>
+  href: api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
+  commentId: T:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  name.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour)
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  name: Awake()
+  href: api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Awake
+  commentId: M:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Awake()
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Awake()
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Awake()
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Awake()
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake*
+  name: Awake
+  href: api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Awake_
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Awake
+  isSpec: "True"
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Awake
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Awake
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Awake
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Awake
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  name: Instance
+  href: api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance*
+  name: Instance
+  href: api/RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Instance_
+  commentId: Overload:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  isSpec: "True"
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
 - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
   name: SingletonMonoBehaviour<T>
   href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
@@ -1983,19 +2101,6 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.TrophySettings.GetMetadata
   nameWithType: TrophySettings.GetMetadata
-- uid: RocketshiftStudio.Trophy.TrophySettings.Instance
-  name: Instance
-  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_Instance
-  commentId: P:RocketshiftStudio.Trophy.TrophySettings.Instance
-  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
-  nameWithType: TrophySettings.Instance
-- uid: RocketshiftStudio.Trophy.TrophySettings.Instance*
-  name: Instance
-  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_Instance_
-  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.Instance
-  isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.TrophySettings.Instance
-  nameWithType: TrophySettings.Instance
 - uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
   name: LeaderboardDefinitions
   href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions

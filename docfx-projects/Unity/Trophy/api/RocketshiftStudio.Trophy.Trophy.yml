@@ -76,9 +76,9 @@ items:
   - UnityEngine.Component
   - UnityEngine.Behaviour
   - UnityEngine.MonoBehaviour
-  - RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
+  - RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
   inheritedMembers:
-  - RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
+  - RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
   attributes:
   - type: UnityEngine.AddComponentMenu
     ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
@@ -1217,30 +1217,30 @@ references:
   name: MonoBehaviour
   nameWithType: MonoBehaviour
   fullName: UnityEngine.MonoBehaviour
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
-  commentId: T:RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
-  parent: RocketshiftStudio.Shared
-  definition: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-  href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
+  commentId: T:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
+  parent: RocketshiftStudio.Shared.Singleton
+  definition: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
   name: SingletonMonoBehaviour<Trophy>
   nameWithType: SingletonMonoBehaviour<Trophy>
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<RocketshiftStudio.Trophy.Trophy>
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<RocketshiftStudio.Trophy.Trophy>
   nameWithType.vb: SingletonMonoBehaviour(Of Trophy)
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of RocketshiftStudio.Trophy.Trophy)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of RocketshiftStudio.Trophy.Trophy)
   name.vb: SingletonMonoBehaviour(Of Trophy)
   spec.csharp:
-  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
     name: SingletonMonoBehaviour
-    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+    href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
   - name: <
   - uid: RocketshiftStudio.Trophy.Trophy
     name: Trophy
     href: RocketshiftStudio.Trophy.Trophy.html
   - name: '>'
   spec.vb:
-  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
     name: SingletonMonoBehaviour
-    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+    href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
   - name: (
   - name: Of
   - name: " "
@@ -1248,16 +1248,16 @@ references:
     name: Trophy
     href: RocketshiftStudio.Trophy.Trophy.html
   - name: )
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
-  commentId: P:RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
-  parent: RocketshiftStudio.Shared.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
-  definition: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Instance
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}.Instance
+  parent: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour{RocketshiftStudio.Trophy.Trophy}
+  definition: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Instance
   name: Instance
   nameWithType: SingletonMonoBehaviour<Trophy>.Instance
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<RocketshiftStudio.Trophy.Trophy>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<RocketshiftStudio.Trophy.Trophy>.Instance
   nameWithType.vb: SingletonMonoBehaviour(Of Trophy).Instance
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of RocketshiftStudio.Trophy.Trophy).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of RocketshiftStudio.Trophy.Trophy).Instance
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1270,37 +1270,37 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-  commentId: T:RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-  href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
-  name: SingletonMonoBehaviour<T>
-  nameWithType: SingletonMonoBehaviour<T>
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>
-  nameWithType.vb: SingletonMonoBehaviour(Of T)
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T)
-  name.vb: SingletonMonoBehaviour(Of T)
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  commentId: T:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
+  name: SingletonMonoBehaviour<TMonoBehaviour>
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour)
+  name.vb: SingletonMonoBehaviour(Of TMonoBehaviour)
   spec.csharp:
-  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
     name: SingletonMonoBehaviour
-    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+    href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
   - name: <
-  - name: T
+  - name: TMonoBehaviour
   - name: '>'
   spec.vb:
-  - uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
+  - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
     name: SingletonMonoBehaviour
-    href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
+    href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: TMonoBehaviour
   - name: )
-- uid: RocketshiftStudio.Shared
-  commentId: N:RocketshiftStudio.Shared
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
   href: RocketshiftStudio.html
-  name: RocketshiftStudio.Shared
-  nameWithType: RocketshiftStudio.Shared
-  fullName: RocketshiftStudio.Shared
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
   spec.csharp:
   - uid: RocketshiftStudio
     name: RocketshiftStudio
@@ -1309,6 +1309,10 @@ references:
   - uid: RocketshiftStudio.Shared
     name: Shared
     href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
   spec.vb:
   - uid: RocketshiftStudio
     name: RocketshiftStudio
@@ -1317,14 +1321,18 @@ references:
   - uid: RocketshiftStudio.Shared
     name: Shared
     href: RocketshiftStudio.Shared.html
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  commentId: P:RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  href: RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Instance
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+- uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_Singleton_SingletonMonoBehaviour_1_Instance
   name: Instance
-  nameWithType: SingletonMonoBehaviour<T>.Instance
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>.Instance
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T).Instance
+  nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour<TMonoBehaviour>.Instance
+  nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
 - uid: RocketshiftStudio.Trophy.Trophy.IsInitialized*
   commentId: Overload:RocketshiftStudio.Trophy.Trophy.IsInitialized
   href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_IsInitialized
@@ -1554,7 +1562,6 @@ references:
     isExternal: true
 - uid: RocketshiftStudio.Trophy.TrophySettings
   commentId: T:RocketshiftStudio.Trophy.TrophySettings
-  parent: RocketshiftStudio.Trophy
   href: RocketshiftStudio.Trophy.TrophySettings.html
   name: TrophySettings
   nameWithType: TrophySettings
