@@ -24,7 +24,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreText
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -60,8 +60,6 @@ items:
             GUILayout.Label(scoreText.text);
         }
     }</code></pre>
-
-    The {0} {2}:{1:000} format will be shown as Name Best: 000. The name can be set from the <xref href="RocketshiftStudio.Trophy.ScoreDefinition.Metadata" data-throw-if-not-resolved="false"></xref> of <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref>
   syntax:
     content: public sealed class ScoreText
     content.vb: Public NotInheritable Class ScoreText
@@ -85,7 +83,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -114,7 +112,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: type
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -143,7 +141,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Format
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 54
+    startLine: 55
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -174,7 +172,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: text
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 59
+    startLine: 60
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -205,7 +203,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: .ctor
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreText.cs
-    startLine: 64
+    startLine: 65
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -228,19 +226,6 @@ items:
   fullName.vb: RocketshiftStudio.Trophy.IMGUI.ScoreText.New(String, RocketshiftStudio.Trophy.ScoreType, String)
   name.vb: New(String, ScoreType, String)
 references:
-- uid: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
-  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.Metadata
-  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_Metadata
-  name: Metadata
-  nameWithType: ScoreDefinition.Metadata
-  fullName: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
-- uid: RocketshiftStudio.Trophy.ScoreDefinition
-  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreDefinition.html
-  name: ScoreDefinition
-  nameWithType: ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.ScoreDefinition
 - uid: RocketshiftStudio.Trophy.IMGUI
   commentId: N:RocketshiftStudio.Trophy.IMGUI
   href: RocketshiftStudio.html
@@ -281,28 +266,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: RocketshiftStudio.Trophy
-  commentId: N:RocketshiftStudio.Trophy
-  href: RocketshiftStudio.html
-  name: RocketshiftStudio.Trophy
-  nameWithType: RocketshiftStudio.Trophy
-  fullName: RocketshiftStudio.Trophy
-  spec.csharp:
-  - uid: RocketshiftStudio
-    name: RocketshiftStudio
-    href: RocketshiftStudio.html
-  - name: .
-  - uid: RocketshiftStudio.Trophy
-    name: Trophy
-    href: RocketshiftStudio.Trophy.html
-  spec.vb:
-  - uid: RocketshiftStudio
-    name: RocketshiftStudio
-    href: RocketshiftStudio.html
-  - name: .
-  - uid: RocketshiftStudio.Trophy
-    name: Trophy
-    href: RocketshiftStudio.Trophy.html
 - uid: System
   commentId: N:System
   isExternal: true
@@ -326,6 +289,35 @@ references:
   name: ScoreType
   nameWithType: ScoreType
   fullName: RocketshiftStudio.Trophy.ScoreType
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.ScoreDefinition
+  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  name: ScoreDefinition
+  nameWithType: ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition
 - uid: RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat
   commentId: P:RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat
   href: RocketshiftStudio.Trophy.ScoreMetadata.html#RocketshiftStudio_Trophy_ScoreMetadata_DefaultFormat

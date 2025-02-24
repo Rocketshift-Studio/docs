@@ -24,12 +24,42 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreText
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 8
+    startLine: 40
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
   summary: In order to show score text in UIElements
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">using UnityEngine;
+
+    using RocketshiftStudio.Trophy.UIElements;
+
+
+    public class ScoreTextUIElementsExample : MonoBehaviour
+
+    {
+        private UIDocument doc;
+        private const string KEY = "KEY_HERE";
+        private ScoreText scoreText;
+
+        private void Start()
+        {
+            doc = GetComponent&lt;UIDocument&gt;();
+
+            scoreText = new ScoreText(KEY);
+
+            //or 
+
+            scoreText = new ScoreText(KEY, ScoreType.Current);
+
+            //or 
+
+            scoreText = new ScoreText(KEY, ScoreType.Best, "{0} {2}:{1:000}");
+
+            doc.rootVisualElement.Add(scoreText);
+        }
+    }</code></pre>
   syntax:
     content: 'public sealed class ScoreText : Label'
     content.vb: Public NotInheritable Class ScoreText Inherits Label
@@ -59,7 +89,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 38
+    startLine: 70
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
@@ -90,7 +120,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Type
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 45
+    startLine: 77
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
@@ -119,7 +149,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Format
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 51
+    startLine: 83
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
@@ -148,7 +178,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: .ctor
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 53
+    startLine: 85
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
@@ -177,13 +207,13 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: .ctor
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreText.cs
-    startLine: 87
+    startLine: 119
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.UIElements
   example: []
   syntax:
-    content: public ScoreText(string key, ScoreType type, string format = "")
+    content: public ScoreText(string key, ScoreType type = ScoreType.Current, string format = "")
     parameters:
     - id: key
       type: System.String
@@ -194,7 +224,7 @@ items:
     - id: format
       type: System.String
       description: Override the format of <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref>'s metadata's <xref href="RocketshiftStudio.Trophy.ScoreMetadata.DefaultFormat" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Sub New(key As String, type As ScoreType, format As String = "")
+    content.vb: Public Sub New(key As String, type As ScoreType = ScoreType.Current, format As String = "")
   overload: RocketshiftStudio.Trophy.UIElements.ScoreText.#ctor*
   nameWithType.vb: ScoreText.New(String, ScoreType, String)
   fullName.vb: RocketshiftStudio.Trophy.UIElements.ScoreText.New(String, RocketshiftStudio.Trophy.ScoreType, String)

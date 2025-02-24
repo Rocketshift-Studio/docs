@@ -68,34 +68,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "RocketshiftStudio.Shared.SingletonMonoBehaviour<T>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RocketshiftStudio.Shared.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RocketshiftStudio.Shared.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "RocketshiftStudio.Shared",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/RocketshiftStudio.Trophy.BestCalculationType.yml",
       "output": {
         ".html": {

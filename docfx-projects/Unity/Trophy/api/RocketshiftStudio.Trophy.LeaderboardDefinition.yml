@@ -6,7 +6,7 @@ items:
   parent: RocketshiftStudio.Trophy
   children:
   - RocketshiftStudio.Trophy.LeaderboardDefinition.Key
-  - RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
+  - RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
   - RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource
   langs:
   - csharp
@@ -81,7 +81,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Identification key of the definition
+  summary: Identification key of the score
   example: []
   syntax:
     content: public string Key { get; }
@@ -92,35 +92,35 @@ items:
   overload: RocketshiftStudio.Trophy.LeaderboardDefinition.Key*
   implements:
   - RocketshiftStudio.Trophy.IDefinition.Key
-- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  commentId: P:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  id: ScoreDefinition
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  commentId: P:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  id: ScoreKey
   parent: RocketshiftStudio.Trophy.LeaderboardDefinition
   langs:
   - csharp
   - vb
-  name: ScoreDefinition
-  nameWithType: LeaderboardDefinition.ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
+  name: ScoreKey
+  nameWithType: LeaderboardDefinition.ScoreKey
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
   type: Property
   source:
     remote:
       path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardDefinition.cs
       branch: main
       repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: ScoreDefinition
+    id: ScoreKey
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardDefinition.cs
     startLine: 14
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   syntax:
-    content: public ScoreDefinition ScoreDefinition { get; }
+    content: public string ScoreKey { get; }
     parameters: []
     return:
-      type: RocketshiftStudio.Trophy.ScoreDefinition
-    content.vb: Public ReadOnly Property ScoreDefinition As ScoreDefinition
-  overload: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition*
+      type: System.String
+    content.vb: Public ReadOnly Property ScoreKey As String
+  overload: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey*
 - uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource
   commentId: P:RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource
   id: ValueSource
@@ -139,7 +139,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ValueSource
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardDefinition.cs
-    startLine: 19
+    startLine: 18
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -239,19 +239,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition*
-  commentId: Overload:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreDefinition
-  name: ScoreDefinition
-  nameWithType: LeaderboardDefinition.ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-- uid: RocketshiftStudio.Trophy.ScoreDefinition
-  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreDefinition.html
-  name: ScoreDefinition
-  nameWithType: ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey*
+  commentId: Overload:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreKey
+  name: ScoreKey
+  nameWithType: LeaderboardDefinition.ScoreKey
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
 - uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource*
   commentId: Overload:RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource
   href: RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ValueSource

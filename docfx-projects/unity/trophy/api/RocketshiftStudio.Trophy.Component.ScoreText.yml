@@ -20,7 +20,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreText
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
-    startLine: 10
+    startLine: 9
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Component
@@ -79,7 +79,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Extension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreText.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Component

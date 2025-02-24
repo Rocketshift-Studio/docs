@@ -145,7 +145,7 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;Score&gt; Scores { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICollection&lt;Score&gt; Scores { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -157,7 +157,7 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.Score.html">Score</a>&gt;</td>
+        <td><span class="xref">ICollection</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.Score.html">Score</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -165,13 +165,56 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
   <h3 id="methods">Methods
 </h3>
   <a id="RocketshiftStudio_Trophy_Trophy_BeginCounting_" data-uid="RocketshiftStudio.Trophy.Trophy.BeginCounting*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_BeginCounting_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String[])">BeginCounting(params string[])</h4>
-  <div class="markdown level1 summary"><p>Set counting mode to true in scores</p>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_BeginCounting_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String)">BeginCounting(string)</h4>
+  <div class="markdown level1 summary"><p>Set counting mode to true target score</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BeginCounting(params string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BeginCounting(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exceptions</span>.<span class="xref">DefinitionNullException</span>&lt;TDefinition&gt;</td>
+        <td><p>When the expected definitions are not in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a> found with given keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_BeginCounting_" data-uid="RocketshiftStudio.Trophy.Trophy.BeginCounting*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_BeginCounting_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String[])">BeginCounting(string[])</h4>
+  <div class="markdown level1 summary"><p>Set counting mode to true target scores</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BeginCounting(string[] keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -204,48 +247,6 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
         <td><span class="xref">Exceptions</span>.<span class="xref">DefinitionNullException</span>&lt;TDefinition&gt;</td>
         <td><p>When the expected definitions are not in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a> found with given keys</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="RocketshiftStudio_Trophy_Trophy_ClearSavedScoreAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_ClearSavedScoreAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync(System.String[])">ClearSavedScoreAsync(params string[])</h4>
-  <div class="markdown level1 summary"><p>Delete saved values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ClearSavedScoreAsync(params string[] keys)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span>[]</td>
-        <td><span class="parametername">keys</span></td>
-        <td><p>Target keys</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -309,14 +310,195 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_Trophy_EndCounting_" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_EndCounting_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting(System.String[])">EndCounting(params string[])</h4>
-  <div class="markdown level1 summary"><p>Set count mode to false in scores</p>
+  <a id="RocketshiftStudio_Trophy_Trophy_Delete_" data-uid="RocketshiftStudio.Trophy.Trophy.Delete*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Delete_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.Delete(System.String)">Delete(string)</h4>
+  <div class="markdown level1 summary"><p>Delete values from storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EndCounting(params string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Delete(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_Delete_" data-uid="RocketshiftStudio.Trophy.Trophy.Delete*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Delete_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.Delete(System.String[])">Delete(string[])</h4>
+  <div class="markdown level1 summary"><p>Delete values from storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(string[] keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>Target keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_DeleteAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.DeleteAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_DeleteAsync_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String)">DeleteAsync(string)</h4>
+  <div class="markdown level1 summary"><p>Delete values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_DeleteAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.DeleteAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_DeleteAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String[])">DeleteAsync(string[])</h4>
+  <div class="markdown level1 summary"><p>Delete values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string[] keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>Target keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_EndCounting_" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_EndCounting_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting(System.String)">EndCounting(string)</h4>
+  <div class="markdown level1 summary"><p>Set count mode to false in target scores</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndCounting(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exceptions</span>.<span class="xref">DefinitionNullException</span>&lt;TDefinition&gt;</td>
+        <td><p>When the expected definitions are not in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a> found with given keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_EndCounting_" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_EndCounting_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.EndCounting(System.String[])">EndCounting(string[])</h4>
+  <div class="markdown level1 summary"><p>Set count mode to false in target scores</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndCounting(string[] keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -471,13 +653,62 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_System_String_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String[])">GetUserScoreAsync(string, params string[])</h4>
-  <div class="markdown level1 summary"><p>Get saved values from cloud storage asynchronously using user id</p>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_System_String_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String)">GetUserScoreAsync(string, string)</h4>
+  <div class="markdown level1 summary"><p>Get score values from cloud storage asynchronously using user id</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ScoreData[]&gt; GetUserScoreAsync(string userId, params string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ScoreData&gt; GetUserScoreAsync(string userId, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Id of user</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>&gt;</td>
+        <td><p>Task with collection of <a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a> from given user id and keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])">GetUserScoresAsync(string, string[])</h4>
+  <div class="markdown level1 summary"><p>Get scores values from cloud storage asynchronously using user id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ScoreData[]&gt; GetUserScoresAsync(string userId, string[] keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -728,13 +959,13 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_Load_" data-uid="RocketshiftStudio.Trophy.Trophy.Load*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_Load_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.Load(System.String[])">Load(string[])</h4>
-  <div class="markdown level1 summary"><p>Load saved values from storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Load_System_Collections_Generic_ICollection_System_String__" data-uid="RocketshiftStudio.Trophy.Trophy.Load(System.Collections.Generic.ICollection{System.String})">Load(ICollection&lt;string&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load values from storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Load(string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Load(ICollection&lt;string&gt; keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -747,21 +978,21 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">ICollection</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_Trophy_LoadAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_LoadAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String[])">LoadAsync(string[])</h4>
-  <div class="markdown level1 summary"><p>Load saved values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+  <a id="RocketshiftStudio_Trophy_Trophy_Load_" data-uid="RocketshiftStudio.Trophy.Trophy.Load*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Load_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.Load(System.String)">Load(string)</h4>
+  <div class="markdown level1 summary"><p>Load values from storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task LoadAsync(string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Load(string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -774,10 +1005,78 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_LoadAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_LoadAsync_System_Collections_Generic_ICollection_System_String__" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection{System.String})">LoadAsync(ICollection&lt;string&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(ICollection&lt;string&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_LoadAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_LoadAsync_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String)">LoadAsync(string)</h4>
+  <div class="markdown level1 summary"><p>Load values from storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -857,13 +1156,39 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])">PostToLeaderboard(params LeaderboardRequest[])</h4>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest)">PostToLeaderboard(LeaderboardRequest)</h4>
   <div class="markdown level1 summary"><p>Post values to leaderboard according to leaderboard definition with respective keys using extension defined in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PostToLeaderboard(params LeaderboardRequest[] requests)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PostToLeaderboard(LeaderboardRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.LeaderboardRequest.html">LeaderboardRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])">PostToLeaderboard(LeaderboardRequest[])</h4>
+  <div class="markdown level1 summary"><p>Post values to leaderboard according to leaderboard definition with respective keys using extension defined in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PostToLeaderboard(LeaderboardRequest[] requests)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -884,13 +1209,55 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])">PostToLeaderboardAsync(params LeaderboardRequest[])</h4>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest)">PostToLeaderboardAsync(LeaderboardRequest)</h4>
   <div class="markdown level1 summary"><p>Post values to leaderboard asynchronously according to leaderboard definition with respective keys using extension defined in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task PostToLeaderboardAsync(params LeaderboardRequest[] requests)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task PostToLeaderboardAsync(LeaderboardRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.LeaderboardRequest.html">LeaderboardRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p><a class="xref" href="RocketshiftStudio.Trophy.LeaderboardRequest.html">LeaderboardRequest</a> that will be used to post in leaderboard</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___" data-uid="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])">PostToLeaderboardAsync(LeaderboardRequest[])</h4>
+  <div class="markdown level1 summary"><p>Post values to leaderboard asynchronously according to leaderboard definition with respective keys using extension defined in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PostToLeaderboardAsync(LeaderboardRequest[] requests)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -969,13 +1336,40 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_Save_" data-uid="RocketshiftStudio.Trophy.Trophy.Save*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.String[])">Save(params string[])</h4>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.String)">Save(string)</h4>
   <div class="markdown level1 summary"><p>Save current values in storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save(params string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Save(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_Save_" data-uid="RocketshiftStudio.Trophy.Trophy.Save*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.String[])">Save(string[])</h4>
+  <div class="markdown level1 summary"><p>Save current values in storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(string[] keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -996,13 +1390,55 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_SaveAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])">SaveAsync(params string[])</h4>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String)">SaveAsync(string)</h4>
   <div class="markdown level1 summary"><p>Save current values in storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task SaveAsync(params string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Target key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_SaveAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])">SaveAsync(string[])</h4>
+  <div class="markdown level1 summary"><p>Save current values in storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(string[] keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

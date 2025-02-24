@@ -19,7 +19,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CountingChangedCallback
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 65
+    startLine: 66
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy

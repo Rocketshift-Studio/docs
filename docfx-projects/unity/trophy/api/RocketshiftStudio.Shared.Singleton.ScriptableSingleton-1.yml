@@ -20,7 +20,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScriptableSingleton
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Shared/Scripts/Singleton/ScriptableSingleton.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - RocketshiftStudio.Shared
   namespace: RocketshiftStudio.Shared.Singleton
@@ -76,7 +76,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Instance
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Shared/Scripts/Singleton/ScriptableSingleton.cs
-    startLine: 23
+    startLine: 25
   assemblies:
   - RocketshiftStudio.Shared
   namespace: RocketshiftStudio.Shared.Singleton

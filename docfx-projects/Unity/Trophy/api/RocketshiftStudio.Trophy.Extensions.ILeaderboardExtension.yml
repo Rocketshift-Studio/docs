@@ -36,9 +36,9 @@ items:
   langs:
   - csharp
   - vb
-  name: PostAsync(params LeaderboardData[])
-  nameWithType: ILeaderboardExtension.PostAsync(params LeaderboardData[])
-  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(params RocketshiftStudio.Trophy.LeaderboardData[])
+  name: PostAsync(LeaderboardData[])
+  nameWithType: ILeaderboardExtension.PostAsync(LeaderboardData[])
+  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData[])
   type: Method
   source:
     remote:
@@ -54,7 +54,7 @@ items:
   summary: Invoked on leaderboard post request call from <xref href="RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest%5b%5d)" data-throw-if-not-resolved="false"></xref> or <xref href="RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest%5b%5d)" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
-    content: Task PostAsync(params LeaderboardData[] leaderboardData)
+    content: Task PostAsync(LeaderboardData[] leaderboardData)
     parameters:
     - id: leaderboardData
       type: RocketshiftStudio.Trophy.LeaderboardData[]
@@ -62,11 +62,11 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: Asynchronous operation
-    content.vb: Function PostAsync(ParamArray leaderboardData As LeaderboardData()) As Task
+    content.vb: Function PostAsync(leaderboardData As LeaderboardData()) As Task
   overload: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync*
-  nameWithType.vb: ILeaderboardExtension.PostAsync(ParamArray LeaderboardData())
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(ParamArray RocketshiftStudio.Trophy.LeaderboardData())
-  name.vb: PostAsync(ParamArray LeaderboardData())
+  nameWithType.vb: ILeaderboardExtension.PostAsync(LeaderboardData())
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData())
+  name.vb: PostAsync(LeaderboardData())
 references:
 - uid: RocketshiftStudio.Trophy.Extensions
   commentId: N:RocketshiftStudio.Trophy.Extensions
@@ -127,19 +127,17 @@ references:
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
   commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
   href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___
-  name: PostToLeaderboardAsync(params LeaderboardRequest[])
-  nameWithType: Trophy.PostToLeaderboardAsync(params LeaderboardRequest[])
-  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(params RocketshiftStudio.Trophy.LeaderboardRequest[])
-  nameWithType.vb: Trophy.PostToLeaderboardAsync(ParamArray LeaderboardRequest())
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(ParamArray RocketshiftStudio.Trophy.LeaderboardRequest())
-  name.vb: PostToLeaderboardAsync(ParamArray LeaderboardRequest())
+  name: PostToLeaderboardAsync(LeaderboardRequest[])
+  nameWithType: Trophy.PostToLeaderboardAsync(LeaderboardRequest[])
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
+  nameWithType.vb: Trophy.PostToLeaderboardAsync(LeaderboardRequest())
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest())
+  name.vb: PostToLeaderboardAsync(LeaderboardRequest())
   spec.csharp:
   - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
     name: PostToLeaderboardAsync
     href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___
   - name: (
-  - name: params
-  - name: " "
   - uid: RocketshiftStudio.Trophy.LeaderboardRequest
     name: LeaderboardRequest
     href: RocketshiftStudio.Trophy.LeaderboardRequest.html
@@ -151,8 +149,6 @@ references:
     name: PostToLeaderboardAsync
     href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___
   - name: (
-  - name: ParamArray
-  - name: " "
   - uid: RocketshiftStudio.Trophy.LeaderboardRequest
     name: LeaderboardRequest
     href: RocketshiftStudio.Trophy.LeaderboardRequest.html
@@ -162,19 +158,17 @@ references:
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
   commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
   href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___
-  name: PostToLeaderboard(params LeaderboardRequest[])
-  nameWithType: Trophy.PostToLeaderboard(params LeaderboardRequest[])
-  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(params RocketshiftStudio.Trophy.LeaderboardRequest[])
-  nameWithType.vb: Trophy.PostToLeaderboard(ParamArray LeaderboardRequest())
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(ParamArray RocketshiftStudio.Trophy.LeaderboardRequest())
-  name.vb: PostToLeaderboard(ParamArray LeaderboardRequest())
+  name: PostToLeaderboard(LeaderboardRequest[])
+  nameWithType: Trophy.PostToLeaderboard(LeaderboardRequest[])
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
+  nameWithType.vb: Trophy.PostToLeaderboard(LeaderboardRequest())
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest())
+  name.vb: PostToLeaderboard(LeaderboardRequest())
   spec.csharp:
   - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
     name: PostToLeaderboard
     href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___
   - name: (
-  - name: params
-  - name: " "
   - uid: RocketshiftStudio.Trophy.LeaderboardRequest
     name: LeaderboardRequest
     href: RocketshiftStudio.Trophy.LeaderboardRequest.html
@@ -186,8 +180,6 @@ references:
     name: PostToLeaderboard
     href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___
   - name: (
-  - name: ParamArray
-  - name: " "
   - uid: RocketshiftStudio.Trophy.LeaderboardRequest
     name: LeaderboardRequest
     href: RocketshiftStudio.Trophy.LeaderboardRequest.html

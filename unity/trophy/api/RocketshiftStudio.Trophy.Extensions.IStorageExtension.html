@@ -95,14 +95,14 @@
   </div>
   <h3 id="methods">Methods
 </h3>
-  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])">DeleteMultipleAsync(string[])</h4>
+  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})">DeleteAsync(IList&lt;string&gt;)</h4>
   <div class="markdown level1 summary"><p>To delete score values from storage</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task DeleteMultipleAsync(string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">Task DeleteAsync(IList&lt;string&gt; keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -115,7 +115,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">IList</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
@@ -138,14 +138,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])">LoadMultipleAsync(string[])</h4>
+  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})">LoadAsync(IList&lt;string&gt;)</h4>
   <div class="markdown level1 summary"><p>To load and sync score values with saved values</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ScoreData[]&gt; LoadMultipleAsync(string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IList&lt;ScoreData&gt;&gt; LoadAsync(IList&lt;string&gt; keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -158,7 +158,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">IList</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
@@ -175,20 +175,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>[]&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IList</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>&gt;&gt;</td>
         <td><p>Score data collection</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])">SaveMultipleAsync(ScoreData[])</h4>
+  <a id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__" data-uid="RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})">SaveAsync(IList&lt;ScoreData&gt;)</h4>
   <div class="markdown level1 summary"><p>To save score values to storage</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SaveMultipleAsync(ScoreData[] scoreData)</code></pre>
+    <pre><code class="lang-csharp hljs">Task SaveAsync(IList&lt;ScoreData&gt; scoreData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -201,7 +201,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>[]</td>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>&gt;</td>
         <td><span class="parametername">scoreData</span></td>
         <td></td>
       </tr>

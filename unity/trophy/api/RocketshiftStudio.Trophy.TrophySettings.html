@@ -274,7 +274,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
 </h3>
   <a id="RocketshiftStudio_Trophy_TrophySettings_Contains_" data-uid="RocketshiftStudio.Trophy.TrophySettings.Contains*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_Contains_System_String_" data-uid="RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)">Contains(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Check if a score definition exists with its key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -293,7 +294,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
       <tr>
         <td><span class="xref">string</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>Identification key of the score</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -308,13 +310,15 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
     <tbody>
       <tr>
         <td><span class="xref">bool</span></td>
-        <td></td>
+        <td><p>True if exists false otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_GetMetadata_" data-uid="RocketshiftStudio.Trophy.TrophySettings.GetMetadata*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_GetMetadata_System_String_" data-uid="RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)">GetMetadata(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get metadata of a score with its key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -333,7 +337,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
       <tr>
         <td><span class="xref">string</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>Identification key of the score</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -348,13 +353,31 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
     <tbody>
       <tr>
         <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreMetadata.html">ScoreMetadata</a></td>
-        <td></td>
+        <td><p>The metadata of the score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exceptions</span>.<span class="xref">DefinitionNullException</span>&lt;TDefinition&gt;</td>
+        <td><p>When the expected definitions are not in <a class="xref" href="RocketshiftStudio.Trophy.TrophySettings.html">TrophySettings</a> found with given keys</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_TryGetMetadata_" data-uid="RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_TryGetMetadata_System_String_RocketshiftStudio_Trophy_ScoreMetadata__" data-uid="RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata(System.String,RocketshiftStudio.Trophy.ScoreMetadata@)">TryGetMetadata(string, out ScoreMetadata)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get metadata of a score with its key without getting exceptions</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -373,12 +396,14 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
       <tr>
         <td><span class="xref">string</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>Identification key of the score</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreMetadata.html">ScoreMetadata</a></td>
         <td><span class="parametername">metadata</span></td>
-        <td></td>
+        <td><p>The metadata of the score</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -393,7 +418,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
     <tbody>
       <tr>
         <td><span class="xref">bool</span></td>
-        <td></td>
+        <td><p>True if metadata found false otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>

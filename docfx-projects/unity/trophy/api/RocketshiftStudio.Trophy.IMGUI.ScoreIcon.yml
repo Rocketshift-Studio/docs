@@ -22,7 +22,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreIcon
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
-    startLine: 30
+    startLine: 32
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -74,11 +74,11 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
-    startLine: 35
+    startLine: 37
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
-  summary: Identification key of the definition
+  summary: Identification key of the score
   example: []
   syntax:
     content: public readonly string key
@@ -103,7 +103,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Texture
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
-    startLine: 40
+    startLine: 42
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -134,7 +134,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: .ctor
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/IMGUI/ScoreIcon.cs
-    startLine: 43
+    startLine: 45
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.IMGUI
@@ -144,7 +144,7 @@ items:
     parameters:
     - id: key
       type: System.String
-      description: Identification key of the definition
+      description: Identification key of the score
     content.vb: Public Sub New(key As String)
   overload: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.#ctor*
   nameWithType.vb: ScoreIcon.New(String)

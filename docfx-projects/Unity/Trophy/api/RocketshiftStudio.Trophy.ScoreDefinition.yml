@@ -90,7 +90,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Identification key of the definition
+  summary: Identification key of the score
   example: []
   syntax:
     content: public string Key { get; }

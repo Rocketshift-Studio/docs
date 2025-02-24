@@ -104,6 +104,34 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class ScoreText : Label</code></pre>
   </div>
+  <h5 id="RocketshiftStudio_Trophy_UIElements_ScoreText_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-csharp">using UnityEngine;
+using RocketshiftStudio.Trophy.UIElements;
+
+public class ScoreTextUIElementsExample : MonoBehaviour
+{
+    private UIDocument doc;
+    private const string KEY = "KEY_HERE";
+    private ScoreText scoreText;
+
+    private void Start()
+    {
+        doc = GetComponent&lt;UIDocument&gt;();
+
+        scoreText = new ScoreText(KEY);
+
+        //or 
+
+        scoreText = new ScoreText(KEY, ScoreType.Current);
+
+        //or 
+
+        scoreText = new ScoreText(KEY, ScoreType.Best, "{0} {2}:{1:000}");
+
+        doc.rootVisualElement.Add(scoreText);
+    }
+}</code></pre>
+
   <h3 id="constructors">Constructors
 </h3>
   <a id="RocketshiftStudio_Trophy_UIElements_ScoreText__ctor_" data-uid="RocketshiftStudio.Trophy.UIElements.ScoreText.#ctor*"></a>
@@ -120,7 +148,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScoreText(string key, ScoreType type, string format = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScoreText(string key, ScoreType type = ScoreType.Current, string format = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

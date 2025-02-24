@@ -1,12 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: RocketshiftStudio.Shared
-  name: RocketshiftStudio.Shared
-  href: api/RocketshiftStudio.Shared.html
-  commentId: N:RocketshiftStudio.Shared
-  fullName: RocketshiftStudio.Shared
-  nameWithType: RocketshiftStudio.Shared
 - uid: RocketshiftStudio.Shared.Singleton
   name: RocketshiftStudio.Shared.Singleton
   href: api/RocketshiftStudio.Shared.Singleton.html
@@ -125,49 +119,6 @@ references:
   fullName.vb: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour(Of TMonoBehaviour).Instance
   nameWithType: SingletonMonoBehaviour<TMonoBehaviour>.Instance
   nameWithType.vb: SingletonMonoBehaviour(Of TMonoBehaviour).Instance
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-  name: SingletonMonoBehaviour<T>
-  href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html
-  commentId: T:RocketshiftStudio.Shared.SingletonMonoBehaviour`1
-  name.vb: SingletonMonoBehaviour(Of T)
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T)
-  nameWithType: SingletonMonoBehaviour<T>
-  nameWithType.vb: SingletonMonoBehaviour(Of T)
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Awake
-  name: Awake()
-  href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Awake
-  commentId: M:RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Awake
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>.Awake()
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T).Awake()
-  nameWithType: SingletonMonoBehaviour<T>.Awake()
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Awake()
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Awake*
-  name: Awake
-  href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Awake_
-  commentId: Overload:RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Awake
-  isSpec: "True"
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>.Awake
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T).Awake
-  nameWithType: SingletonMonoBehaviour<T>.Awake
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Awake
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  name: Instance
-  href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Instance
-  commentId: P:RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>.Instance
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T).Instance
-  nameWithType: SingletonMonoBehaviour<T>.Instance
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
-- uid: RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance*
-  name: Instance
-  href: api/RocketshiftStudio.Shared.SingletonMonoBehaviour-1.html#RocketshiftStudio_Shared_SingletonMonoBehaviour_1_Instance_
-  commentId: Overload:RocketshiftStudio.Shared.SingletonMonoBehaviour`1.Instance
-  isSpec: "True"
-  fullName: RocketshiftStudio.Shared.SingletonMonoBehaviour<T>.Instance
-  fullName.vb: RocketshiftStudio.Shared.SingletonMonoBehaviour(Of T).Instance
-  nameWithType: SingletonMonoBehaviour<T>.Instance
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
 - uid: RocketshiftStudio.Trophy
   name: RocketshiftStudio.Trophy
   href: api/RocketshiftStudio.Trophy.html
@@ -248,22 +199,22 @@ references:
   commentId: T:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
   nameWithType: BaseCloudStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(System.String[])
-  name: DeleteMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_DeleteMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(System.String[])
-  name.vb: DeleteMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync(String())
-  nameWithType: BaseCloudStorageExtension.DeleteMultipleAsync(string[])
-  nameWithType.vb: BaseCloudStorageExtension.DeleteMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync*
-  name: DeleteMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_DeleteMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name: DeleteAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name.vb: DeleteAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: BaseCloudStorageExtension.DeleteAsync(IList<string>)
+  nameWithType.vb: BaseCloudStorageExtension.DeleteAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync*
+  name: DeleteAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_DeleteAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteMultipleAsync
-  nameWithType: BaseCloudStorageExtension.DeleteMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.DeleteAsync
+  nameWithType: BaseCloudStorageExtension.DeleteAsync
 - uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
   name: IsAuthorized()
   href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_IsAuthorized
@@ -277,69 +228,69 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.IsAuthorized
   nameWithType: BaseCloudStorageExtension.IsAuthorized
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[])
-  name: LoadMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[])
-  name.vb: LoadMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(String())
-  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync(string[])
-  nameWithType.vb: BaseCloudStorageExtension.LoadMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
-  name: LoadMultipleAsync(string[], string)
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadMultipleAsync_System_String___System_String_
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
-  name.vb: LoadMultipleAsync(String(), String)
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(string[], string)
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync(String(), String)
-  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync(string[], string)
-  nameWithType.vb: BaseCloudStorageExtension.LoadMultipleAsync(String(), String)
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync*
-  name: LoadMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name: LoadAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name.vb: LoadAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: BaseCloudStorageExtension.LoadAsync(IList<string>)
+  nameWithType.vb: BaseCloudStorageExtension.LoadAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String},System.String)
+  name: LoadAsync(IList<string>, string)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__System_String_
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String},System.String)
+  name.vb: LoadAsync(IList(Of String), String)
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList<string>, string)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String), String)
+  nameWithType: BaseCloudStorageExtension.LoadAsync(IList<string>, string)
+  nameWithType.vb: BaseCloudStorageExtension.LoadAsync(IList(Of String), String)
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync*
+  name: LoadAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_LoadAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadMultipleAsync
-  nameWithType: BaseCloudStorageExtension.LoadMultipleAsync
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name: SaveMultipleAsync(ScoreData[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name.vb: SaveMultipleAsync(ScoreData())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
-  nameWithType: BaseCloudStorageExtension.SaveMultipleAsync(ScoreData[])
-  nameWithType.vb: BaseCloudStorageExtension.SaveMultipleAsync(ScoreData())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync*
-  name: SaveMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_SaveMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.LoadAsync
+  nameWithType: BaseCloudStorageExtension.LoadAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name: SaveAsync(IList<ScoreData>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name.vb: SaveAsync(IList(Of ScoreData))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync(System.Collections.Generic.IList<RocketshiftStudio.Trophy.ScoreData>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync(System.Collections.Generic.IList(Of RocketshiftStudio.Trophy.ScoreData))
+  nameWithType: BaseCloudStorageExtension.SaveAsync(IList<ScoreData>)
+  nameWithType.vb: BaseCloudStorageExtension.SaveAsync(IList(Of ScoreData))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync*
+  name: SaveAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseCloudStorageExtension_SaveAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveMultipleAsync
-  nameWithType: BaseCloudStorageExtension.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.SaveAsync
+  nameWithType: BaseCloudStorageExtension.SaveAsync
 - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
   name: BaseLocalStorageExtension
   href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html
   commentId: T:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
   nameWithType: BaseLocalStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
-  name: DeleteMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_DeleteMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(System.String[])
-  name.vb: DeleteMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync(String())
-  nameWithType: BaseLocalStorageExtension.DeleteMultipleAsync(string[])
-  nameWithType.vb: BaseLocalStorageExtension.DeleteMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync*
-  name: DeleteMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_DeleteMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name: DeleteAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name.vb: DeleteAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: BaseLocalStorageExtension.DeleteAsync(IList<string>)
+  nameWithType.vb: BaseLocalStorageExtension.DeleteAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync*
+  name: DeleteAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_DeleteAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteMultipleAsync
-  nameWithType: BaseLocalStorageExtension.DeleteMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.DeleteAsync
+  nameWithType: BaseLocalStorageExtension.DeleteAsync
 - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
   name: FileExtension
   href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_FileExtension
@@ -353,22 +304,38 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.FileExtension
   nameWithType: BaseLocalStorageExtension.FileExtension
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
-  name: LoadMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_LoadMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(System.String[])
-  name.vb: LoadMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync(String())
-  nameWithType: BaseLocalStorageExtension.LoadMultipleAsync(string[])
-  nameWithType.vb: BaseLocalStorageExtension.LoadMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync*
-  name: LoadMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_LoadMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name: LoadAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name.vb: LoadAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: BaseLocalStorageExtension.LoadAsync(IList<string>)
+  nameWithType.vb: BaseLocalStorageExtension.LoadAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync*
+  name: LoadAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_LoadAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadMultipleAsync
-  nameWithType: BaseLocalStorageExtension.LoadMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.LoadAsync
+  nameWithType: BaseLocalStorageExtension.LoadAsync
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name: SaveAsync(IList<ScoreData>)
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name.vb: SaveAsync(IList(Of ScoreData))
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync(System.Collections.Generic.IList<RocketshiftStudio.Trophy.ScoreData>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync(System.Collections.Generic.IList(Of RocketshiftStudio.Trophy.ScoreData))
+  nameWithType: BaseLocalStorageExtension.SaveAsync(IList<ScoreData>)
+  nameWithType.vb: BaseLocalStorageExtension.SaveAsync(IList(Of ScoreData))
+- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync*
+  name: SaveAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_SaveAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveAsync
+  nameWithType: BaseLocalStorageExtension.SaveAsync
 - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
   name: SaveDirectory
   href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_SaveDirectory
@@ -382,22 +349,6 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveDirectory
   nameWithType: BaseLocalStorageExtension.SaveDirectory
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name: SaveMultipleAsync(ScoreData[])
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name.vb: SaveMultipleAsync(ScoreData())
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
-  nameWithType: BaseLocalStorageExtension.SaveMultipleAsync(ScoreData[])
-  nameWithType.vb: BaseLocalStorageExtension.SaveMultipleAsync(ScoreData())
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync*
-  name: SaveMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_BaseLocalStorageExtension_SaveMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync
-  isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.SaveMultipleAsync
-  nameWithType: BaseLocalStorageExtension.SaveMultipleAsync
 - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
   name: ComponentScoreIconExtension<TComponent>
   href: api/RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension-1.html
@@ -594,22 +545,22 @@ references:
   commentId: T:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
   nameWithType: ICloudStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
-  name: LoadMultipleAsync(string[], string)
-  href: api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadMultipleAsync_System_String___System_String_
-  commentId: M:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(System.String[],System.String)
-  name.vb: LoadMultipleAsync(String(), String)
-  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(string[], string)
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync(String(), String)
-  nameWithType: ICloudStorageExtension.LoadMultipleAsync(string[], string)
-  nameWithType.vb: ICloudStorageExtension.LoadMultipleAsync(String(), String)
-- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync*
-  name: LoadMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String},System.String)
+  name: LoadAsync(IList<string>, string)
+  href: api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__System_String_
+  commentId: M:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String},System.String)
+  name.vb: LoadAsync(IList(Of String), String)
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync(System.Collections.Generic.IList<string>, string)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String), String)
+  nameWithType: ICloudStorageExtension.LoadAsync(IList<string>, string)
+  nameWithType.vb: ICloudStorageExtension.LoadAsync(IList(Of String), String)
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync*
+  name: LoadAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ICloudStorageExtension_LoadAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadMultipleAsync
-  nameWithType: ICloudStorageExtension.LoadMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.LoadAsync
+  nameWithType: ICloudStorageExtension.LoadAsync
 - uid: RocketshiftStudio.Trophy.Extensions.IExtension
   name: IExtension
   href: api/RocketshiftStudio.Trophy.Extensions.IExtension.html
@@ -623,14 +574,14 @@ references:
   fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
   nameWithType: ILeaderboardExtension
 - uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData[])
-  name: PostAsync(params LeaderboardData[])
+  name: PostAsync(LeaderboardData[])
   href: api/RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.html#RocketshiftStudio_Trophy_Extensions_ILeaderboardExtension_PostAsync_RocketshiftStudio_Trophy_LeaderboardData___
   commentId: M:RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData[])
-  name.vb: PostAsync(ParamArray LeaderboardData())
-  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(params RocketshiftStudio.Trophy.LeaderboardData[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(ParamArray RocketshiftStudio.Trophy.LeaderboardData())
-  nameWithType: ILeaderboardExtension.PostAsync(params LeaderboardData[])
-  nameWithType.vb: ILeaderboardExtension.PostAsync(ParamArray LeaderboardData())
+  name.vb: PostAsync(LeaderboardData())
+  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData[])
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync(RocketshiftStudio.Trophy.LeaderboardData())
+  nameWithType: ILeaderboardExtension.PostAsync(LeaderboardData[])
+  nameWithType.vb: ILeaderboardExtension.PostAsync(LeaderboardData())
 - uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync*
   name: PostAsync
   href: api/RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.html#RocketshiftStudio_Trophy_Extensions_ILeaderboardExtension_PostAsync_
@@ -776,54 +727,54 @@ references:
   commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension
   nameWithType: IStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
-  name: DeleteMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(System.String[])
-  name.vb: DeleteMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync(String())
-  nameWithType: IStorageExtension.DeleteMultipleAsync(string[])
-  nameWithType.vb: IStorageExtension.DeleteMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync*
-  name: DeleteMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name: DeleteAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  name.vb: DeleteAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: IStorageExtension.DeleteAsync(IList<string>)
+  nameWithType.vb: IStorageExtension.DeleteAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync*
+  name: DeleteAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteMultipleAsync
-  nameWithType: IStorageExtension.DeleteMultipleAsync
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
-  name: LoadMultipleAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(System.String[])
-  name.vb: LoadMultipleAsync(String())
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync(String())
-  nameWithType: IStorageExtension.LoadMultipleAsync(string[])
-  nameWithType.vb: IStorageExtension.LoadMultipleAsync(String())
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync*
-  name: LoadMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync
+  nameWithType: IStorageExtension.DeleteAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name: LoadAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  name.vb: LoadAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: IStorageExtension.LoadAsync(IList<string>)
+  nameWithType.vb: IStorageExtension.LoadAsync(IList(Of String))
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync*
+  name: LoadAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadMultipleAsync
-  nameWithType: IStorageExtension.LoadMultipleAsync
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name: SaveMultipleAsync(ScoreData[])
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_RocketshiftStudio_Trophy_ScoreData___
-  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  name.vb: SaveMultipleAsync(ScoreData())
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData[])
-  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync(RocketshiftStudio.Trophy.ScoreData())
-  nameWithType: IStorageExtension.SaveMultipleAsync(ScoreData[])
-  nameWithType.vb: IStorageExtension.SaveMultipleAsync(ScoreData())
-- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync*
-  name: SaveMultipleAsync
-  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveMultipleAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync
+  nameWithType: IStorageExtension.LoadAsync
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name: SaveAsync(IList<ScoreData>)
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  name.vb: SaveAsync(IList(Of ScoreData))
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList<RocketshiftStudio.Trophy.ScoreData>)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList(Of RocketshiftStudio.Trophy.ScoreData))
+  nameWithType: IStorageExtension.SaveAsync(IList<ScoreData>)
+  nameWithType.vb: IStorageExtension.SaveAsync(IList(Of ScoreData))
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync*
+  name: SaveAsync
+  href: api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveMultipleAsync
-  nameWithType: IStorageExtension.SaveMultipleAsync
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync
+  nameWithType: IStorageExtension.SaveAsync
 - uid: RocketshiftStudio.Trophy.FlowRestriction
   name: FlowRestriction
   href: api/RocketshiftStudio.Trophy.FlowRestriction.html
@@ -1079,19 +1030,19 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.Key
   nameWithType: LeaderboardDefinition.Key
-- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  name: ScoreDefinition
-  href: api/RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreDefinition
-  commentId: P:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  nameWithType: LeaderboardDefinition.ScoreDefinition
-- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition*
-  name: ScoreDefinition
-  href: api/RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreDefinition_
-  commentId: Overload:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  name: ScoreKey
+  href: api/RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreKey
+  commentId: P:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  nameWithType: LeaderboardDefinition.ScoreKey
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey*
+  name: ScoreKey
+  href: api/RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ScoreKey_
+  commentId: Overload:RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreDefinition
-  nameWithType: LeaderboardDefinition.ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition.ScoreKey
+  nameWithType: LeaderboardDefinition.ScoreKey
 - uid: RocketshiftStudio.Trophy.LeaderboardDefinition.ValueSource
   name: ValueSource
   href: api/RocketshiftStudio.Trophy.LeaderboardDefinition.html#RocketshiftStudio_Trophy_LeaderboardDefinition_ValueSource
@@ -1607,15 +1558,24 @@ references:
   commentId: T:RocketshiftStudio.Trophy.Trophy
   fullName: RocketshiftStudio.Trophy.Trophy
   nameWithType: Trophy
+- uid: RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String)
+  name: BeginCounting(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_BeginCounting_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String)
+  name.vb: BeginCounting(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.BeginCounting(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.BeginCounting(String)
+  nameWithType: Trophy.BeginCounting(string)
+  nameWithType.vb: Trophy.BeginCounting(String)
 - uid: RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String[])
-  name: BeginCounting(params string[])
+  name: BeginCounting(string[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_BeginCounting_System_String___
   commentId: M:RocketshiftStudio.Trophy.Trophy.BeginCounting(System.String[])
-  name.vb: BeginCounting(ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.BeginCounting(params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.BeginCounting(ParamArray String())
-  nameWithType: Trophy.BeginCounting(params string[])
-  nameWithType.vb: Trophy.BeginCounting(ParamArray String())
+  name.vb: BeginCounting(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.BeginCounting(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.BeginCounting(String())
+  nameWithType: Trophy.BeginCounting(string[])
+  nameWithType.vb: Trophy.BeginCounting(String())
 - uid: RocketshiftStudio.Trophy.Trophy.BeginCounting*
   name: BeginCounting
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_BeginCounting_
@@ -1623,22 +1583,6 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.BeginCounting
   nameWithType: Trophy.BeginCounting
-- uid: RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync(System.String[])
-  name: ClearSavedScoreAsync(params string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_ClearSavedScoreAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync(System.String[])
-  name.vb: ClearSavedScoreAsync(ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync(params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync(ParamArray String())
-  nameWithType: Trophy.ClearSavedScoreAsync(params string[])
-  nameWithType.vb: Trophy.ClearSavedScoreAsync(ParamArray String())
-- uid: RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync*
-  name: ClearSavedScoreAsync
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_ClearSavedScoreAsync_
-  commentId: Overload:RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync
-  isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Trophy.ClearSavedScoreAsync
-  nameWithType: Trophy.ClearSavedScoreAsync
 - uid: RocketshiftStudio.Trophy.Trophy.CountingChanged
   name: CountingChanged
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_CountingChanged
@@ -1667,15 +1611,74 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.DecreaseValue
   nameWithType: Trophy.DecreaseValue
+- uid: RocketshiftStudio.Trophy.Trophy.Delete(System.String)
+  name: Delete(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Delete_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Delete(System.String)
+  name.vb: Delete(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.Delete(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Delete(String)
+  nameWithType: Trophy.Delete(string)
+  nameWithType.vb: Trophy.Delete(String)
+- uid: RocketshiftStudio.Trophy.Trophy.Delete(System.String[])
+  name: Delete(string[])
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Delete_System_String___
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Delete(System.String[])
+  name.vb: Delete(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.Delete(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Delete(String())
+  nameWithType: Trophy.Delete(string[])
+  nameWithType.vb: Trophy.Delete(String())
+- uid: RocketshiftStudio.Trophy.Trophy.Delete*
+  name: Delete
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Delete_
+  commentId: Overload:RocketshiftStudio.Trophy.Trophy.Delete
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Trophy.Delete
+  nameWithType: Trophy.Delete
+- uid: RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String)
+  name: DeleteAsync(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_DeleteAsync_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String)
+  name.vb: DeleteAsync(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.DeleteAsync(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.DeleteAsync(String)
+  nameWithType: Trophy.DeleteAsync(string)
+  nameWithType.vb: Trophy.DeleteAsync(String)
+- uid: RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String[])
+  name: DeleteAsync(string[])
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_DeleteAsync_System_String___
+  commentId: M:RocketshiftStudio.Trophy.Trophy.DeleteAsync(System.String[])
+  name.vb: DeleteAsync(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.DeleteAsync(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.DeleteAsync(String())
+  nameWithType: Trophy.DeleteAsync(string[])
+  nameWithType.vb: Trophy.DeleteAsync(String())
+- uid: RocketshiftStudio.Trophy.Trophy.DeleteAsync*
+  name: DeleteAsync
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_DeleteAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Trophy.DeleteAsync
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Trophy.DeleteAsync
+  nameWithType: Trophy.DeleteAsync
+- uid: RocketshiftStudio.Trophy.Trophy.EndCounting(System.String)
+  name: EndCounting(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_EndCounting_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.EndCounting(System.String)
+  name.vb: EndCounting(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.EndCounting(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.EndCounting(String)
+  nameWithType: Trophy.EndCounting(string)
+  nameWithType.vb: Trophy.EndCounting(String)
 - uid: RocketshiftStudio.Trophy.Trophy.EndCounting(System.String[])
-  name: EndCounting(params string[])
+  name: EndCounting(string[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_EndCounting_System_String___
   commentId: M:RocketshiftStudio.Trophy.Trophy.EndCounting(System.String[])
-  name.vb: EndCounting(ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.EndCounting(params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.EndCounting(ParamArray String())
-  nameWithType: Trophy.EndCounting(params string[])
-  nameWithType.vb: Trophy.EndCounting(ParamArray String())
+  name.vb: EndCounting(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.EndCounting(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.EndCounting(String())
+  nameWithType: Trophy.EndCounting(string[])
+  nameWithType.vb: Trophy.EndCounting(String())
 - uid: RocketshiftStudio.Trophy.Trophy.EndCounting*
   name: EndCounting
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_EndCounting_
@@ -1715,15 +1718,15 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.GetStatus
   nameWithType: Trophy.GetStatus
-- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String[])
-  name: GetUserScoreAsync(string, params string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_System_String_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String[])
-  name.vb: GetUserScoreAsync(String, ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(string, params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(String, ParamArray String())
-  nameWithType: Trophy.GetUserScoreAsync(string, params string[])
-  nameWithType.vb: Trophy.GetUserScoreAsync(String, ParamArray String())
+- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String)
+  name: GetUserScoreAsync(string, string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_System_String_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(System.String,System.String)
+  name.vb: GetUserScoreAsync(String, String)
+  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(string, string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync(String, String)
+  nameWithType: Trophy.GetUserScoreAsync(string, string)
+  nameWithType.vb: Trophy.GetUserScoreAsync(String, String)
 - uid: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync*
   name: GetUserScoreAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoreAsync_
@@ -1731,6 +1734,22 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync
   nameWithType: Trophy.GetUserScoreAsync
+- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])
+  name: GetUserScoresAsync(string, string[])
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_String___
+  commentId: M:RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])
+  name.vb: GetUserScoresAsync(String, String())
+  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(string, string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(String, String())
+  nameWithType: Trophy.GetUserScoresAsync(string, string[])
+  nameWithType.vb: Trophy.GetUserScoresAsync(String, String())
+- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync*
+  name: GetUserScoresAsync
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_
+  commentId: Overload:RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync
+  nameWithType: Trophy.GetUserScoresAsync
 - uid: RocketshiftStudio.Trophy.Trophy.GetValue(System.String,RocketshiftStudio.Trophy.ScoreType)
   name: GetValue(string, ScoreType)
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetValue_System_String_RocketshiftStudio_Trophy_ScoreType_
@@ -1811,15 +1830,24 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.IsInitialized
   nameWithType: Trophy.IsInitialized
-- uid: RocketshiftStudio.Trophy.Trophy.Load(System.String[])
-  name: Load(string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Load_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.Load(System.String[])
-  name.vb: Load(String())
-  fullName: RocketshiftStudio.Trophy.Trophy.Load(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.Load(String())
-  nameWithType: Trophy.Load(string[])
-  nameWithType.vb: Trophy.Load(String())
+- uid: RocketshiftStudio.Trophy.Trophy.Load(System.Collections.Generic.ICollection{System.String})
+  name: Load(ICollection<string>)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Load_System_Collections_Generic_ICollection_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Load(System.Collections.Generic.ICollection{System.String})
+  name.vb: Load(ICollection(Of String))
+  fullName: RocketshiftStudio.Trophy.Trophy.Load(System.Collections.Generic.ICollection<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Load(System.Collections.Generic.ICollection(Of String))
+  nameWithType: Trophy.Load(ICollection<string>)
+  nameWithType.vb: Trophy.Load(ICollection(Of String))
+- uid: RocketshiftStudio.Trophy.Trophy.Load(System.String)
+  name: Load(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Load_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Load(System.String)
+  name.vb: Load(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.Load(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Load(String)
+  nameWithType: Trophy.Load(string)
+  nameWithType.vb: Trophy.Load(String)
 - uid: RocketshiftStudio.Trophy.Trophy.Load*
   name: Load
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Load_
@@ -1827,15 +1855,24 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.Load
   nameWithType: Trophy.Load
-- uid: RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String[])
-  name: LoadAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_LoadAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String[])
-  name.vb: LoadAsync(String())
-  fullName: RocketshiftStudio.Trophy.Trophy.LoadAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.LoadAsync(String())
-  nameWithType: Trophy.LoadAsync(string[])
-  nameWithType.vb: Trophy.LoadAsync(String())
+- uid: RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection{System.String})
+  name: LoadAsync(ICollection<string>)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_LoadAsync_System_Collections_Generic_ICollection_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection{System.String})
+  name.vb: LoadAsync(ICollection(Of String))
+  fullName: RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection(Of String))
+  nameWithType: Trophy.LoadAsync(ICollection<string>)
+  nameWithType.vb: Trophy.LoadAsync(ICollection(Of String))
+- uid: RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String)
+  name: LoadAsync(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_LoadAsync_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String)
+  name.vb: LoadAsync(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.LoadAsync(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.LoadAsync(String)
+  nameWithType: Trophy.LoadAsync(string)
+  nameWithType.vb: Trophy.LoadAsync(String)
 - uid: RocketshiftStudio.Trophy.Trophy.LoadAsync*
   name: LoadAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_LoadAsync_
@@ -1859,15 +1896,21 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.MultiplyValue
   nameWithType: Trophy.MultiplyValue
+- uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest)
+  name: PostToLeaderboard(LeaderboardRequest)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest)
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest)
+  nameWithType: Trophy.PostToLeaderboard(LeaderboardRequest)
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
-  name: PostToLeaderboard(params LeaderboardRequest[])
+  name: PostToLeaderboard(LeaderboardRequest[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_RocketshiftStudio_Trophy_LeaderboardRequest___
   commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
-  name.vb: PostToLeaderboard(ParamArray LeaderboardRequest())
-  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(params RocketshiftStudio.Trophy.LeaderboardRequest[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(ParamArray RocketshiftStudio.Trophy.LeaderboardRequest())
-  nameWithType: Trophy.PostToLeaderboard(params LeaderboardRequest[])
-  nameWithType.vb: Trophy.PostToLeaderboard(ParamArray LeaderboardRequest())
+  name.vb: PostToLeaderboard(LeaderboardRequest())
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest())
+  nameWithType: Trophy.PostToLeaderboard(LeaderboardRequest[])
+  nameWithType.vb: Trophy.PostToLeaderboard(LeaderboardRequest())
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard*
   name: PostToLeaderboard
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboard_
@@ -1875,15 +1918,21 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboard
   nameWithType: Trophy.PostToLeaderboard
+- uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest)
+  name: PostToLeaderboardAsync(LeaderboardRequest)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest)
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest)
+  nameWithType: Trophy.PostToLeaderboardAsync(LeaderboardRequest)
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
-  name: PostToLeaderboardAsync(params LeaderboardRequest[])
+  name: PostToLeaderboardAsync(LeaderboardRequest[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_RocketshiftStudio_Trophy_LeaderboardRequest___
   commentId: M:RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
-  name.vb: PostToLeaderboardAsync(ParamArray LeaderboardRequest())
-  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(params RocketshiftStudio.Trophy.LeaderboardRequest[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(ParamArray RocketshiftStudio.Trophy.LeaderboardRequest())
-  nameWithType: Trophy.PostToLeaderboardAsync(params LeaderboardRequest[])
-  nameWithType.vb: Trophy.PostToLeaderboardAsync(ParamArray LeaderboardRequest())
+  name.vb: PostToLeaderboardAsync(LeaderboardRequest())
+  fullName: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync(RocketshiftStudio.Trophy.LeaderboardRequest())
+  nameWithType: Trophy.PostToLeaderboardAsync(LeaderboardRequest[])
+  nameWithType.vb: Trophy.PostToLeaderboardAsync(LeaderboardRequest())
 - uid: RocketshiftStudio.Trophy.Trophy.PostToLeaderboardAsync*
   name: PostToLeaderboardAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_PostToLeaderboardAsync_
@@ -1907,15 +1956,24 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.ResetValue
   nameWithType: Trophy.ResetValue
+- uid: RocketshiftStudio.Trophy.Trophy.Save(System.String)
+  name: Save(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Save(System.String)
+  name.vb: Save(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.Save(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(String)
+  nameWithType: Trophy.Save(string)
+  nameWithType.vb: Trophy.Save(String)
 - uid: RocketshiftStudio.Trophy.Trophy.Save(System.String[])
-  name: Save(params string[])
+  name: Save(string[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_System_String___
   commentId: M:RocketshiftStudio.Trophy.Trophy.Save(System.String[])
-  name.vb: Save(ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.Save(params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(ParamArray String())
-  nameWithType: Trophy.Save(params string[])
-  nameWithType.vb: Trophy.Save(ParamArray String())
+  name.vb: Save(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.Save(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(String())
+  nameWithType: Trophy.Save(string[])
+  nameWithType.vb: Trophy.Save(String())
 - uid: RocketshiftStudio.Trophy.Trophy.Save*
   name: Save
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_
@@ -1923,15 +1981,24 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.Save
   nameWithType: Trophy.Save
+- uid: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String)
+  name: SaveAsync(string)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String_
+  commentId: M:RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String)
+  name.vb: SaveAsync(String)
+  fullName: RocketshiftStudio.Trophy.Trophy.SaveAsync(string)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(String)
+  nameWithType: Trophy.SaveAsync(string)
+  nameWithType.vb: Trophy.SaveAsync(String)
 - uid: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])
-  name: SaveAsync(params string[])
+  name: SaveAsync(string[])
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String___
   commentId: M:RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])
-  name.vb: SaveAsync(ParamArray String())
-  fullName: RocketshiftStudio.Trophy.Trophy.SaveAsync(params string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(ParamArray String())
-  nameWithType: Trophy.SaveAsync(params string[])
-  nameWithType.vb: Trophy.SaveAsync(ParamArray String())
+  name.vb: SaveAsync(String())
+  fullName: RocketshiftStudio.Trophy.Trophy.SaveAsync(string[])
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(String())
+  nameWithType: Trophy.SaveAsync(string[])
+  nameWithType.vb: Trophy.SaveAsync(String())
 - uid: RocketshiftStudio.Trophy.Trophy.SaveAsync*
   name: SaveAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_
@@ -2209,19 +2276,19 @@ references:
   fullName.vb: RocketshiftStudio.Trophy.UIElements.ScoreIcon.New
   nameWithType: ScoreIcon.ScoreIcon
   nameWithType.vb: ScoreIcon.New
-- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.key
-  name: key
-  href: api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon_key
-  commentId: P:RocketshiftStudio.Trophy.UIElements.ScoreIcon.key
-  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.key
-  nameWithType: ScoreIcon.key
-- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.key*
-  name: key
-  href: api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon_key_
-  commentId: Overload:RocketshiftStudio.Trophy.UIElements.ScoreIcon.key
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  name: Key
+  href: api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon_Key
+  commentId: P:RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  nameWithType: ScoreIcon.Key
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key*
+  name: Key
+  href: api/RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon_Key_
+  commentId: Overload:RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
   isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.key
-  nameWithType: ScoreIcon.key
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  nameWithType: ScoreIcon.Key
 - uid: RocketshiftStudio.Trophy.UIElements.ScoreText
   name: ScoreText
   href: api/RocketshiftStudio.Trophy.UIElements.ScoreText.html

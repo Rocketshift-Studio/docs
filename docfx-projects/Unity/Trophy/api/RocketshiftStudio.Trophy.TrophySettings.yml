@@ -279,17 +279,21 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Contains
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 41
+    startLine: 45
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Check if a score definition exists with its key
+  example: []
   syntax:
     content: public bool Contains(string key)
     parameters:
     - id: key
       type: System.String
+      description: Identification key of the score
     return:
       type: System.Boolean
+      description: True if exists false otherwise
     content.vb: Public Function Contains(key As String) As Boolean
   overload: RocketshiftStudio.Trophy.TrophySettings.Contains*
   nameWithType.vb: TrophySettings.Contains(String)
@@ -313,19 +317,27 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 51
+    startLine: 64
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Get metadata of a score with its key
+  example: []
   syntax:
     content: public ScoreMetadata GetMetadata(string key)
     parameters:
     - id: key
       type: System.String
+      description: Identification key of the score
     return:
       type: RocketshiftStudio.Trophy.ScoreMetadata
+      description: The metadata of the score
     content.vb: Public Function GetMetadata(key As String) As ScoreMetadata
   overload: RocketshiftStudio.Trophy.TrophySettings.GetMetadata*
+  exceptions:
+  - type: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+    commentId: T:RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+    description: When the expected definitions are not in <xref href="RocketshiftStudio.Trophy.TrophySettings" data-throw-if-not-resolved="false"></xref> found with given keys
   nameWithType.vb: TrophySettings.GetMetadata(String)
   fullName.vb: RocketshiftStudio.Trophy.TrophySettings.GetMetadata(String)
   name.vb: GetMetadata(String)
@@ -347,19 +359,24 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TryGetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 62
+    startLine: 81
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Get metadata of a score with its key without getting exceptions
+  example: []
   syntax:
     content: public bool TryGetMetadata(string key, out ScoreMetadata metadata)
     parameters:
     - id: key
       type: System.String
+      description: Identification key of the score
     - id: metadata
       type: RocketshiftStudio.Trophy.ScoreMetadata
+      description: The metadata of the score
     return:
       type: System.Boolean
+      description: True if metadata found false otherwise
     content.vb: Public Function TryGetMetadata(key As String, metadata As ScoreMetadata) As Boolean
   overload: RocketshiftStudio.Trophy.TrophySettings.TryGetMetadata*
   nameWithType.vb: TrophySettings.TryGetMetadata(String, ScoreMetadata)
@@ -689,6 +706,40 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: RocketshiftStudio.Trophy.TrophySettings
+  commentId: T:RocketshiftStudio.Trophy.TrophySettings
+  href: RocketshiftStudio.Trophy.TrophySettings.html
+  name: TrophySettings
+  nameWithType: TrophySettings
+  fullName: RocketshiftStudio.Trophy.TrophySettings
+- uid: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+  commentId: T:RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+  name: Exceptions.DefinitionNullException<TDefinition>
+  nameWithType: Exceptions.DefinitionNullException<TDefinition>
+  fullName: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException<TDefinition>
+  nameWithType.vb: Exceptions.DefinitionNullException(Of TDefinition)
+  fullName.vb: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException(Of TDefinition)
+  name.vb: Exceptions.DefinitionNullException(Of TDefinition)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Exceptions
+    name: Exceptions
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+    name: DefinitionNullException
+  - name: <
+  - name: TDefinition
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Exceptions
+    name: Exceptions
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Exceptions.DefinitionNullException`1
+    name: DefinitionNullException
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDefinition
+  - name: )
 - uid: RocketshiftStudio.Trophy.TrophySettings.GetMetadata*
   commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.GetMetadata
   href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_GetMetadata_System_String_
