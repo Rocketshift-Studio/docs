@@ -16,15 +16,15 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
 references:
-- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText
-  commentId: T:RocketshiftStudio.Trophy.IMGUI.ScoreText
-  href: RocketshiftStudio.Trophy.IMGUI.ScoreText.html
-  name: ScoreText
-  nameWithType: ScoreText
-  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText
 - uid: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
   commentId: T:RocketshiftStudio.Trophy.IMGUI.ScoreIcon
   href: RocketshiftStudio.Trophy.IMGUI.ScoreIcon.html
   name: ScoreIcon
   nameWithType: ScoreIcon
   fullName: RocketshiftStudio.Trophy.IMGUI.ScoreIcon
+- uid: RocketshiftStudio.Trophy.IMGUI.ScoreText
+  commentId: T:RocketshiftStudio.Trophy.IMGUI.ScoreText
+  href: RocketshiftStudio.Trophy.IMGUI.ScoreText.html
+  name: ScoreText
+  nameWithType: ScoreText
+  fullName: RocketshiftStudio.Trophy.IMGUI.ScoreText

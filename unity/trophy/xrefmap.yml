@@ -1734,15 +1734,15 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoreAsync
   nameWithType: Trophy.GetUserScoreAsync
-- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])
-  name: GetUserScoresAsync(string, string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])
-  name.vb: GetUserScoresAsync(String, String())
-  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(string, string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(String, String())
-  nameWithType: Trophy.GetUserScoresAsync(string, string[])
-  nameWithType.vb: Trophy.GetUserScoresAsync(String, String())
+- uid: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.Collections.Generic.IList{System.String})
+  name: GetUserScoresAsync(string, IList<string>)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.Collections.Generic.IList{System.String})
+  name.vb: GetUserScoresAsync(String, IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(string, System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(String, System.Collections.Generic.IList(Of String))
+  nameWithType: Trophy.GetUserScoresAsync(string, IList<string>)
+  nameWithType.vb: Trophy.GetUserScoresAsync(String, IList(Of String))
 - uid: RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync*
   name: GetUserScoresAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_
@@ -1956,6 +1956,15 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.ResetValue
   nameWithType: Trophy.ResetValue
+- uid: RocketshiftStudio.Trophy.Trophy.Save(System.Collections.Generic.IList{System.String})
+  name: Save(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Save(System.Collections.Generic.IList{System.String})
+  name.vb: Save(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Trophy.Save(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(System.Collections.Generic.IList(Of String))
+  nameWithType: Trophy.Save(IList<string>)
+  nameWithType.vb: Trophy.Save(IList(Of String))
 - uid: RocketshiftStudio.Trophy.Trophy.Save(System.String)
   name: Save(string)
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_System_String_
@@ -1965,15 +1974,6 @@ references:
   fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(String)
   nameWithType: Trophy.Save(string)
   nameWithType.vb: Trophy.Save(String)
-- uid: RocketshiftStudio.Trophy.Trophy.Save(System.String[])
-  name: Save(string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.Save(System.String[])
-  name.vb: Save(String())
-  fullName: RocketshiftStudio.Trophy.Trophy.Save(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.Save(String())
-  nameWithType: Trophy.Save(string[])
-  nameWithType.vb: Trophy.Save(String())
 - uid: RocketshiftStudio.Trophy.Trophy.Save*
   name: Save
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Save_
@@ -1981,6 +1981,15 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Trophy.Save
   nameWithType: Trophy.Save
+- uid: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.Collections.Generic.IList{System.String})
+  name: SaveAsync(IList<string>)
+  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_System_Collections_Generic_IList_System_String__
+  commentId: M:RocketshiftStudio.Trophy.Trophy.SaveAsync(System.Collections.Generic.IList{System.String})
+  name.vb: SaveAsync(IList(Of String))
+  fullName: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.Collections.Generic.IList<string>)
+  fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.Collections.Generic.IList(Of String))
+  nameWithType: Trophy.SaveAsync(IList<string>)
+  nameWithType.vb: Trophy.SaveAsync(IList(Of String))
 - uid: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String)
   name: SaveAsync(string)
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String_
@@ -1990,15 +1999,6 @@ references:
   fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(String)
   nameWithType: Trophy.SaveAsync(string)
   nameWithType.vb: Trophy.SaveAsync(String)
-- uid: RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])
-  name: SaveAsync(string[])
-  href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String___
-  commentId: M:RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])
-  name.vb: SaveAsync(String())
-  fullName: RocketshiftStudio.Trophy.Trophy.SaveAsync(string[])
-  fullName.vb: RocketshiftStudio.Trophy.Trophy.SaveAsync(String())
-  nameWithType: Trophy.SaveAsync(string[])
-  nameWithType.vb: Trophy.SaveAsync(String())
 - uid: RocketshiftStudio.Trophy.Trophy.SaveAsync*
   name: SaveAsync
   href: api/RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_SaveAsync_

@@ -702,13 +702,13 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.String[])">GetUserScoresAsync(string, string[])</h4>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_GetUserScoresAsync_System_String_System_Collections_Generic_IList_System_String__" data-uid="RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.Collections.Generic.IList{System.String})">GetUserScoresAsync(string, IList&lt;string&gt;)</h4>
   <div class="markdown level1 summary"><p>Get scores values from cloud storage asynchronously using user id</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ScoreData[]&gt; GetUserScoresAsync(string userId, string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;ScoreData&gt;&gt; GetUserScoresAsync(string userId, IList&lt;string&gt; keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -727,7 +727,7 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">IList</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
@@ -744,7 +744,7 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>[]&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IList</span>&lt;<a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a>&gt;&gt;</td>
         <td><p>Task with collection of <a class="xref" href="RocketshiftStudio.Trophy.ScoreData.html">ScoreData</a> from given user id and keys</p>
 </td>
       </tr>
@@ -1336,6 +1336,33 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </tbody>
   </table>
   <a id="RocketshiftStudio_Trophy_Trophy_Save_" data-uid="RocketshiftStudio.Trophy.Trophy.Save*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_Collections_Generic_IList_System_String__" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.Collections.Generic.IList{System.String})">Save(IList&lt;string&gt;)</h4>
+  <div class="markdown level1 summary"><p>Save current values in storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(IList&lt;string&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>Target keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Trophy_Save_" data-uid="RocketshiftStudio.Trophy.Trophy.Save*"></a>
   <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_String_" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.String)">Save(string)</h4>
   <div class="markdown level1 summary"><p>Save current values in storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
@@ -1362,14 +1389,14 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_Trophy_Save_" data-uid="RocketshiftStudio.Trophy.Trophy.Save*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_Save_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.Save(System.String[])">Save(string[])</h4>
-  <div class="markdown level1 summary"><p>Save current values in storage according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
+  <a id="RocketshiftStudio_Trophy_Trophy_SaveAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Trophy_SaveAsync_System_Collections_Generic_IList_System_String__" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync(System.Collections.Generic.IList{System.String})">SaveAsync(IList&lt;string&gt;)</h4>
+  <div class="markdown level1 summary"><p>Save current values in storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save(string[] keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(IList&lt;string&gt; keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1382,10 +1409,25 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span>[]</td>
+        <td><span class="xref">IList</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>Target keys</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1412,48 +1454,6 @@ public sealed class Trophy : SingletonMonoBehaviour&lt;Trophy&gt;</code></pre>
         <td><span class="xref">string</span></td>
         <td><span class="parametername">key</span></td>
         <td><p>Target key</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="RocketshiftStudio_Trophy_Trophy_SaveAsync_" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Trophy_SaveAsync_System_String___" data-uid="RocketshiftStudio.Trophy.Trophy.SaveAsync(System.String[])">SaveAsync(string[])</h4>
-  <div class="markdown level1 summary"><p>Save current values in storage asynchronously according to storage flags defined in the <a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task SaveAsync(string[] keys)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span>[]</td>
-        <td><span class="parametername">keys</span></td>
-        <td><p>Target keys</p>
 </td>
       </tr>
     </tbody>

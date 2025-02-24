@@ -35,12 +35,12 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
 references:
-- uid: RocketshiftStudio.Trophy.Score
-  commentId: T:RocketshiftStudio.Trophy.Score
-  href: RocketshiftStudio.Trophy.Score.html
-  name: Score
-  nameWithType: Score
-  fullName: RocketshiftStudio.Trophy.Score
+- uid: RocketshiftStudio.Trophy.ScoreData
+  commentId: T:RocketshiftStudio.Trophy.ScoreData
+  href: RocketshiftStudio.Trophy.ScoreData.html
+  name: ScoreData
+  nameWithType: ScoreData
+  fullName: RocketshiftStudio.Trophy.ScoreData
 - uid: RocketshiftStudio.Trophy.ScoreType
   commentId: T:RocketshiftStudio.Trophy.ScoreType
   parent: RocketshiftStudio.Trophy
@@ -48,51 +48,6 @@ references:
   name: ScoreType
   nameWithType: ScoreType
   fullName: RocketshiftStudio.Trophy.ScoreType
-- uid: RocketshiftStudio.Trophy.LeaderboardDefinition
-  commentId: T:RocketshiftStudio.Trophy.LeaderboardDefinition
-  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
-  name: LeaderboardDefinition
-  nameWithType: LeaderboardDefinition
-  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition
-- uid: RocketshiftStudio.Trophy.ScoreData
-  commentId: T:RocketshiftStudio.Trophy.ScoreData
-  href: RocketshiftStudio.Trophy.ScoreData.html
-  name: ScoreData
-  nameWithType: ScoreData
-  fullName: RocketshiftStudio.Trophy.ScoreData
-- uid: RocketshiftStudio.Trophy.ScoreMetadata
-  commentId: T:RocketshiftStudio.Trophy.ScoreMetadata
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreMetadata.html
-  name: ScoreMetadata
-  nameWithType: ScoreMetadata
-  fullName: RocketshiftStudio.Trophy.ScoreMetadata
-- uid: RocketshiftStudio.Trophy.StorageFlags
-  commentId: T:RocketshiftStudio.Trophy.StorageFlags
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.StorageFlags.html
-  name: StorageFlags
-  nameWithType: StorageFlags
-  fullName: RocketshiftStudio.Trophy.StorageFlags
-- uid: RocketshiftStudio.Trophy.ScoreStatusFlags
-  commentId: T:RocketshiftStudio.Trophy.ScoreStatusFlags
-  parent: RocketshiftStudio.Trophy
-  href: RocketshiftStudio.Trophy.ScoreStatusFlags.html
-  name: ScoreStatusFlags
-  nameWithType: ScoreStatusFlags
-  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags
-- uid: RocketshiftStudio.Trophy.LeaderboardData
-  commentId: T:RocketshiftStudio.Trophy.LeaderboardData
-  href: RocketshiftStudio.Trophy.LeaderboardData.html
-  name: LeaderboardData
-  nameWithType: LeaderboardData
-  fullName: RocketshiftStudio.Trophy.LeaderboardData
-- uid: RocketshiftStudio.Trophy.FormatUtility
-  commentId: T:RocketshiftStudio.Trophy.FormatUtility
-  href: RocketshiftStudio.Trophy.FormatUtility.html
-  name: FormatUtility
-  nameWithType: FormatUtility
-  fullName: RocketshiftStudio.Trophy.FormatUtility
 - uid: RocketshiftStudio.Trophy.LeaderboardValueSource
   commentId: T:RocketshiftStudio.Trophy.LeaderboardValueSource
   parent: RocketshiftStudio.Trophy
@@ -175,6 +130,12 @@ references:
   - uid: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
     name: CountingChangedCallback
     href: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.html
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardDefinition
+  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
+  name: LeaderboardDefinition
+  nameWithType: LeaderboardDefinition
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition
 - uid: RocketshiftStudio.Trophy.ScoreDefinition
   commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
   parent: RocketshiftStudio.Trophy
@@ -182,12 +143,32 @@ references:
   name: ScoreDefinition
   nameWithType: ScoreDefinition
   fullName: RocketshiftStudio.Trophy.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.ScoreMetadata
+  commentId: T:RocketshiftStudio.Trophy.ScoreMetadata
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreMetadata.html
+  name: ScoreMetadata
+  nameWithType: ScoreMetadata
+  fullName: RocketshiftStudio.Trophy.ScoreMetadata
+- uid: RocketshiftStudio.Trophy.Score
+  commentId: T:RocketshiftStudio.Trophy.Score
+  href: RocketshiftStudio.Trophy.Score.html
+  name: Score
+  nameWithType: Score
+  fullName: RocketshiftStudio.Trophy.Score
 - uid: RocketshiftStudio.Trophy.TrophySettings
   commentId: T:RocketshiftStudio.Trophy.TrophySettings
   href: RocketshiftStudio.Trophy.TrophySettings.html
   name: TrophySettings
   nameWithType: TrophySettings
   fullName: RocketshiftStudio.Trophy.TrophySettings
+- uid: RocketshiftStudio.Trophy.StorageFlags
+  commentId: T:RocketshiftStudio.Trophy.StorageFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.StorageFlags.html
+  name: StorageFlags
+  nameWithType: StorageFlags
+  fullName: RocketshiftStudio.Trophy.StorageFlags
 - uid: RocketshiftStudio.Trophy.FlowRestriction
   commentId: T:RocketshiftStudio.Trophy.FlowRestriction
   parent: RocketshiftStudio.Trophy
@@ -216,6 +197,19 @@ references:
   name: BestCalculationType
   nameWithType: BestCalculationType
   fullName: RocketshiftStudio.Trophy.BestCalculationType
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags
+  commentId: T:RocketshiftStudio.Trophy.ScoreStatusFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreStatusFlags.html
+  name: ScoreStatusFlags
+  nameWithType: ScoreStatusFlags
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags
+- uid: RocketshiftStudio.Trophy.LeaderboardData
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardData
+  href: RocketshiftStudio.Trophy.LeaderboardData.html
+  name: LeaderboardData
+  nameWithType: LeaderboardData
+  fullName: RocketshiftStudio.Trophy.LeaderboardData
 - uid: RocketshiftStudio.Trophy.LimitFlags
   commentId: T:RocketshiftStudio.Trophy.LimitFlags
   parent: RocketshiftStudio.Trophy
@@ -223,6 +217,12 @@ references:
   name: LimitFlags
   nameWithType: LimitFlags
   fullName: RocketshiftStudio.Trophy.LimitFlags
+- uid: RocketshiftStudio.Trophy.FormatUtility
+  commentId: T:RocketshiftStudio.Trophy.FormatUtility
+  href: RocketshiftStudio.Trophy.FormatUtility.html
+  name: FormatUtility
+  nameWithType: FormatUtility
+  fullName: RocketshiftStudio.Trophy.FormatUtility
 - uid: RocketshiftStudio.Trophy
   commentId: N:RocketshiftStudio.Trophy
   href: RocketshiftStudio.html

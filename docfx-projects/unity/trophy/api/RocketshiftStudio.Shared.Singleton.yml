@@ -17,13 +17,6 @@ items:
   assemblies:
   - RocketshiftStudio.Shared
 references:
-- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
-  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
-  parent: RocketshiftStudio.Shared.Singleton
-  href: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html
-  name: ScriptableSingletonAttribute
-  nameWithType: ScriptableSingletonAttribute
-  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
 - uid: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
   commentId: T:RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour`1
   href: RocketshiftStudio.Shared.Singleton.SingletonMonoBehaviour-1.html
@@ -74,6 +67,13 @@ references:
   - name: " "
   - name: TScriptableObject
   - name: )
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  parent: RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html
+  name: ScriptableSingletonAttribute
+  nameWithType: ScriptableSingletonAttribute
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
 - uid: RocketshiftStudio.Shared.Singleton
   commentId: N:RocketshiftStudio.Shared.Singleton
   href: RocketshiftStudio.html
