@@ -37,13 +37,13 @@ items:
   example: []
   syntax:
     content: >-
-      [CreateAssetMenu(menuName = "Trophy/Definitions/Score", fileName = "New Score Definition")]
+      [CreateAssetMenu(menuName = "Trophy/Score Definition", fileName = "New Score Definition")]
 
       [ExcludeFromPreset]
 
       public sealed class ScoreDefinition : ScriptableObject, IDefinition
     content.vb: >-
-      <CreateAssetMenu(menuName:="Trophy/Definitions/Score", fileName:="New Score Definition")>
+      <CreateAssetMenu(menuName:="Trophy/Score Definition", fileName:="New Score Definition")>
 
       <ExcludeFromPreset>
 
@@ -61,7 +61,7 @@ items:
     namedArguments:
     - name: menuName
       type: System.String
-      value: Trophy/Definitions/Score
+      value: Trophy/Score Definition
     - name: fileName
       type: System.String
       value: New Score Definition

@@ -28,13 +28,13 @@ items:
   namespace: RocketshiftStudio.Trophy
   syntax:
     content: >-
-      [CreateAssetMenu(menuName = "Trophy/Definitions/Leaderboard", fileName = "New Leaderboard Definition")]
+      [CreateAssetMenu(menuName = "Trophy/Leaderboard Definition", fileName = "New Leaderboard Definition")]
 
       [ExcludeFromPreset]
 
       public sealed class LeaderboardDefinition : ScriptableObject, IDefinition
     content.vb: >-
-      <CreateAssetMenu(menuName:="Trophy/Definitions/Leaderboard", fileName:="New Leaderboard Definition")>
+      <CreateAssetMenu(menuName:="Trophy/Leaderboard Definition", fileName:="New Leaderboard Definition")>
 
       <ExcludeFromPreset>
 
@@ -52,7 +52,7 @@ items:
     namedArguments:
     - name: menuName
       type: System.String
-      value: Trophy/Definitions/Leaderboard
+      value: Trophy/Leaderboard Definition
     - name: fileName
       type: System.String
       value: New Leaderboard Definition

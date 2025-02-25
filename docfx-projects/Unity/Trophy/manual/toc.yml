@@ -4,3 +4,5 @@ items:
   href: introduction.md
 - name: Getting Started
   href: getting-started.md
+- name: Update Guide
+  href: update-guide.md
