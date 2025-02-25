@@ -101,12 +101,12 @@ public sealed class ScoreData</code></pre>
   <h3 id="constructors">Constructors
 </h3>
   <a id="RocketshiftStudio_Trophy_ScoreData__ctor_" data-uid="RocketshiftStudio.Trophy.ScoreData.#ctor*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_" data-uid="RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double)">ScoreData(string, double, double)</h4>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_System_String_" data-uid="RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)">ScoreData(string, double, double, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScoreData(string key, double best, double latest)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScoreData(string key, double best, double latest, string hash = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -133,18 +133,24 @@ public sealed class ScoreData</code></pre>
         <td><span class="parametername">latest</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
 </h3>
-  <h4 id="RocketshiftStudio_Trophy_ScoreData_best" data-uid="RocketshiftStudio.Trophy.ScoreData.best">best</h4>
+  <a id="RocketshiftStudio_Trophy_ScoreData_Best_" data-uid="RocketshiftStudio.Trophy.ScoreData.Best*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_Best" data-uid="RocketshiftStudio.Trophy.ScoreData.Best">Best</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly double best</code></pre>
+    <pre><code class="lang-csharp hljs">public double Best { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -159,14 +165,15 @@ public sealed class ScoreData</code></pre>
       </tr>
     </tbody>
   </table>
-  <h4 id="RocketshiftStudio_Trophy_ScoreData_key" data-uid="RocketshiftStudio.Trophy.ScoreData.key">key</h4>
+  <a id="RocketshiftStudio_Trophy_ScoreData_Hash_" data-uid="RocketshiftStudio.Trophy.ScoreData.Hash*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_Hash" data-uid="RocketshiftStudio.Trophy.ScoreData.Hash">Hash</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly string key</code></pre>
+    <pre><code class="lang-csharp hljs">public string Hash { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -181,14 +188,38 @@ public sealed class ScoreData</code></pre>
       </tr>
     </tbody>
   </table>
-  <h4 id="RocketshiftStudio_Trophy_ScoreData_latest" data-uid="RocketshiftStudio.Trophy.ScoreData.latest">latest</h4>
+  <a id="RocketshiftStudio_Trophy_ScoreData_Key_" data-uid="RocketshiftStudio.Trophy.ScoreData.Key*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_Key" data-uid="RocketshiftStudio.Trophy.ScoreData.Key">Key</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly double latest</code></pre>
+    <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_ScoreData_Latest_" data-uid="RocketshiftStudio.Trophy.ScoreData.Latest*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_Latest" data-uid="RocketshiftStudio.Trophy.ScoreData.Latest">Latest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Latest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -203,6 +234,56 @@ public sealed class ScoreData</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="RocketshiftStudio_Trophy_ScoreData_IsValid_" data-uid="RocketshiftStudio.Trophy.ScoreData.IsValid*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_IsValid" data-uid="RocketshiftStudio.Trophy.ScoreData.IsValid">IsValid()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_ScoreData_ToString_" data-uid="RocketshiftStudio.Trophy.ScoreData.ToString*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreData_ToString" data-uid="RocketshiftStudio.Trophy.ScoreData.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">object.ToString()</span></div>
 
 </article>
           </div>

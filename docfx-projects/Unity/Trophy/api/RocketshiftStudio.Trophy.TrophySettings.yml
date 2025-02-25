@@ -10,6 +10,9 @@ items:
   - RocketshiftStudio.Trophy.TrophySettings.Contains(System.String)
   - RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer
   - RocketshiftStudio.Trophy.TrophySettings.GetMetadata(System.String)
+  - RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  - RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  - RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
   - RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
   - RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension
   - RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension
@@ -76,10 +79,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 13
+    startLine: 17
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: <xref href="RocketshiftStudio.Trophy.ScoreDefinition" data-throw-if-not-resolved="false"></xref> that will be active in the game
+  example: []
   syntax:
     content: public ScoreDefinition[] ScoreDefinitions { get; }
     parameters: []
@@ -105,10 +110,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 17
+    startLine: 24
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: <xref href="RocketshiftStudio.Trophy.LeaderboardDefinition" data-throw-if-not-resolved="false"></xref> that will be active in the game
+  example: []
   syntax:
     content: public LeaderboardDefinition[] LeaderboardDefinitions { get; }
     parameters: []
@@ -134,10 +141,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 21
+    startLine: 31
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Extension for handing leaderboard operations
+  example: []
   syntax:
     content: public ILeaderboardExtension LeaderboardExtension { get; }
     parameters: []
@@ -163,10 +172,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: AutoLoadSavedAtInit
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 25
+    startLine: 38
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: To enable/disable automatic load of values from storage at initialization
+  example: []
   syntax:
     content: public bool AutoLoadSavedAtInit { get; }
     parameters: []
@@ -174,6 +185,99 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property AutoLoadSavedAtInit As Boolean
   overload: RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit*
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  id: HashValidationFlags
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: HashValidationFlags
+  nameWithType: TrophySettings.HashValidationFlags
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HashValidationFlags
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 45
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines which storage will implement hash validation
+  example: []
+  syntax:
+    content: public StorageFlags HashValidationFlags { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+    content.vb: Public ReadOnly Property HashValidationFlags As StorageFlags
+  overload: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags*
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  id: HashAlgorithm
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: HashAlgorithm
+  nameWithType: TrophySettings.HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HashAlgorithm
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 52
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines which hashing algorithm will be used to generate hash
+  example: []
+  syntax:
+    content: public HashAlgorithm HashAlgorithm { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+    content.vb: Public ReadOnly Property HashAlgorithm As HashAlgorithm
+  overload: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm*
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  id: HashSalt
+  parent: RocketshiftStudio.Trophy.TrophySettings
+  langs:
+  - csharp
+  - vb
+  name: HashSalt
+  nameWithType: TrophySettings.HashSalt
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HashSalt
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
+    startLine: 59
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Random salt value for more secure hash
+  example: []
+  syntax:
+    content: public string HashSalt { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HashSalt As String
+  overload: RocketshiftStudio.Trophy.TrophySettings.HashSalt*
 - uid: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
   commentId: P:RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
   id: CloudSaveExtension
@@ -192,10 +296,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CloudSaveExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 29
+    startLine: 66
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Extension for handing cloud storage operations
+  example: []
   syntax:
     content: public ICloudStorageExtension CloudSaveExtension { get; }
     parameters: []
@@ -221,10 +327,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LocalStorageExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 33
+    startLine: 73
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Extension for handing local storage operations
+  example: []
   syntax:
     content: public ILocalStorageExtension LocalStorageExtension { get; }
     parameters: []
@@ -250,10 +358,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: EnableRuntimeTrophyExplorer
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 38
+    startLine: 81
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Enable/Disable trophy explorer to show/hide on Ctrl/Command + F3 click on development build
+  example: []
   syntax:
     content: public bool EnableRuntimeTrophyExplorer { get; }
     parameters: []
@@ -279,7 +389,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Contains
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 45
+    startLine: 88
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -317,7 +427,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 64
+    startLine: 107
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -359,7 +469,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TryGetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 81
+    startLine: 124
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -545,6 +655,13 @@ references:
   fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>.Instance
   nameWithType.vb: ScriptableSingleton(Of TScriptableObject).Instance
   fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject).Instance
+- uid: RocketshiftStudio.Trophy.ScoreDefinition
+  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html
+  name: ScoreDefinition
+  nameWithType: ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition
 - uid: RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions*
   commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions
   href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_ScoreDefinitions
@@ -572,6 +689,12 @@ references:
     href: RocketshiftStudio.Trophy.ScoreDefinition.html
   - name: (
   - name: )
+- uid: RocketshiftStudio.Trophy.LeaderboardDefinition
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardDefinition
+  href: RocketshiftStudio.Trophy.LeaderboardDefinition.html
+  name: LeaderboardDefinition
+  nameWithType: LeaderboardDefinition
+  fullName: RocketshiftStudio.Trophy.LeaderboardDefinition
 - uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions*
   commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
   href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions
@@ -658,6 +781,48 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashValidationFlags
+  name: HashValidationFlags
+  nameWithType: TrophySettings.HashValidationFlags
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+- uid: RocketshiftStudio.Trophy.StorageFlags
+  commentId: T:RocketshiftStudio.Trophy.StorageFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.StorageFlags.html
+  name: StorageFlags
+  nameWithType: StorageFlags
+  fullName: RocketshiftStudio.Trophy.StorageFlags
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashAlgorithm
+  name: HashAlgorithm
+  nameWithType: TrophySettings.HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm
+  commentId: T:RocketshiftStudio.Trophy.HashAlgorithm
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.HashAlgorithm.html
+  name: HashAlgorithm
+  nameWithType: HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashSalt*
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashSalt
+  name: HashSalt
+  nameWithType: TrophySettings.HashSalt
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension*
   commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension
   href: RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_CloudSaveExtension
@@ -696,16 +861,6 @@ references:
   name: Contains
   nameWithType: TrophySettings.Contains
   fullName: RocketshiftStudio.Trophy.TrophySettings.Contains
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: RocketshiftStudio.Trophy.TrophySettings
   commentId: T:RocketshiftStudio.Trophy.TrophySettings
   href: RocketshiftStudio.Trophy.TrophySettings.html

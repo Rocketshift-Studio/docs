@@ -5,12 +5,12 @@ items:
   id: RocketshiftStudio.Trophy.Extensions
   children:
   - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
-  - RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
   - RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
   - RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
   - RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
   - RocketshiftStudio.Trophy.Extensions.IExtension
   - RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  - RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
   - RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   - RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
   - RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
@@ -123,12 +123,6 @@ references:
   - name: " "
   - name: TComponent
   - name: )
-- uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
-  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
-  href: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension.html
-  name: BaseLocalStorageExtension
-  nameWithType: BaseLocalStorageExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
 - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
   parent: RocketshiftStudio.Trophy.Extensions
@@ -136,6 +130,12 @@ references:
   name: ISpecialPermissionExtension
   nameWithType: ISpecialPermissionExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  href: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html
+  name: ILocalFileStorageExtension
+  nameWithType: ILocalFileStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
 - uid: RocketshiftStudio.Trophy.Extensions.IExtension
   commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
   parent: RocketshiftStudio.Trophy.Extensions

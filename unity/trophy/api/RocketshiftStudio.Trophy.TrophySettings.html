@@ -111,7 +111,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
 </h3>
   <a id="RocketshiftStudio_Trophy_TrophySettings_AutoLoadSavedAtInit_" data-uid="RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_AutoLoadSavedAtInit" data-uid="RocketshiftStudio.Trophy.TrophySettings.AutoLoadSavedAtInit">AutoLoadSavedAtInit</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>To enable/disable automatic load of values from storage at initialization</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -134,7 +135,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_CloudSaveExtension_" data-uid="RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_CloudSaveExtension" data-uid="RocketshiftStudio.Trophy.TrophySettings.CloudSaveExtension">CloudSaveExtension</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extension for handing cloud storage operations</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -157,7 +159,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_EnableRuntimeTrophyExplorer_" data-uid="RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_EnableRuntimeTrophyExplorer" data-uid="RocketshiftStudio.Trophy.TrophySettings.EnableRuntimeTrophyExplorer">EnableRuntimeTrophyExplorer</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Enable/Disable trophy explorer to show/hide on Ctrl/Command + F3 click on development build</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -178,9 +181,82 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
       </tr>
     </tbody>
   </table>
+  <a id="RocketshiftStudio_Trophy_TrophySettings_HashAlgorithm_" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm*"></a>
+  <h4 id="RocketshiftStudio_Trophy_TrophySettings_HashAlgorithm" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm">HashAlgorithm</h4>
+  <div class="markdown level1 summary"><p>Defines which hashing algorithm will be used to generate hash</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashAlgorithm HashAlgorithm { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.HashAlgorithm.html">HashAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_TrophySettings_HashSalt_" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashSalt*"></a>
+  <h4 id="RocketshiftStudio_Trophy_TrophySettings_HashSalt" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashSalt">HashSalt</h4>
+  <div class="markdown level1 summary"><p>Random salt value for more secure hash</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HashSalt { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_TrophySettings_HashValidationFlags_" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags*"></a>
+  <h4 id="RocketshiftStudio_Trophy_TrophySettings_HashValidationFlags" data-uid="RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags">HashValidationFlags</h4>
+  <div class="markdown level1 summary"><p>Defines which storage will implement hash validation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StorageFlags HashValidationFlags { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.StorageFlags.html">StorageFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions_" data-uid="RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions" data-uid="RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions">LeaderboardDefinitions</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><a class="xref" href="RocketshiftStudio.Trophy.LeaderboardDefinition.html">LeaderboardDefinition</a> that will be active in the game</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -203,7 +279,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_LeaderboardExtension_" data-uid="RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_LeaderboardExtension" data-uid="RocketshiftStudio.Trophy.TrophySettings.LeaderboardExtension">LeaderboardExtension</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extension for handing leaderboard operations</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -226,7 +303,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_LocalStorageExtension_" data-uid="RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_LocalStorageExtension" data-uid="RocketshiftStudio.Trophy.TrophySettings.LocalStorageExtension">LocalStorageExtension</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extension for handing local storage operations</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -249,7 +327,8 @@ public sealed class TrophySettings : ScriptableSingleton&lt;TrophySettings&gt;</
   </table>
   <a id="RocketshiftStudio_Trophy_TrophySettings_ScoreDefinitions_" data-uid="RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions*"></a>
   <h4 id="RocketshiftStudio_Trophy_TrophySettings_ScoreDefinitions" data-uid="RocketshiftStudio.Trophy.TrophySettings.ScoreDefinitions">ScoreDefinitions</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><a class="xref" href="RocketshiftStudio.Trophy.ScoreDefinition.html">ScoreDefinition</a> that will be active in the game</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">

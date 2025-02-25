@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.HashAlgorithm
+  commentId: T:RocketshiftStudio.Trophy.HashAlgorithm
+  id: HashAlgorithm
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  - RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  - RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  - RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  - RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  langs:
+  - csharp
+  - vb
+  name: HashAlgorithm
+  nameWithType: HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: HashAlgorithm
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines which hashing algorithm to use for hash validation
+  example: []
+  syntax:
+    content: public enum HashAlgorithm
+    content.vb: Public Enum HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  id: MD5
+  parent: RocketshiftStudio.Trophy.HashAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: MD5
+  nameWithType: HashAlgorithm.MD5
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MD5
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Insecure, use only for basic validation
+  example: []
+  syntax:
+    content: MD5 = 0
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  id: SHA1
+  parent: RocketshiftStudio.Trophy.HashAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: SHA1
+  nameWithType: HashAlgorithm.SHA1
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SHA1
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Insecure yet use only for normal validation
+  example: []
+  syntax:
+    content: SHA1 = 1
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  id: SHA256
+  parent: RocketshiftStudio.Trophy.HashAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: SHA256
+  nameWithType: HashAlgorithm.SHA256
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SHA256
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Strong and widely used
+  example: []
+  syntax:
+    content: SHA256 = 2
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  id: SHA384
+  parent: RocketshiftStudio.Trophy.HashAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: SHA384
+  nameWithType: HashAlgorithm.SHA384
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SHA384
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 22
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Strong and used for high-security.
+  example: []
+  syntax:
+    content: SHA384 = 3
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  id: SHA512
+  parent: RocketshiftStudio.Trophy.HashAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: SHA512
+  nameWithType: HashAlgorithm.SHA512
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SHA512
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/HashAlgorithm.cs
+    startLine: 26
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Strongest among other options
+  example: []
+  syntax:
+    content: SHA512 = 4
+    return:
+      type: RocketshiftStudio.Trophy.HashAlgorithm
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.HashAlgorithm
+  commentId: T:RocketshiftStudio.Trophy.HashAlgorithm
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.HashAlgorithm.html
+  name: HashAlgorithm
+  nameWithType: HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm

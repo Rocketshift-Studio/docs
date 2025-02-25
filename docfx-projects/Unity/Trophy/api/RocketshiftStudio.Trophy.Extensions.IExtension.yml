@@ -23,7 +23,7 @@ items:
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Extensions
-  summary: Used to create extensions
+  summary: Used to create custom extensions
   example: []
   syntax:
     content: public interface IExtension

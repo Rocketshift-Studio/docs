@@ -204,7 +204,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.Extensions.IExtension",
-      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.IExtension.yml\" sourcestartlinenumber=\"1\">Used to create extensions</p>\n"
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.IExtension.yml\" sourcestartlinenumber=\"1\">Used to create custom extensions</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -219,6 +219,20 @@
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow local storage based save/load operations on score values using files</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -345,6 +359,20 @@
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.FormatUtility",
       "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.FormatUtility.yml\" sourcestartlinenumber=\"1\">Used for text formation purposes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.HashAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.HashAlgorithm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.HashAlgorithm",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.HashAlgorithm.yml\" sourcestartlinenumber=\"1\">Defines which hashing algorithm to use for hash validation</p>\n"
     },
     {
       "type": "ManagedReference",

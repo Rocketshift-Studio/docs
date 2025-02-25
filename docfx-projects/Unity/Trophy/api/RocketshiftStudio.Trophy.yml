@@ -7,6 +7,7 @@ items:
   - RocketshiftStudio.Trophy.BestCalculationType
   - RocketshiftStudio.Trophy.FlowRestriction
   - RocketshiftStudio.Trophy.FormatUtility
+  - RocketshiftStudio.Trophy.HashAlgorithm
   - RocketshiftStudio.Trophy.IDefinition
   - RocketshiftStudio.Trophy.LeaderboardData
   - RocketshiftStudio.Trophy.LeaderboardDefinition
@@ -204,6 +205,13 @@ references:
   name: ScoreStatusFlags
   nameWithType: ScoreStatusFlags
   fullName: RocketshiftStudio.Trophy.ScoreStatusFlags
+- uid: RocketshiftStudio.Trophy.HashAlgorithm
+  commentId: T:RocketshiftStudio.Trophy.HashAlgorithm
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.HashAlgorithm.html
+  name: HashAlgorithm
+  nameWithType: HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm
 - uid: RocketshiftStudio.Trophy.LeaderboardData
   commentId: T:RocketshiftStudio.Trophy.LeaderboardData
   href: RocketshiftStudio.Trophy.LeaderboardData.html

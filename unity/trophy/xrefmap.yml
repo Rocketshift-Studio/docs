@@ -589,38 +589,44 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.PostAsync
   nameWithType: ILeaderboardExtension.PostAsync
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  name: ILocalFileStorageExtension
+  href: api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  nameWithType: ILocalFileStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  name: FileExtension
+  href: api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_FileExtension
+  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  nameWithType: ILocalFileStorageExtension.FileExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension*
+  name: FileExtension
+  href: api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_FileExtension_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  nameWithType: ILocalFileStorageExtension.FileExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  name: SaveDirectory
+  href: api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_SaveDirectory
+  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  nameWithType: ILocalFileStorageExtension.SaveDirectory
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory*
+  name: SaveDirectory
+  href: api/RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_SaveDirectory_
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  nameWithType: ILocalFileStorageExtension.SaveDirectory
 - uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   name: ILocalStorageExtension
   href: api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html
   commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
   nameWithType: ILocalStorageExtension
-- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension
-  name: FileExtension
-  href: api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalStorageExtension_FileExtension
-  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension
-  nameWithType: ILocalStorageExtension.FileExtension
-- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension*
-  name: FileExtension
-  href: api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalStorageExtension_FileExtension_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension
-  isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.FileExtension
-  nameWithType: ILocalStorageExtension.FileExtension
-- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory
-  name: SaveDirectory
-  href: api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalStorageExtension_SaveDirectory
-  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory
-  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory
-  nameWithType: ILocalStorageExtension.SaveDirectory
-- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory*
-  name: SaveDirectory
-  href: api/RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalStorageExtension_SaveDirectory_
-  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory
-  isSpec: "True"
-  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.SaveDirectory
-  nameWithType: ILocalStorageExtension.SaveDirectory
 - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
   name: IScoreDisplayExtension<TValue>
   href: api/RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension-1.html
@@ -821,6 +827,42 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.FormatUtility.FormatScore
   nameWithType: FormatUtility.FormatScore
+- uid: RocketshiftStudio.Trophy.HashAlgorithm
+  name: HashAlgorithm
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html
+  commentId: T:RocketshiftStudio.Trophy.HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm
+  nameWithType: HashAlgorithm
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  name: MD5
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html#RocketshiftStudio_Trophy_HashAlgorithm_MD5
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.MD5
+  nameWithType: HashAlgorithm.MD5
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  name: SHA1
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html#RocketshiftStudio_Trophy_HashAlgorithm_SHA1
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA1
+  nameWithType: HashAlgorithm.SHA1
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  name: SHA256
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html#RocketshiftStudio_Trophy_HashAlgorithm_SHA256
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA256
+  nameWithType: HashAlgorithm.SHA256
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  name: SHA384
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html#RocketshiftStudio_Trophy_HashAlgorithm_SHA384
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA384
+  nameWithType: HashAlgorithm.SHA384
+- uid: RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  name: SHA512
+  href: api/RocketshiftStudio.Trophy.HashAlgorithm.html#RocketshiftStudio_Trophy_HashAlgorithm_SHA512
+  commentId: F:RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  fullName: RocketshiftStudio.Trophy.HashAlgorithm.SHA512
+  nameWithType: HashAlgorithm.SHA512
 - uid: RocketshiftStudio.Trophy.IDefinition
   name: IDefinition
   href: api/RocketshiftStudio.Trophy.IDefinition.html
@@ -1237,15 +1279,15 @@ references:
   commentId: T:RocketshiftStudio.Trophy.ScoreData
   fullName: RocketshiftStudio.Trophy.ScoreData
   nameWithType: ScoreData
-- uid: RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double)
-  name: ScoreData(string, double, double)
-  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_
-  commentId: M:RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double)
-  name.vb: New(String, Double, Double)
-  fullName: RocketshiftStudio.Trophy.ScoreData.ScoreData(string, double, double)
-  fullName.vb: RocketshiftStudio.Trophy.ScoreData.New(String, Double, Double)
-  nameWithType: ScoreData.ScoreData(string, double, double)
-  nameWithType.vb: ScoreData.New(String, Double, Double)
+- uid: RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)
+  name: ScoreData(string, double, double, string)
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_System_String_
+  commentId: M:RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)
+  name.vb: New(String, Double, Double, String)
+  fullName: RocketshiftStudio.Trophy.ScoreData.ScoreData(string, double, double, string)
+  fullName.vb: RocketshiftStudio.Trophy.ScoreData.New(String, Double, Double, String)
+  nameWithType: ScoreData.ScoreData(string, double, double, string)
+  nameWithType.vb: ScoreData.New(String, Double, Double, String)
 - uid: RocketshiftStudio.Trophy.ScoreData.#ctor*
   name: ScoreData
   href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData__ctor_
@@ -1256,24 +1298,84 @@ references:
   fullName.vb: RocketshiftStudio.Trophy.ScoreData.New
   nameWithType: ScoreData.ScoreData
   nameWithType.vb: ScoreData.New
-- uid: RocketshiftStudio.Trophy.ScoreData.best
-  name: best
-  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_best
-  commentId: F:RocketshiftStudio.Trophy.ScoreData.best
-  fullName: RocketshiftStudio.Trophy.ScoreData.best
-  nameWithType: ScoreData.best
-- uid: RocketshiftStudio.Trophy.ScoreData.key
-  name: key
-  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_key
-  commentId: F:RocketshiftStudio.Trophy.ScoreData.key
-  fullName: RocketshiftStudio.Trophy.ScoreData.key
-  nameWithType: ScoreData.key
-- uid: RocketshiftStudio.Trophy.ScoreData.latest
-  name: latest
-  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_latest
-  commentId: F:RocketshiftStudio.Trophy.ScoreData.latest
-  fullName: RocketshiftStudio.Trophy.ScoreData.latest
-  nameWithType: ScoreData.latest
+- uid: RocketshiftStudio.Trophy.ScoreData.Best
+  name: Best
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Best
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Best
+  fullName: RocketshiftStudio.Trophy.ScoreData.Best
+  nameWithType: ScoreData.Best
+- uid: RocketshiftStudio.Trophy.ScoreData.Best*
+  name: Best
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Best_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Best
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.Best
+  nameWithType: ScoreData.Best
+- uid: RocketshiftStudio.Trophy.ScoreData.Hash
+  name: Hash
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Hash
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Hash
+  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
+  nameWithType: ScoreData.Hash
+- uid: RocketshiftStudio.Trophy.ScoreData.Hash*
+  name: Hash
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Hash_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Hash
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
+  nameWithType: ScoreData.Hash
+- uid: RocketshiftStudio.Trophy.ScoreData.IsValid
+  name: IsValid()
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_IsValid
+  commentId: M:RocketshiftStudio.Trophy.ScoreData.IsValid
+  fullName: RocketshiftStudio.Trophy.ScoreData.IsValid()
+  nameWithType: ScoreData.IsValid()
+- uid: RocketshiftStudio.Trophy.ScoreData.IsValid*
+  name: IsValid
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_IsValid_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.IsValid
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.IsValid
+  nameWithType: ScoreData.IsValid
+- uid: RocketshiftStudio.Trophy.ScoreData.Key
+  name: Key
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Key
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Key
+  fullName: RocketshiftStudio.Trophy.ScoreData.Key
+  nameWithType: ScoreData.Key
+- uid: RocketshiftStudio.Trophy.ScoreData.Key*
+  name: Key
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Key_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Key
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.Key
+  nameWithType: ScoreData.Key
+- uid: RocketshiftStudio.Trophy.ScoreData.Latest
+  name: Latest
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Latest
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Latest
+  fullName: RocketshiftStudio.Trophy.ScoreData.Latest
+  nameWithType: ScoreData.Latest
+- uid: RocketshiftStudio.Trophy.ScoreData.Latest*
+  name: Latest
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Latest_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Latest
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.Latest
+  nameWithType: ScoreData.Latest
+- uid: RocketshiftStudio.Trophy.ScoreData.ToString
+  name: ToString()
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_ToString
+  commentId: M:RocketshiftStudio.Trophy.ScoreData.ToString
+  fullName: RocketshiftStudio.Trophy.ScoreData.ToString()
+  nameWithType: ScoreData.ToString()
+- uid: RocketshiftStudio.Trophy.ScoreData.ToString*
+  name: ToString
+  href: api/RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_ToString_
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.ToString
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.ScoreData.ToString
+  nameWithType: ScoreData.ToString
 - uid: RocketshiftStudio.Trophy.ScoreDefinition
   name: ScoreDefinition
   href: api/RocketshiftStudio.Trophy.ScoreDefinition.html
@@ -2168,6 +2270,45 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Trophy.TrophySettings.GetMetadata
   nameWithType: TrophySettings.GetMetadata
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  name: HashAlgorithm
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashAlgorithm
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  nameWithType: TrophySettings.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm*
+  name: HashAlgorithm
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashAlgorithm_
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashAlgorithm
+  nameWithType: TrophySettings.HashAlgorithm
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  name: HashSalt
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashSalt
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  nameWithType: TrophySettings.HashSalt
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashSalt*
+  name: HashSalt
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashSalt_
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashSalt
+  nameWithType: TrophySettings.HashSalt
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  name: HashValidationFlags
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashValidationFlags
+  commentId: P:RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  nameWithType: TrophySettings.HashValidationFlags
+- uid: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags*
+  name: HashValidationFlags
+  href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_HashValidationFlags_
+  commentId: Overload:RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  isSpec: "True"
+  fullName: RocketshiftStudio.Trophy.TrophySettings.HashValidationFlags
+  nameWithType: TrophySettings.HashValidationFlags
 - uid: RocketshiftStudio.Trophy.TrophySettings.LeaderboardDefinitions
   name: LeaderboardDefinitions
   href: api/RocketshiftStudio.Trophy.TrophySettings.html#RocketshiftStudio_Trophy_TrophySettings_LeaderboardDefinitions

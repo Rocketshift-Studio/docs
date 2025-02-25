@@ -26,6 +26,9 @@ items:
   - uid: RocketshiftStudio.Trophy.FormatUtility
     name: FormatUtility
     type: Class
+  - uid: RocketshiftStudio.Trophy.HashAlgorithm
+    name: HashAlgorithm
+    type: Enum
   - uid: RocketshiftStudio.Trophy.IDefinition
     name: IDefinition
     type: Interface
@@ -97,9 +100,6 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
     name: BaseCloudStorageExtension
     type: Class
-  - uid: RocketshiftStudio.Trophy.Extensions.BaseLocalStorageExtension
-    name: BaseLocalStorageExtension
-    type: Class
   - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
     name: ComponentScoreIconExtension<TComponent>
     type: Class
@@ -114,6 +114,9 @@ items:
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
     name: ILeaderboardExtension
+    type: Interface
+  - uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+    name: ILocalFileStorageExtension
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
     name: ILocalStorageExtension

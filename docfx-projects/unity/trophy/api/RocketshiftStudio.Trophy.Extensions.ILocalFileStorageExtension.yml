@@ -1,37 +1,97 @@
 ### YamlMime:ManagedReference
 items:
-- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
-  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
-  id: ILocalStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  id: ILocalFileStorageExtension
   parent: RocketshiftStudio.Trophy.Extensions
-  children: []
+  children:
+  - RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  - RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
   langs:
   - csharp
   - vb
-  name: ILocalStorageExtension
-  nameWithType: ILocalStorageExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  name: ILocalFileStorageExtension
+  nameWithType: ILocalFileStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
   type: Interface
   source:
     remote:
-      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalStorageExtension.cs
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
       branch: main
       repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: ILocalStorageExtension
-    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalStorageExtension.cs
+    id: ILocalFileStorageExtension
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
     startLine: 5
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Extensions
-  summary: To allow local storage based save/load operations on score values
+  summary: To allow local storage based save/load operations on score values using files
   example: []
   syntax:
-    content: 'public interface ILocalStorageExtension : IStorageExtension, IExtension'
-    content.vb: Public Interface ILocalStorageExtension Inherits IStorageExtension, IExtension
+    content: 'public interface ILocalFileStorageExtension : ILocalStorageExtension, IStorageExtension, IExtension'
+    content.vb: Public Interface ILocalFileStorageExtension Inherits ILocalStorageExtension, IStorageExtension, IExtension
   inheritedMembers:
   - RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
   - RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
   - RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  id: FileExtension
+  parent: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: FileExtension
+  nameWithType: ILocalFileStorageExtension.FileExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FileExtension
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: string FileExtension { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property FileExtension As String
+  overload: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension*
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  commentId: P:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  id: SaveDirectory
+  parent: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  langs:
+  - csharp
+  - vb
+  name: SaveDirectory
+  nameWithType: ILocalFileStorageExtension.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: SaveDirectory
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalFileStorageExtension.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: string SaveDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SaveDirectory As String
+  overload: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory*
 references:
 - uid: RocketshiftStudio.Trophy.Extensions
   commentId: N:RocketshiftStudio.Trophy.Extensions
@@ -193,3 +253,31 @@ references:
   name: IStorageExtension
   nameWithType: IStorageExtension
   fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+  href: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_FileExtension
+  name: FileExtension
+  nameWithType: ILocalFileStorageExtension.FileExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.FileExtension
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
+  href: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html#RocketshiftStudio_Trophy_Extensions_ILocalFileStorageExtension_SaveDirectory
+  name: SaveDirectory
+  nameWithType: ILocalFileStorageExtension.SaveDirectory
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.SaveDirectory
