@@ -739,10 +739,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/getting-started/score-definition-inspector.png",
+      "source_relative_path": "images/getting-started/score-definition-creation.gif",
       "output": {
         "resource": {
-          "relative_path": "images/getting-started/score-definition-inspector.png"
+          "relative_path": "images/getting-started/score-definition-creation.gif"
         }
       },
       "version": ""
