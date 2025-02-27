@@ -739,10 +739,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/getting-started/score-definition-creation.gif",
+      "source_relative_path": "images/getting-started/metadata-section.png",
       "output": {
         "resource": {
-          "relative_path": "images/getting-started/score-definition-creation.gif"
+          "relative_path": "images/getting-started/metadata-section.png"
         }
       },
       "version": ""
