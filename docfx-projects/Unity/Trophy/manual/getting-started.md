@@ -10,6 +10,26 @@ In order to have score in the game what we need is called Score definiiton.
 3. Go to trophy settings using Tools > Rocketshift Studio > Trophy > Settings
 4. In the settings editor's score definition array add a entry and assign the definition in there.
 
-## The metadata & formats
-When it comes to showing scores to the user it requires some additional information to do that. Even thought the metadata part of the definition is self explainatory yet here are the use of these informations
-[!Metadata Section](../images/getting-started/metadata-section.png)
+## Metadata & Format
+When it comes to showing scores to the user it requires some additional properties to do that. Here are information about the properties
+![Metadata Section](../images/getting-started/metadata-section.png)
+
+| **Property** 	| **Description** 	|
+|---	|---	|
+| Name 	| The display name of the score which can be shown along with the score value when using {0} in format 	|
+| Icon 	| A sprite which can be shown along with using the appropriate score icon element based on the use case 	|
+| Default Format 	| The string format for the score text to use when displaying it to the user.<br><br>{0} Represents the name of the score<br>{1} Represents the value of the score<br>{2} Represents the type of the score<br><br>e.g. {2} {0}: {0:F2}<br>Result: Type Name: 0.00 	|
+| Format "As Time" 	| Tells the definition to handle format string as time format<br>such as {1:mm\.ss} for 140 seconds will be shown as 02:20<br><br>For more information about time format please refer to [**Microsoft Documentation**](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) 	|
+
+
+## Modifiers
+Modifiers processes value before applying to the score. Here are information about the properties
+![Modifiers Section](../images/getting-started/modifiers-section.png)
+
+| **Property** 	| **Description** 	|
+|---	|---	|
+| Limits Flags 	| Defines how the limit should effect the score value 	|
+| Flow Restriction  | Defines which direction has to be restricted 	|
+| Whole Value 	| On checked will round floating point values to nearest integer 	|
+| Absolute Value    | On checked will convert negetive values to positive 	|
+

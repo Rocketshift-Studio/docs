@@ -92,9 +92,64 @@
 <li>Go to trophy settings using Tools &gt; Rocketshift Studio &gt; Trophy &gt; Settings</li>
 <li>In the settings editor's score definition array add a entry and assign the definition in there.</li>
 </ol>
-<h2 id="the-metadata--formats">The metadata &amp; formats</h2>
-<p>When it comes to showing scores to the user it requires some additional information to do that. Even thought the metadata part of the definition is self explainatory yet here are the use of these informations
-<a href="../images/getting-started/metadata-section.png">!Metadata Section</a></p>
+<h2 id="metadata--format">Metadata &amp; Format</h2>
+<p>When it comes to showing scores to the user it requires some additional properties to do that. Here are information about the properties
+<img src="../images/getting-started/metadata-section.png" alt="Metadata Section"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>The display name of the score which can be shown along with the score value when using {0} in format</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td>A sprite which can be shown along with using the appropriate score icon element based on the use case</td>
+</tr>
+<tr>
+<td>Default Format</td>
+<td>The string format for the score text to use when displaying it to the user.<br><br>{0} Represents the name of the score<br>{1} Represents the value of the score<br>{2} Represents the type of the score<br><br>e.g. {2} {0}: {0:F2}<br>Result: Type Name: 0.00</td>
+</tr>
+<tr>
+<td>Format &quot;As Time&quot;</td>
+<td>Tells the definition to handle format string as time format<br>such as {1:mm.ss} for 140 seconds will be shown as 02:20<br><br>For more information about time format please refer to <a href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings"><strong>Microsoft Documentation</strong></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="modifiers">Modifiers</h2>
+<p>Modifiers processes value before applying to the score. Here are information about the properties
+<img src="../images/getting-started/modifiers-section.png" alt="Modifiers Section"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Limits Flags</td>
+<td>Defines how the limit should effect the score value</td>
+</tr>
+<tr>
+<td>Flow Restriction</td>
+<td>Defines which direction has to be restricted</td>
+</tr>
+<tr>
+<td>Whole Value</td>
+<td>On enable will round floating point values to nearest integer</td>
+</tr>
+<tr>
+<td>Absolute Value</td>
+<td>On enabled will convert negetive values to positive</td>
+</tr>
+</tbody>
+</table>
 
 </article>
           </div>

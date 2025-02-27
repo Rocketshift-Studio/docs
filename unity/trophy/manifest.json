@@ -748,6 +748,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/getting-started/modifiers-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/getting-started/modifiers-section.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
