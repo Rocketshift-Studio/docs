@@ -739,20 +739,50 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/getting-started/metadata-section.png",
+      "source_relative_path": "images/leaderboard-definitions/leaderboard-id-cloud.png",
       "output": {
         "resource": {
-          "relative_path": "images/getting-started/metadata-section.png"
+          "relative_path": "images/leaderboard-definitions/leaderboard-id-cloud.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/getting-started/modifiers-section.png",
+      "source_relative_path": "images/leaderboard-definitions/leaderboard-id-definition.png",
       "output": {
         "resource": {
-          "relative_path": "images/getting-started/modifiers-section.png"
+          "relative_path": "images/leaderboard-definitions/leaderboard-id-definition.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/score-definitions/metadata-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/score-definitions/metadata-section.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/score-definitions/modifiers-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/score-definitions/modifiers-section.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/score-definitions/save-and-load-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/score-definitions/save-and-load-section.png"
         }
       },
       "version": ""
@@ -763,6 +793,16 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/change-logs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/change-logs.html"
         }
       },
       "version": ""

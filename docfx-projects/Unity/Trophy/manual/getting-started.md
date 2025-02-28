@@ -1,18 +1,16 @@
-# Getting Started
-Here is complete guideline for onboarding with trophy score system.
-
-## Setup the definitions
-In order to have score in the game what we need is called Score definiiton.
+# Score Definitions
+## Setup
+In order to have score in the game what you need is called Score definiiton.
 
 **Here are the steps to setup a score definiiton:**
 1. In project window, choose Create > Trophy > Score Definition
-2. In the Score Definition inspector define unique key
+2. In the Score Definition inspector define a unique key
 3. Go to trophy settings using Tools > Rocketshift Studio > Trophy > Settings
-4. In the settings editor's score definition array add a entry and assign the definition in there.
+4. In the settings editor's score definitions array add a entry and assign the definition in there.
 
-## Metadata & Format
+## Metadata & Format Properties
 When it comes to showing scores to the user it requires some additional properties to do that. Here are information about the properties
-![Metadata Section](../images/getting-started/metadata-section.png)
+![Metadata Section](../images/score-definitions/metadata-section.png)
 
 | **Property** 	| **Description** 	|
 |---	|---	|
@@ -22,9 +20,9 @@ When it comes to showing scores to the user it requires some additional properti
 | Format "As Time" 	| Tells the definition to handle format string as time format<br>such as {1:mm\.ss} for 140 seconds will be shown as 02:20<br><br>For more information about time format please refer to [**Microsoft Documentation**](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) 	|
 
 
-## Modifiers
+## Modifier Properties
 Modifiers processes value before applying to the score. Here are information about the properties
-![Modifiers Section](../images/getting-started/modifiers-section.png)
+![Modifiers Section](../images/score-definitions/modifiers-section.png)
 
 | **Property** 	| **Description** 	|
 |---	|---	|
@@ -33,3 +31,32 @@ Modifiers processes value before applying to the score. Here are information abo
 | Whole Value 	| On checked will round floating point values to nearest integer 	|
 | Absolute Value    | On checked will convert negetive values to positive 	|
 
+
+## Save/Load Properties
+Defines score's saving and loading preferences
+![Save/Load Section](../images/score-definitions/save-and-load-section.png)
+
+| **Property** 	| **Description** 	|
+|---	|---	|
+| Best Calculation Type | How the best value will be calculated 	|
+| Storage Flags  | Which storage will be used for save & load of values 	|
+
+# Leaderboard Definitions
+
+## Setup
+In order to post scores to leaderboard what you need is called Leaderboard definiiton.
+
+**Here are the steps to setup a leaderboard definiiton:**
+1. In project window, choose Create > Trophy > Leaderoard Definition
+2. In the Leaderoard Definition inspector set your leaderboard id. It should be same as the id you have setup in your server
+
+Server View
+![Leaderboard ID Cloud](../images/leaderboard-definitions/leaderboard-id-cloud.png)
+
+Inspector View
+![Leaderboard ID Definition](../images/leaderboard-definitions/leaderboard-id-definition.png)
+
+3. In definition's score key property use the key of the target score
+4. Select the source of value from value source
+5. Go to trophy settings using Tools > Rocketshift Studio > Trophy > Settings
+6. In the settings editor's leaderboards definitions array add a entry and assign the definition in there.
