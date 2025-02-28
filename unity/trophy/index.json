@@ -254,15 +254,15 @@
     "title": "Namespace RocketshiftStudio.Trophy | Trophy - Ultimate Score System Documentation",
     "summary": "Namespace RocketshiftStudio.Trophy Classes FormatUtility Used for text formation purposes LeaderboardDefinition Score ScoreData ScoreDefinition Defines how a score will be managed ScoreMetadata Additional information about score Trophy Handle all score based operations from this class TrophySettings Structs LeaderboardData Define the data of leaderboard for leaderboard extensions to handle LeaderboardRequest Define the request data of leaderboard Interfaces IDefinition Enums BestCalculationType Defines how best value will be calculated FlowRestriction Defines the restriction of value direction HashAlgorithm Defines which hashing algorithm to use for hash validation LeaderboardValueSource Defines the source of value for leaderboard post request LimitFlags Define the limit of score values ScoreStatusFlags For status of the score ScoreType Types of score StorageFlags Defines how the score values will be saved or loaded Delegates Trophy.CountingChangedCallback Invoked per count toggle change. Trophy.StatusChangedCallback Invoked per status change. Trophy.ValueChangedCallback Invoked per value change."
   },
+  "changelogs/change-logs.html": {
+    "href": "changelogs/change-logs.html",
+    "title": "Changelogs | Trophy - Ultimate Score System Documentation",
+    "summary": "Changelogs"
+  },
   "index.html": {
     "href": "index.html",
     "title": "Welcome to Trophy - Ultimate Score System Documentation | Trophy - Ultimate Score System Documentation",
     "summary": "Welcome to Trophy - Ultimate Score System Documentation Trophy is the ultimate solution for implementing a score system in Unity, enabling quick integration with minimal effort. Its lightweight yet powerful design allows you to save valuable time that would otherwise be spent reinventing the wheel. With Trophy, you get both simplicity and scalability, making it the ultimate choice for your next project."
-  },
-  "manual/change-logs.html": {
-    "href": "manual/change-logs.html",
-    "title": "Introduction | Trophy - Ultimate Score System Documentation",
-    "summary": "Introduction Trophy is a lightweight and powerful score system made for Unity. So that you can stop wasting time on creating score systems from scratch and implement full fledge score system within minutes. Why use Trophy? Because it provides almost all you need. Features: Lightweight & Powerful Dynamic & Extendible Optimized Scripts Clean Source Code Value Processing Scriptable Object Based Cloud/Local Storage Support Optional Integrity Validation for Save/Load using hash algorithms such as (MD5, SHA1, SHA256, SHA384, SHA512) Leaderboard Support Score Text & Icon Support (IMGUI, UGUI, UIElements, 2D/3D) Events Support Smooth Friendly Workflow Custom Editors Score Explorer for both Editor & Runtime (Development Build Only)"
   },
   "manual/getting-started.html": {
     "href": "manual/getting-started.html",
@@ -274,9 +274,9 @@
     "title": "Introduction | Trophy - Ultimate Score System Documentation",
     "summary": "Introduction Trophy is a lightweight and powerful score system made for Unity. So that you can stop wasting time on creating score systems from scratch and implement full fledge score system within minutes. Why use Trophy? Because it provides almost all you need. Features: Lightweight & Powerful Dynamic & Extendible Optimized Scripts Clean Source Code Value Processing Scriptable Object Based Cloud/Local Storage Support Optional Integrity Validation for Save/Load using hash algorithms such as (MD5, SHA1, SHA256, SHA384, SHA512) Leaderboard Support Score Text & Icon Support (IMGUI, UGUI, UIElements, 2D/3D) Events Support Smooth Friendly Workflow Custom Editors Score Explorer for both Editor & Runtime (Development Build Only) Note Information the user should notice even if skimming."
   },
-  "manual/update-guide.html": {
-    "href": "manual/update-guide.html",
-    "title": "Introduction | Trophy - Ultimate Score System Documentation",
-    "summary": "Introduction Trophy is a lightweight and powerful score system made for Unity. So that you can stop wasting time on creating score systems from scratch and implement full fledge score system within minutes. Why use Trophy? Because it provides almost all you need. Features: Lightweight & Powerful Dynamic & Extendible Optimized Scripts Clean Source Code Value Processing Scriptable Object Based Cloud/Local Storage Support Optional Integrity Validation for Save/Load using hash algorithms such as (MD5, SHA1, SHA256, SHA384, SHA512) Leaderboard Support Score Text & Icon Support (IMGUI, UGUI, UIElements, 2D/3D) Events Support Smooth Friendly Workflow Custom Editors Score Explorer for both Editor & Runtime (Development Build Only) Note Information the user should notice even if skimming."
+  "manual/upgrade-guide.html": {
+    "href": "manual/upgrade-guide.html",
+    "title": "Upgrade Guide | Trophy - Ultimate Score System Documentation",
+    "summary": "Upgrade Guide Follow these simple steps to upgrade to the latest version Remove Old Folders: Delete the folder Assets/Resources/Rocketshift Studio/Systems/Trophy Delete the folder Assets/Editor Default Resources/Rocketshift Studio/Systems/Trophy Import Latest Version: Download and import the latest version from the asset store. That's it! Your system should now be upgraded to the latest version."
   }
 }
