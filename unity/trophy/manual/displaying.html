@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Displaying | Trophy - Ultimate Score System Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Displaying | Trophy - Ultimate Score System Documentation ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../Icon.svg" alt="Trophy - Ultimate Score System Documentation">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="displaying">Displaying</h1>
+
+<p>Using this guide you'll learn how to display score text or icon to user</p>
+<h2 id="ui">UI</h2>
+<p>This section is dedicated to guide you on showing score on unity's different ui systems</p>
+<h3 id="ugui">UGUI</h3>
+<h4 id="here-are-the-steps-to-setup-a-score-definiiton">Here are the steps to setup a score definiiton:**</h4>
+<ol>
+<li>In project window, choose Create &gt; Trophy &gt; Score Definition</li>
+<li>In the Score Definition inspector define a unique key</li>
+<li>Go to trophy settings using Tools &gt; Rocketshift Studio &gt; Trophy &gt; Settings</li>
+<li>In the settings editor's score definitions array add a entry and assign the definition in there.</li>
+</ol>
+<h2 id="metadata--format-properties">Metadata &amp; Format Properties</h2>
+<p>When it comes to showing scores to the user it requires some additional properties to do that. Here are information about the properties
+<img src="../images/score-definitions/metadata-section.png" alt="Metadata Section"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>The display name of the score which can be shown along with the score value when using {0} in format</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td>A sprite which can be shown along with using the appropriate score icon element based on the use case</td>
+</tr>
+<tr>
+<td>Default Format</td>
+<td>The string format for the score text to use when displaying it to the user.<br><br>{0} Represents the name of the score<br>{1} Represents the value of the score<br>{2} Represents the type of the score<br><br>e.g. {2} {0}: {0:F2}<br>Result: Type Name: 0.00</td>
+</tr>
+<tr>
+<td>Format &quot;As Time&quot;</td>
+<td>Tells the definition to handle format string as time format<br>such as {1:mm.ss} for 140 seconds will be shown as 02:20<br><br>For more information about time format please refer to <a href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings"><strong>Microsoft Documentation</strong></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="modifier-properties">Modifier Properties</h2>
+<p>Modifiers processes value before applying to the score. Here are information about the properties
+<img src="../images/score-definitions/modifiers-section.png" alt="Modifiers Section"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Limits Flags</td>
+<td>Defines how the limit should effect the score value</td>
+</tr>
+<tr>
+<td>Flow Restriction</td>
+<td>Defines which direction has to be restricted</td>
+</tr>
+<tr>
+<td>Whole Value</td>
+<td>On checked will round floating point values to nearest integer</td>
+</tr>
+<tr>
+<td>Absolute Value</td>
+<td>On checked will convert negetive values to positive</td>
+</tr>
+</tbody>
+</table>
+<h2 id="saveload-properties">Save/Load Properties</h2>
+<p>Defines score's saving and loading preferences
+<img src="../images/score-definitions/save-and-load-section.png" alt="Save/Load Section"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Best Calculation Type</td>
+<td>How the best value will be calculated</td>
+</tr>
+<tr>
+<td>Storage Flags</td>
+<td>Which storage will be used for save &amp; load of values</td>
+</tr>
+</tbody>
+</table>
+<h1 id="leaderboard-definitions">Leaderboard Definitions</h1>
+<h2 id="setup">Setup</h2>
+<p>In order to post scores to leaderboard what you need is called Leaderboard definiiton.</p>
+<p><strong>Here are the steps to setup a leaderboard definiiton:</strong></p>
+<ol>
+<li>In project window, choose Create &gt; Trophy &gt; Leaderoard Definition</li>
+<li>In the Leaderoard Definition inspector set your leaderboard id. It should be same as the id you have setup in your server</li>
+</ol>
+<p>Server View
+<img src="../images/leaderboard-definitions/leaderboard-id-cloud.png" alt="Leaderboard ID Cloud"></p>
+<p>Inspector View
+<img src="../images/leaderboard-definitions/leaderboard-id-definition.png" alt="Leaderboard ID Definition"></p>
+<ol start="3">
+<li>In definition's score key property use the key of the target score</li>
+<li>Select the source of value from value source</li>
+<li>Go to trophy settings using Tools &gt; Rocketshift Studio &gt; Trophy &gt; Settings</li>
+<li>In the settings editor's leaderboards definitions array add a entry and assign the definition in there.</li>
+</ol>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Buy From <strong><a href="https://prf.hn/l/ngQ8aWl/">Asset Store</a></strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
