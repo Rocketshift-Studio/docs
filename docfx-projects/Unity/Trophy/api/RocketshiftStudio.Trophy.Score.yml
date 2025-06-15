@@ -11,6 +11,7 @@ items:
   - RocketshiftStudio.Trophy.Score.LatestValue
   - RocketshiftStudio.Trophy.Score.Multiplier
   - RocketshiftStudio.Trophy.Score.Status
+  - RocketshiftStudio.Trophy.Score.TotalValue
   - RocketshiftStudio.Trophy.Score.definition
   langs:
   - csharp
@@ -31,10 +32,20 @@ items:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   syntax:
-    content: public sealed class Score
-    content.vb: Public NotInheritable Class Score
+    content: >-
+      [Serializable]
+
+      public sealed class Score
+    content.vb: >-
+      <Serializable>
+
+      Public NotInheritable Class Score
   inheritance:
   - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
 - uid: RocketshiftStudio.Trophy.Score.definition
   commentId: F:RocketshiftStudio.Trophy.Score.definition
   id: definition
@@ -53,7 +64,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: definition
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -80,10 +91,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CurrentValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 8
+    startLine: 14
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Concurrent scored value while counting is on
+  example: []
   syntax:
     content: public double CurrentValue { get; }
     parameters: []
@@ -109,10 +122,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: BestValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 9
+    startLine: 24
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Best scored value
+  example: []
   syntax:
     content: public double BestValue { get; }
     parameters: []
@@ -138,10 +153,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LatestValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 10
+    startLine: 35
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Last scored value
+  example: []
   syntax:
     content: public double LatestValue { get; }
     parameters: []
@@ -149,6 +166,37 @@ items:
       type: System.Double
     content.vb: Public Property LatestValue As Double
   overload: RocketshiftStudio.Trophy.Score.LatestValue*
+- uid: RocketshiftStudio.Trophy.Score.TotalValue
+  commentId: P:RocketshiftStudio.Trophy.Score.TotalValue
+  id: TotalValue
+  parent: RocketshiftStudio.Trophy.Score
+  langs:
+  - csharp
+  - vb
+  name: TotalValue
+  nameWithType: Score.TotalValue
+  fullName: RocketshiftStudio.Trophy.Score.TotalValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TotalValue
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
+    startLine: 46
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Total accumulated value
+  example: []
+  syntax:
+    content: public double TotalValue { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TotalValue As Double
+  overload: RocketshiftStudio.Trophy.Score.TotalValue*
 - uid: RocketshiftStudio.Trophy.Score.Multiplier
   commentId: P:RocketshiftStudio.Trophy.Score.Multiplier
   id: Multiplier
@@ -167,10 +215,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Multiplier
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 11
+    startLine: 80
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Multiplies value before modifying concurrent score
+  example: []
   syntax:
     content: public float Multiplier { get; }
     parameters: []
@@ -196,10 +246,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IsCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 12
+    startLine: 90
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Indicates whether the counting process is currently active or not.
+  example: []
   syntax:
     content: public bool IsCounting { get; }
     parameters: []
@@ -225,10 +277,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Status
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Score.cs
-    startLine: 13
+    startLine: 99
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
+  summary: Indicates the current saved status of the values
+  example: []
   syntax:
     content: public ScoreStatusFlags Status { get; }
     parameters: []
@@ -310,6 +364,12 @@ references:
   name: LatestValue
   nameWithType: Score.LatestValue
   fullName: RocketshiftStudio.Trophy.Score.LatestValue
+- uid: RocketshiftStudio.Trophy.Score.TotalValue*
+  commentId: Overload:RocketshiftStudio.Trophy.Score.TotalValue
+  href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_TotalValue
+  name: TotalValue
+  nameWithType: Score.TotalValue
+  fullName: RocketshiftStudio.Trophy.Score.TotalValue
 - uid: RocketshiftStudio.Trophy.Score.Multiplier*
   commentId: Overload:RocketshiftStudio.Trophy.Score.Multiplier
   href: RocketshiftStudio.Trophy.Score.html#RocketshiftStudio_Trophy_Score_Multiplier

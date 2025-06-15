@@ -95,7 +95,8 @@
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
   <h5 id="RocketshiftStudio_Trophy_Score_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Score</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public sealed class Score</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
@@ -125,7 +126,8 @@
 </h3>
   <a id="RocketshiftStudio_Trophy_Score_BestValue_" data-uid="RocketshiftStudio.Trophy.Score.BestValue*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_BestValue" data-uid="RocketshiftStudio.Trophy.Score.BestValue">BestValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Best scored value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -148,7 +150,8 @@
   </table>
   <a id="RocketshiftStudio_Trophy_Score_CurrentValue_" data-uid="RocketshiftStudio.Trophy.Score.CurrentValue*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_CurrentValue" data-uid="RocketshiftStudio.Trophy.Score.CurrentValue">CurrentValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Concurrent scored value while counting is on</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -171,7 +174,8 @@
   </table>
   <a id="RocketshiftStudio_Trophy_Score_IsCounting_" data-uid="RocketshiftStudio.Trophy.Score.IsCounting*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_IsCounting" data-uid="RocketshiftStudio.Trophy.Score.IsCounting">IsCounting</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Indicates whether the counting process is currently active or not.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -194,7 +198,8 @@
   </table>
   <a id="RocketshiftStudio_Trophy_Score_LatestValue_" data-uid="RocketshiftStudio.Trophy.Score.LatestValue*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_LatestValue" data-uid="RocketshiftStudio.Trophy.Score.LatestValue">LatestValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Last scored value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -217,7 +222,8 @@
   </table>
   <a id="RocketshiftStudio_Trophy_Score_Multiplier_" data-uid="RocketshiftStudio.Trophy.Score.Multiplier*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_Multiplier" data-uid="RocketshiftStudio.Trophy.Score.Multiplier">Multiplier</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Multiplies value before modifying concurrent score</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -240,7 +246,8 @@
   </table>
   <a id="RocketshiftStudio_Trophy_Score_Status_" data-uid="RocketshiftStudio.Trophy.Score.Status*"></a>
   <h4 id="RocketshiftStudio_Trophy_Score_Status" data-uid="RocketshiftStudio.Trophy.Score.Status">Status</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Indicates the current saved status of the values</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -257,6 +264,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="RocketshiftStudio.Trophy.ScoreStatusFlags.html">ScoreStatusFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_Score_TotalValue_" data-uid="RocketshiftStudio.Trophy.Score.TotalValue*"></a>
+  <h4 id="RocketshiftStudio_Trophy_Score_TotalValue" data-uid="RocketshiftStudio.Trophy.Score.TotalValue">TotalValue</h4>
+  <div class="markdown level1 summary"><p>Total accumulated value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TotalValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span></td>
         <td></td>
       </tr>
     </tbody>

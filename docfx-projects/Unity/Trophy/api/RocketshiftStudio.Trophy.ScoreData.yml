@@ -5,13 +5,14 @@ items:
   id: ScoreData
   parent: RocketshiftStudio.Trophy
   children:
-  - RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)
+  - RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.Double,System.String)
   - RocketshiftStudio.Trophy.ScoreData.Best
   - RocketshiftStudio.Trophy.ScoreData.Hash
   - RocketshiftStudio.Trophy.ScoreData.IsValid
   - RocketshiftStudio.Trophy.ScoreData.Key
   - RocketshiftStudio.Trophy.ScoreData.Latest
   - RocketshiftStudio.Trophy.ScoreData.ToString
+  - RocketshiftStudio.Trophy.ScoreData.Total
   langs:
   - csharp
   - vb
@@ -45,35 +46,6 @@ items:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
     arguments: []
-- uid: RocketshiftStudio.Trophy.ScoreData.Hash
-  commentId: P:RocketshiftStudio.Trophy.ScoreData.Hash
-  id: Hash
-  parent: RocketshiftStudio.Trophy.ScoreData
-  langs:
-  - csharp
-  - vb
-  name: Hash
-  nameWithType: ScoreData.Hash
-  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
-  type: Property
-  source:
-    remote:
-      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-      branch: main
-      repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: Hash
-    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 18
-  assemblies:
-  - RocketshiftStudio.Trophy
-  namespace: RocketshiftStudio.Trophy
-  syntax:
-    content: public string Hash { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Hash As String
-  overload: RocketshiftStudio.Trophy.ScoreData.Hash*
 - uid: RocketshiftStudio.Trophy.ScoreData.Key
   commentId: P:RocketshiftStudio.Trophy.ScoreData.Key
   id: Key
@@ -92,7 +64,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 19
+    startLine: 20
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -101,7 +73,7 @@ items:
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Key As String
+    content.vb: Public ReadOnly Property Key As String
   overload: RocketshiftStudio.Trophy.ScoreData.Key*
 - uid: RocketshiftStudio.Trophy.ScoreData.Best
   commentId: P:RocketshiftStudio.Trophy.ScoreData.Best
@@ -121,7 +93,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Best
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -130,7 +102,7 @@ items:
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Property Best As Double
+    content.vb: Public ReadOnly Property Best As Double
   overload: RocketshiftStudio.Trophy.ScoreData.Best*
 - uid: RocketshiftStudio.Trophy.ScoreData.Latest
   commentId: P:RocketshiftStudio.Trophy.ScoreData.Latest
@@ -150,7 +122,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Latest
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -159,18 +131,76 @@ items:
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Property Latest As Double
+    content.vb: Public ReadOnly Property Latest As Double
   overload: RocketshiftStudio.Trophy.ScoreData.Latest*
-- uid: RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)
-  commentId: M:RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.String)
-  id: '#ctor(System.String,System.Double,System.Double,System.String)'
+- uid: RocketshiftStudio.Trophy.ScoreData.Total
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Total
+  id: Total
   parent: RocketshiftStudio.Trophy.ScoreData
   langs:
   - csharp
   - vb
-  name: ScoreData(string, double, double, string)
-  nameWithType: ScoreData.ScoreData(string, double, double, string)
-  fullName: RocketshiftStudio.Trophy.ScoreData.ScoreData(string, double, double, string)
+  name: Total
+  nameWithType: ScoreData.Total
+  fullName: RocketshiftStudio.Trophy.ScoreData.Total
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Total
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
+    startLine: 23
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public double Total { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Total As Double
+  overload: RocketshiftStudio.Trophy.ScoreData.Total*
+- uid: RocketshiftStudio.Trophy.ScoreData.Hash
+  commentId: P:RocketshiftStudio.Trophy.ScoreData.Hash
+  id: Hash
+  parent: RocketshiftStudio.Trophy.ScoreData
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: ScoreData.Hash
+  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Hash
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
+    startLine: 24
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public string Hash { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Hash As String
+  overload: RocketshiftStudio.Trophy.ScoreData.Hash*
+- uid: RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.Double,System.String)
+  commentId: M:RocketshiftStudio.Trophy.ScoreData.#ctor(System.String,System.Double,System.Double,System.Double,System.String)
+  id: '#ctor(System.String,System.Double,System.Double,System.Double,System.String)'
+  parent: RocketshiftStudio.Trophy.ScoreData
+  langs:
+  - csharp
+  - vb
+  name: ScoreData(string, double, double, double, string)
+  nameWithType: ScoreData.ScoreData(string, double, double, double, string)
+  fullName: RocketshiftStudio.Trophy.ScoreData.ScoreData(string, double, double, double, string)
   type: Constructor
   source:
     remote:
@@ -179,12 +209,12 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: .ctor
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
   syntax:
-    content: public ScoreData(string key, double best, double latest, string hash = null)
+    content: public ScoreData(string key, double best, double latest, double total, string hash = null)
     parameters:
     - id: key
       type: System.String
@@ -192,13 +222,15 @@ items:
       type: System.Double
     - id: latest
       type: System.Double
+    - id: total
+      type: System.Double
     - id: hash
       type: System.String
-    content.vb: Public Sub New(key As String, best As Double, latest As Double, hash As String = Nothing)
+    content.vb: Public Sub New(key As String, best As Double, latest As Double, total As Double, hash As String = Nothing)
   overload: RocketshiftStudio.Trophy.ScoreData.#ctor*
-  nameWithType.vb: ScoreData.New(String, Double, Double, String)
-  fullName.vb: RocketshiftStudio.Trophy.ScoreData.New(String, Double, Double, String)
-  name.vb: New(String, Double, Double, String)
+  nameWithType.vb: ScoreData.New(String, Double, Double, Double, String)
+  fullName.vb: RocketshiftStudio.Trophy.ScoreData.New(String, Double, Double, Double, String)
+  name.vb: New(String, Double, Double, Double, String)
 - uid: RocketshiftStudio.Trophy.ScoreData.IsValid
   commentId: M:RocketshiftStudio.Trophy.ScoreData.IsValid
   id: IsValid
@@ -217,7 +249,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IsValid
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 33
+    startLine: 39
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -245,7 +277,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ToString
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreData.cs
-    startLine: 52
+    startLine: 59
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -296,12 +328,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: RocketshiftStudio.Trophy.ScoreData.Hash*
-  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Hash
-  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Hash
-  name: Hash
-  nameWithType: ScoreData.Hash
-  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
+- uid: RocketshiftStudio.Trophy.ScoreData.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Key
+  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Key
+  name: Key
+  nameWithType: ScoreData.Key
+  fullName: RocketshiftStudio.Trophy.ScoreData.Key
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -312,12 +344,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: RocketshiftStudio.Trophy.ScoreData.Key*
-  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Key
-  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Key
-  name: Key
-  nameWithType: ScoreData.Key
-  fullName: RocketshiftStudio.Trophy.ScoreData.Key
 - uid: RocketshiftStudio.Trophy.ScoreData.Best*
   commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Best
   href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Best
@@ -340,9 +366,21 @@ references:
   name: Latest
   nameWithType: ScoreData.Latest
   fullName: RocketshiftStudio.Trophy.ScoreData.Latest
+- uid: RocketshiftStudio.Trophy.ScoreData.Total*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Total
+  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Total
+  name: Total
+  nameWithType: ScoreData.Total
+  fullName: RocketshiftStudio.Trophy.ScoreData.Total
+- uid: RocketshiftStudio.Trophy.ScoreData.Hash*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreData.Hash
+  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData_Hash
+  name: Hash
+  nameWithType: ScoreData.Hash
+  fullName: RocketshiftStudio.Trophy.ScoreData.Hash
 - uid: RocketshiftStudio.Trophy.ScoreData.#ctor*
   commentId: Overload:RocketshiftStudio.Trophy.ScoreData.#ctor
-  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_System_String_
+  href: RocketshiftStudio.Trophy.ScoreData.html#RocketshiftStudio_Trophy_ScoreData__ctor_System_String_System_Double_System_Double_System_Double_System_String_
   name: ScoreData
   nameWithType: ScoreData.ScoreData
   fullName: RocketshiftStudio.Trophy.ScoreData.ScoreData

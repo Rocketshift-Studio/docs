@@ -5,6 +5,7 @@ items:
   id: RocketshiftStudio.Trophy
   children:
   - RocketshiftStudio.Trophy.BestCalculationType
+  - RocketshiftStudio.Trophy.DefinitionBase
   - RocketshiftStudio.Trophy.FlowRestriction
   - RocketshiftStudio.Trophy.FormatUtility
   - RocketshiftStudio.Trophy.HashAlgorithm
@@ -13,6 +14,7 @@ items:
   - RocketshiftStudio.Trophy.LeaderboardDefinition
   - RocketshiftStudio.Trophy.LeaderboardRequest
   - RocketshiftStudio.Trophy.LeaderboardValueSource
+  - RocketshiftStudio.Trophy.Limit
   - RocketshiftStudio.Trophy.LimitFlags
   - RocketshiftStudio.Trophy.Score
   - RocketshiftStudio.Trophy.ScoreData
@@ -23,6 +25,7 @@ items:
   - RocketshiftStudio.Trophy.StorageFlags
   - RocketshiftStudio.Trophy.Trophy
   - RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
+  - RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
   - RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   - RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
   - RocketshiftStudio.Trophy.TrophySettings
@@ -85,6 +88,29 @@ references:
   - uid: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
     name: ValueChangedCallback
     href: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback.html
+- uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  commentId: T:RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.Trophy.html
+  name: Trophy.MultiplierChangedCallback
+  nameWithType: Trophy.MultiplierChangedCallback
+  fullName: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    name: MultiplierChangedCallback
+    href: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.html
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    name: MultiplierChangedCallback
+    href: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.html
 - uid: RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   commentId: T:RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   parent: RocketshiftStudio.Trophy
@@ -144,6 +170,13 @@ references:
   name: ScoreDefinition
   nameWithType: ScoreDefinition
   fullName: RocketshiftStudio.Trophy.ScoreDefinition
+- uid: RocketshiftStudio.Trophy.Limit
+  commentId: T:RocketshiftStudio.Trophy.Limit
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.Limit.html
+  name: Limit
+  nameWithType: Limit
+  fullName: RocketshiftStudio.Trophy.Limit
 - uid: RocketshiftStudio.Trophy.ScoreMetadata
   commentId: T:RocketshiftStudio.Trophy.ScoreMetadata
   parent: RocketshiftStudio.Trophy
@@ -157,6 +190,13 @@ references:
   name: Score
   nameWithType: Score
   fullName: RocketshiftStudio.Trophy.Score
+- uid: RocketshiftStudio.Trophy.DefinitionBase
+  commentId: T:RocketshiftStudio.Trophy.DefinitionBase
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.DefinitionBase.html
+  name: DefinitionBase
+  nameWithType: DefinitionBase
+  fullName: RocketshiftStudio.Trophy.DefinitionBase
 - uid: RocketshiftStudio.Trophy.TrophySettings
   commentId: T:RocketshiftStudio.Trophy.TrophySettings
   href: RocketshiftStudio.Trophy.TrophySettings.html

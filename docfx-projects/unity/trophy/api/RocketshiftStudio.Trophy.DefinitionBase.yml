@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.DefinitionBase
+  commentId: T:RocketshiftStudio.Trophy.DefinitionBase
+  id: DefinitionBase
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.DefinitionBase.Key
+  langs:
+  - csharp
+  - vb
+  name: DefinitionBase
+  nameWithType: DefinitionBase
+  fullName: RocketshiftStudio.Trophy.DefinitionBase
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/DefinitionBase.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: DefinitionBase
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/DefinitionBase.cs
+    startLine: 4
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: 'public abstract class DefinitionBase : ScriptableObject, IDefinition'
+    content.vb: Public MustInherit Class DefinitionBase Inherits ScriptableObject Implements IDefinition
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  derivedClasses:
+  - RocketshiftStudio.Trophy.LeaderboardDefinition
+  - RocketshiftStudio.Trophy.ScoreDefinition
+  implements:
+  - RocketshiftStudio.Trophy.IDefinition
+- uid: RocketshiftStudio.Trophy.DefinitionBase.Key
+  commentId: P:RocketshiftStudio.Trophy.DefinitionBase.Key
+  id: Key
+  parent: RocketshiftStudio.Trophy.DefinitionBase
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DefinitionBase.Key
+  fullName: RocketshiftStudio.Trophy.DefinitionBase.Key
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/DefinitionBase.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/DefinitionBase.cs
+    startLine: 12
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Identification key of the score
+  example: []
+  syntax:
+    content: public string Key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.DefinitionBase.Key*
+  implements:
+  - RocketshiftStudio.Trophy.IDefinition.Key
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: RocketshiftStudio.Trophy.IDefinition
+  commentId: T:RocketshiftStudio.Trophy.IDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.IDefinition.html
+  name: IDefinition
+  nameWithType: IDefinition
+  fullName: RocketshiftStudio.Trophy.IDefinition
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.DefinitionBase.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.DefinitionBase.Key
+  href: RocketshiftStudio.Trophy.DefinitionBase.html#RocketshiftStudio_Trophy_DefinitionBase_Key
+  name: Key
+  nameWithType: DefinitionBase.Key
+  fullName: RocketshiftStudio.Trophy.DefinitionBase.Key
+- uid: RocketshiftStudio.Trophy.IDefinition.Key
+  commentId: P:RocketshiftStudio.Trophy.IDefinition.Key
+  parent: RocketshiftStudio.Trophy.IDefinition
+  href: RocketshiftStudio.Trophy.IDefinition.html#RocketshiftStudio_Trophy_IDefinition_Key
+  name: Key
+  nameWithType: IDefinition.Key
+  fullName: RocketshiftStudio.Trophy.IDefinition.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

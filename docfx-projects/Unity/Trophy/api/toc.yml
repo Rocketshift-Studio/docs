@@ -20,6 +20,9 @@ items:
   - uid: RocketshiftStudio.Trophy.BestCalculationType
     name: BestCalculationType
     type: Enum
+  - uid: RocketshiftStudio.Trophy.DefinitionBase
+    name: DefinitionBase
+    type: Class
   - uid: RocketshiftStudio.Trophy.FlowRestriction
     name: FlowRestriction
     type: Enum
@@ -44,6 +47,9 @@ items:
   - uid: RocketshiftStudio.Trophy.LeaderboardValueSource
     name: LeaderboardValueSource
     type: Enum
+  - uid: RocketshiftStudio.Trophy.Limit
+    name: Limit
+    type: Class
   - uid: RocketshiftStudio.Trophy.LimitFlags
     name: LimitFlags
     type: Enum
@@ -74,6 +80,9 @@ items:
   - uid: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
     name: Trophy.CountingChangedCallback
     type: Delegate
+  - uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    name: Trophy.MultiplierChangedCallback
+    type: Delegate
   - uid: RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
     name: Trophy.StatusChangedCallback
     type: Delegate
@@ -100,17 +109,14 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
     name: BaseCloudStorageExtension
     type: Class
-  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreIconExtension`1
-    name: ComponentScoreIconExtension<TComponent>
-    type: Class
-  - uid: RocketshiftStudio.Trophy.Extensions.ComponentScoreTextExtension`1
-    name: ComponentScoreTextExtension<TComponent>
-    type: Class
   - uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
     name: ICloudStorageExtension
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.IExtension
     name: IExtension
+    type: Interface
+  - uid: RocketshiftStudio.Trophy.Extensions.IIconObserver
+    name: IIconObserver
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
     name: ILeaderboardExtension
@@ -121,20 +127,17 @@ items:
   - uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
     name: ILocalStorageExtension
     type: Interface
-  - uid: RocketshiftStudio.Trophy.Extensions.IScoreDisplayExtension`1
-    name: IScoreDisplayExtension<TValue>
-    type: Interface
-  - uid: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
-    name: IScoreIconExtension
-    type: Interface
-  - uid: RocketshiftStudio.Trophy.Extensions.IScoreTextExtension
-    name: IScoreTextExtension
-    type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
     name: ISpecialPermissionExtension
     type: Interface
   - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
     name: IStorageExtension
+    type: Interface
+  - uid: RocketshiftStudio.Trophy.Extensions.ITextObserver
+    name: ITextObserver
+    type: Interface
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver<TValue>
     type: Interface
 - uid: RocketshiftStudio.Trophy.IMGUI
   name: RocketshiftStudio.Trophy.IMGUI

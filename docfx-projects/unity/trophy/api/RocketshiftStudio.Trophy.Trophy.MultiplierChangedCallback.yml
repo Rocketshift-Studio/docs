@@ -1,43 +1,43 @@
 ### YamlMime:ManagedReference
 items:
-- uid: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
-  commentId: T:RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
-  id: Trophy.CountingChangedCallback
+- uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  commentId: T:RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  id: Trophy.MultiplierChangedCallback
   parent: RocketshiftStudio.Trophy
   children: []
   langs:
   - csharp
   - vb
-  name: Trophy.CountingChangedCallback
-  nameWithType: Trophy.CountingChangedCallback
-  fullName: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
+  name: Trophy.MultiplierChangedCallback
+  nameWithType: Trophy.MultiplierChangedCallback
+  fullName: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
   type: Delegate
   source:
     remote:
       path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
       branch: main
       repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: CountingChangedCallback
+    id: MultiplierChangedCallback
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 76
+    startLine: 61
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
-  summary: Invoked per count toggle change.
+  summary: Invoked per value change.
   example: []
   syntax:
-    content: public delegate void Trophy.CountingChangedCallback(string key, bool previous, bool current)
+    content: public delegate void Trophy.MultiplierChangedCallback(string key, float previous, float current)
     parameters:
     - id: key
       type: System.String
       description: The key of the effected score
     - id: previous
-      type: System.Boolean
-      description: The count state before change
+      type: System.Single
+      description: The previous value
     - id: current
-      type: System.Boolean
-      description: The count state after change
-    content.vb: Public Delegate Sub Trophy.CountingChangedCallback(key As String, previous As Boolean, current As Boolean)
+      type: System.Single
+      description: The current value
+    content.vb: Public Delegate Sub Trophy.MultiplierChangedCallback(key As String, previous As Single, current As Single)
 references:
 - uid: RocketshiftStudio.Trophy
   commentId: N:RocketshiftStudio.Trophy
@@ -71,16 +71,16 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Boolean
-  commentId: T:System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
   parent: System
   isExternal: true
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
 - uid: System
   commentId: N:System
   isExternal: true

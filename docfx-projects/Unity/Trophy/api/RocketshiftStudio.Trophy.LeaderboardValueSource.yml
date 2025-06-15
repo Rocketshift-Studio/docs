@@ -7,6 +7,7 @@ items:
   children:
   - RocketshiftStudio.Trophy.LeaderboardValueSource.Best
   - RocketshiftStudio.Trophy.LeaderboardValueSource.Latest
+  - RocketshiftStudio.Trophy.LeaderboardValueSource.Total
   langs:
   - csharp
   - vb
@@ -84,6 +85,34 @@ items:
   example: []
   syntax:
     content: Latest = 1
+    return:
+      type: RocketshiftStudio.Trophy.LeaderboardValueSource
+- uid: RocketshiftStudio.Trophy.LeaderboardValueSource.Total
+  commentId: F:RocketshiftStudio.Trophy.LeaderboardValueSource.Total
+  id: Total
+  parent: RocketshiftStudio.Trophy.LeaderboardValueSource
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: LeaderboardValueSource.Total
+  fullName: RocketshiftStudio.Trophy.LeaderboardValueSource.Total
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Total
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/LeaderboardValueSource.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Will use the total value when posting
+  example: []
+  syntax:
+    content: Total = 2
     return:
       type: RocketshiftStudio.Trophy.LeaderboardValueSource
 references:

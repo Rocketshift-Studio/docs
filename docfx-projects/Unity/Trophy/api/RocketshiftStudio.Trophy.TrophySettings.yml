@@ -79,7 +79,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ScoreDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -110,7 +110,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardDefinitions
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 24
+    startLine: 23
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -141,7 +141,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LeaderboardExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 31
+    startLine: 30
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -172,7 +172,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: AutoLoadSavedAtInit
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 38
+    startLine: 37
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -203,7 +203,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: HashValidationFlags
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 45
+    startLine: 44
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -234,7 +234,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: HashAlgorithm
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 52
+    startLine: 51
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -265,7 +265,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: HashSalt
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 59
+    startLine: 58
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -296,7 +296,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CloudSaveExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 66
+    startLine: 65
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -327,7 +327,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LocalStorageExtension
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 73
+    startLine: 72
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -358,7 +358,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: EnableRuntimeTrophyExplorer
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 81
+    startLine: 80
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -389,7 +389,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Contains
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 88
+    startLine: 87
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -427,7 +427,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 107
+    startLine: 106
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -469,7 +469,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TryGetMetadata
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/TrophySettings.cs
-    startLine: 124
+    startLine: 123
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy

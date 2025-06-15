@@ -92,11 +92,18 @@
     <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">Object</span></div>
     <div class="level2"><span class="xref">ScriptableObject</span></div>
-    <div class="level3"><span class="xref">ScoreDefinition</span></div>
+    <div class="level3"><a class="xref" href="RocketshiftStudio.Trophy.DefinitionBase.html">DefinitionBase</a></div>
+    <div class="level4"><span class="xref">ScoreDefinition</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="RocketshiftStudio.Trophy.IDefinition.html">IDefinition</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="RocketshiftStudio.Trophy.DefinitionBase.html#RocketshiftStudio_Trophy_DefinitionBase_Key">DefinitionBase.Key</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a></h6>
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
@@ -104,7 +111,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[CreateAssetMenu(menuName = &quot;Trophy/Score Definition&quot;, fileName = &quot;New Score Definition&quot;)]
 [ExcludeFromPreset]
-public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
+public sealed class ScoreDefinition : DefinitionBase, IDefinition</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -156,14 +163,14 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreDefinition_FlowRestriction_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_FlowRestriction" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction">FlowRestriction</h4>
-  <div class="markdown level1 summary"><p>Defines the restriction of value direction</p>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_CurrentFlowRestriction_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_CurrentFlowRestriction" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction">CurrentFlowRestriction</h4>
+  <div class="markdown level1 summary"><p>Flow restriction of current value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FlowRestriction FlowRestriction { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public FlowRestriction CurrentFlowRestriction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -180,14 +187,14 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreDefinition_Key_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Key*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_Key" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Key">Key</h4>
-  <div class="markdown level1 summary"><p>Identification key of the score</p>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_CurrentLimit_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_CurrentLimit" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit">CurrentLimit</h4>
+  <div class="markdown level1 summary"><p>Limit of current value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Limit CurrentLimit { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -199,19 +206,19 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">string</span></td>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.Limit.html">Limit</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreDefinition_LimitFlags_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.LimitFlags*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_LimitFlags" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.LimitFlags">LimitFlags</h4>
-  <div class="markdown level1 summary"><p>Define the limit of score values</p>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_FlowRestriction_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_FlowRestriction" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction">FlowRestriction</h4>
+  <div class="markdown level1 summary"><p>Defines flow restriction of value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LimitFlags LimitFlags { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool FlowRestriction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -223,19 +230,19 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="RocketshiftStudio.Trophy.LimitFlags.html">LimitFlags</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreDefinition_Maximum_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Maximum*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_Maximum" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Maximum">Maximum</h4>
-  <div class="markdown level1 summary"><p>The maximum value limit</p>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_LimitValues_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.LimitValues*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_LimitValues" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.LimitValues">LimitValues</h4>
+  <div class="markdown level1 summary"><p>Limit values of score</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Maximum { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool LimitValues { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -247,7 +254,7 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">double</span></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -276,30 +283,6 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RocketshiftStudio_Trophy_ScoreDefinition_Minimum_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Minimum*"></a>
-  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_Minimum" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.Minimum">Minimum</h4>
-  <div class="markdown level1 summary"><p>The minimum value limit</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Minimum { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="RocketshiftStudio_Trophy_ScoreDefinition_StorageFlags_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags*"></a>
   <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_StorageFlags" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags">StorageFlags</h4>
   <div class="markdown level1 summary"><p>Defines how the score values will be saved or loaded</p>
@@ -320,6 +303,54 @@ public sealed class ScoreDefinition : ScriptableObject, IDefinition</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="RocketshiftStudio.Trophy.StorageFlags.html">StorageFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_TotalFlowRestriction_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_TotalFlowRestriction" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction">TotalFlowRestriction</h4>
+  <div class="markdown level1 summary"><p>Flow restriction of total value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlowRestriction TotalFlowRestriction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.FlowRestriction.html">FlowRestriction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RocketshiftStudio_Trophy_ScoreDefinition_TotalLimit_" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit*"></a>
+  <h4 id="RocketshiftStudio_Trophy_ScoreDefinition_TotalLimit" data-uid="RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit">TotalLimit</h4>
+  <div class="markdown level1 summary"><p>Limit of total value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Limit TotalLimit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RocketshiftStudio.Trophy.Limit.html">Limit</a></td>
         <td></td>
       </tr>
     </tbody>

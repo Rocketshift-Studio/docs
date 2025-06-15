@@ -21,6 +21,7 @@ items:
   - RocketshiftStudio.Trophy.Trophy.GetUserScoresAsync(System.String,System.Collections.Generic.IList{System.String})
   - RocketshiftStudio.Trophy.Trophy.GetValue(System.String,RocketshiftStudio.Trophy.ScoreType)
   - RocketshiftStudio.Trophy.Trophy.IncreaseValue(System.String,System.Double,System.Boolean)
+  - RocketshiftStudio.Trophy.Trophy.Initialize
   - RocketshiftStudio.Trophy.Trophy.InitializeAsync
   - RocketshiftStudio.Trophy.Trophy.Initialized
   - RocketshiftStudio.Trophy.Trophy.IsCounting(System.String)
@@ -29,6 +30,7 @@ items:
   - RocketshiftStudio.Trophy.Trophy.Load(System.String)
   - RocketshiftStudio.Trophy.Trophy.LoadAsync(System.Collections.Generic.ICollection{System.String})
   - RocketshiftStudio.Trophy.Trophy.LoadAsync(System.String)
+  - RocketshiftStudio.Trophy.Trophy.MultiplierChanged
   - RocketshiftStudio.Trophy.Trophy.MultiplyValue(System.String,System.Double,System.Boolean)
   - RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest)
   - RocketshiftStudio.Trophy.Trophy.PostToLeaderboard(RocketshiftStudio.Trophy.LeaderboardRequest[])
@@ -59,7 +61,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Trophy
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -121,7 +123,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IsInitialized
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -152,7 +154,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Scores
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 32
+    startLine: 33
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -183,7 +185,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Initialized
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -212,7 +214,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ValueChanged
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -221,6 +223,33 @@ items:
     return:
       type: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
     content.vb: Public Event ValueChanged As Trophy.ValueChangedCallback
+- uid: RocketshiftStudio.Trophy.Trophy.MultiplierChanged
+  commentId: E:RocketshiftStudio.Trophy.Trophy.MultiplierChanged
+  id: MultiplierChanged
+  parent: RocketshiftStudio.Trophy.Trophy
+  langs:
+  - csharp
+  - vb
+  name: MultiplierChanged
+  nameWithType: Trophy.MultiplierChanged
+  fullName: RocketshiftStudio.Trophy.Trophy.MultiplierChanged
+  type: Event
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MultiplierChanged
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+    startLine: 43
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public event Trophy.MultiplierChangedCallback MultiplierChanged
+    return:
+      type: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    content.vb: Public Event MultiplierChanged As Trophy.MultiplierChangedCallback
 - uid: RocketshiftStudio.Trophy.Trophy.StatusChanged
   commentId: E:RocketshiftStudio.Trophy.Trophy.StatusChanged
   id: StatusChanged
@@ -239,7 +268,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: StatusChanged
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 42
+    startLine: 44
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -266,7 +295,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: CountingChanged
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 43
+    startLine: 45
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -275,6 +304,34 @@ items:
     return:
       type: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
     content.vb: Public Event CountingChanged As Trophy.CountingChangedCallback
+- uid: RocketshiftStudio.Trophy.Trophy.Initialize
+  commentId: M:RocketshiftStudio.Trophy.Trophy.Initialize
+  id: Initialize
+  parent: RocketshiftStudio.Trophy.Trophy
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: Trophy.Initialize()
+  fullName: RocketshiftStudio.Trophy.Trophy.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Initialize
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+    startLine: 88
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Initialize Trophy
+  example: []
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize()
+  overload: RocketshiftStudio.Trophy.Trophy.Initialize*
 - uid: RocketshiftStudio.Trophy.Trophy.InitializeAsync
   commentId: M:RocketshiftStudio.Trophy.Trophy.InitializeAsync
   id: InitializeAsync
@@ -293,7 +350,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: InitializeAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 78
+    startLine: 97
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -323,7 +380,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: BeginCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 139
+    startLine: 158
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -362,7 +419,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: BeginCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 149
+    startLine: 168
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -401,7 +458,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IsCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 170
+    startLine: 189
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -443,7 +500,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: EndCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 186
+    startLine: 205
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -482,7 +539,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: EndCounting
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 196
+    startLine: 215
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -521,7 +578,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: IncreaseValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 227
+    startLine: 246
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -569,7 +626,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: DecreaseValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 261
+    startLine: 280
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -617,7 +674,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: MultiplyValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 294
+    startLine: 313
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -665,7 +722,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: SetValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 328
+    startLine: 347
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -713,7 +770,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: ResetValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 354
+    startLine: 373
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -752,7 +809,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 382
+    startLine: 401
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -797,7 +854,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: TryGetValue
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 406
+    startLine: 426
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -841,7 +898,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: SetMultiplier
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 431
+    startLine: 452
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -886,7 +943,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetMultiplier
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 452
+    startLine: 475
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -928,7 +985,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetStatus
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 470
+    startLine: 493
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -970,7 +1027,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: PostToLeaderboard
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 485
+    startLine: 508
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1001,7 +1058,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: PostToLeaderboard
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 494
+    startLine: 517
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1036,7 +1093,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: PostToLeaderboardAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 503
+    startLine: 526
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1070,7 +1127,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: PostToLeaderboardAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 512
+    startLine: 535
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1107,7 +1164,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Load
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 609
+    startLine: 639
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1142,7 +1199,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Load
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 618
+    startLine: 648
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1177,7 +1234,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LoadAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 627
+    startLine: 657
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1213,7 +1270,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: LoadAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 636
+    startLine: 666
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1250,7 +1307,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetUserScoreAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 747
+    startLine: 779
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1291,7 +1348,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: GetUserScoresAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 759
+    startLine: 791
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1332,7 +1389,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Save
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 809
+    startLine: 841
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1367,7 +1424,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Save
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 818
+    startLine: 850
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1402,7 +1459,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: SaveAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 827
+    startLine: 859
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1439,7 +1496,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: SaveAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 836
+    startLine: 868
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1476,7 +1533,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Delete
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 956
+    startLine: 988
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1511,7 +1568,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: Delete
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 965
+    startLine: 997
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1546,7 +1603,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: DeleteAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 974
+    startLine: 1006
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1583,7 +1640,7 @@ items:
       repo: https://github.com/Rocketshift-Studio/Trophy.git
     id: DeleteAsync
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
-    startLine: 984
+    startLine: 1016
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy
@@ -1917,6 +1974,29 @@ references:
   - uid: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback
     name: ValueChangedCallback
     href: RocketshiftStudio.Trophy.Trophy.ValueChangedCallback.html
+- uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  commentId: T:RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.Trophy.html
+  name: Trophy.MultiplierChangedCallback
+  nameWithType: Trophy.MultiplierChangedCallback
+  fullName: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    name: MultiplierChangedCallback
+    href: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.html
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+    name: MultiplierChangedCallback
+    href: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.html
 - uid: RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   commentId: T:RocketshiftStudio.Trophy.Trophy.StatusChangedCallback
   parent: RocketshiftStudio.Trophy
@@ -1963,6 +2043,12 @@ references:
   - uid: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback
     name: CountingChangedCallback
     href: RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.html
+- uid: RocketshiftStudio.Trophy.Trophy.Initialize*
+  commentId: Overload:RocketshiftStudio.Trophy.Trophy.Initialize
+  href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_Initialize
+  name: Initialize
+  nameWithType: Trophy.Initialize
+  fullName: RocketshiftStudio.Trophy.Trophy.Initialize
 - uid: RocketshiftStudio.Trophy.Trophy.InitializeAsync*
   commentId: Overload:RocketshiftStudio.Trophy.Trophy.InitializeAsync
   href: RocketshiftStudio.Trophy.Trophy.html#RocketshiftStudio_Trophy_Trophy_InitializeAsync

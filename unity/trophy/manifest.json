@@ -124,6 +124,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.DefinitionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.DefinitionBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.DefinitionBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.yml",
       "output": {
         ".html": {
@@ -205,6 +219,20 @@
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.Extensions.IExtension",
       "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.IExtension.yml\" sourcestartlinenumber=\"1\">Used to create custom extensions</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IIconObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IIconObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IIconObserver",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -317,6 +345,34 @@
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.Extensions.IStorageExtension",
       "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Extensions.IStorageExtension.yml\" sourcestartlinenumber=\"1\">To allow storage based save/load operations on score values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.ITextObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.ITextObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.ITextObserver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Extensions.IValueObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -488,6 +544,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Limit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Limit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Limit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/RocketshiftStudio.Trophy.LimitFlags.yml",
       "output": {
         ".html": {
@@ -611,6 +681,20 @@
       "IsMRef": true,
       "Title": "RocketshiftStudio.Trophy.Trophy.CountingChangedCallback",
       "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.CountingChangedCallback.yml\" sourcestartlinenumber=\"1\">Invoked per count toggle change.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback",
+      "Summary": "<p sourcefile=\"api/RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback.yml\" sourcestartlinenumber=\"1\">Invoked per value change.</p>\n"
     },
     {
       "type": "ManagedReference",

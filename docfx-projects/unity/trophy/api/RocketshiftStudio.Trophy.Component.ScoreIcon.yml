@@ -5,7 +5,8 @@ items:
   id: ScoreIcon
   parent: RocketshiftStudio.Trophy.Component
   children:
-  - RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
+  - RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  - RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
   langs:
   - csharp
   - vb
@@ -61,35 +62,64 @@ items:
   - type: UnityEngine.DisallowMultipleComponent
     ctor: UnityEngine.DisallowMultipleComponent.#ctor
     arguments: []
-- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
-  commentId: P:RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
-  id: Extension
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  commentId: P:RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  id: Key
   parent: RocketshiftStudio.Trophy.Component.ScoreIcon
   langs:
   - csharp
   - vb
-  name: Extension
-  nameWithType: ScoreIcon.Extension
-  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
   type: Property
   source:
     remote:
       path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
       branch: main
       repo: https://github.com/Rocketshift-Studio/Trophy.git
-    id: Extension
+    id: Key
     path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
     startLine: 16
   assemblies:
   - RocketshiftStudio.Trophy
   namespace: RocketshiftStudio.Trophy.Component
   syntax:
-    content: public IScoreIconExtension Extension { get; }
+    content: public string Key { get; }
     parameters: []
     return:
-      type: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
-    content.vb: Public ReadOnly Property Extension As IScoreIconExtension
-  overload: RocketshiftStudio.Trophy.Component.ScoreIcon.Extension*
+      type: System.String
+    content.vb: Public ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.Component.ScoreIcon.Key*
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  commentId: P:RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  id: Observer
+  parent: RocketshiftStudio.Trophy.Component.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: Observer
+  nameWithType: ScoreIcon.Observer
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Observer
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+    startLine: 20
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  syntax:
+    content: public IIconObserver Observer { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.IIconObserver
+    content.vb: Public ReadOnly Property Observer As IIconObserver
+  overload: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer*
 references:
 - uid: RocketshiftStudio.Trophy.Component
   commentId: N:RocketshiftStudio.Trophy.Component
@@ -171,19 +201,35 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
-- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Extension*
-  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
-  href: RocketshiftStudio.Trophy.Component.ScoreIcon.html#RocketshiftStudio_Trophy_Component_ScoreIcon_Extension
-  name: Extension
-  nameWithType: ScoreIcon.Extension
-  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Extension
-- uid: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
-  commentId: T:RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  href: RocketshiftStudio.Trophy.Component.ScoreIcon.html#RocketshiftStudio_Trophy_Component_ScoreIcon_Key
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer*
+  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  href: RocketshiftStudio.Trophy.Component.ScoreIcon.html#RocketshiftStudio_Trophy_Component_ScoreIcon_Observer
+  name: Observer
+  nameWithType: ScoreIcon.Observer
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+- uid: RocketshiftStudio.Trophy.Extensions.IIconObserver
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IIconObserver
   parent: RocketshiftStudio.Trophy.Extensions
-  href: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension.html
-  name: IScoreIconExtension
-  nameWithType: IScoreIconExtension
-  fullName: RocketshiftStudio.Trophy.Extensions.IScoreIconExtension
+  href: RocketshiftStudio.Trophy.Extensions.IIconObserver.html
+  name: IIconObserver
+  nameWithType: IIconObserver
+  fullName: RocketshiftStudio.Trophy.Extensions.IIconObserver
 - uid: RocketshiftStudio.Trophy.Extensions
   commentId: N:RocketshiftStudio.Trophy.Extensions
   href: RocketshiftStudio.html

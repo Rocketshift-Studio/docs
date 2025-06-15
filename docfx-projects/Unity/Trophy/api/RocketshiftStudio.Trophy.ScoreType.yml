@@ -8,6 +8,7 @@ items:
   - RocketshiftStudio.Trophy.ScoreType.Best
   - RocketshiftStudio.Trophy.ScoreType.Current
   - RocketshiftStudio.Trophy.ScoreType.Latest
+  - RocketshiftStudio.Trophy.ScoreType.Total
   langs:
   - csharp
   - vb
@@ -113,6 +114,34 @@ items:
   example: []
   syntax:
     content: Latest = 2
+    return:
+      type: RocketshiftStudio.Trophy.ScoreType
+- uid: RocketshiftStudio.Trophy.ScoreType.Total
+  commentId: F:RocketshiftStudio.Trophy.ScoreType.Total
+  id: Total
+  parent: RocketshiftStudio.Trophy.ScoreType
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: ScoreType.Total
+  fullName: RocketshiftStudio.Trophy.ScoreType.Total
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Total
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreType.cs
+    startLine: 22
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Total saved sum of values of score after score count ended
+  example: []
+  syntax:
+    content: Total = 3
     return:
       type: RocketshiftStudio.Trophy.ScoreType
 references:

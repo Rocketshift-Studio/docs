@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ScoreIcon | Trophy - Ultimate Score System Documentation </title>
+      <title>Delegate Trophy.MultiplierChangedCallback | Trophy - Ultimate Score System Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ScoreIcon | Trophy - Ultimate Score System Documentation ">
+      <meta name="title" content="Delegate Trophy.MultiplierChangedCallback | Trophy - Ultimate Score System Documentation ">
     
-    <meta name="description" content="In order to show score icon in game world or UGUI">
+    <meta name="description" content="Invoked per value change.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -79,77 +79,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon">
+            <article class="content wrap" id="_content" data-uid="RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback">
 
 
 
-  <h1 id="RocketshiftStudio_Trophy_Component_ScoreIcon" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon" class="text-break">Class ScoreIcon</h1>
-  <div class="markdown level0 summary"><p>In order to show score icon in game world or UGUI</p>
+  <h1 id="RocketshiftStudio_Trophy_Trophy_MultiplierChangedCallback" data-uid="RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback" class="text-break">Delegate Trophy.MultiplierChangedCallback</h1>
+  <div class="markdown level0 summary"><p>Invoked per value change.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">Object</span></div>
-    <div class="level2"><span class="xref">Component</span></div>
-    <div class="level3"><span class="xref">Behaviour</span></div>
-    <div class="level4"><span class="xref">MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">ScoreIcon</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a>.<a class="xref" href="RocketshiftStudio.Trophy.Component.html">Component</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RocketshiftStudio.html">RocketshiftStudio</a>.<a class="xref" href="RocketshiftStudio.Trophy.html">Trophy</a></h6>
   <h6><strong>Assembly</strong>: RocketshiftStudio.Trophy.dll</h6>
-  <h5 id="RocketshiftStudio_Trophy_Component_ScoreIcon_syntax">Syntax</h5>
+  <h5 id="RocketshiftStudio_Trophy_Trophy_MultiplierChangedCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Rocketshift Studio/Trophy/Score Icon&quot;)]
-[ExecuteAlways]
-[DisallowMultipleComponent]
-public sealed class ScoreIcon : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void Trophy.MultiplierChangedCallback(string key, float previous, float current)</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
-  <a id="RocketshiftStudio_Trophy_Component_ScoreIcon_Key_" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon.Key*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Component_ScoreIcon_Key" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon.Key">Key</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">string</span></td>
-        <td></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key of the effected score</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <a id="RocketshiftStudio_Trophy_Component_ScoreIcon_Observer_" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon.Observer*"></a>
-  <h4 id="RocketshiftStudio_Trophy_Component_ScoreIcon_Observer" data-uid="RocketshiftStudio.Trophy.Component.ScoreIcon.Observer">Observer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IIconObserver Observer { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">previous</span></td>
+        <td><p>The previous value</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><a class="xref" href="RocketshiftStudio.Trophy.Extensions.IIconObserver.html">IIconObserver</a></td>
-        <td></td>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">current</span></td>
+        <td><p>The current value</p>
+</td>
       </tr>
     </tbody>
   </table>
