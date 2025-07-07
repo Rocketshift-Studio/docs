@@ -347,6 +347,25 @@ references:
   isSpec: "True"
   fullName: RocketshiftStudio.Tagment.Tagment.GetTags
   nameWithType: Tagment.GetTags
+- uid: RocketshiftStudio.Tagment.TagmentSettings
+  name: TagmentSettings
+  href: api/RocketshiftStudio.Tagment.TagmentSettings.html
+  commentId: T:RocketshiftStudio.Tagment.TagmentSettings
+  fullName: RocketshiftStudio.Tagment.TagmentSettings
+  nameWithType: TagmentSettings
+- uid: RocketshiftStudio.Tagment.TagmentSettings.Tags
+  name: Tags
+  href: api/RocketshiftStudio.Tagment.TagmentSettings.html#RocketshiftStudio_Tagment_TagmentSettings_Tags
+  commentId: P:RocketshiftStudio.Tagment.TagmentSettings.Tags
+  fullName: RocketshiftStudio.Tagment.TagmentSettings.Tags
+  nameWithType: TagmentSettings.Tags
+- uid: RocketshiftStudio.Tagment.TagmentSettings.Tags*
+  name: Tags
+  href: api/RocketshiftStudio.Tagment.TagmentSettings.html#RocketshiftStudio_Tagment_TagmentSettings_Tags_
+  commentId: Overload:RocketshiftStudio.Tagment.TagmentSettings.Tags
+  isSpec: "True"
+  fullName: RocketshiftStudio.Tagment.TagmentSettings.Tags
+  nameWithType: TagmentSettings.Tags
 - uid: RocketshiftStudio.Trophy
   name: RocketshiftStudio.Trophy
   href: api/RocketshiftStudio.Trophy.html

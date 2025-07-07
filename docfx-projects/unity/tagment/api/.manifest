@@ -8,8 +8,6 @@
   "RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1": "RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.yml",
   "RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance": "RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.yml",
   "RocketshiftStudio.Tagment": "RocketshiftStudio.Tagment.yml",
-  "RocketshiftStudio.Tagment.Settings": "RocketshiftStudio.Tagment.Settings.yml",
-  "RocketshiftStudio.Tagment.Settings.Tags": "RocketshiftStudio.Tagment.Settings.yml",
   "RocketshiftStudio.Tagment.Tagment": "RocketshiftStudio.Tagment.Tagment.yml",
   "RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component,System.String)": "RocketshiftStudio.Tagment.Tagment.yml",
   "RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component,System.String[])": "RocketshiftStudio.Tagment.Tagment.yml",
@@ -26,5 +24,7 @@
   "RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(System.String[])": "RocketshiftStudio.Tagment.Tagment.yml",
   "RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.Component,System.String[])": "RocketshiftStudio.Tagment.Tagment.yml",
   "RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.GameObject,System.String[])": "RocketshiftStudio.Tagment.Tagment.yml",
-  "RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)": "RocketshiftStudio.Tagment.Tagment.yml"
+  "RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)": "RocketshiftStudio.Tagment.Tagment.yml",
+  "RocketshiftStudio.Tagment.TagmentSettings": "RocketshiftStudio.Tagment.TagmentSettings.yml",
+  "RocketshiftStudio.Tagment.TagmentSettings.Tags": "RocketshiftStudio.Tagment.TagmentSettings.yml"
 }

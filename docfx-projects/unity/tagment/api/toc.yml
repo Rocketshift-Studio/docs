@@ -14,10 +14,10 @@ items:
   name: RocketshiftStudio.Tagment
   type: Namespace
   items:
-  - uid: RocketshiftStudio.Tagment.Settings
-    name: Settings
-    type: Class
   - uid: RocketshiftStudio.Tagment.Tagment
     name: Tagment
+    type: Class
+  - uid: RocketshiftStudio.Tagment.TagmentSettings
+    name: TagmentSettings
     type: Class
 memberLayout: SamePage

@@ -96,6 +96,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RocketshiftStudio.Tagment.TagmentSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RocketshiftStudio.Tagment.TagmentSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RocketshiftStudio.Tagment.TagmentSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/RocketshiftStudio.Tagment.yml",
       "output": {
         ".html": {
