@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.FormatUtility
+  commentId: T:RocketshiftStudio.Trophy.FormatUtility
+  id: FormatUtility
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.FormatUtility.FormatScore(System.String,System.Boolean,System.String,System.Double,RocketshiftStudio.Trophy.ScoreType)
+  langs:
+  - csharp
+  - vb
+  name: FormatUtility
+  nameWithType: FormatUtility
+  fullName: RocketshiftStudio.Trophy.FormatUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Misc/FormatUtility.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FormatUtility
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Misc/FormatUtility.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Used for text formation purposes
+  example: []
+  syntax:
+    content: public static class FormatUtility
+    content.vb: Public Module FormatUtility
+  inheritance:
+  - System.Object
+- uid: RocketshiftStudio.Trophy.FormatUtility.FormatScore(System.String,System.Boolean,System.String,System.Double,RocketshiftStudio.Trophy.ScoreType)
+  commentId: M:RocketshiftStudio.Trophy.FormatUtility.FormatScore(System.String,System.Boolean,System.String,System.Double,RocketshiftStudio.Trophy.ScoreType)
+  id: FormatScore(System.String,System.Boolean,System.String,System.Double,RocketshiftStudio.Trophy.ScoreType)
+  parent: RocketshiftStudio.Trophy.FormatUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatScore(string, bool, string, double, ScoreType)
+  nameWithType: FormatUtility.FormatScore(string, bool, string, double, ScoreType)
+  fullName: RocketshiftStudio.Trophy.FormatUtility.FormatScore(string, bool, string, double, RocketshiftStudio.Trophy.ScoreType)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Misc/FormatUtility.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FormatScore
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Misc/FormatUtility.cs
+    startLine: 19
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Score value to a text using format
+  example: []
+  syntax:
+    content: public static string FormatScore(string format, bool asTime, string name, double value = NaN, ScoreType type = ScoreType.Current)
+    parameters:
+    - id: format
+      type: System.String
+      description: Format to use
+    - id: asTime
+      type: System.Boolean
+      description: Format to time
+    - id: name
+      type: System.String
+      description: Name of the score
+    - id: value
+      type: System.Double
+      description: The value of given type
+    - id: type
+      type: RocketshiftStudio.Trophy.ScoreType
+      description: The score type
+    return:
+      type: System.String
+      description: Formatted score text
+    content.vb: Public Shared Function FormatScore(format As String, asTime As Boolean, name As String, value As Double = NaN, type As ScoreType = ScoreType.Current) As String
+  overload: RocketshiftStudio.Trophy.FormatUtility.FormatScore*
+  nameWithType.vb: FormatUtility.FormatScore(String, Boolean, String, Double, ScoreType)
+  fullName.vb: RocketshiftStudio.Trophy.FormatUtility.FormatScore(String, Boolean, String, Double, RocketshiftStudio.Trophy.ScoreType)
+  name.vb: FormatScore(String, Boolean, String, Double, ScoreType)
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.FormatUtility.FormatScore*
+  commentId: Overload:RocketshiftStudio.Trophy.FormatUtility.FormatScore
+  href: RocketshiftStudio.Trophy.FormatUtility.html#RocketshiftStudio_Trophy_FormatUtility_FormatScore_System_String_System_Boolean_System_String_System_Double_RocketshiftStudio_Trophy_ScoreType_
+  name: FormatScore
+  nameWithType: FormatUtility.FormatScore
+  fullName: RocketshiftStudio.Trophy.FormatUtility.FormatScore
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: RocketshiftStudio.Trophy.ScoreType
+  commentId: T:RocketshiftStudio.Trophy.ScoreType
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreType.html
+  name: ScoreType
+  nameWithType: ScoreType
+  fullName: RocketshiftStudio.Trophy.ScoreType

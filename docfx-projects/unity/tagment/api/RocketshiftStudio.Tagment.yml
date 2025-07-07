@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Tagment
+  commentId: N:RocketshiftStudio.Tagment
+  id: RocketshiftStudio.Tagment
+  children:
+  - RocketshiftStudio.Tagment.Settings
+  - RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: RocketshiftStudio.Tagment
+  nameWithType: RocketshiftStudio.Tagment
+  fullName: RocketshiftStudio.Tagment
+  type: Namespace
+  assemblies:
+  - RocketshiftStudio.Tagment
+references:
+- uid: RocketshiftStudio.Tagment.Tagment
+  commentId: T:RocketshiftStudio.Tagment.Tagment
+  href: RocketshiftStudio.Tagment.Tagment.html
+  name: Tagment
+  nameWithType: Tagment
+  fullName: RocketshiftStudio.Tagment.Tagment
+- uid: RocketshiftStudio.Tagment.Settings
+  commentId: T:RocketshiftStudio.Tagment.Settings
+  href: RocketshiftStudio.Tagment.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: RocketshiftStudio.Tagment.Settings

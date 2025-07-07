@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  commentId: T:RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  id: ScoreIcon
+  parent: RocketshiftStudio.Trophy.UIElements
+  children:
+  - RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor
+  - RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor(System.String)
+  - RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon
+  nameWithType: ScoreIcon
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreIcon
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+    startLine: 29
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.UIElements
+  summary: In order to show score icon UIElements
+  example:
+  - >-
+    <pre><code class="lang-csharp">using UnityEngine;
+
+    using RocketshiftStudio.Trophy.UIElements;
+
+
+    public class ScoreIconUIElementsExample : MonoBehaviour
+
+    {
+        private UIDocument doc;
+        private const string KEY = "KEY_HERE";
+        private ScoreIcon scoreIcon;
+
+        private void Start()
+        {
+            doc = GetComponent&lt;UIDocument&gt;();
+            scoreIcon = new ScoreIcon(KEY);
+            doc.rootVisualElement.Add(scoreIcon);
+        }
+    }</code></pre>
+  syntax:
+    content: 'public sealed class ScoreIcon : VisualElement'
+    content.vb: Public NotInheritable Class ScoreIcon Inherits VisualElement
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  commentId: P:RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  id: Key
+  parent: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+    startLine: 55
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.UIElements
+  summary: Identification key of the score
+  example: []
+  syntax:
+    content: public string Key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key*
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor
+  commentId: M:RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor
+  id: '#ctor'
+  parent: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon()
+  nameWithType: ScoreIcon.ScoreIcon()
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.ScoreIcon()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+    startLine: 58
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.UIElements
+  syntax:
+    content: public ScoreIcon()
+    content.vb: Public Sub New()
+  overload: RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor*
+  nameWithType.vb: ScoreIcon.New()
+  fullName.vb: RocketshiftStudio.Trophy.UIElements.ScoreIcon.New()
+  name.vb: New()
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor(System.String)
+  commentId: M:RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: RocketshiftStudio.Trophy.UIElements.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon(string)
+  nameWithType: ScoreIcon.ScoreIcon(string)
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.ScoreIcon(string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/UIElements/ScoreIcon.cs
+    startLine: 64
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.UIElements
+  example: []
+  syntax:
+    content: public ScoreIcon(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Identification key of the score
+    content.vb: Public Sub New(key As String)
+  overload: RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor*
+  nameWithType.vb: ScoreIcon.New(String)
+  fullName.vb: RocketshiftStudio.Trophy.UIElements.ScoreIcon.New(String)
+  name.vb: New(String)
+references:
+- uid: RocketshiftStudio.Trophy.UIElements
+  commentId: N:RocketshiftStudio.Trophy.UIElements
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.UIElements
+  nameWithType: RocketshiftStudio.Trophy.UIElements
+  fullName: RocketshiftStudio.Trophy.UIElements
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.UIElements
+    name: UIElements
+    href: RocketshiftStudio.Trophy.UIElements.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.UIElements
+    name: UIElements
+    href: RocketshiftStudio.Trophy.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+  href: RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon_Key
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor*
+  commentId: Overload:RocketshiftStudio.Trophy.UIElements.ScoreIcon.#ctor
+  href: RocketshiftStudio.Trophy.UIElements.ScoreIcon.html#RocketshiftStudio_Trophy_UIElements_ScoreIcon__ctor
+  name: ScoreIcon
+  nameWithType: ScoreIcon.ScoreIcon
+  fullName: RocketshiftStudio.Trophy.UIElements.ScoreIcon.ScoreIcon
+  nameWithType.vb: ScoreIcon.New
+  fullName.vb: RocketshiftStudio.Trophy.UIElements.ScoreIcon.New
+  name.vb: New

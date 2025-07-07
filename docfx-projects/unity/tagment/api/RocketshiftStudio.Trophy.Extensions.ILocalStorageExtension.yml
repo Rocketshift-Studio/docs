@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  id: ILocalStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ILocalStorageExtension
+  nameWithType: ILocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  type: Interface
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalStorageExtension.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ILocalStorageExtension
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Storage/ILocalStorageExtension.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: To allow local storage based save/load operations on score values
+  example: []
+  syntax:
+    content: 'public interface ILocalStorageExtension : IStorageExtension, IExtension'
+    content.vb: Public Interface ILocalStorageExtension Inherits IStorageExtension, IExtension
+  inheritedMembers:
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  name: LoadAsync(IList<string>)
+  nameWithType: IStorageExtension.LoadAsync(IList<string>)
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList<string>)
+  nameWithType.vb: IStorageExtension.LoadAsync(IList(Of String))
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList(Of String))
+  name.vb: LoadAsync(IList(Of String))
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+    name: LoadAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.LoadAsync(System.Collections.Generic.IList{System.String})
+    name: LoadAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_LoadAsync_System_Collections_Generic_IList_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  name: SaveAsync(IList<ScoreData>)
+  nameWithType: IStorageExtension.SaveAsync(IList<ScoreData>)
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList<RocketshiftStudio.Trophy.ScoreData>)
+  nameWithType.vb: IStorageExtension.SaveAsync(IList(Of ScoreData))
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList(Of RocketshiftStudio.Trophy.ScoreData))
+  name.vb: SaveAsync(IList(Of ScoreData))
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+    name: SaveAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.SaveAsync(System.Collections.Generic.IList{RocketshiftStudio.Trophy.ScoreData})
+    name: SaveAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_SaveAsync_System_Collections_Generic_IList_RocketshiftStudio_Trophy_ScoreData__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: RocketshiftStudio.Trophy.ScoreData
+    name: ScoreData
+    href: RocketshiftStudio.Trophy.ScoreData.html
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+  parent: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  isExternal: true
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  name: DeleteAsync(IList<string>)
+  nameWithType: IStorageExtension.DeleteAsync(IList<string>)
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList<string>)
+  nameWithType.vb: IStorageExtension.DeleteAsync(IList(Of String))
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList(Of String))
+  name.vb: DeleteAsync(IList(Of String))
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+    name: DeleteAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension.DeleteAsync(System.Collections.Generic.IList{System.String})
+    name: DeleteAsync
+    href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html#RocketshiftStudio_Trophy_Extensions_IStorageExtension_DeleteAsync_System_Collections_Generic_IList_System_String__
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html
+  name: IStorageExtension
+  nameWithType: IStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension

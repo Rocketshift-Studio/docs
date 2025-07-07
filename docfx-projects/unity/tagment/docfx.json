@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "J:/Unity Projects/Tagment",
+          "files": [
+            "**/RocketshiftStudio.Shared.csproj",
+            "**/RocketshiftStudio.Tagment.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "J:/Git Repos/Rocketshift Studio/docs/unity/tagment/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
+        ]
+      }
+    ],
+    "output": "J:/Git Repos/Rocketshift Studio/docs/unity/tagment",
+    "template": [
+      "_exported_templates/default"
+    ],
+    "globalMetadata": {
+      "_appName": "Tagment - Component Tags Documentation",
+      "_appTitle": "Tagment - Component Tags Documentation",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_gitContribute": false,
+      "pdf": false
+    }
+  }
+}

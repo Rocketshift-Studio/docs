@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.IIconObserver
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IIconObserver
+  id: IIconObserver
+  parent: RocketshiftStudio.Trophy.Extensions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IIconObserver
+  nameWithType: IIconObserver
+  fullName: RocketshiftStudio.Trophy.Extensions.IIconObserver
+  type: Interface
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IIconObserver.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IIconObserver
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IIconObserver.cs
+    startLine: 4
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: 'public interface IIconObserver : IValueObserver<Sprite>, IExtension'
+    content.vb: Public Interface IIconObserver Inherits IValueObserver(Of Sprite), IExtension
+  inheritedMembers:
+  - RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}.Changed(UnityEngine.Sprite)
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}.Changed(UnityEngine.Sprite)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}.Changed(UnityEngine.Sprite)
+  parent: RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}
+  definition: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  name: Changed(Sprite)
+  nameWithType: IValueObserver<Sprite>.Changed(Sprite)
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<UnityEngine.Sprite>.Changed(UnityEngine.Sprite)
+  nameWithType.vb: IValueObserver(Of Sprite).Changed(Sprite)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of UnityEngine.Sprite).Changed(UnityEngine.Sprite)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}.Changed(UnityEngine.Sprite)
+    name: Changed
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  - name: (
+  - uid: UnityEngine.Sprite
+    name: Sprite
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}.Changed(UnityEngine.Sprite)
+    name: Changed
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  - name: (
+  - uid: UnityEngine.Sprite
+    name: Sprite
+    isExternal: true
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  name: Changed(TValue)
+  nameWithType: IValueObserver<TValue>.Changed(TValue)
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>.Changed(TValue)
+  nameWithType.vb: IValueObserver(Of TValue).Changed(TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue).Changed(TValue)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+    name: Changed
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  - name: (
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+    name: Changed
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  - name: (
+  - name: TValue
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IValueObserver{UnityEngine.Sprite}
+  parent: RocketshiftStudio.Trophy.Extensions
+  definition: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  name: IValueObserver<Sprite>
+  nameWithType: IValueObserver<Sprite>
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<UnityEngine.Sprite>
+  nameWithType.vb: IValueObserver(Of Sprite)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of UnityEngine.Sprite)
+  name.vb: IValueObserver(Of Sprite)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: <
+  - uid: UnityEngine.Sprite
+    name: Sprite
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Sprite
+    name: Sprite
+    isExternal: true
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  name: IValueObserver<TValue>
+  nameWithType: IValueObserver<TValue>
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>
+  nameWithType.vb: IValueObserver(Of TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue)
+  name.vb: IValueObserver(Of TValue)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )

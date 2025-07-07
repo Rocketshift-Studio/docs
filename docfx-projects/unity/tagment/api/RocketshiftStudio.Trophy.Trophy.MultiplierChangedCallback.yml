@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  commentId: T:RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  id: Trophy.MultiplierChangedCallback
+  parent: RocketshiftStudio.Trophy
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Trophy.MultiplierChangedCallback
+  nameWithType: Trophy.MultiplierChangedCallback
+  fullName: RocketshiftStudio.Trophy.Trophy.MultiplierChangedCallback
+  type: Delegate
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: MultiplierChangedCallback
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Trophy.cs
+    startLine: 61
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Invoked per value change.
+  example: []
+  syntax:
+    content: public delegate void Trophy.MultiplierChangedCallback(string key, float previous, float current)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key of the effected score
+    - id: previous
+      type: System.Single
+      description: The previous value
+    - id: current
+      type: System.Single
+      description: The current value
+    content.vb: Public Delegate Sub Trophy.MultiplierChangedCallback(key As String, previous As Single, current As Single)
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

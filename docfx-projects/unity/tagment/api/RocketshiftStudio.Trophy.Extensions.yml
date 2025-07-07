@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  id: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.IExtension
+  - RocketshiftStudio.Trophy.Extensions.IIconObserver
+  - RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  - RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  - RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  - RocketshiftStudio.Trophy.Extensions.ITextObserver
+  - RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  langs:
+  - csharp
+  - vb
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  type: Namespace
+  assemblies:
+  - RocketshiftStudio.Trophy
+references:
+- uid: RocketshiftStudio.Trophy.Extensions.ITextObserver
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ITextObserver
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ITextObserver.html
+  name: ITextObserver
+  nameWithType: ITextObserver
+  fullName: RocketshiftStudio.Trophy.Extensions.ITextObserver
+- uid: RocketshiftStudio.Trophy.Extensions.IIconObserver
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IIconObserver
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IIconObserver.html
+  name: IIconObserver
+  nameWithType: IIconObserver
+  fullName: RocketshiftStudio.Trophy.Extensions.IIconObserver
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension.html
+  name: ILocalStorageExtension
+  nameWithType: ILocalStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IStorageExtension.html
+  name: IStorageExtension
+  nameWithType: IStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension.html
+  name: ISpecialPermissionExtension
+  nameWithType: ISpecialPermissionExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ISpecialPermissionExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+  href: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension.html
+  name: ILocalFileStorageExtension
+  nameWithType: ILocalFileStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILocalFileStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  name: IValueObserver<TValue>
+  nameWithType: IValueObserver<TValue>
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>
+  nameWithType.vb: IValueObserver(Of TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue)
+  name.vb: IValueObserver(Of TValue)
+  spec.csharp:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+    name: IValueObserver
+    href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: RocketshiftStudio.Trophy.Extensions.IExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IExtension.html
+  name: IExtension
+  nameWithType: IExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.IExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension.html
+  name: ICloudStorageExtension
+  nameWithType: ICloudStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ICloudStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+  href: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension.html
+  name: BaseCloudStorageExtension
+  nameWithType: BaseCloudStorageExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.BaseCloudStorageExtension
+- uid: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  commentId: T:RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension.html
+  name: ILeaderboardExtension
+  nameWithType: ILeaderboardExtension
+  fullName: RocketshiftStudio.Trophy.Extensions.ILeaderboardExtension
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html

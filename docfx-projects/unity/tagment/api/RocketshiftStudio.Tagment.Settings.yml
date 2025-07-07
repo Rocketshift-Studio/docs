@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Tagment.Settings
+  commentId: T:RocketshiftStudio.Tagment.Settings
+  id: Settings
+  parent: RocketshiftStudio.Tagment
+  children:
+  - RocketshiftStudio.Tagment.Settings.Tags
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Settings
+  fullName: RocketshiftStudio.Tagment.Settings
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Settings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: Settings
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Settings.cs
+    startLine: 6
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  syntax:
+    content: >-
+      [ScriptableSingleton("Rocketshift Studio/Utilities/Tagment", null, false)]
+
+      public sealed class Settings : ScriptableSingleton<Settings>
+    content.vb: >-
+      <ScriptableSingleton("Rocketshift Studio/Utilities/Tagment", Nothing, False)>
+
+      Public NotInheritable Class Settings Inherits ScriptableSingleton(Of Settings)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}
+  inheritedMembers:
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}.Instance
+  attributes:
+  - type: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+    ctor: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.#ctor(System.String,System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Rocketshift Studio/Utilities/Tagment
+    - type: System.String
+    - type: System.Boolean
+      value: false
+- uid: RocketshiftStudio.Tagment.Settings.Tags
+  commentId: P:RocketshiftStudio.Tagment.Settings.Tags
+  id: Tags
+  parent: RocketshiftStudio.Tagment.Settings
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: Settings.Tags
+  fullName: RocketshiftStudio.Tagment.Settings.Tags
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Settings.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: Tags
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Settings.cs
+    startLine: 11
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  syntax:
+    content: public string[] Tags { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Tags As String()
+  overload: RocketshiftStudio.Tagment.Settings.Tags*
+references:
+- uid: RocketshiftStudio.Tagment
+  commentId: N:RocketshiftStudio.Tagment
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Tagment
+  nameWithType: RocketshiftStudio.Tagment
+  fullName: RocketshiftStudio.Tagment
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Tagment
+    name: Tagment
+    href: RocketshiftStudio.Tagment.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Tagment
+    name: Tagment
+    href: RocketshiftStudio.Tagment.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}
+  parent: RocketshiftStudio.Shared.Singleton
+  definition: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  name: ScriptableSingleton<Settings>
+  nameWithType: ScriptableSingleton<Settings>
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<RocketshiftStudio.Tagment.Settings>
+  nameWithType.vb: ScriptableSingleton(Of Settings)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of RocketshiftStudio.Tagment.Settings)
+  name.vb: ScriptableSingleton(Of Settings)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: <
+  - uid: RocketshiftStudio.Tagment.Settings
+    name: Settings
+    href: RocketshiftStudio.Tagment.Settings.html
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: RocketshiftStudio.Tagment.Settings
+    name: Settings
+    href: RocketshiftStudio.Tagment.Settings.html
+  - name: )
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}.Instance
+  parent: RocketshiftStudio.Shared.Singleton.ScriptableSingleton{RocketshiftStudio.Tagment.Settings}
+  definition: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<Settings>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<RocketshiftStudio.Tagment.Settings>.Instance
+  nameWithType.vb: ScriptableSingleton(Of Settings).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of RocketshiftStudio.Tagment.Settings).Instance
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  name: ScriptableSingleton<TScriptableObject>
+  nameWithType: ScriptableSingleton<TScriptableObject>
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject)
+  name.vb: ScriptableSingleton(Of TScriptableObject)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: <
+  - name: TScriptableObject
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TScriptableObject
+  - name: )
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  commentId: P:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1.Instance
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html#RocketshiftStudio_Shared_Singleton_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<TScriptableObject>.Instance
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>.Instance
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject).Instance
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject).Instance
+- uid: RocketshiftStudio.Tagment.Settings.Tags*
+  commentId: Overload:RocketshiftStudio.Tagment.Settings.Tags
+  href: RocketshiftStudio.Tagment.Settings.html#RocketshiftStudio_Tagment_Settings_Tags
+  name: Tags
+  nameWithType: Settings.Tags
+  fullName: RocketshiftStudio.Tagment.Settings.Tags
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )

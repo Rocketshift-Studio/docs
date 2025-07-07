@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.LeaderboardRequest
+  commentId: T:RocketshiftStudio.Trophy.LeaderboardRequest
+  id: LeaderboardRequest
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.LeaderboardRequest.#ctor(System.String,System.Object)
+  - RocketshiftStudio.Trophy.LeaderboardRequest.key
+  - RocketshiftStudio.Trophy.LeaderboardRequest.metadata
+  langs:
+  - csharp
+  - vb
+  name: LeaderboardRequest
+  nameWithType: LeaderboardRequest
+  fullName: RocketshiftStudio.Trophy.LeaderboardRequest
+  type: Struct
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LeaderboardRequest
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define the request data of leaderboard
+  example: []
+  syntax:
+    content: public readonly struct LeaderboardRequest
+    content.vb: Public Structure LeaderboardRequest
+- uid: RocketshiftStudio.Trophy.LeaderboardRequest.key
+  commentId: F:RocketshiftStudio.Trophy.LeaderboardRequest.key
+  id: key
+  parent: RocketshiftStudio.Trophy.LeaderboardRequest
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: LeaderboardRequest.key
+  fullName: RocketshiftStudio.Trophy.LeaderboardRequest.key
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+    startLine: 10
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Identification key of the target score
+  example: []
+  syntax:
+    content: public readonly string key
+    return:
+      type: System.String
+    content.vb: Public ReadOnly key As String
+- uid: RocketshiftStudio.Trophy.LeaderboardRequest.metadata
+  commentId: F:RocketshiftStudio.Trophy.LeaderboardRequest.metadata
+  id: metadata
+  parent: RocketshiftStudio.Trophy.LeaderboardRequest
+  langs:
+  - csharp
+  - vb
+  name: metadata
+  nameWithType: LeaderboardRequest.metadata
+  fullName: RocketshiftStudio.Trophy.LeaderboardRequest.metadata
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: metadata
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Additional information for leaderboard
+  example: []
+  syntax:
+    content: public readonly object metadata
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly metadata As Object
+- uid: RocketshiftStudio.Trophy.LeaderboardRequest.#ctor(System.String,System.Object)
+  commentId: M:RocketshiftStudio.Trophy.LeaderboardRequest.#ctor(System.String,System.Object)
+  id: '#ctor(System.String,System.Object)'
+  parent: RocketshiftStudio.Trophy.LeaderboardRequest
+  langs:
+  - csharp
+  - vb
+  name: LeaderboardRequest(string, object)
+  nameWithType: LeaderboardRequest.LeaderboardRequest(string, object)
+  fullName: RocketshiftStudio.Trophy.LeaderboardRequest.LeaderboardRequest(string, object)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: .ctor
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/LeaderboardRequest.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  example: []
+  syntax:
+    content: public LeaderboardRequest(string key, object metadata = null)
+    parameters:
+    - id: key
+      type: System.String
+      description: Identification key of the target score
+    - id: metadata
+      type: System.Object
+      description: Additional information for leaderboard
+    content.vb: Public Sub New(key As String, metadata As Object = Nothing)
+  overload: RocketshiftStudio.Trophy.LeaderboardRequest.#ctor*
+  nameWithType.vb: LeaderboardRequest.New(String, Object)
+  fullName.vb: RocketshiftStudio.Trophy.LeaderboardRequest.New(String, Object)
+  name.vb: New(String, Object)
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RocketshiftStudio.Trophy.LeaderboardRequest.#ctor*
+  commentId: Overload:RocketshiftStudio.Trophy.LeaderboardRequest.#ctor
+  href: RocketshiftStudio.Trophy.LeaderboardRequest.html#RocketshiftStudio_Trophy_LeaderboardRequest__ctor_System_String_System_Object_
+  name: LeaderboardRequest
+  nameWithType: LeaderboardRequest.LeaderboardRequest
+  fullName: RocketshiftStudio.Trophy.LeaderboardRequest.LeaderboardRequest
+  nameWithType.vb: LeaderboardRequest.New
+  fullName.vb: RocketshiftStudio.Trophy.LeaderboardRequest.New
+  name.vb: New

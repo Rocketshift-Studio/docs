@@ -1,0 +1,864 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Tagment.Tagment
+  commentId: T:RocketshiftStudio.Tagment.Tagment
+  id: Tagment
+  parent: RocketshiftStudio.Tagment
+  children:
+  - RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component,System.String)
+  - RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.ContainsTagsAny(UnityEngine.Component,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.Component,System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.GameObject,System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.Component,System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.GameObject,System.String)
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.Component,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.GameObject,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.Component,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.GameObject,System.String[])
+  - RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)
+  langs:
+  - csharp
+  - vb
+  name: Tagment
+  nameWithType: Tagment
+  fullName: RocketshiftStudio.Tagment.Tagment
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: Tagment
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  syntax:
+    content: public static class Tagment
+    content.vb: Public Module Tagment
+  inheritance:
+  - System.Object
+- uid: RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)
+  id: GetTags(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetTags(Component)
+  nameWithType: Tagment.GetTags(Component)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetTags(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetTags
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves the tags associated with the specified <xref href="UnityEngine.Component" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static string[] GetTags(this Component component)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: The <xref href="UnityEngine.Component" data-throw-if-not-resolved="false"></xref> for which to retrieve the associated tags.
+    return:
+      type: System.String[]
+      description: An array of strings containing the tags associated with the specified <xref href="UnityEngine.Component" data-throw-if-not-resolved="false"></xref>. If no tags are associated, returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>
+    content.vb: Public Shared Function GetTags(component As Component) As String()
+  overload: RocketshiftStudio.Tagment.Tagment.GetTags*
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component,System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component,System.String)
+  id: ContainsTag(UnityEngine.Component,System.String)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: ContainsTag(Component, string)
+  nameWithType: Tagment.ContainsTag(Component, string)
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: ContainsTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 27
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Determines whether the specified component is associated with the given tag.
+  example: []
+  syntax:
+    content: public static bool ContainsTag(this Component component, string tag)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: The component to check for the tag association. Cannot be <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>
+    - id: tag
+      type: System.String
+      description: The tag to search for. Cannot be <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or empty
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified tag is associated with the component; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>
+    content.vb: Public Shared Function ContainsTag(component As Component, tag As String) As Boolean
+  overload: RocketshiftStudio.Tagment.Tagment.ContainsTag*
+  nameWithType.vb: Tagment.ContainsTag(Component, String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.ContainsTag(UnityEngine.Component, String)
+  name.vb: ContainsTag(Component, String)
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny(UnityEngine.Component,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.ContainsTagsAny(UnityEngine.Component,System.String[])
+  id: ContainsTagsAny(UnityEngine.Component,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: ContainsTagsAny(Component, string[])
+  nameWithType: Tagment.ContainsTagsAny(Component, string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny(UnityEngine.Component, string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: ContainsTagsAny
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 39
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Determines whether the specified component is associated with any of the given tags.
+  example: []
+  syntax:
+    content: public static bool ContainsTagsAny(this Component component, string[] tags)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: The component to check for tag associations.
+    - id: tags
+      type: System.String[]
+      description: The array of tags to check against.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the component is associated with any of the specified tags; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function ContainsTagsAny(component As Component, tags As String()) As Boolean
+  overload: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny*
+  nameWithType.vb: Tagment.ContainsTagsAny(Component, String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny(UnityEngine.Component, String())
+  name.vb: ContainsTagsAny(Component, String())
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component,System.String[])
+  id: ContainsTagsAll(UnityEngine.Component,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: ContainsTagsAll(Component, string[])
+  nameWithType: Tagment.ContainsTagsAll(Component, string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component, string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: ContainsTagsAll
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 54
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Determines whether the specified component is associated with all of the given tags.
+  example: []
+  syntax:
+    content: public static bool ContainsTagsAll(this Component component, string[] tags)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: The component to check for tag associations.
+    - id: tags
+      type: System.String[]
+      description: The array of tags to check against.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the component is associated with all of the specified tags; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function ContainsTagsAll(component As Component, tags As String()) As Boolean
+  overload: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll*
+  nameWithType.vb: Tagment.ContainsTagsAll(Component, String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll(UnityEngine.Component, String())
+  name.vb: ContainsTagsAll(Component, String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(System.String)
+  id: GetComponentWithTag``1(System.String)
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentWithTag<TComponent>(string)
+  nameWithType: Tagment.GetComponentWithTag<TComponent>(string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag<TComponent>(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 69
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves the first component of the specified type associated with the given tag across all registered GameObjects.
+  example: []
+  syntax:
+    content: 'public static TComponent GetComponentWithTag<TComponent>(string tag) where TComponent : Component'
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag to match.
+    typeParameters:
+    - id: TComponent
+      description: The component type to look for.
+    return:
+      type: '{TComponent}'
+      description: The first matching component found, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if none found.
+    content.vb: Public Shared Function GetComponentWithTag(Of TComponent As Component)(tag As String) As TComponent
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag*
+  nameWithType.vb: Tagment.GetComponentWithTag(Of TComponent)(String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag(Of TComponent)(String)
+  name.vb: GetComponentWithTag(Of TComponent)(String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.GameObject,System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.GameObject,System.String)
+  id: GetComponentWithTag``1(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentWithTag<TComponent>(GameObject, string)
+  nameWithType: Tagment.GetComponentWithTag<TComponent>(GameObject, string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag<TComponent>(UnityEngine.GameObject, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 89
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves the first component of the specified type associated with the given tag on the given GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent GetComponentWithTag<TComponent>(this GameObject gameObject, string tag) where TComponent : Component'
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: tag
+      type: System.String
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}'
+    content.vb: Public Shared Function GetComponentWithTag(Of TComponent As Component)(gameObject As GameObject, tag As String) As TComponent
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag*
+  nameWithType.vb: Tagment.GetComponentWithTag(Of TComponent)(GameObject, String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag(Of TComponent)(UnityEngine.GameObject, String)
+  name.vb: GetComponentWithTag(Of TComponent)(GameObject, String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.Component,System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentWithTag``1(UnityEngine.Component,System.String)
+  id: GetComponentWithTag``1(UnityEngine.Component,System.String)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentWithTag<TComponent>(Component, string)
+  nameWithType: Tagment.GetComponentWithTag<TComponent>(Component, string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag<TComponent>(UnityEngine.Component, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 109
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves the first component of the specified type associated with the given tag from the GameObject of the current component.
+  example: []
+  syntax:
+    content: 'public static TComponent GetComponentWithTag<TComponent>(this Component component, string tag) where TComponent : Component'
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    - id: tag
+      type: System.String
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}'
+    content.vb: Public Shared Function GetComponentWithTag(Of TComponent As Component)(component As Component, tag As String) As TComponent
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag*
+  nameWithType.vb: Tagment.GetComponentWithTag(Of TComponent)(Component, String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag(Of TComponent)(UnityEngine.Component, String)
+  name.vb: GetComponentWithTag(Of TComponent)(Component, String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(System.String)
+  id: GetComponentsWithTag``1(System.String)
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTag<TComponent>(string)
+  nameWithType: Tagment.GetComponentsWithTag<TComponent>(string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag<TComponent>(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 117
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with the given tag across all GameObjects.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTag<TComponent>(string tag) where TComponent : Component'
+    parameters:
+    - id: tag
+      type: System.String
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTag(Of TComponent As Component)(tag As String) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag*
+  nameWithType.vb: Tagment.GetComponentsWithTag(Of TComponent)(String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag(Of TComponent)(String)
+  name.vb: GetComponentsWithTag(Of TComponent)(String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.Component,System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.Component,System.String)
+  id: GetComponentsWithTag``1(UnityEngine.Component,System.String)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTag<TComponent>(Component, string)
+  nameWithType: Tagment.GetComponentsWithTag<TComponent>(Component, string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag<TComponent>(UnityEngine.Component, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 140
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with the given tag from the current component's GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTag<TComponent>(this Component component, string tag) where TComponent : Component'
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    - id: tag
+      type: System.String
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTag(Of TComponent As Component)(component As Component, tag As String) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag*
+  nameWithType.vb: Tagment.GetComponentsWithTag(Of TComponent)(Component, String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag(Of TComponent)(UnityEngine.Component, String)
+  name.vb: GetComponentsWithTag(Of TComponent)(Component, String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.GameObject,System.String)
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag``1(UnityEngine.GameObject,System.String)
+  id: GetComponentsWithTag``1(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTag<TComponent>(GameObject, string)
+  nameWithType: Tagment.GetComponentsWithTag<TComponent>(GameObject, string)
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag<TComponent>(UnityEngine.GameObject, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTag
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 148
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with the given tag from the specified GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTag<TComponent>(this GameObject gameObject, string tag) where TComponent : Component'
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: tag
+      type: System.String
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTag(Of TComponent As Component)(gameObject As GameObject, tag As String) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag*
+  nameWithType.vb: Tagment.GetComponentsWithTag(Of TComponent)(GameObject, String)
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag(Of TComponent)(UnityEngine.GameObject, String)
+  name.vb: GetComponentsWithTag(Of TComponent)(GameObject, String)
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(System.String[])
+  id: GetComponentsWithTagsAny``1(System.String[])
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAny<TComponent>(params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAny<TComponent>(params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny<TComponent>(params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAny
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 171
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with any of the given tags across all GameObjects.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAny<TComponent>(params string[] tags) where TComponent : Component'
+    parameters:
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAny(Of TComponent As Component)(ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAny(Of TComponent)(ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny(Of TComponent)(ParamArray String())
+  name.vb: GetComponentsWithTagsAny(Of TComponent)(ParamArray String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.Component,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.Component,System.String[])
+  id: GetComponentsWithTagsAny``1(UnityEngine.Component,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAny<TComponent>(Component, params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAny<TComponent>(Component, params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny<TComponent>(UnityEngine.Component, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAny
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 194
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with any of the given tags from the current component's GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAny<TComponent>(this Component component, params string[] tags) where TComponent : Component'
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAny(Of TComponent As Component)(component As Component, ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAny(Of TComponent)(Component, ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny(Of TComponent)(UnityEngine.Component, ParamArray String())
+  name.vb: GetComponentsWithTagsAny(Of TComponent)(Component, ParamArray String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.GameObject,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny``1(UnityEngine.GameObject,System.String[])
+  id: GetComponentsWithTagsAny``1(UnityEngine.GameObject,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAny<TComponent>(GameObject, params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAny<TComponent>(GameObject, params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny<TComponent>(UnityEngine.GameObject, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAny
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 202
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with any of the given tags from the specified GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAny<TComponent>(this GameObject gameObject, params string[] tags) where TComponent : Component'
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAny(Of TComponent As Component)(gameObject As GameObject, ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAny(Of TComponent)(GameObject, ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny(Of TComponent)(UnityEngine.GameObject, ParamArray String())
+  name.vb: GetComponentsWithTagsAny(Of TComponent)(GameObject, ParamArray String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(System.String[])
+  id: GetComponentsWithTagsAll``1(System.String[])
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAll<TComponent>(params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAll<TComponent>(params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll<TComponent>(params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAll
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 225
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with all of the given tags across all GameObjects.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAll<TComponent>(params string[] tags) where TComponent : Component'
+    parameters:
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAll(Of TComponent As Component)(ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAll(Of TComponent)(ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll(Of TComponent)(ParamArray String())
+  name.vb: GetComponentsWithTagsAll(Of TComponent)(ParamArray String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.Component,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.Component,System.String[])
+  id: GetComponentsWithTagsAll``1(UnityEngine.Component,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAll<TComponent>(Component, params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAll<TComponent>(Component, params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll<TComponent>(UnityEngine.Component, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAll
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 248
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with all of the given tags from the current component's GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAll<TComponent>(this Component component, params string[] tags) where TComponent : Component'
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAll(Of TComponent As Component)(component As Component, ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAll(Of TComponent)(Component, ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll(Of TComponent)(UnityEngine.Component, ParamArray String())
+  name.vb: GetComponentsWithTagsAll(Of TComponent)(Component, ParamArray String())
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.GameObject,System.String[])
+  commentId: M:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll``1(UnityEngine.GameObject,System.String[])
+  id: GetComponentsWithTagsAll``1(UnityEngine.GameObject,System.String[])
+  isExtensionMethod: true
+  parent: RocketshiftStudio.Tagment.Tagment
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsWithTagsAll<TComponent>(GameObject, params string[])
+  nameWithType: Tagment.GetComponentsWithTagsAll<TComponent>(GameObject, params string[])
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll<TComponent>(UnityEngine.GameObject, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Tagment.git
+    id: GetComponentsWithTagsAll
+    path: ../../../../../../Unity Projects/Tagment/Assets/Rocketshift Studio/Utilities/Tagment/Scripts/Tagment.cs
+    startLine: 256
+  assemblies:
+  - RocketshiftStudio.Tagment
+  namespace: RocketshiftStudio.Tagment
+  summary: Retrieves all components of the specified type associated with all of the given tags from the specified GameObject.
+  example: []
+  syntax:
+    content: 'public static TComponent[] GetComponentsWithTagsAll<TComponent>(this GameObject gameObject, params string[] tags) where TComponent : Component'
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: tags
+      type: System.String[]
+    typeParameters:
+    - id: TComponent
+    return:
+      type: '{TComponent}[]'
+    content.vb: Public Shared Function GetComponentsWithTagsAll(Of TComponent As Component)(gameObject As GameObject, ParamArray tags As String()) As TComponent()
+  overload: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll*
+  nameWithType.vb: Tagment.GetComponentsWithTagsAll(Of TComponent)(GameObject, ParamArray String())
+  fullName.vb: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll(Of TComponent)(UnityEngine.GameObject, ParamArray String())
+  name.vb: GetComponentsWithTagsAll(Of TComponent)(GameObject, ParamArray String())
+references:
+- uid: RocketshiftStudio.Tagment
+  commentId: N:RocketshiftStudio.Tagment
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Tagment
+  nameWithType: RocketshiftStudio.Tagment
+  fullName: RocketshiftStudio.Tagment
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Tagment
+    name: Tagment
+    href: RocketshiftStudio.Tagment.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Tagment
+    name: Tagment
+    href: RocketshiftStudio.Tagment.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: RocketshiftStudio.Tagment.Tagment.GetTags*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.GetTags
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_GetTags_UnityEngine_Component_
+  name: GetTags
+  nameWithType: Tagment.GetTags
+  fullName: RocketshiftStudio.Tagment.Tagment.GetTags
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTag*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.ContainsTag
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_ContainsTag_UnityEngine_Component_System_String_
+  name: ContainsTag
+  nameWithType: Tagment.ContainsTag
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTag
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.ContainsTagsAny
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_ContainsTagsAny_UnityEngine_Component_System_String___
+  name: ContainsTagsAny
+  nameWithType: Tagment.ContainsTagsAny
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTagsAny
+- uid: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.ContainsTagsAll
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_ContainsTagsAll_UnityEngine_Component_System_String___
+  name: ContainsTagsAll
+  nameWithType: Tagment.ContainsTagsAll
+  fullName: RocketshiftStudio.Tagment.Tagment.ContainsTagsAll
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.GetComponentWithTag
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_GetComponentWithTag__1_System_String_
+  name: GetComponentWithTag
+  nameWithType: Tagment.GetComponentWithTag
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentWithTag
+- uid: '{TComponent}'
+  commentId: '!:TComponent'
+  definition: TComponent
+  name: TComponent
+  nameWithType: TComponent
+  fullName: TComponent
+- uid: TComponent
+  name: TComponent
+  nameWithType: TComponent
+  fullName: TComponent
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_GetComponentsWithTag__1_System_String_
+  name: GetComponentsWithTag
+  nameWithType: Tagment.GetComponentsWithTag
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTag
+- uid: '{TComponent}[]'
+  isExternal: true
+  name: TComponent[]
+  nameWithType: TComponent[]
+  fullName: TComponent[]
+  nameWithType.vb: TComponent()
+  fullName.vb: TComponent()
+  name.vb: TComponent()
+  spec.csharp:
+  - name: TComponent
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: TComponent
+  - name: (
+  - name: )
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_GetComponentsWithTagsAny__1_System_String___
+  name: GetComponentsWithTagsAny
+  nameWithType: Tagment.GetComponentsWithTagsAny
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAny
+- uid: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll*
+  commentId: Overload:RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll
+  href: RocketshiftStudio.Tagment.Tagment.html#RocketshiftStudio_Tagment_Tagment_GetComponentsWithTagsAll__1_System_String___
+  name: GetComponentsWithTagsAll
+  nameWithType: Tagment.GetComponentsWithTagsAll
+  fullName: RocketshiftStudio.Tagment.Tagment.GetComponentsWithTagsAll

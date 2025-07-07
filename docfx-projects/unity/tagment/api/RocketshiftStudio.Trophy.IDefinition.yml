@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.IDefinition
+  commentId: T:RocketshiftStudio.Trophy.IDefinition
+  id: IDefinition
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.IDefinition.Key
+  langs:
+  - csharp
+  - vb
+  name: IDefinition
+  nameWithType: IDefinition
+  fullName: RocketshiftStudio.Trophy.IDefinition
+  type: Interface
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/IDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IDefinition
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/IDefinition.cs
+    startLine: 4
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: public interface IDefinition
+    content.vb: Public Interface IDefinition
+- uid: RocketshiftStudio.Trophy.IDefinition.Key
+  commentId: P:RocketshiftStudio.Trophy.IDefinition.Key
+  id: Key
+  parent: RocketshiftStudio.Trophy.IDefinition
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: IDefinition.Key
+  fullName: RocketshiftStudio.Trophy.IDefinition.Key
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/IDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/IDefinition.cs
+    startLine: 9
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Identification key of the score
+  example: []
+  syntax:
+    content: string Key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.IDefinition.Key*
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.IDefinition.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.IDefinition.Key
+  href: RocketshiftStudio.Trophy.IDefinition.html#RocketshiftStudio_Trophy_IDefinition_Key
+  name: Key
+  nameWithType: IDefinition.Key
+  fullName: RocketshiftStudio.Trophy.IDefinition.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

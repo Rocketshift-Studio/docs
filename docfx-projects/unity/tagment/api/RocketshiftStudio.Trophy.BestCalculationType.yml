@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.BestCalculationType
+  commentId: T:RocketshiftStudio.Trophy.BestCalculationType
+  id: BestCalculationType
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.BestCalculationType.Highest
+  - RocketshiftStudio.Trophy.BestCalculationType.Lowest
+  langs:
+  - csharp
+  - vb
+  name: BestCalculationType
+  nameWithType: BestCalculationType
+  fullName: RocketshiftStudio.Trophy.BestCalculationType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: BestCalculationType
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines how best value will be calculated
+  example: []
+  syntax:
+    content: public enum BestCalculationType
+    content.vb: Public Enum BestCalculationType
+- uid: RocketshiftStudio.Trophy.BestCalculationType.Highest
+  commentId: F:RocketshiftStudio.Trophy.BestCalculationType.Highest
+  id: Highest
+  parent: RocketshiftStudio.Trophy.BestCalculationType
+  langs:
+  - csharp
+  - vb
+  name: Highest
+  nameWithType: BestCalculationType.Highest
+  fullName: RocketshiftStudio.Trophy.BestCalculationType.Highest
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Highest
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+    startLine: 12
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Consider the highest value then previous
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Consider the highest value then previous")]
+
+      Highest = 0
+    return:
+      type: RocketshiftStudio.Trophy.BestCalculationType
+    content.vb: >-
+      <Tooltip("Consider the highest value then previous")>
+
+      Highest = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Consider the highest value then previous
+- uid: RocketshiftStudio.Trophy.BestCalculationType.Lowest
+  commentId: F:RocketshiftStudio.Trophy.BestCalculationType.Lowest
+  id: Lowest
+  parent: RocketshiftStudio.Trophy.BestCalculationType
+  langs:
+  - csharp
+  - vb
+  name: Lowest
+  nameWithType: BestCalculationType.Lowest
+  fullName: RocketshiftStudio.Trophy.BestCalculationType.Lowest
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Lowest
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/BestCalculationType.cs
+    startLine: 17
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Consider the lowest value then previous
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Consider the lowest value then previous")]
+
+      Lowest = 1
+    return:
+      type: RocketshiftStudio.Trophy.BestCalculationType
+    content.vb: >-
+      <Tooltip("Consider the lowest value then previous")>
+
+      Lowest = 1
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Consider the lowest value then previous
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.BestCalculationType
+  commentId: T:RocketshiftStudio.Trophy.BestCalculationType
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.BestCalculationType.html
+  name: BestCalculationType
+  nameWithType: BestCalculationType
+  fullName: RocketshiftStudio.Trophy.BestCalculationType

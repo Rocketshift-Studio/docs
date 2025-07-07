@@ -1,0 +1,10 @@
+pdf: false
+items:
+- name: Manual
+  href: manual/
+- name: Scripting API
+  href: api/
+- name: Changelogs
+  href: changelogs/
+- name: Demo
+  href: https://enamulislamjisan.itch.io/rocketshiftstudio-trophy-demo

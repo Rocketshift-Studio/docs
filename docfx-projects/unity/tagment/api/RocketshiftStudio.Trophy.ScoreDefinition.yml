@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.ScoreDefinition
+  commentId: T:RocketshiftStudio.Trophy.ScoreDefinition
+  id: ScoreDefinition
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+  - RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+  - RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+  - RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+  - RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+  - RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+  - RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  - RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+  - RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+  - RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+  - RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+  langs:
+  - csharp
+  - vb
+  name: ScoreDefinition
+  nameWithType: ScoreDefinition
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreDefinition
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines how a score will be managed
+  example: []
+  syntax:
+    content: >-
+      [CreateAssetMenu(menuName = "Trophy/Score Definition", fileName = "New Score Definition")]
+
+      [ExcludeFromPreset]
+
+      public sealed class ScoreDefinition : DefinitionBase, IDefinition
+    content.vb: >-
+      <CreateAssetMenu(menuName:="Trophy/Score Definition", fileName:="New Score Definition")>
+
+      <ExcludeFromPreset>
+
+      Public NotInheritable Class ScoreDefinition Inherits DefinitionBase Implements IDefinition
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - RocketshiftStudio.Trophy.DefinitionBase
+  implements:
+  - RocketshiftStudio.Trophy.IDefinition
+  inheritedMembers:
+  - RocketshiftStudio.Trophy.DefinitionBase.Key
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: menuName
+      type: System.String
+      value: Trophy/Score Definition
+    - name: fileName
+      type: System.String
+      value: New Score Definition
+  - type: UnityEngine.ExcludeFromPresetAttribute
+    ctor: UnityEngine.ExcludeFromPresetAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  id: Metadata
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: ScoreDefinition.Metadata
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Metadata
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 16
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Additional information about score
+  example: []
+  syntax:
+    content: public ScoreMetadata Metadata { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.ScoreMetadata
+    content.vb: Public ReadOnly Property Metadata As ScoreMetadata
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.Metadata*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+  id: WholeValue
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: WholeValue
+  nameWithType: ScoreDefinition.WholeValue
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: WholeValue
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 23
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Round value to nearest whole value
+  example: []
+  syntax:
+    content: public bool WholeValue { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property WholeValue As Boolean
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.WholeValue*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+  id: AbsoluteValue
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: AbsoluteValue
+  nameWithType: ScoreDefinition.AbsoluteValue
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: AbsoluteValue
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 30
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Convert negative values to positive
+  example: []
+  syntax:
+    content: public bool AbsoluteValue { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AbsoluteValue As Boolean
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+  id: LimitValues
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: LimitValues
+  nameWithType: ScoreDefinition.LimitValues
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LimitValues
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 37
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Limit values of score
+  example: []
+  syntax:
+    content: public bool LimitValues { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property LimitValues As Boolean
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.LimitValues*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+  id: CurrentLimit
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: CurrentLimit
+  nameWithType: ScoreDefinition.CurrentLimit
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CurrentLimit
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 44
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Limit of current value
+  example: []
+  syntax:
+    content: public Limit CurrentLimit { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Limit
+    content.vb: Public ReadOnly Property CurrentLimit As Limit
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+  id: TotalLimit
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: TotalLimit
+  nameWithType: ScoreDefinition.TotalLimit
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TotalLimit
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 51
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Limit of total value
+  example: []
+  syntax:
+    content: public Limit TotalLimit { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Limit
+    content.vb: Public ReadOnly Property TotalLimit As Limit
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+  id: FlowRestriction
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: FlowRestriction
+  nameWithType: ScoreDefinition.FlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FlowRestriction
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 59
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines flow restriction of value
+  example: []
+  syntax:
+    content: public bool FlowRestriction { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FlowRestriction As Boolean
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+  id: CurrentFlowRestriction
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: CurrentFlowRestriction
+  nameWithType: ScoreDefinition.CurrentFlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: CurrentFlowRestriction
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 66
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Flow restriction of current value
+  example: []
+  syntax:
+    content: public FlowRestriction CurrentFlowRestriction { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.FlowRestriction
+    content.vb: Public ReadOnly Property CurrentFlowRestriction As FlowRestriction
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+  id: TotalFlowRestriction
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: TotalFlowRestriction
+  nameWithType: ScoreDefinition.TotalFlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: TotalFlowRestriction
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 73
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Flow restriction of total value
+  example: []
+  syntax:
+    content: public FlowRestriction TotalFlowRestriction { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.FlowRestriction
+    content.vb: Public ReadOnly Property TotalFlowRestriction As FlowRestriction
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+  id: BestCalculationType
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: BestCalculationType
+  nameWithType: ScoreDefinition.BestCalculationType
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: BestCalculationType
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 81
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines how best value will be calculated
+  example: []
+  syntax:
+    content: public BestCalculationType BestCalculationType { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.BestCalculationType
+    content.vb: Public ReadOnly Property BestCalculationType As BestCalculationType
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType*
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+  commentId: P:RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+  id: StorageFlags
+  parent: RocketshiftStudio.Trophy.ScoreDefinition
+  langs:
+  - csharp
+  - vb
+  name: StorageFlags
+  nameWithType: ScoreDefinition.StorageFlags
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: StorageFlags
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/ScoreDefinition.cs
+    startLine: 88
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines how the score values will be saved or loaded
+  example: []
+  syntax:
+    content: public StorageFlags StorageFlags { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.StorageFlags
+    content.vb: Public ReadOnly Property StorageFlags As StorageFlags
+  overload: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags*
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: RocketshiftStudio.Trophy.DefinitionBase
+  commentId: T:RocketshiftStudio.Trophy.DefinitionBase
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.DefinitionBase.html
+  name: DefinitionBase
+  nameWithType: DefinitionBase
+  fullName: RocketshiftStudio.Trophy.DefinitionBase
+- uid: RocketshiftStudio.Trophy.IDefinition
+  commentId: T:RocketshiftStudio.Trophy.IDefinition
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.IDefinition.html
+  name: IDefinition
+  nameWithType: IDefinition
+  fullName: RocketshiftStudio.Trophy.IDefinition
+- uid: RocketshiftStudio.Trophy.DefinitionBase.Key
+  commentId: P:RocketshiftStudio.Trophy.DefinitionBase.Key
+  parent: RocketshiftStudio.Trophy.DefinitionBase
+  href: RocketshiftStudio.Trophy.DefinitionBase.html#RocketshiftStudio_Trophy_DefinitionBase_Key
+  name: Key
+  nameWithType: DefinitionBase.Key
+  fullName: RocketshiftStudio.Trophy.DefinitionBase.Key
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.Metadata*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_Metadata
+  name: Metadata
+  nameWithType: ScoreDefinition.Metadata
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.Metadata
+- uid: RocketshiftStudio.Trophy.ScoreMetadata
+  commentId: T:RocketshiftStudio.Trophy.ScoreMetadata
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreMetadata.html
+  name: ScoreMetadata
+  nameWithType: ScoreMetadata
+  fullName: RocketshiftStudio.Trophy.ScoreMetadata
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.WholeValue*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_WholeValue
+  name: WholeValue
+  nameWithType: ScoreDefinition.WholeValue
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.WholeValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_AbsoluteValue
+  name: AbsoluteValue
+  nameWithType: ScoreDefinition.AbsoluteValue
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.AbsoluteValue
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.LimitValues*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_LimitValues
+  name: LimitValues
+  nameWithType: ScoreDefinition.LimitValues
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.LimitValues
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_CurrentLimit
+  name: CurrentLimit
+  nameWithType: ScoreDefinition.CurrentLimit
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.CurrentLimit
+- uid: RocketshiftStudio.Trophy.Limit
+  commentId: T:RocketshiftStudio.Trophy.Limit
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.Limit.html
+  name: Limit
+  nameWithType: Limit
+  fullName: RocketshiftStudio.Trophy.Limit
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_TotalLimit
+  name: TotalLimit
+  nameWithType: ScoreDefinition.TotalLimit
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.TotalLimit
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_FlowRestriction
+  name: FlowRestriction
+  nameWithType: ScoreDefinition.FlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.FlowRestriction
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_CurrentFlowRestriction
+  name: CurrentFlowRestriction
+  nameWithType: ScoreDefinition.CurrentFlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.CurrentFlowRestriction
+- uid: RocketshiftStudio.Trophy.FlowRestriction
+  commentId: T:RocketshiftStudio.Trophy.FlowRestriction
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.FlowRestriction.html
+  name: FlowRestriction
+  nameWithType: FlowRestriction
+  fullName: RocketshiftStudio.Trophy.FlowRestriction
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_TotalFlowRestriction
+  name: TotalFlowRestriction
+  nameWithType: ScoreDefinition.TotalFlowRestriction
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.TotalFlowRestriction
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_BestCalculationType
+  name: BestCalculationType
+  nameWithType: ScoreDefinition.BestCalculationType
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.BestCalculationType
+- uid: RocketshiftStudio.Trophy.BestCalculationType
+  commentId: T:RocketshiftStudio.Trophy.BestCalculationType
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.BestCalculationType.html
+  name: BestCalculationType
+  nameWithType: BestCalculationType
+  fullName: RocketshiftStudio.Trophy.BestCalculationType
+- uid: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags*
+  commentId: Overload:RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+  href: RocketshiftStudio.Trophy.ScoreDefinition.html#RocketshiftStudio_Trophy_ScoreDefinition_StorageFlags
+  name: StorageFlags
+  nameWithType: ScoreDefinition.StorageFlags
+  fullName: RocketshiftStudio.Trophy.ScoreDefinition.StorageFlags
+- uid: RocketshiftStudio.Trophy.StorageFlags
+  commentId: T:RocketshiftStudio.Trophy.StorageFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.StorageFlags.html
+  name: StorageFlags
+  nameWithType: StorageFlags
+  fullName: RocketshiftStudio.Trophy.StorageFlags

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Limit
+  commentId: T:RocketshiftStudio.Trophy.Limit
+  id: Limit
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.Limit.LimitFlags
+  - RocketshiftStudio.Trophy.Limit.Maximum
+  - RocketshiftStudio.Trophy.Limit.Minimum
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: Limit
+  fullName: RocketshiftStudio.Trophy.Limit
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Limit
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+    startLine: 5
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  syntax:
+    content: >-
+      [Serializable]
+
+      public sealed class Limit
+    content.vb: >-
+      <Serializable>
+
+      Public NotInheritable Class Limit
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.Limit.LimitFlags
+  commentId: P:RocketshiftStudio.Trophy.Limit.LimitFlags
+  id: LimitFlags
+  parent: RocketshiftStudio.Trophy.Limit
+  langs:
+  - csharp
+  - vb
+  name: LimitFlags
+  nameWithType: Limit.LimitFlags
+  fullName: RocketshiftStudio.Trophy.Limit.LimitFlags
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: LimitFlags
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+    startLine: 13
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Define the limit of score values
+  example: []
+  syntax:
+    content: public LimitFlags LimitFlags { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.LimitFlags
+    content.vb: Public ReadOnly Property LimitFlags As LimitFlags
+  overload: RocketshiftStudio.Trophy.Limit.LimitFlags*
+- uid: RocketshiftStudio.Trophy.Limit.Minimum
+  commentId: P:RocketshiftStudio.Trophy.Limit.Minimum
+  id: Minimum
+  parent: RocketshiftStudio.Trophy.Limit
+  langs:
+  - csharp
+  - vb
+  name: Minimum
+  nameWithType: Limit.Minimum
+  fullName: RocketshiftStudio.Trophy.Limit.Minimum
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Minimum
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+    startLine: 20
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: The minimum value limit
+  example: []
+  syntax:
+    content: public double Minimum { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Minimum As Double
+  overload: RocketshiftStudio.Trophy.Limit.Minimum*
+- uid: RocketshiftStudio.Trophy.Limit.Maximum
+  commentId: P:RocketshiftStudio.Trophy.Limit.Maximum
+  id: Maximum
+  parent: RocketshiftStudio.Trophy.Limit
+  langs:
+  - csharp
+  - vb
+  name: Maximum
+  nameWithType: Limit.Maximum
+  fullName: RocketshiftStudio.Trophy.Limit.Maximum
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Maximum
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Configs/Limit.cs
+    startLine: 42
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: The maximum value limit
+  example: []
+  syntax:
+    content: public double Maximum { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Maximum As Double
+  overload: RocketshiftStudio.Trophy.Limit.Maximum*
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RocketshiftStudio.Trophy.Limit.LimitFlags*
+  commentId: Overload:RocketshiftStudio.Trophy.Limit.LimitFlags
+  href: RocketshiftStudio.Trophy.Limit.html#RocketshiftStudio_Trophy_Limit_LimitFlags
+  name: LimitFlags
+  nameWithType: Limit.LimitFlags
+  fullName: RocketshiftStudio.Trophy.Limit.LimitFlags
+- uid: RocketshiftStudio.Trophy.LimitFlags
+  commentId: T:RocketshiftStudio.Trophy.LimitFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.LimitFlags.html
+  name: LimitFlags
+  nameWithType: LimitFlags
+  fullName: RocketshiftStudio.Trophy.LimitFlags
+- uid: RocketshiftStudio.Trophy.Limit.Minimum*
+  commentId: Overload:RocketshiftStudio.Trophy.Limit.Minimum
+  href: RocketshiftStudio.Trophy.Limit.html#RocketshiftStudio_Trophy_Limit_Minimum
+  name: Minimum
+  nameWithType: Limit.Minimum
+  fullName: RocketshiftStudio.Trophy.Limit.Minimum
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: RocketshiftStudio.Trophy.Limit.Maximum*
+  commentId: Overload:RocketshiftStudio.Trophy.Limit.Maximum
+  href: RocketshiftStudio.Trophy.Limit.html#RocketshiftStudio_Trophy_Limit_Maximum
+  name: Maximum
+  nameWithType: Limit.Maximum
+  fullName: RocketshiftStudio.Trophy.Limit.Maximum

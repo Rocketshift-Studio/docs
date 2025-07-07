@@ -1,0 +1,23 @@
+### YamlMime:TableOfContent
+items:
+- uid: RocketshiftStudio.Shared.Singleton
+  name: RocketshiftStudio.Shared.Singleton
+  type: Namespace
+  items:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+    name: ScriptableSingletonAttribute
+    type: Class
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton<TScriptableObject>
+    type: Class
+- uid: RocketshiftStudio.Tagment
+  name: RocketshiftStudio.Tagment
+  type: Namespace
+  items:
+  - uid: RocketshiftStudio.Tagment.Settings
+    name: Settings
+    type: Class
+  - uid: RocketshiftStudio.Tagment.Tagment
+    name: Tagment
+    type: Class
+memberLayout: SamePage

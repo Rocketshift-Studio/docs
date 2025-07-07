@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags
+  commentId: T:RocketshiftStudio.Trophy.ScoreStatusFlags
+  id: ScoreStatusFlags
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.ScoreStatusFlags.Cloud
+  - RocketshiftStudio.Trophy.ScoreStatusFlags.Leaderboard
+  - RocketshiftStudio.Trophy.ScoreStatusFlags.Local
+  - RocketshiftStudio.Trophy.ScoreStatusFlags.Unsaved
+  langs:
+  - csharp
+  - vb
+  name: ScoreStatusFlags
+  nameWithType: ScoreStatusFlags
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreStatusFlags
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: For status of the score
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ScoreStatusFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ScoreStatusFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags.Unsaved
+  commentId: F:RocketshiftStudio.Trophy.ScoreStatusFlags.Unsaved
+  id: Unsaved
+  parent: RocketshiftStudio.Trophy.ScoreStatusFlags
+  langs:
+  - csharp
+  - vb
+  name: Unsaved
+  nameWithType: ScoreStatusFlags.Unsaved
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags.Unsaved
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Unsaved
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+    startLine: 14
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Not saved or posted
+  example: []
+  syntax:
+    content: Unsaved = 0
+    return:
+      type: RocketshiftStudio.Trophy.ScoreStatusFlags
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags.Local
+  commentId: F:RocketshiftStudio.Trophy.ScoreStatusFlags.Local
+  id: Local
+  parent: RocketshiftStudio.Trophy.ScoreStatusFlags
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: ScoreStatusFlags.Local
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags.Local
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Local
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+    startLine: 18
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Saved in local storage
+  example: []
+  syntax:
+    content: Local = 2
+    return:
+      type: RocketshiftStudio.Trophy.ScoreStatusFlags
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags.Cloud
+  commentId: F:RocketshiftStudio.Trophy.ScoreStatusFlags.Cloud
+  id: Cloud
+  parent: RocketshiftStudio.Trophy.ScoreStatusFlags
+  langs:
+  - csharp
+  - vb
+  name: Cloud
+  nameWithType: ScoreStatusFlags.Cloud
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags.Cloud
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Cloud
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+    startLine: 22
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Saved in cloud storage
+  example: []
+  syntax:
+    content: Cloud = 4
+    return:
+      type: RocketshiftStudio.Trophy.ScoreStatusFlags
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags.Leaderboard
+  commentId: F:RocketshiftStudio.Trophy.ScoreStatusFlags.Leaderboard
+  id: Leaderboard
+  parent: RocketshiftStudio.Trophy.ScoreStatusFlags
+  langs:
+  - csharp
+  - vb
+  name: Leaderboard
+  nameWithType: ScoreStatusFlags.Leaderboard
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags.Leaderboard
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Leaderboard
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/ScoreStatusFlags.cs
+    startLine: 26
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Posted to leaderboard
+  example: []
+  syntax:
+    content: Leaderboard = 8
+    return:
+      type: RocketshiftStudio.Trophy.ScoreStatusFlags
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.ScoreStatusFlags
+  commentId: T:RocketshiftStudio.Trophy.ScoreStatusFlags
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.ScoreStatusFlags.html
+  name: ScoreStatusFlags
+  nameWithType: ScoreStatusFlags
+  fullName: RocketshiftStudio.Trophy.ScoreStatusFlags

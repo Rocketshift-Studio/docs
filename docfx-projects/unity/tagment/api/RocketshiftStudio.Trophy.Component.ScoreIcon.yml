@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon
+  commentId: T:RocketshiftStudio.Trophy.Component.ScoreIcon
+  id: ScoreIcon
+  parent: RocketshiftStudio.Trophy.Component
+  children:
+  - RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  - RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  langs:
+  - csharp
+  - vb
+  name: ScoreIcon
+  nameWithType: ScoreIcon
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon
+  type: Class
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: ScoreIcon
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+    startLine: 9
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  summary: In order to show score icon in game world or UGUI
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Rocketshift Studio/Trophy/Score Icon")]
+
+      [ExecuteAlways]
+
+      [DisallowMultipleComponent]
+
+      public sealed class ScoreIcon : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Rocketshift Studio/Trophy/Score Icon")>
+
+      <ExecuteAlways>
+
+      <DisallowMultipleComponent>
+
+      Public NotInheritable Class ScoreIcon Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Rocketshift Studio/Trophy/Score Icon
+  - type: UnityEngine.ExecuteAlways
+    ctor: UnityEngine.ExecuteAlways.#ctor
+    arguments: []
+  - type: UnityEngine.DisallowMultipleComponent
+    ctor: UnityEngine.DisallowMultipleComponent.#ctor
+    arguments: []
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  commentId: P:RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  id: Key
+  parent: RocketshiftStudio.Trophy.Component.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Key
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+    startLine: 16
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  syntax:
+    content: public string Key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Key As String
+  overload: RocketshiftStudio.Trophy.Component.ScoreIcon.Key*
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  commentId: P:RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  id: Observer
+  parent: RocketshiftStudio.Trophy.Component.ScoreIcon
+  langs:
+  - csharp
+  - vb
+  name: Observer
+  nameWithType: ScoreIcon.Observer
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  type: Property
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Observer
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Display/Component/ScoreIcon.cs
+    startLine: 20
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Component
+  syntax:
+    content: public IIconObserver Observer { get; }
+    parameters: []
+    return:
+      type: RocketshiftStudio.Trophy.Extensions.IIconObserver
+    content.vb: Public ReadOnly Property Observer As IIconObserver
+  overload: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer*
+references:
+- uid: RocketshiftStudio.Trophy.Component
+  commentId: N:RocketshiftStudio.Trophy.Component
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Component
+  nameWithType: RocketshiftStudio.Trophy.Component
+  fullName: RocketshiftStudio.Trophy.Component
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Component
+    name: Component
+    href: RocketshiftStudio.Trophy.Component.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Component
+    name: Component
+    href: RocketshiftStudio.Trophy.Component.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Key*
+  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+  href: RocketshiftStudio.Trophy.Component.ScoreIcon.html#RocketshiftStudio_Trophy_Component_ScoreIcon_Key
+  name: Key
+  nameWithType: ScoreIcon.Key
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer*
+  commentId: Overload:RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+  href: RocketshiftStudio.Trophy.Component.ScoreIcon.html#RocketshiftStudio_Trophy_Component_ScoreIcon_Observer
+  name: Observer
+  nameWithType: ScoreIcon.Observer
+  fullName: RocketshiftStudio.Trophy.Component.ScoreIcon.Observer
+- uid: RocketshiftStudio.Trophy.Extensions.IIconObserver
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IIconObserver
+  parent: RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.Trophy.Extensions.IIconObserver.html
+  name: IIconObserver
+  nameWithType: IIconObserver
+  fullName: RocketshiftStudio.Trophy.Extensions.IIconObserver
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html

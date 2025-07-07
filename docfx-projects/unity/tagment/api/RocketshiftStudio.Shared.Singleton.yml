@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  id: RocketshiftStudio.Shared.Singleton
+  children:
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  - RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  type: Namespace
+  assemblies:
+  - RocketshiftStudio.Shared
+references:
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  name: ScriptableSingleton<TScriptableObject>
+  nameWithType: ScriptableSingleton<TScriptableObject>
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingleton<TScriptableObject>
+  nameWithType.vb: ScriptableSingleton(Of TScriptableObject)
+  fullName.vb: RocketshiftStudio.Shared.Singleton.ScriptableSingleton(Of TScriptableObject)
+  name.vb: ScriptableSingleton(Of TScriptableObject)
+  spec.csharp:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: <
+  - name: TScriptableObject
+  - name: '>'
+  spec.vb:
+  - uid: RocketshiftStudio.Shared.Singleton.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: RocketshiftStudio.Shared.Singleton.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TScriptableObject
+  - name: )
+- uid: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  commentId: T:RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+  parent: RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute.html
+  name: ScriptableSingletonAttribute
+  nameWithType: ScriptableSingletonAttribute
+  fullName: RocketshiftStudio.Shared.Singleton.ScriptableSingletonAttribute
+- uid: RocketshiftStudio.Shared.Singleton
+  commentId: N:RocketshiftStudio.Shared.Singleton
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Shared.Singleton
+  nameWithType: RocketshiftStudio.Shared.Singleton
+  fullName: RocketshiftStudio.Shared.Singleton
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Shared
+    name: Shared
+    href: RocketshiftStudio.Shared.html
+  - name: .
+  - uid: RocketshiftStudio.Shared.Singleton
+    name: Singleton
+    href: RocketshiftStudio.Shared.Singleton.html

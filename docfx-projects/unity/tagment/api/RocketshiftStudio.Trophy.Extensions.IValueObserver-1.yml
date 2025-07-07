@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  commentId: T:RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  id: IValueObserver`1
+  parent: RocketshiftStudio.Trophy.Extensions
+  children:
+  - RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  langs:
+  - csharp
+  - vb
+  name: IValueObserver<TValue>
+  nameWithType: IValueObserver<TValue>
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>
+  type: Interface
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IValueObserver.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: IValueObserver
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IValueObserver.cs
+    startLine: 2
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  syntax:
+    content: 'public interface IValueObserver<TValue> : IExtension where TValue : class'
+    typeParameters:
+    - id: TValue
+    content.vb: Public Interface IValueObserver(Of TValue As Class) Inherits IExtension
+  nameWithType.vb: IValueObserver(Of TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue)
+  name.vb: IValueObserver(Of TValue)
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  commentId: M:RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed(`0)
+  id: Changed(`0)
+  parent: RocketshiftStudio.Trophy.Extensions.IValueObserver`1
+  langs:
+  - csharp
+  - vb
+  name: Changed(TValue)
+  nameWithType: IValueObserver<TValue>.Changed(TValue)
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>.Changed(TValue)
+  type: Method
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IValueObserver.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Changed
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Extensions/Observers/IValueObserver.cs
+    startLine: 8
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy.Extensions
+  summary: Invoked on value update
+  example: []
+  syntax:
+    content: void Changed(TValue value)
+    parameters:
+    - id: value
+      type: '{TValue}'
+      description: New value
+    content.vb: Sub Changed(value As TValue)
+  overload: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed*
+  nameWithType.vb: IValueObserver(Of TValue).Changed(TValue)
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue).Changed(TValue)
+references:
+- uid: RocketshiftStudio.Trophy.Extensions
+  commentId: N:RocketshiftStudio.Trophy.Extensions
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy.Extensions
+  nameWithType: RocketshiftStudio.Trophy.Extensions
+  fullName: RocketshiftStudio.Trophy.Extensions
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy.Extensions
+    name: Extensions
+    href: RocketshiftStudio.Trophy.Extensions.html
+- uid: RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed*
+  commentId: Overload:RocketshiftStudio.Trophy.Extensions.IValueObserver`1.Changed
+  href: RocketshiftStudio.Trophy.Extensions.IValueObserver-1.html#RocketshiftStudio_Trophy_Extensions_IValueObserver_1_Changed__0_
+  name: Changed
+  nameWithType: IValueObserver<TValue>.Changed
+  fullName: RocketshiftStudio.Trophy.Extensions.IValueObserver<TValue>.Changed
+  nameWithType.vb: IValueObserver(Of TValue).Changed
+  fullName.vb: RocketshiftStudio.Trophy.Extensions.IValueObserver(Of TValue).Changed
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  commentId: '!:TValue'
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue

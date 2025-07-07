@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: RocketshiftStudio.Trophy.FlowRestriction
+  commentId: T:RocketshiftStudio.Trophy.FlowRestriction
+  id: FlowRestriction
+  parent: RocketshiftStudio.Trophy
+  children:
+  - RocketshiftStudio.Trophy.FlowRestriction.Decremental
+  - RocketshiftStudio.Trophy.FlowRestriction.Incremental
+  - RocketshiftStudio.Trophy.FlowRestriction.None
+  langs:
+  - csharp
+  - vb
+  name: FlowRestriction
+  nameWithType: FlowRestriction
+  fullName: RocketshiftStudio.Trophy.FlowRestriction
+  type: Enum
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: FlowRestriction
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+    startLine: 7
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Defines the restriction of value direction
+  example: []
+  syntax:
+    content: public enum FlowRestriction
+    content.vb: Public Enum FlowRestriction
+- uid: RocketshiftStudio.Trophy.FlowRestriction.None
+  commentId: F:RocketshiftStudio.Trophy.FlowRestriction.None
+  id: None
+  parent: RocketshiftStudio.Trophy.FlowRestriction
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FlowRestriction.None
+  fullName: RocketshiftStudio.Trophy.FlowRestriction.None
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: None
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+    startLine: 12
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Can be both increased and decreased
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Can be both increased and decreased")]
+
+      None = 0
+    return:
+      type: RocketshiftStudio.Trophy.FlowRestriction
+    content.vb: >-
+      <Tooltip("Can be both increased and decreased")>
+
+      None = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Can be both increased and decreased
+- uid: RocketshiftStudio.Trophy.FlowRestriction.Incremental
+  commentId: F:RocketshiftStudio.Trophy.FlowRestriction.Incremental
+  id: Incremental
+  parent: RocketshiftStudio.Trophy.FlowRestriction
+  langs:
+  - csharp
+  - vb
+  name: Incremental
+  nameWithType: FlowRestriction.Incremental
+  fullName: RocketshiftStudio.Trophy.FlowRestriction.Incremental
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Incremental
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+    startLine: 17
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Can only be increased
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Can only be increased")]
+
+      Incremental = 1
+    return:
+      type: RocketshiftStudio.Trophy.FlowRestriction
+    content.vb: >-
+      <Tooltip("Can only be increased")>
+
+      Incremental = 1
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Can only be increased
+- uid: RocketshiftStudio.Trophy.FlowRestriction.Decremental
+  commentId: F:RocketshiftStudio.Trophy.FlowRestriction.Decremental
+  id: Decremental
+  parent: RocketshiftStudio.Trophy.FlowRestriction
+  langs:
+  - csharp
+  - vb
+  name: Decremental
+  nameWithType: FlowRestriction.Decremental
+  fullName: RocketshiftStudio.Trophy.FlowRestriction.Decremental
+  type: Field
+  source:
+    remote:
+      path: Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+      branch: main
+      repo: https://github.com/Rocketshift-Studio/Trophy.git
+    id: Decremental
+    path: ../../../../../../Unity Projects/Trophy/Assets/Rocketshift Studio/Systems/Trophy/Scripts/Enum & Flags/FlowRestriction.cs
+    startLine: 22
+  assemblies:
+  - RocketshiftStudio.Trophy
+  namespace: RocketshiftStudio.Trophy
+  summary: Can only be decreased
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("Can only be decreased")]
+
+      Decremental = 2
+    return:
+      type: RocketshiftStudio.Trophy.FlowRestriction
+    content.vb: >-
+      <Tooltip("Can only be decreased")>
+
+      Decremental = 2
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Can only be decreased
+references:
+- uid: RocketshiftStudio.Trophy
+  commentId: N:RocketshiftStudio.Trophy
+  href: RocketshiftStudio.html
+  name: RocketshiftStudio.Trophy
+  nameWithType: RocketshiftStudio.Trophy
+  fullName: RocketshiftStudio.Trophy
+  spec.csharp:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+  spec.vb:
+  - uid: RocketshiftStudio
+    name: RocketshiftStudio
+    href: RocketshiftStudio.html
+  - name: .
+  - uid: RocketshiftStudio.Trophy
+    name: Trophy
+    href: RocketshiftStudio.Trophy.html
+- uid: RocketshiftStudio.Trophy.FlowRestriction
+  commentId: T:RocketshiftStudio.Trophy.FlowRestriction
+  parent: RocketshiftStudio.Trophy
+  href: RocketshiftStudio.Trophy.FlowRestriction.html
+  name: FlowRestriction
+  nameWithType: FlowRestriction
+  fullName: RocketshiftStudio.Trophy.FlowRestriction
